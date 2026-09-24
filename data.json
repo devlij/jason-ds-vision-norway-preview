@@ -142,5 +142,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-012-16x9.png",
     "file_4x5": "assets/no-01-012-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-013",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Vigeland Park",
+    "caption": "Vigeland Park, Oslo",
+    "scenario": "25 September 2026 · 01:15 Europe/Oslo",
+    "composition": "Granite sculptures along the Frogner Park axis, the Monolith rising at the far end · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-013-16x9.png",
+    "file_4x5": "assets/no-01-013-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-014",
+    "region": "Trøndelag",
+    "city": "Røros",
+    "site": "Røros",
+    "caption": "Røros, Røros",
+    "scenario": "25 September 2026 · 01:15 Europe/Oslo",
+    "composition": "Timbered mining-town street with the octagonal church above the rooftops · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-014-16x9.png",
+    "file_4x5": "assets/no-01-014-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-015",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Arctic Cathedral",
+    "caption": "Arctic Cathedral, Tromsø",
+    "scenario": "25 September 2026 · 01:30 Europe/Oslo",
+    "composition": "Triangular glass-and-concrete cathedral on the Tromsdalen shore, viewed from the Tromsø side in daylight · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-015-16x9.png",
+    "file_4x5": "assets/no-01-015-4x5.png"
   }
 ]
