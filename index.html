@@ -124,18 +124,18 @@
   .lb.open { display: flex; }
   .lb figure { margin: 0; max-width: 94vw; }
   .lb img { max-width: 94vw; max-height: 80vh; display: block; border-radius: 6px; }
-  .lb figcaption { display: flex; justify-content: space-between; gap: 16px; color: #f0f4f8;
-                   font-size: 14px; padding: 10px 2px 0; }
-  .lb-count { color: #9fb2c3; white-space: nowrap; }
-  .lb-close, .lb-prev, .lb-next, .lb-play { position: absolute; background: rgba(24,34,44,.85); color: #f0f4f8;
+  .lb figcaption { color: #f0f4f8; font-size: 14px; padding: 10px 2px 0; }
+  .lb-nav { display: flex; align-items: center; justify-content: center; gap: 14px;
+            padding: 0 0 12px; }
+  .lb-count { color: #9fb2c3; font-size: 14px; min-width: 72px; text-align: center;
+              white-space: nowrap; }
+  .lb-controls { display: flex; justify-content: center; padding: 12px 0 0; }
+  .lb-close, .lb-prev, .lb-next, .lb-play { background: rgba(24,34,44,.85); color: #f0f4f8;
         border: 1px solid #2c3a47; border-radius: 999px; width: 46px; height: 46px;
-        font-size: 20px; cursor: pointer; line-height: 1; }
-  .lb-close { top: 14px; right: 14px; }
-  .lb-play { top: 14px; right: 72px; font-size: 16px; }
+        font-size: 20px; cursor: pointer; line-height: 1; flex: 0 0 auto; }
+  .lb-close { position: absolute; top: 14px; right: 14px; }
+  .lb-play { font-size: 16px; }
   .lb-play.playing { color: #f5c518; border-color: #f5c518; }
-  .lb-prev { left: 12px; top: 50%; transform: translateY(-50%); }
-  .lb-next { right: 12px; top: 50%; transform: translateY(-50%); }
-  @media (max-width: 640px) { .lb-prev { left: 4px; } .lb-next { right: 4px; } }
 </style>
 </head>
 <body>
@@ -658,10 +658,11 @@ const SCENES = [
   overlay.className = 'lb';
   overlay.setAttribute('aria-hidden', 'true');
   overlay.innerHTML = '<button class="lb-close" aria-label="Close">&times;</button>'
-    + '<button class="lb-play" aria-label="Play slideshow">&#9654;</button>'
-    + '<button class="lb-prev" aria-label="Previous image">&#8592;</button>'
-    + '<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
-    + '<button class="lb-next" aria-label="Next image">&#8594;</button>';
+    + '<div class="lb-nav"><button class="lb-prev" aria-label="Previous image">&#8249;</button>'
+    + '<span class="lb-count"></span>'
+    + '<button class="lb-next" aria-label="Next image">&#8250;</button></div>'
+    + '<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption></figure>'
+    + '<div class="lb-controls"><button class="lb-play" aria-label="Play slideshow">&#9654;</button></div>';
   document.body.appendChild(overlay);
   var img = overlay.querySelector('img');
   var cap = overlay.querySelector('.lb-cap');
