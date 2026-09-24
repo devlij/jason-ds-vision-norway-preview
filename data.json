@@ -70,5 +70,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-006-16x9.png",
     "file_4x5": "assets/no-01-006-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-007",
+    "region": "Vestland",
+    "city": "Lærdal",
+    "site": "Borgund Stave Church",
+    "caption": "Borgund Stave Church, Lærdal",
+    "scenario": "25 September 2026 · 00:15 Europe/Oslo",
+    "composition": "Dark tarred stave church with tiered roofs and dragon heads, viewed from the churchyard · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-007-16x9.png",
+    "file_4x5": "assets/no-01-007-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-008",
+    "region": "Møre og Romsdal",
+    "city": "Averøy",
+    "site": "Atlantic Road",
+    "caption": "Atlantic Road, Averøy",
+    "scenario": "25 September 2026 · 00:15 Europe/Oslo",
+    "composition": "Storseisundet Bridge curving dramatically over the ocean, viewed from the roadside viewpoint · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-008-16x9.png",
+    "file_4x5": "assets/no-01-008-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-009",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Nidaros Cathedral",
+    "caption": "Nidaros Cathedral, Trondheim",
+    "scenario": "25 September 2026 · 00:30 Europe/Oslo",
+    "composition": "Gothic cathedral west front with rows of statues, viewed from the cathedral green · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-009-16x9.png",
+    "file_4x5": "assets/no-01-009-4x5.png"
   }
 ]
