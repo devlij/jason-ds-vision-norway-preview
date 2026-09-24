@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "entry_id": "NO-01-001",
+    "region": "Møre og Romsdal",
+    "city": "Geiranger",
+    "site": "Geirangerfjord",
+    "caption": "Geirangerfjord, Geiranger",
+    "scenario": "24 September 2026 · 23:15 Europe/Oslo",
+    "composition": "Fjord arm winding between steep green mountainsides, viewed from the Flydalsjuvet overlook above the village · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-001-16x9.png",
+    "file_4x5": "assets/no-01-001-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-002",
+    "region": "Vestland",
+    "city": "Bergen",
+    "site": "Bryggen",
+    "caption": "Bryggen, Bergen",
+    "scenario": "24 September 2026 · 23:15 Europe/Oslo",
+    "composition": "Colorful wooden Hanseatic wharf houses along the harbor, viewed from across Vågen bay · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-002-16x9.png",
+    "file_4x5": "assets/no-01-002-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-003",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Oslo Opera House",
+    "caption": "Oslo Opera House, Oslo",
+    "scenario": "24 September 2026 · 23:15 Europe/Oslo",
+    "composition": "White marble roof sloping into Oslofjord, viewed from the harbor promenade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-003-16x9.png",
+    "file_4x5": "assets/no-01-003-4x5.png"
+  }
+]
