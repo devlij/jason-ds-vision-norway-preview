@@ -34,5 +34,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-003-16x9.png",
     "file_4x5": "assets/no-01-003-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-004",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Preikestolen",
+    "caption": "Preikestolen, Stavanger",
+    "scenario": "24 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Granite cliff plateau jutting 600m over Lysefjorden, viewed from the plateau edge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-004-16x9.png",
+    "file_4x5": "assets/no-01-004-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-005",
+    "region": "Vestland",
+    "city": "Aurland",
+    "site": "Stegastein viewpoint",
+    "caption": "Stegastein viewpoint, Aurland",
+    "scenario": "24 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Curved wooden viewing platform over Aurlandsfjord, fjord and mountains beyond · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-005-16x9.png",
+    "file_4x5": "assets/no-01-005-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-006",
+    "region": "Nordland",
+    "city": "Reine",
+    "site": "Reinebringen",
+    "caption": "Reinebringen, Reine",
+    "scenario": "24 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Jagged Lofoten peaks rising over Reine fishing village and Reinefjorden, viewed from the Reinebringen ridge trail · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-006-16x9.png",
+    "file_4x5": "assets/no-01-006-4x5.png"
   }
 ]
