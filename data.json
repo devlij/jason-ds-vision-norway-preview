@@ -106,5 +106,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-009-16x9.png",
     "file_4x5": "assets/no-01-009-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-010",
+    "region": "Finnmark",
+    "city": "Honningsvåg",
+    "site": "North Cape",
+    "caption": "North Cape, Honningsvåg",
+    "scenario": "25 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Cliff plateau with the globe monument at Europe's northern edge, Barents Sea horizon · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-010-16x9.png",
+    "file_4x5": "assets/no-01-010-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-011",
+    "region": "Vestland",
+    "city": "Luster",
+    "site": "Urnes Stave Church",
+    "caption": "Urnes Stave Church, Luster",
+    "scenario": "25 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Oldest stave church above Lustrafjorden, wooden shingles and carved portal · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-011-16x9.png",
+    "file_4x5": "assets/no-01-011-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-012",
+    "region": "Møre og Romsdal",
+    "city": "Åndalsnes",
+    "site": "Trollstigen",
+    "caption": "Trollstigen, Åndalsnes",
+    "scenario": "25 September 2026 · 01:00 Europe/Oslo",
+    "composition": "Serpentine mountain road with eleven hairpins and Stigfossen waterfall, viewed from the plateau viewpoint · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-012-16x9.png",
+    "file_4x5": "assets/no-01-012-4x5.png"
   }
 ]
