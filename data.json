@@ -1582,5 +1582,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-132-16x9.png",
     "file_4x5": "assets/no-01-132-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-133",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Sem Church",
+    "caption": "Sem Church, Tønsberg",
+    "scenario": "25 September 2026 · 21:15 Europe/Oslo",
+    "composition": "Medieval stone church with its tower, set among fields and trees at Sem outside the town centre. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-133-16x9.png",
+    "file_4x5": "assets/no-01-133-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-134",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Haugar Art Museum",
+    "caption": "Haugar Art Museum, Tønsberg",
+    "scenario": "25 September 2026 · 21:30 Europe/Oslo",
+    "composition": "Red-brick art museum in the former navigation school, viewed from Haugar park among the surrounding greenery. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-134-16x9.png",
+    "file_4x5": "assets/no-01-134-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-135",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Jarlsberg Manor",
+    "caption": "Jarlsberg Manor, Tønsberg",
+    "scenario": "25 September 2026 · 21:30 Europe/Oslo",
+    "composition": "Empire-style manor house fronted by parkland and gardens, viewed from the grounds near the shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-135-16x9.png",
+    "file_4x5": "assets/no-01-135-4x5.png"
   }
 ]
