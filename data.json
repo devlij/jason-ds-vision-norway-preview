@@ -178,5 +178,41 @@
     "approved": false,
     "file_16x9": "assets/no-01-015-16x9.png",
     "file_4x5": "assets/no-01-015-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-016",
+    "region": "Vestland",
+    "city": "Odda",
+    "site": "Trolltunga",
+    "caption": "Trolltunga, Odda",
+    "scenario": "25 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Rock ledge jutting horizontally over Ringedalsvatnet lake, viewed from the ledge approach · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-016-16x9.png",
+    "file_4x5": "assets/no-01-016-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-017",
+    "region": "Møre og Romsdal",
+    "city": "Geiranger",
+    "site": "Seven Sisters waterfall",
+    "caption": "Seven Sisters waterfall, Geiranger",
+    "scenario": "25 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Waterfall curtain dropping into Geirangerfjord, viewed from the fjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-017-16x9.png",
+    "file_4x5": "assets/no-01-017-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-018",
+    "region": "Møre og Romsdal",
+    "city": "Geiranger",
+    "site": "Dalsnibba Skywalk",
+    "caption": "Dalsnibba Skywalk, Geiranger",
+    "scenario": "25 September 2026 · 02:00 Europe/Oslo",
+    "composition": "Glass-floored skywalk platform 1500m above Geirangerfjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-018-16x9.png",
+    "file_4x5": "assets/no-01-018-4x5.png"
   }
 ]
