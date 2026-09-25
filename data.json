@@ -898,5 +898,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-075-16x9.png",
     "file_4x5": "assets/no-01-075-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-076",
+    "region": "Telemark",
+    "city": "Kviteseid",
+    "site": "Kviteseid old church",
+    "caption": "Kviteseid old church, Kviteseid",
+    "scenario": "25 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Old stone church in the canal village of Kviteseidbyen · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-076-16x9.png",
+    "file_4x5": "assets/no-01-076-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-077",
+    "region": "Telemark",
+    "city": "Bø",
+    "site": "Bø Sommarland",
+    "caption": "Bø Sommarland, Bø",
+    "scenario": "25 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Water park in the Telemark countryside · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-077-16x9.png",
+    "file_4x5": "assets/no-01-077-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-078",
+    "region": "Telemark",
+    "city": "Tuddal",
+    "site": "Tuddal",
+    "caption": "Tuddal, Tuddal",
+    "scenario": "25 September 2026 · 12:00 Europe/Oslo",
+    "composition": "Mountain village in Hjartdal beneath the high fells · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-078-16x9.png",
+    "file_4x5": "assets/no-01-078-4x5.png"
   }
 ]
