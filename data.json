@@ -1006,5 +1006,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-084-16x9.png",
     "file_4x5": "assets/no-01-084-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-085",
+    "region": "Agder",
+    "city": "Risør",
+    "site": "Risør old town wooden houses",
+    "caption": "Risør old town wooden houses, Risør",
+    "scenario": "25 September 2026 · 13:15 Europe/Oslo",
+    "composition": "View from the harbor quay looking up into the old town: rows of white-painted wooden houses climb the hillside around the inlet, masts of moored boats in the foreground, the church on the rise above the town. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-085-16x9.png",
+    "file_4x5": "assets/no-01-085-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-086",
+    "region": "Agder",
+    "city": "Tvedestrand",
+    "site": "Tvedestrand harbor",
+    "caption": "Tvedestrand harbor, Tvedestrand",
+    "scenario": "25 September 2026 · 13:15 Europe/Oslo",
+    "composition": "View across the harbor inlet: wooden boathouses and small boats along the quays, white wooden town houses with shops facing the water, forested slopes framing the far side of the inlet. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-086-16x9.png",
+    "file_4x5": "assets/no-01-086-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-087",
+    "region": "Agder",
+    "city": "Flekkefjord",
+    "site": "Hollenderbyen (Dutch Quarter)",
+    "caption": "Hollenderbyen (Dutch Quarter), Flekkefjord",
+    "scenario": "25 September 2026 · 13:30 Europe/Oslo",
+    "composition": "View from the fjord-side promenade across the old Dutch Quarter: a row of white wooden houses with distinctive gables faces the water, boats at the town quays, steep hills rising directly behind the settlement. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-087-16x9.png",
+    "file_4x5": "assets/no-01-087-4x5.png"
   }
 ]
