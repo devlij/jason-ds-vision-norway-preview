@@ -1870,5 +1870,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-156-16x9.png",
     "file_4x5": "assets/no-01-156-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-157",
+    "region": "Vestfold",
+    "city": "Åsgårdstrand",
+    "site": "Munch's House",
+    "caption": "Munch's House, Åsgårdstrand",
+    "scenario": "26 September 2026 · 01:15 Europe/Oslo",
+    "composition": "Small wooden house where Edvard Munch spent his summers, viewed from the garden toward the fjord. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-157-16x9.png",
+    "file_4x5": "assets/no-01-157-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-158",
+    "region": "Vestfold",
+    "city": "Eidsfoss",
+    "site": "Eidsfoss Ironworks",
+    "caption": "Eidsfoss Ironworks, Eidsfoss",
+    "scenario": "26 September 2026 · 01:15 Europe/Oslo",
+    "composition": "Preserved ironworks village with old workers' houses and the manor, viewed along the river between the lakes. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-158-16x9.png",
+    "file_4x5": "assets/no-01-158-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-159",
+    "region": "Vestfold",
+    "city": "Holmestrand",
+    "site": "Holmestrand Harbour",
+    "caption": "Holmestrand Harbour, Holmestrand",
+    "scenario": "26 September 2026 · 01:30 Europe/Oslo",
+    "composition": "Wooden houses lining the harbour front, viewed across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-159-16x9.png",
+    "file_4x5": "assets/no-01-159-4x5.png"
   }
 ]
