@@ -1510,5 +1510,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-126-16x9.png",
     "file_4x5": "assets/no-01-126-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-127",
+    "region": "Innlandet",
+    "city": "Trysil",
+    "site": "Trysilfjellet",
+    "caption": "Trysilfjellet, Trysil",
+    "scenario": "25 September 2026 · 20:15 Europe/Oslo",
+    "composition": "Tourist view from the valley lifts base looking up at the broad ski mountainside, slopes and lift lines climbing through forest to the summit ridge. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-127-16x9.png",
+    "file_4x5": "assets/no-01-127-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-128",
+    "region": "Innlandet",
+    "city": "Lom",
+    "site": "Lom stave church",
+    "caption": "Lom stave church, Lom",
+    "scenario": "25 September 2026 · 20:30 Europe/Oslo",
+    "composition": "Tourist view from the churchyard path of the cruciform stave church with its elevated central tower, gravestones and old timber buildings in the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-128-16x9.png",
+    "file_4x5": "assets/no-01-128-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-129",
+    "region": "Innlandet",
+    "city": "Follebu",
+    "site": "Aulestad",
+    "caption": "Aulestad, Follebu",
+    "scenario": "25 September 2026 · 20:30 Europe/Oslo",
+    "composition": "Tourist view of the white wooden farmhouse of Bjørnstjerne Bjørnson's home set among birch trees and meadows, outbuildings alongside. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-129-16x9.png",
+    "file_4x5": "assets/no-01-129-4x5.png"
   }
 ]
