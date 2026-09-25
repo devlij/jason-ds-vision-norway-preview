@@ -1186,5 +1186,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-099-16x9.png",
     "file_4x5": "assets/no-01-099-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-100",
+    "region": "Akershus",
+    "city": "Fetsund",
+    "site": "Fetsund Lenser",
+    "caption": "Fetsund Lenser, Fetsund",
+    "scenario": "25 September 2026 · 15:45 Europe/Oslo",
+    "composition": "Tourist viewpoint on the floating walkway through the timber-boom park: to the left the still black water of the Glomma delta with wooden sorting channels, in the center the historic timber structures and winch towers of the lenser, and to the right the reed beds and broad water of Øyeren with the forested shoreline beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-100-16x9.png",
+    "file_4x5": "assets/no-01-100-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-101",
+    "region": "Akershus",
+    "city": "Ås",
+    "site": "NMBU University Park",
+    "caption": "NMBU University Park, Ås",
+    "scenario": "25 September 2026 · 15:45 Europe/Oslo",
+    "composition": "Tourist viewpoint from the open lawn of the university park: to the left the avenues of mature broadleaf trees and flowering plantings, in the center the lawn rolling toward the red-brick historic main buildings of the Norwegian University of Life Sciences, and to the right the pond and sculptural plantings with the fields of Ås beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-101-16x9.png",
+    "file_4x5": "assets/no-01-101-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-102",
+    "region": "Akershus",
+    "city": "Asker",
+    "site": "Semsvannet lake",
+    "caption": "Semsvannet lake, Asker",
+    "scenario": "25 September 2026 · 16:00 Europe/Oslo",
+    "composition": "Tourist viewpoint on the lakeside trail at the eastern shore: to the left the calm lake water with its reflection of the surrounding woodland, in the center Semsvannet's open surface bordered by reed beds and the gravel walking path, and to the right the slopes of Skaugumsåsen rising above the treeline of the nature reserve. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-102-16x9.png",
+    "file_4x5": "assets/no-01-102-4x5.png"
   }
 ]
