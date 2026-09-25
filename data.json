@@ -1078,5 +1078,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-090-16x9.png",
     "file_4x5": "assets/no-01-090-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-091",
+    "region": "Agder",
+    "city": "Hovden",
+    "site": "Hovden mountain village",
+    "caption": "Hovden mountain village, Hovden",
+    "scenario": "25 September 2026 · 14:15 Europe/Oslo",
+    "composition": "View across the mountain village in upper Setesdal: scattered cabins and lodges among low birch and heather, bare rounded peaks rising on all sides of the valley floor. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-091-16x9.png",
+    "file_4x5": "assets/no-01-091-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-092",
+    "region": "Agder",
+    "city": "Evje",
+    "site": "Evje Mineral Park",
+    "caption": "Evje Mineral Park, Evje",
+    "scenario": "25 September 2026 · 14:15 Europe/Oslo",
+    "composition": "View across the park's open-air grounds: mineral exhibits and historic mine-era buildings set among pines on the hillside, the Otra river valley and its forested slopes falling away beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-092-16x9.png",
+    "file_4x5": "assets/no-01-092-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-093",
+    "region": "Agder",
+    "city": "Tjørhom",
+    "site": "Ålsheia Ski Center",
+    "caption": "Ålsheia Ski Center, Tjørhom",
+    "scenario": "25 September 2026 · 14:15 Europe/Oslo",
+    "composition": "View of the ski mountainside above the valley: lift lines and marked pistes running down the fell toward the base area buildings, the Sirdal valley and its lakes spreading out below. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-093-16x9.png",
+    "file_4x5": "assets/no-01-093-4x5.png"
   }
 ]
