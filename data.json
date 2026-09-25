@@ -466,5 +466,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-039-16x9.png",
     "file_4x5": "assets/no-01-039-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-040",
+    "region": "Vestland",
+    "city": "Odda",
+    "site": "Låtefossen",
+    "caption": "Låtefossen, Odda",
+    "scenario": "25 September 2026 · 05:45 Europe/Oslo",
+    "composition": "Twin waterfall plunging beneath the old stone bridge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-040-16x9.png",
+    "file_4x5": "assets/no-01-040-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-041",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Fiskebrygga",
+    "caption": "Fiskebrygga, Kristiansand",
+    "scenario": "25 September 2026 · 05:45 Europe/Oslo",
+    "composition": "Waterfront boardwalk with boats and seafood stalls · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-041-16x9.png",
+    "file_4x5": "assets/no-01-041-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-042",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Christiansholm Fortress",
+    "caption": "Christiansholm Fortress, Kristiansand",
+    "scenario": "25 September 2026 · 06:00 Europe/Oslo",
+    "composition": "Seaside fortress cannons facing the Skagerrak · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-042-16x9.png",
+    "file_4x5": "assets/no-01-042-4x5.png"
   }
 ]
