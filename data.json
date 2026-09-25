@@ -1042,5 +1042,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-087-16x9.png",
     "file_4x5": "assets/no-01-087-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-088",
+    "region": "Agder",
+    "city": "Farsund",
+    "site": "Loshavn fishing village",
+    "caption": "Loshavn fishing village, Farsund",
+    "scenario": "25 September 2026 · 13:45 Europe/Oslo",
+    "composition": "View from the village jetty across the small harbor: white wooden fishing houses cluster around the quay, working boats moored alongside, skerries and open sea beyond the harbor mouth. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-088-16x9.png",
+    "file_4x5": "assets/no-01-088-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-089",
+    "region": "Agder",
+    "city": "Lyngdal",
+    "site": "Rosfjord beach",
+    "caption": "Rosfjord beach, Lyngdal",
+    "scenario": "25 September 2026 · 13:45 Europe/Oslo",
+    "composition": "View along the sandy shoreline of the Rosfjord: pale sand and shallow water in the foreground, the narrow fjord extending inland between forested hills, a few cabins along the far shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-089-16x9.png",
+    "file_4x5": "assets/no-01-089-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-090",
+    "region": "Agder",
+    "city": "Knaben",
+    "site": "Knaben mining village",
+    "caption": "Knaben mining village, Knaben",
+    "scenario": "25 September 2026 · 13:45 Europe/Oslo",
+    "composition": "View over the former mining village from the hillside road: low historic mine buildings and cabins spread across the valley floor, the surrounding heathland and rounded mountain tops framing the settlement. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-090-16x9.png",
+    "file_4x5": "assets/no-01-090-4x5.png"
   }
 ]
