@@ -682,5 +682,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-057-16x9.png",
     "file_4x5": "assets/no-01-057-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-058",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Bøkeskogen",
+    "caption": "Bøkeskogen, Larvik",
+    "scenario": "25 September 2026 · 08:45 Europe/Oslo",
+    "composition": "Beech forest paths on the hill above town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-058-16x9.png",
+    "file_4x5": "assets/no-01-058-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-059",
+    "region": "Østfold",
+    "city": "Fredrikstad",
+    "site": "Gamlebyen",
+    "caption": "Gamlebyen, Fredrikstad",
+    "scenario": "25 September 2026 · 08:45 Europe/Oslo",
+    "composition": "Fortified old town with moats and ramparts · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-059-16x9.png",
+    "file_4x5": "assets/no-01-059-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-060",
+    "region": "Østfold",
+    "city": "Fredrikstad",
+    "site": "Glomma waterfront",
+    "caption": "Glomma waterfront, Fredrikstad",
+    "scenario": "25 September 2026 · 09:00 Europe/Oslo",
+    "composition": "River harbor with old warehouses and bridges · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-060-16x9.png",
+    "file_4x5": "assets/no-01-060-4x5.png"
   }
 ]
