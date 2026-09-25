@@ -538,5 +538,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-045-16x9.png",
     "file_4x5": "assets/no-01-045-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-046",
+    "region": "Akershus",
+    "city": "Eidsvoll",
+    "site": "Eidsvoll Manor",
+    "caption": "Eidsvoll Manor, Eidsvoll",
+    "scenario": "25 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Manor house where Norway's constitution was signed · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-046-16x9.png",
+    "file_4x5": "assets/no-01-046-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-047",
+    "region": "Buskerud",
+    "city": "Kongsberg",
+    "site": "Kongsberg Church",
+    "caption": "Kongsberg Church, Kongsberg",
+    "scenario": "25 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Baroque church dominating the old mining town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-047-16x9.png",
+    "file_4x5": "assets/no-01-047-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-048",
+    "region": "Buskerud",
+    "city": "Kongsberg",
+    "site": "Lågen riverfront",
+    "caption": "Lågen riverfront, Kongsberg",
+    "scenario": "25 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Old mining town along the Numedalslågen · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-048-16x9.png",
+    "file_4x5": "assets/no-01-048-4x5.png"
   }
 ]
