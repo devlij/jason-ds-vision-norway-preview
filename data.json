@@ -790,5 +790,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-066-16x9.png",
     "file_4x5": "assets/no-01-066-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-067",
+    "region": "Nordland",
+    "city": "Narvik",
+    "site": "Narvikfjellet",
+    "caption": "Narvikfjellet, Narvik",
+    "scenario": "25 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Cable car view over Ofotfjorden and the town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-067-16x9.png",
+    "file_4x5": "assets/no-01-067-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-068",
+    "region": "Telemark",
+    "city": "Notodden",
+    "site": "Heddal stave church",
+    "caption": "Heddal stave church, Notodden",
+    "scenario": "25 September 2026 · 10:15 Europe/Oslo",
+    "composition": "13th-century wooden stave church in its rural setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-068-16x9.png",
+    "file_4x5": "assets/no-01-068-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-069",
+    "region": "Telemark",
+    "city": "Skien",
+    "site": "Brekkeparken",
+    "caption": "Brekkeparken, Skien",
+    "scenario": "25 September 2026 · 10:30 Europe/Oslo",
+    "composition": "Historic manor park and open-air museum grounds above the town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-069-16x9.png",
+    "file_4x5": "assets/no-01-069-4x5.png"
   }
 ]
