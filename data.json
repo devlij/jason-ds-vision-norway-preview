@@ -430,5 +430,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-036-16x9.png",
     "file_4x5": "assets/no-01-036-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-037",
+    "region": "Trøndelag",
+    "city": "Røros",
+    "site": "Olavsgruva",
+    "caption": "Olavsgruva, Røros",
+    "scenario": "25 September 2026 · 05:15 Europe/Oslo",
+    "composition": "Historic copper mine works on the hillside above town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-037-16x9.png",
+    "file_4x5": "assets/no-01-037-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-038",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Tromsø Bridge",
+    "caption": "Tromsø Bridge, Tromsø",
+    "scenario": "25 September 2026 · 05:15 Europe/Oslo",
+    "composition": "Bridge arch framing the Arctic Cathedral across the strait · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-038-16x9.png",
+    "file_4x5": "assets/no-01-038-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-039",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Fjellheisen",
+    "caption": "Fjellheisen, Tromsø",
+    "scenario": "25 September 2026 · 05:30 Europe/Oslo",
+    "composition": "Cable car summit view over Tromsø island and the fjords · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-039-16x9.png",
+    "file_4x5": "assets/no-01-039-4x5.png"
   }
 ]
