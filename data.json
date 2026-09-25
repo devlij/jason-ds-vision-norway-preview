@@ -1546,5 +1546,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-129-16x9.png",
     "file_4x5": "assets/no-01-129-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-130",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "St. Olav's Abbey Ruins",
+    "caption": "St. Olav's Abbey Ruins, Tønsberg",
+    "scenario": "25 September 2026 · 20:45 Europe/Oslo",
+    "composition": "Low stone ruins of Scandinavia's largest round church, viewed at street level from Storgaten beside the Tønsberg library. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-130-16x9.png",
+    "file_4x5": "assets/no-01-130-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-131",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Tønsberg Cathedral",
+    "caption": "Tønsberg Cathedral, Tønsberg",
+    "scenario": "25 September 2026 · 21:00 Europe/Oslo",
+    "composition": "Neo-Gothic cathedral spire rising over the old town, viewed from the harbour promenade across the canal. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-131-16x9.png",
+    "file_4x5": "assets/no-01-131-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-132",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Tønsberg Wharf",
+    "caption": "Tønsberg Wharf, Tønsberg",
+    "scenario": "25 September 2026 · 21:00 Europe/Oslo",
+    "composition": "Colourful wooden houses lining the wharf, viewed along the waterfront promenade with boats moored in front. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-132-16x9.png",
+    "file_4x5": "assets/no-01-132-4x5.png"
   }
 ]
