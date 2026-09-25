@@ -1668,6 +1668,22 @@ const SCENES = [
   var count = overlay.querySelector('.lb-count');
   var playBtn = overlay.querySelector('.lb-play');
   var items = [], idx = 0, playing = false, timer = null;
+  /* Lightbox-session format choice: seeded from the opening card's active tab,
+     persists across prev/next and slideshow navigation (never reset to 16:9). */
+  var lbFormat = '16x9';
+  function cardFormat(card){
+    var t = card.querySelector('.fmt-tab.is-active');
+    var f = t ? t.getAttribute('data-format') : null;
+    return f === '4x5' ? '4x5' : '16x9';
+  }
+  function cardSrc(card, fmt){
+    var a = card.querySelector('a.thumb');
+    if (!a) return '';
+    var im = a.querySelector('img');
+    if (fmt === '4x5' && im) { var s45 = im.getAttribute('data-src-45'); if (s45) return s45; }
+    if (im) { var s16 = im.getAttribute('data-src-16'); if (s16) return s16; }
+    return a.href;
+  }
   function renderPlayBtn(){
     playBtn.innerHTML = playing ? '&#10074;&#10074;' : '&#9654;';
     playBtn.setAttribute('aria-label', playing ? 'Pause slideshow' : 'Play slideshow');
@@ -1691,10 +1707,12 @@ const SCENES = [
       function(c){ return c.style.display !== 'none'; });
   }
   function show(i){
+    /* The lightbox-session format (lbFormat) applies to every scene navigated
+       to — the viewer's 16:9 / 4:5 choice persists across prev/next and the
+       slideshow */
     items = visibleCards().map(function(c){
-      var a = c.querySelector('a.thumb');
       var t = c.querySelector('.caption');
-      return { src: a ? a.href : '', cap: t ? t.textContent : '' };
+      return { src: cardSrc(c, lbFormat), cap: t ? t.textContent : '' };
     }).filter(function(x){ return x.src; });
     if (!items.length) return;
     idx = (i + items.length) % items.length;
@@ -1717,7 +1735,9 @@ const SCENES = [
     if (a) {
       e.preventDefault();
       var cards = visibleCards();
-      show(cards.indexOf(a.closest('.card')));
+      var card = a.closest('.card');
+      lbFormat = cardFormat(card);
+      show(cards.indexOf(card));
       return;
     }
     if (e.target === overlay || (e.target.closest && e.target.closest('.lb-close'))) hide();
