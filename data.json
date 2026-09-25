@@ -1258,5 +1258,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-105-16x9.png",
     "file_4x5": "assets/no-01-105-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-106",
+    "region": "Buskerud",
+    "city": "Kongsberg",
+    "site": "Norwegian Mining Museum",
+    "caption": "Norwegian Mining Museum, Kongsberg",
+    "scenario": "25 September 2026 · 16:45 Europe/Oslo",
+    "composition": "Tourist viewpoint in the museum courtyard: the historic smelting-works buildings of the Norwegian Mining Museum in warm timber and stone, the old works chimney and courtyard completing the industrial-heritage frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-106-16x9.png",
+    "file_4x5": "assets/no-01-106-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-107",
+    "region": "Buskerud",
+    "city": "Åmot",
+    "site": "Blaafarveværket",
+    "caption": "Blaafarveværket, Åmot",
+    "scenario": "25 September 2026 · 16:45 Europe/Oslo",
+    "composition": "Tourist viewpoint across the cobbled works yard: the blue-painted cobalt works buildings of Blaafarveværket with their white trim, the old industrial buildings and surrounding birch woodland completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-107-16x9.png",
+    "file_4x5": "assets/no-01-107-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-108",
+    "region": "Buskerud",
+    "city": "Hønefoss",
+    "site": "Hønefossen waterfall",
+    "caption": "Hønefossen waterfall, Hønefoss",
+    "scenario": "25 September 2026 · 17:00 Europe/Oslo",
+    "composition": "Tourist viewpoint from the bridge above the falls: the Hønefossen waterfall pouring through the town center below, the Begna river, the old Hønefoss bridge and town buildings completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-108-16x9.png",
+    "file_4x5": "assets/no-01-108-4x5.png"
   }
 ]
