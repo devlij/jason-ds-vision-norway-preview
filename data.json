@@ -1222,5 +1222,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-102-16x9.png",
     "file_4x5": "assets/no-01-102-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-103",
+    "region": "Akershus",
+    "city": "Hølen",
+    "site": "Hølen old town",
+    "caption": "Hølen old town, Hølen",
+    "scenario": "25 September 2026 · 16:15 Europe/Oslo",
+    "composition": "Tourist viewpoint in the old town center of Hølen: to the left the protected timber houses of the small kjøpstad lining the narrow street, in the center the old shop fronts and the white church gable of the town, and to the right the Såna river valley with its fields and the wooded ridges of Vestby beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-103-16x9.png",
+    "file_4x5": "assets/no-01-103-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-104",
+    "region": "Buskerud",
+    "city": "Drammen",
+    "site": "Ypsilon Bridge",
+    "caption": "Ypsilon Bridge, Drammen",
+    "scenario": "25 September 2026 · 16:15 Europe/Oslo",
+    "composition": "Tourist viewpoint from the Strømsø riverbank: the cable-stayed Ypsilon footbridge arcing across the Drammenselva, its harp-like cables and Y-shaped pylon center frame, the river and the city waterfront completing the view. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-104-16x9.png",
+    "file_4x5": "assets/no-01-104-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-105",
+    "region": "Buskerud",
+    "city": "Drammen",
+    "site": "Drammens Museum",
+    "caption": "Drammens Museum, Drammen",
+    "scenario": "25 September 2026 · 16:30 Europe/Oslo",
+    "composition": "Tourist viewpoint across the Marienlyst park lawns: the white manor house of the Drammens Museum center frame with its surrounding heritage garden, the open-air museum's timber buildings and old trees framing the grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-105-16x9.png",
+    "file_4x5": "assets/no-01-105-4x5.png"
   }
 ]
