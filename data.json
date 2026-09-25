@@ -1726,5 +1726,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-144-16x9.png",
     "file_4x5": "assets/no-01-144-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-145",
+    "region": "Vestfold",
+    "city": "Borre",
+    "site": "Borrestranda Beach",
+    "caption": "Borrestranda Beach, Borre",
+    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
+    "composition": "Sandy beach curving along the shore, viewed across the water toward the low coastline. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-145-16x9.png",
+    "file_4x5": "assets/no-01-145-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-146",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Kaupang",
+    "caption": "Kaupang, Larvik",
+    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
+    "composition": "Grass fields of the excavated Viking trading-place site at Kaupang, viewed across the open landscape. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-146-16x9.png",
+    "file_4x5": "assets/no-01-146-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-147",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Mølen",
+    "caption": "Mølen, Larvik",
+    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
+    "composition": "Vast beach of rolling stones and Iron Age burial cairns at Mølen, viewed along the shoreline toward the sea. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-147-16x9.png",
+    "file_4x5": "assets/no-01-147-4x5.png"
   }
 ]
