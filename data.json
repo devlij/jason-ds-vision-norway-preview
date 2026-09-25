@@ -286,5 +286,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-024-16x9.png",
     "file_4x5": "assets/no-01-024-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-025",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Old Stavanger",
+    "caption": "Old Stavanger, Stavanger",
+    "scenario": "25 September 2026 · 03:15 Europe/Oslo",
+    "composition": "White wooden houses along the cobbled old harbor street · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-025-16x9.png",
+    "file_4x5": "assets/no-01-025-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-026",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Sverd i fjell",
+    "caption": "Sverd i fjell, Stavanger",
+    "scenario": "25 September 2026 · 03:15 Europe/Oslo",
+    "composition": "Three giant bronze swords planted on the Hafrsfjord shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-026-16x9.png",
+    "file_4x5": "assets/no-01-026-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-027",
+    "region": "Vestland",
+    "city": "Aurland",
+    "site": "Flåm Railway",
+    "caption": "Flåm Railway, Aurland",
+    "scenario": "25 September 2026 · 03:30 Europe/Oslo",
+    "composition": "Mountain railway curving through the steep Flåm valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-027-16x9.png",
+    "file_4x5": "assets/no-01-027-4x5.png"
   }
 ]
