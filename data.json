@@ -322,5 +322,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-027-16x9.png",
     "file_4x5": "assets/no-01-027-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-028",
+    "region": "Vestland",
+    "city": "Aurland",
+    "site": "Undredal",
+    "caption": "Undredal, Aurland",
+    "scenario": "25 September 2026 · 03:45 Europe/Oslo",
+    "composition": "Tiny fjord hamlet with Norway's smallest stave church · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-028-16x9.png",
+    "file_4x5": "assets/no-01-028-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-029",
+    "region": "Nordland",
+    "city": "Moskenes",
+    "site": "Å village",
+    "caption": "Å village, Moskenes",
+    "scenario": "25 September 2026 · 03:45 Europe/Oslo",
+    "composition": "Red rorbu fishing cabins along the shore at Lofoten's tip · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-029-16x9.png",
+    "file_4x5": "assets/no-01-029-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-030",
+    "region": "Nordland",
+    "city": "Vågan",
+    "site": "Henningsvær",
+    "caption": "Henningsvær, Vågan",
+    "scenario": "25 September 2026 · 04:00 Europe/Oslo",
+    "composition": "Fishing village and its island football pitch among skerries · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-030-16x9.png",
+    "file_4x5": "assets/no-01-030-4x5.png"
   }
 ]
