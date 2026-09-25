@@ -1330,5 +1330,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-111-16x9.png",
     "file_4x5": "assets/no-01-111-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-112",
+    "region": "Buskerud",
+    "city": "Rollag",
+    "site": "Rollag stave church",
+    "caption": "Rollag stave church, Rollag",
+    "scenario": "25 September 2026 · 17:45 Europe/Oslo",
+    "composition": "Tourist viewpoint from the churchyard: the cruciform Rollag stave church with its covered exterior gallery and shingled roofs, old gravestones in the foreground and the Numedal fells behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-112-16x9.png",
+    "file_4x5": "assets/no-01-112-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-113",
+    "region": "Buskerud",
+    "city": "Geilo",
+    "site": "Ustedalsfjorden lake",
+    "caption": "Ustedalsfjorden lake, Geilo",
+    "scenario": "25 September 2026 · 17:45 Europe/Oslo",
+    "composition": "Tourist viewpoint from the lakeshore: the calm Ustedalsfjorden spreading toward the Geilo mountains, cabins and pine forest along the shore, the lake reflecting the early-autumn sky. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-113-16x9.png",
+    "file_4x5": "assets/no-01-113-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-114",
+    "region": "Buskerud",
+    "city": "Hemsedal",
+    "site": "Hemsedal ski mountainside",
+    "caption": "Hemsedal ski mountainside, Hemsedal",
+    "scenario": "25 September 2026 · 18:00 Europe/Oslo",
+    "composition": "Tourist viewpoint from the valley: the Hemsedal ski mountainside with its lift lines running up the snowless autumn fell, the village and the Hemsil river valley spreading below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-114-16x9.png",
+    "file_4x5": "assets/no-01-114-4x5.png"
   }
 ]
