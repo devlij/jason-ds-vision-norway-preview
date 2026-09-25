@@ -862,5 +862,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-072-16x9.png",
     "file_4x5": "assets/no-01-072-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-073",
+    "region": "Telemark",
+    "city": "Seljord",
+    "site": "Seljordsvatnet",
+    "caption": "Seljordsvatnet, Seljord",
+    "scenario": "25 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Lake of the Selma sea-serpent legend, village on its shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-073-16x9.png",
+    "file_4x5": "assets/no-01-073-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-074",
+    "region": "Telemark",
+    "city": "Vrådal",
+    "site": "Vrådal",
+    "caption": "Vrådal, Vrådal",
+    "scenario": "25 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Lakeside resort village on Lake Nisser · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-074-16x9.png",
+    "file_4x5": "assets/no-01-074-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-075",
+    "region": "Telemark",
+    "city": "Rauland",
+    "site": "Rauland",
+    "caption": "Rauland, Rauland",
+    "scenario": "25 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Mountain village in the Rauland highlands · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-075-16x9.png",
+    "file_4x5": "assets/no-01-075-4x5.png"
   }
 ]
