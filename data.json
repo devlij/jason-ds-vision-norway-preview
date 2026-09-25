@@ -394,5 +394,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-033-16x9.png",
     "file_4x5": "assets/no-01-033-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-034",
+    "region": "Finnmark",
+    "city": "Nordkapp",
+    "site": "Skarsvåg",
+    "caption": "Skarsvåg, Nordkapp",
+    "scenario": "25 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Fishing hamlet below the North Cape plateau · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-034-16x9.png",
+    "file_4x5": "assets/no-01-034-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-035",
+    "region": "Vestland",
+    "city": "Luster",
+    "site": "Nigardsbreen",
+    "caption": "Nigardsbreen, Luster",
+    "scenario": "25 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Glacier tongue descending toward the meltwater lake · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-035-16x9.png",
+    "file_4x5": "assets/no-01-035-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-036",
+    "region": "Møre og Romsdal",
+    "city": "Åndalsnes",
+    "site": "Rampestreken",
+    "caption": "Rampestreken, Åndalsnes",
+    "scenario": "25 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Viewing platform jutting from the mountainside over Romsdalsfjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-036-16x9.png",
+    "file_4x5": "assets/no-01-036-4x5.png"
   }
 ]
