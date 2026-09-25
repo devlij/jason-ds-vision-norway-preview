@@ -1294,5 +1294,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-108-16x9.png",
     "file_4x5": "assets/no-01-108-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-109",
+    "region": "Buskerud",
+    "city": "Torpo",
+    "site": "Torpo stave church",
+    "caption": "Torpo stave church, Torpo",
+    "scenario": "25 September 2026 · 17:15 Europe/Oslo",
+    "composition": "Tourist viewpoint from the churchyard: the small wooden Torpo stave church with its shingled roof and raised central tower, grave markers and the Hallingdal hillside completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-109-16x9.png",
+    "file_4x5": "assets/no-01-109-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-110",
+    "region": "Buskerud",
+    "city": "Uvdal",
+    "site": "Uvdal stave church",
+    "caption": "Uvdal stave church, Uvdal",
+    "scenario": "25 September 2026 · 17:15 Europe/Oslo",
+    "composition": "Tourist viewpoint from the churchyard in Kirkebygda: the 12th-century Uvdal stave church with its shingled spire, old gravestones in the foreground and the Numedal valley hills behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-110-16x9.png",
+    "file_4x5": "assets/no-01-110-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-111",
+    "region": "Buskerud",
+    "city": "Flesberg",
+    "site": "Flesberg stave church",
+    "caption": "Flesberg stave church, Flesberg",
+    "scenario": "25 September 2026 · 17:30 Europe/Oslo",
+    "composition": "Tourist viewpoint from the churchyard: the wooden Flesberg stave church with its saddle roof and small tower, gravestones and the Lågen valley woodland completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-111-16x9.png",
+    "file_4x5": "assets/no-01-111-4x5.png"
   }
 ]
