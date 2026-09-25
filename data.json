@@ -610,5 +610,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-051-16x9.png",
     "file_4x5": "assets/no-01-051-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-052",
+    "region": "Innlandet",
+    "city": "Hamar",
+    "site": "Domkirkeodden",
+    "caption": "Domkirkeodden, Hamar",
+    "scenario": "25 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Medieval cathedral ruins under a glass shelter by Mjøsa · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-052-16x9.png",
+    "file_4x5": "assets/no-01-052-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-053",
+    "region": "Telemark",
+    "city": "Rjukan",
+    "site": "Gaustatoppen",
+    "caption": "Gaustatoppen, Rjukan",
+    "scenario": "25 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Summit panorama from Telemark's landmark mountain · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-053-16x9.png",
+    "file_4x5": "assets/no-01-053-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-054",
+    "region": "Telemark",
+    "city": "Rjukan",
+    "site": "Vemork",
+    "caption": "Vemork, Rjukan",
+    "scenario": "25 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Heavy water plant beneath the Rjukan waterfall · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-054-16x9.png",
+    "file_4x5": "assets/no-01-054-4x5.png"
   }
 ]
