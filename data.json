@@ -574,5 +574,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-048-16x9.png",
     "file_4x5": "assets/no-01-048-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-049",
+    "region": "Buskerud",
+    "city": "Drammen",
+    "site": "Drammen Spiral",
+    "caption": "Drammen Spiral, Drammen",
+    "scenario": "25 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Rock tunnel spiraling up to the Skansen viewpoint · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-049-16x9.png",
+    "file_4x5": "assets/no-01-049-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-050",
+    "region": "Innlandet",
+    "city": "Lillehammer",
+    "site": "Maihaugen",
+    "caption": "Maihaugen, Lillehammer",
+    "scenario": "25 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Open-air museum farmsteads above Lake Mjøsa · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-050-16x9.png",
+    "file_4x5": "assets/no-01-050-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-051",
+    "region": "Innlandet",
+    "city": "Lillehammer",
+    "site": "Lysgårdsbakkene",
+    "caption": "Lysgårdsbakkene, Lillehammer",
+    "scenario": "25 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Olympic ski jumps towering over the town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-051-16x9.png",
+    "file_4x5": "assets/no-01-051-4x5.png"
   }
 ]
