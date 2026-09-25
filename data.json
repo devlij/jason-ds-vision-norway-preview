@@ -1798,5 +1798,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-150-16x9.png",
     "file_4x5": "assets/no-01-150-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-151",
+    "region": "Vestfold",
+    "city": "Stavern",
+    "site": "Fredriksvern",
+    "caption": "Fredriksvern, Stavern",
+    "scenario": "26 September 2026 · 00:15 Europe/Oslo",
+    "composition": "Historic naval shipyard buildings of Fredriksvern, viewed across the water from the town side. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-151-16x9.png",
+    "file_4x5": "assets/no-01-151-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-152",
+    "region": "Vestfold",
+    "city": "Stavern",
+    "site": "Svenner Lighthouse",
+    "caption": "Svenner Lighthouse, Stavern",
+    "scenario": "26 September 2026 · 00:15 Europe/Oslo",
+    "composition": "Lighthouse standing on its rocky island in the Svenner archipelago, viewed from the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-152-16x9.png",
+    "file_4x5": "assets/no-01-152-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-153",
+    "region": "Vestfold",
+    "city": "Stavern",
+    "site": "Nerdrum Museum",
+    "caption": "Nerdrum Museum, Stavern",
+    "scenario": "26 September 2026 · 00:30 Europe/Oslo",
+    "composition": "Converted industrial pipe-house gallery at Agnes housing the Odd Nerdrum collection, viewed from the square. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-153-16x9.png",
+    "file_4x5": "assets/no-01-153-4x5.png"
   }
 ]
