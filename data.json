@@ -1402,5 +1402,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-117-16x9.png",
     "file_4x5": "assets/no-01-117-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-118",
+    "region": "Innlandet",
+    "city": "Ringebu",
+    "site": "Ringebu stave church",
+    "caption": "Ringebu stave church, Ringebu",
+    "scenario": "25 September 2026 · 18:45 Europe/Oslo",
+    "composition": "Tourist view from the churchyard slope looking up at the brown-tarred stave church framed by spruce forest and Gudbrandsdalen hills behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-118-16x9.png",
+    "file_4x5": "assets/no-01-118-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-119",
+    "region": "Innlandet",
+    "city": "Gjøvik",
+    "site": "Skibladner paddle steamer",
+    "caption": "Skibladner paddle steamer, Gjøvik",
+    "scenario": "25 September 2026 · 18:45 Europe/Oslo",
+    "composition": "Tourist view from the Gjøvik waterfront promenade of the white-and-red paddle steamer Skibladner moored at the pier, Lake Mjøsa stretching to the opposite shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-119-16x9.png",
+    "file_4x5": "assets/no-01-119-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-120",
+    "region": "Innlandet",
+    "city": "Elverum",
+    "site": "Glomdalsmuseet",
+    "caption": "Glomdalsmuseet, Elverum",
+    "scenario": "25 September 2026 · 19:00 Europe/Oslo",
+    "composition": "Tourist view across the open-air museum grounds, old timber farm buildings arranged around the grassed courtyard with forest edge behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-120-16x9.png",
+    "file_4x5": "assets/no-01-120-4x5.png"
   }
 ]
