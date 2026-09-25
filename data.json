@@ -1690,5 +1690,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-141-16x9.png",
     "file_4x5": "assets/no-01-141-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-142",
+    "region": "Vestfold",
+    "city": "Borre",
+    "site": "Midgard Viking Centre",
+    "caption": "Midgard Viking Centre, Borre",
+    "scenario": "25 September 2026 · 20:56 UTC",
+    "composition": "Viking centre with the reconstructed great hall, viewed across the burial-mound park at Borre. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-142-16x9.png",
+    "file_4x5": "assets/no-01-142-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-143",
+    "region": "Vestfold",
+    "city": "Horten",
+    "site": "Karljohansvern",
+    "caption": "Karljohansvern, Horten",
+    "scenario": "25 September 2026 · 22:45 Europe/Oslo",
+    "composition": "Historic naval base buildings at Karljohansvern, viewed along the waterfront with the old fortifications. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-143-16x9.png",
+    "file_4x5": "assets/no-01-143-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-144",
+    "region": "Vestfold",
+    "city": "Horten",
+    "site": "Naval Museum",
+    "caption": "Naval Museum, Horten",
+    "scenario": "25 September 2026 · 23:00 Europe/Oslo",
+    "composition": "Naval museum beside the water at Karljohansvern, with museum ships and the submarine alongside the quay. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-144-16x9.png",
+    "file_4x5": "assets/no-01-144-4x5.png"
   }
 ]
