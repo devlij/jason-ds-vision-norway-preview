@@ -1762,5 +1762,41 @@
     "approved": false,
     "file_16x9": "assets/no-01-147-16x9.png",
     "file_4x5": "assets/no-01-147-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-148",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Herregården",
+    "caption": "Herregården, Larvik",
+    "scenario": "25 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Manor house with its landscaped garden, viewed from the park at Herregården in Larvik. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-148-16x9.png",
+    "file_4x5": "assets/no-01-148-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-149",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Ula Harbour",
+    "caption": "Ula Harbour, Larvik",
+    "scenario": "26 September 2026 · 00:00 Europe/Oslo",
+    "composition": "Small fishing village harbour at Ula, with wooden houses and boats clustered around the bay. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-149-16x9.png",
+    "file_4x5": "assets/no-01-149-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-150",
+    "region": "Vestfold",
+    "city": "Stavern",
+    "site": "Stavern Old Town",
+    "caption": "Stavern Old Town, Stavern",
+    "scenario": "26 September 2026 · 00:00 Europe/Oslo",
+    "composition": "White wooden houses of the old town clustered around the harbour, viewed from the waterfront. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-150-16x9.png",
+    "file_4x5": "assets/no-01-150-4x5.png"
   }
 ]
