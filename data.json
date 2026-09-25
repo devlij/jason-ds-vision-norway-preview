@@ -970,5 +970,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-081-16x9.png",
     "file_4x5": "assets/no-01-081-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-082",
+    "region": "Agder",
+    "city": "Arendal",
+    "site": "Pollen harbor",
+    "caption": "Pollen harbor, Arendal",
+    "scenario": "25 September 2026 · 12:45 Europe/Oslo",
+    "composition": "View from the Pollen quay across the sheltered harbor basin: small boats moored along the wooden piers, white and pastel wooden houses lining both sides of the inlet, the town church rising above the rooftops. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-082-16x9.png",
+    "file_4x5": "assets/no-01-082-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-083",
+    "region": "Agder",
+    "city": "Grimstad",
+    "site": "Grimstad harbor waterfront",
+    "caption": "Grimstad harbor waterfront, Grimstad",
+    "scenario": "25 September 2026 · 12:45 Europe/Oslo",
+    "composition": "View along the harbor promenade: fishing boats and leisure craft at the quays, white wooden houses of the old town facing the water, the harbor opening toward the skerries offshore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-083-16x9.png",
+    "file_4x5": "assets/no-01-083-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-084",
+    "region": "Agder",
+    "city": "Lillesand",
+    "site": "Blindleia skerry waterway",
+    "caption": "Blindleia skerry waterway, Lillesand",
+    "scenario": "25 September 2026 · 13:00 Europe/Oslo",
+    "composition": "View from the Lillesand harbor front looking out toward the sheltered waterway: white wooden town houses line the quay behind the marina, while the Blindleia strait threads past low granite skerries dotted with cabins beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-084-16x9.png",
+    "file_4x5": "assets/no-01-084-4x5.png"
   }
 ]
