@@ -1438,5 +1438,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-120-16x9.png",
     "file_4x5": "assets/no-01-120-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-121",
+    "region": "Innlandet",
+    "city": "Kongsvinger",
+    "site": "Kongsvinger Fortress",
+    "caption": "Kongsvinger Fortress, Kongsvinger",
+    "scenario": "25 September 2026 · 19:15 Europe/Oslo",
+    "composition": "Tourist view from the fortress courtyard looking over the star-shaped ramparts and old buildings, the town and Glomma valley falling away below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-121-16x9.png",
+    "file_4x5": "assets/no-01-121-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-122",
+    "region": "Innlandet",
+    "city": "Hjerkinn",
+    "site": "Viewpoint Snøhetta",
+    "caption": "Viewpoint Snøhetta, Hjerkinn",
+    "scenario": "25 September 2026 · 19:15 Europe/Oslo",
+    "composition": "Tourist view from the weathering-steel viewing ramp looking out over Dovrefjell's open fell toward the Snøhetta massif, the pavilion's angular form anchoring the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-122-16x9.png",
+    "file_4x5": "assets/no-01-122-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-123",
+    "region": "Innlandet",
+    "city": "Atnbrua",
+    "site": "Sohlbergplassen viewpoint",
+    "caption": "Sohlbergplassen viewpoint, Atnbrua",
+    "scenario": "25 September 2026 · 19:30 Europe/Oslo",
+    "composition": "Tourist view from the timber-and-stone viewing platform over Lake Atnsjøen and the rounded Rondane peaks rising beyond, pines framing the sides. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-123-16x9.png",
+    "file_4x5": "assets/no-01-123-4x5.png"
   }
 ]
