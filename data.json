@@ -1834,5 +1834,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-153-16x9.png",
     "file_4x5": "assets/no-01-153-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-154",
+    "region": "Vestfold",
+    "city": "Tjøme",
+    "site": "Verdens Ende",
+    "caption": "Verdens Ende, Tjøme",
+    "scenario": "26 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Rocky outcrop with the vippefyr beacon at Verdens Ende, viewed across the skerries at the southern tip of Tjøme. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-154-16x9.png",
+    "file_4x5": "assets/no-01-154-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-155",
+    "region": "Vestfold",
+    "city": "Færder",
+    "site": "Færder Lighthouse",
+    "caption": "Færder Lighthouse, Færder",
+    "scenario": "26 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Lighthouse on its outer skerry, viewed from the water against the open sea. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-155-16x9.png",
+    "file_4x5": "assets/no-01-155-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-156",
+    "region": "Vestfold",
+    "city": "Nøtterøy",
+    "site": "Nøtterøy Church",
+    "caption": "Nøtterøy Church, Nøtterøy",
+    "scenario": "26 September 2026 · 01:00 Europe/Oslo",
+    "composition": "Medieval stone church on Nøtterøy, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-156-16x9.png",
+    "file_4x5": "assets/no-01-156-4x5.png"
   }
 ]
