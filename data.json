@@ -934,5 +934,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-078-16x9.png",
     "file_4x5": "assets/no-01-078-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-079",
+    "region": "Telemark",
+    "city": "Åmdals Verk",
+    "site": "Åmdals Verk",
+    "caption": "Åmdals Verk, Åmdals Verk",
+    "scenario": "25 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Historic copper mining settlement in Tokke · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-079-16x9.png",
+    "file_4x5": "assets/no-01-079-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-080",
+    "region": "Agder",
+    "city": "Lindesnes",
+    "site": "Lindesnes Lighthouse",
+    "caption": "Lindesnes Lighthouse, Lindesnes",
+    "scenario": "25 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Tourist viewpoint on the rocky point near the lighthouse: the white lighthouse tower with its red top rises center-frame above low heathland, waves breaking on the rocks at its base, open sea stretching to the horizon. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-080-16x9.png",
+    "file_4x5": "assets/no-01-080-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-081",
+    "region": "Agder",
+    "city": "Mandal",
+    "site": "Sjøsanden beach",
+    "caption": "Sjøsanden beach, Mandal",
+    "scenario": "25 September 2026 · 12:15 Europe/Oslo",
+    "composition": "View along the sandy beach as it curves around the bay: pale sand in the foreground, calm water with small boats mid-frame, low granite skerries offshore and pine-covered slopes rising behind the beach. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-081-16x9.png",
+    "file_4x5": "assets/no-01-081-4x5.png"
   }
 ]
