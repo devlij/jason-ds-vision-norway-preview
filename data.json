@@ -1114,5 +1114,41 @@
     "approved": false,
     "file_16x9": "assets/no-01-093-16x9.png",
     "file_4x5": "assets/no-01-093-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-094",
+    "region": "Agder",
+    "city": "Vennesla",
+    "site": "Vennesla Library and Culture House",
+    "caption": "Vennesla Library and Culture House, Vennesla",
+    "scenario": "25 September 2026 · 14:45 Europe/Oslo",
+    "composition": "View from the town square toward the timber-clad library building: the curved wooden rib structure visible through the glass front, the plaza and surrounding town-center buildings completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-094-16x9.png",
+    "file_4x5": "assets/no-01-094-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-095",
+    "region": "Akershus",
+    "city": "Drøbak",
+    "site": "Oscarsborg Fortress",
+    "caption": "Oscarsborg Fortress, Drøbak",
+    "scenario": "25 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Tourist viewpoint from the Drøbak harbour side across the sound toward the fortress islands: to the left the wooded slopes of Kaholmene rise from the water, in the center the white fortress buildings and gun batteries on Søndre Kaholmen, and to the right the narrows of the Oslofjord opening out — ferries crossing between the island and the mainland in the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-095-16x9.png",
+    "file_4x5": "assets/no-01-095-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-096",
+    "region": "Akershus",
+    "city": "Eidsvoll",
+    "site": "Eidsvoll Building",
+    "caption": "Eidsvoll Building, Eidsvoll",
+    "scenario": "25 September 2026 · 15:00 Europe/Oslo",
+    "composition": "Tourist viewpoint from the garden in front of the manor house: to the left the lawn sweeps toward the old trees of the Eidsvollsbygningen grounds, in the center the ochre-yellow wooden manor with its white columns and main entrance facing the viewer, and to the right the flagpole and garden beds framing the building against the surrounding birch and pine woodland. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-096-16x9.png",
+    "file_4x5": "assets/no-01-096-4x5.png"
   }
 ]
