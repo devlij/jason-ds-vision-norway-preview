@@ -1618,5 +1618,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-135-16x9.png",
     "file_4x5": "assets/no-01-135-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-136",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Gokstad Mound",
+    "caption": "Gokstad Mound, Sandefjord",
+    "scenario": "25 September 2026 · 21:45 Europe/Oslo",
+    "composition": "Viking burial mound rising in the field at Gokstad, where the Gokstad ship was excavated, viewed from the path below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-136-16x9.png",
+    "file_4x5": "assets/no-01-136-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-137",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Whaling Museum",
+    "caption": "Whaling Museum, Sandefjord",
+    "scenario": "25 September 2026 · 21:45 Europe/Oslo",
+    "composition": "Museum building with its distinctive tower, viewed from the surrounding park grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-137-16x9.png",
+    "file_4x5": "assets/no-01-137-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-138",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Midtåsen Sculpture Park",
+    "caption": "Midtåsen Sculpture Park, Sandefjord",
+    "scenario": "25 September 2026 · 22:00 Europe/Oslo",
+    "composition": "Knut Steen's marble and bronze sculptures displayed in the hillside pavilion and forest park at Midtåsen. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-138-16x9.png",
+    "file_4x5": "assets/no-01-138-4x5.png"
   }
 ]
