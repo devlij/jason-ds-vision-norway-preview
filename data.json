@@ -1474,5 +1474,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-123-16x9.png",
     "file_4x5": "assets/no-01-123-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-124",
+    "region": "Innlandet",
+    "city": "Gjøvik",
+    "site": "Gjøvik Olympic Cavern Hall",
+    "caption": "Gjøvik Olympic Cavern Hall, Gjøvik",
+    "scenario": "25 September 2026 · 19:45 Europe/Oslo",
+    "composition": "Tourist view of the rock-carved arena's facade and entrance at the base of the forested mountainside, the mountain hall sign above the glass frontage. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-124-16x9.png",
+    "file_4x5": "assets/no-01-124-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-125",
+    "region": "Innlandet",
+    "city": "Sjusjøen",
+    "site": "Sjusjøen mountain plateau",
+    "caption": "Sjusjøen mountain plateau, Sjusjøen",
+    "scenario": "25 September 2026 · 17:58 UTC",
+    "composition": "Tourist view from the open plateau trails over rolling spruce-covered ridges with scattered cabins, wide sky and mountain horizon beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-125-16x9.png",
+    "file_4x5": "assets/no-01-125-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-126",
+    "region": "Innlandet",
+    "city": "Brumunddal",
+    "site": "Mjøstårnet",
+    "caption": "Mjøstårnet, Brumunddal",
+    "scenario": "25 September 2026 · 20:00 Europe/Oslo",
+    "composition": "Tourist view from the street looking up at the tall timber tower's cross-braced wooden facade rising above the town rooftops. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-126-16x9.png",
+    "file_4x5": "assets/no-01-126-4x5.png"
   }
 ]
