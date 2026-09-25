@@ -1366,5 +1366,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-114-16x9.png",
     "file_4x5": "assets/no-01-114-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-115",
+    "region": "Buskerud",
+    "city": "Nesbyen",
+    "site": "Hallingdal Museum",
+    "caption": "Hallingdal Museum, Nesbyen",
+    "scenario": "25 September 2026 · 18:15 Europe/Oslo",
+    "composition": "Tourist viewpoint among the open-air museum grounds: historic log farm buildings of the Hallingdal Museum set on the grassy hillside, the valley and mountains completing the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-115-16x9.png",
+    "file_4x5": "assets/no-01-115-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-116",
+    "region": "Buskerud",
+    "city": "Krødsherad",
+    "site": "Norefjell",
+    "caption": "Norefjell, Krødsherad",
+    "scenario": "25 September 2026 · 18:15 Europe/Oslo",
+    "composition": "Tourist viewpoint from the Norefjell slopes: the Krøderen lake far below with the valley spreading out, the snowless autumn fells of Norefjell framing the panorama. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-116-16x9.png",
+    "file_4x5": "assets/no-01-116-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-117",
+    "region": "Buskerud",
+    "city": "Sigdal",
+    "site": "Andersnatten",
+    "caption": "Andersnatten, Sigdal",
+    "scenario": "25 September 2026 · 18:30 Europe/Oslo",
+    "composition": "Tourist viewpoint from the valley floor: the sheer rock face of Andersnatten rising above the Sigdal valley, pine forest at its foot and farmland in the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-117-16x9.png",
+    "file_4x5": "assets/no-01-117-4x5.png"
   }
 ]
