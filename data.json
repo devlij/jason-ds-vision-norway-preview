@@ -358,5 +358,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-030-16x9.png",
     "file_4x5": "assets/no-01-030-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-031",
+    "region": "Møre og Romsdal",
+    "city": "Averøy",
+    "site": "Kvernes Stave Church",
+    "caption": "Kvernes Stave Church, Averøy",
+    "scenario": "25 September 2026 · 04:15 Europe/Oslo",
+    "composition": "White wooden stave church on the fjord shore · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-031-16x9.png",
+    "file_4x5": "assets/no-01-031-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-032",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Bakklandet",
+    "caption": "Bakklandet, Trondheim",
+    "scenario": "25 September 2026 · 04:15 Europe/Oslo",
+    "composition": "Colorful wooden houses along the Nidelva river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-032-16x9.png",
+    "file_4x5": "assets/no-01-032-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-033",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Kristiansten Fortress",
+    "caption": "Kristiansten Fortress, Trondheim",
+    "scenario": "25 September 2026 · 04:30 Europe/Oslo",
+    "composition": "Fortress ramparts with the city and fjord below · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-033-16x9.png",
+    "file_4x5": "assets/no-01-033-4x5.png"
   }
 ]
