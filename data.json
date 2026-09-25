@@ -502,5 +502,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-042-16x9.png",
     "file_4x5": "assets/no-01-042-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-043",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Bystranda",
+    "caption": "Bystranda, Kristiansand",
+    "scenario": "25 September 2026 · 06:15 Europe/Oslo",
+    "composition": "City beach and promenade on a summer day · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-043-16x9.png",
+    "file_4x5": "assets/no-01-043-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-044",
+    "region": "Akershus",
+    "city": "Drøbak",
+    "site": "Oscarsborg Fortress",
+    "caption": "Oscarsborg Fortress, Drøbak",
+    "scenario": "25 September 2026 · 06:15 Europe/Oslo",
+    "composition": "Island fortress guarding the Oslofjord narrows · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-044-16x9.png",
+    "file_4x5": "assets/no-01-044-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-045",
+    "region": "Akershus",
+    "city": "Drøbak",
+    "site": "Drøbak harbor",
+    "caption": "Drøbak harbor, Drøbak",
+    "scenario": "25 September 2026 · 06:30 Europe/Oslo",
+    "composition": "Old wooden houses and boats along the fjord shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-045-16x9.png",
+    "file_4x5": "assets/no-01-045-4x5.png"
   }
 ]
