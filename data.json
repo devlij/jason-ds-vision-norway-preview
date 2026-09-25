@@ -754,5 +754,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-063-16x9.png",
     "file_4x5": "assets/no-01-063-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-064",
+    "region": "Finnmark",
+    "city": "Hammerfest",
+    "site": "Hammerfest harbor",
+    "caption": "Hammerfest harbor, Hammerfest",
+    "scenario": "25 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Arctic town waterfront with the Meridian column · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-064-16x9.png",
+    "file_4x5": "assets/no-01-064-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-065",
+    "region": "Nordland",
+    "city": "Bodø",
+    "site": "Saltstraumen",
+    "caption": "Saltstraumen, Bodø",
+    "scenario": "25 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Tidal maelstrom swirling under the bridge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-065-16x9.png",
+    "file_4x5": "assets/no-01-065-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-066",
+    "region": "Nordland",
+    "city": "Bodø",
+    "site": "Bodø harbor",
+    "caption": "Bodø harbor, Bodø",
+    "scenario": "25 September 2026 · 10:00 Europe/Oslo",
+    "composition": "Harbor promenade facing the Vestfjorden · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-066-16x9.png",
+    "file_4x5": "assets/no-01-066-4x5.png"
   }
 ]
