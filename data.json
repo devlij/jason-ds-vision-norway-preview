@@ -214,5 +214,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-018-16x9.png",
     "file_4x5": "assets/no-01-018-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-019",
+    "region": "Vestland",
+    "city": "Bergen",
+    "site": "Mount Fløyen",
+    "caption": "Mount Fløyen, Bergen",
+    "scenario": "25 September 2026 · 02:15 Europe/Oslo",
+    "composition": "City, harbor and fjord panorama from the Fløyen terrace · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-019-16x9.png",
+    "file_4x5": "assets/no-01-019-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-020",
+    "region": "Vestland",
+    "city": "Bergen",
+    "site": "Bergenhus Fortress",
+    "caption": "Bergenhus Fortress, Bergen",
+    "scenario": "25 September 2026 · 02:15 Europe/Oslo",
+    "composition": "Rosenkrantz Tower and medieval fortress walls above the harbor · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-020-16x9.png",
+    "file_4x5": "assets/no-01-020-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-021",
+    "region": "Vestland",
+    "city": "Bergen",
+    "site": "Fisketorget",
+    "caption": "Fisketorget, Bergen",
+    "scenario": "25 September 2026 · 02:30 Europe/Oslo",
+    "composition": "Fish market stalls and boats along the Bergen harbor · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-021-16x9.png",
+    "file_4x5": "assets/no-01-021-4x5.png"
   }
 ]
