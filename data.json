@@ -718,5 +718,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-060-16x9.png",
     "file_4x5": "assets/no-01-060-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-061",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Fredriksten Fortress",
+    "caption": "Fredriksten Fortress, Halden",
+    "scenario": "25 September 2026 · 09:15 Europe/Oslo",
+    "composition": "Fortress walls above the Iddefjord border town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-061-16x9.png",
+    "file_4x5": "assets/no-01-061-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-062",
+    "region": "Finnmark",
+    "city": "Alta",
+    "site": "Alta rock carvings",
+    "caption": "Alta rock carvings, Alta",
+    "scenario": "25 September 2026 · 09:15 Europe/Oslo",
+    "composition": "UNESCO rock art panels above the Altafjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-062-16x9.png",
+    "file_4x5": "assets/no-01-062-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-063",
+    "region": "Finnmark",
+    "city": "Alta",
+    "site": "Northern Lights Cathedral",
+    "caption": "Northern Lights Cathedral, Alta",
+    "scenario": "25 September 2026 · 09:30 Europe/Oslo",
+    "composition": "Spiraling titanium-clad cathedral in the town center · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-063-16x9.png",
+    "file_4x5": "assets/no-01-063-4x5.png"
   }
 ]
