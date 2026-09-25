@@ -646,5 +646,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-054-16x9.png",
     "file_4x5": "assets/no-01-054-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-055",
+    "region": "Telemark",
+    "city": "Skien",
+    "site": "Telemark Canal",
+    "caption": "Telemark Canal, Skien",
+    "scenario": "25 September 2026 · 08:15 Europe/Oslo",
+    "composition": "Historic canal locks between Skien and Dalen · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-055-16x9.png",
+    "file_4x5": "assets/no-01-055-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-056",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Slottsfjellet",
+    "caption": "Slottsfjellet, Tønsberg",
+    "scenario": "25 September 2026 · 08:15 Europe/Oslo",
+    "composition": "Castle hill tower above Norway's oldest town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-056-16x9.png",
+    "file_4x5": "assets/no-01-056-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-057",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Oseberg Mound",
+    "caption": "Oseberg Mound, Tønsberg",
+    "scenario": "25 September 2026 · 08:30 Europe/Oslo",
+    "composition": "Viking burial mound in the rolling farmland · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-057-16x9.png",
+    "file_4x5": "assets/no-01-057-4x5.png"
   }
 ]
