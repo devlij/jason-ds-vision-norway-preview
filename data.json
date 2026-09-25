@@ -250,5 +250,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-021-16x9.png",
     "file_4x5": "assets/no-01-021-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-022",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Akershus Fortress",
+    "caption": "Akershus Fortress, Oslo",
+    "scenario": "25 September 2026 · 02:45 Europe/Oslo",
+    "composition": "Medieval fortress ramparts above Oslofjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-022-16x9.png",
+    "file_4x5": "assets/no-01-022-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-023",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Aker Brygge",
+    "caption": "Aker Brygge, Oslo",
+    "scenario": "25 September 2026 · 02:45 Europe/Oslo",
+    "composition": "Modern waterfront promenade with the Oslofjord beyond · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-023-16x9.png",
+    "file_4x5": "assets/no-01-023-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-024",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Royal Palace",
+    "caption": "Royal Palace, Oslo",
+    "scenario": "25 September 2026 · 03:00 Europe/Oslo",
+    "composition": "Palace facade and gardens at the end of Karl Johans gate · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-024-16x9.png",
+    "file_4x5": "assets/no-01-024-4x5.png"
   }
 ]
