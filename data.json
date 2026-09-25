@@ -1654,5 +1654,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-138-16x9.png",
     "file_4x5": "assets/no-01-138-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-139",
+    "region": "Vestfold",
+    "city": "Andebu",
+    "site": "Høyjord Stave Church",
+    "caption": "Høyjord Stave Church, Andebu",
+    "scenario": "25 September 2026 · 22:15 Europe/Oslo",
+    "composition": "Wooden stave church with its characteristic shingled tower, viewed from the churchyard in Andebu. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-139-16x9.png",
+    "file_4x5": "assets/no-01-139-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-140",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Sandar Church",
+    "caption": "Sandar Church, Sandefjord",
+    "scenario": "25 September 2026 · 22:15 Europe/Oslo",
+    "composition": "White wooden cruciform church with a tall central spire, viewed from the churchyard near Sandefjord. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-140-16x9.png",
+    "file_4x5": "assets/no-01-140-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-141",
+    "region": "Vestfold",
+    "city": "Borre",
+    "site": "Borre Mounds",
+    "caption": "Borre Mounds, Borre",
+    "scenario": "25 September 2026 · 22:30 Europe/Oslo",
+    "composition": "Large Viking burial mounds in the park landscape at Borre, viewed from the path across the meadow. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-141-16x9.png",
+    "file_4x5": "assets/no-01-141-4x5.png"
   }
 ]
