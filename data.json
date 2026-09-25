@@ -826,5 +826,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-069-16x9.png",
     "file_4x5": "assets/no-01-069-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-070",
+    "region": "Telemark",
+    "city": "Dalen",
+    "site": "Dalen Hotel",
+    "caption": "Dalen Hotel, Dalen",
+    "scenario": "25 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Dragon-style 19th-century hotel on the shore of Lake Bandak · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-070-16x9.png",
+    "file_4x5": "assets/no-01-070-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-071",
+    "region": "Telemark",
+    "city": "Dalen",
+    "site": "Eidsborg stave church",
+    "caption": "Eidsborg stave church, Dalen",
+    "scenario": "25 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Medieval stave church beside the Vest-Telemark museum · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-071-16x9.png",
+    "file_4x5": "assets/no-01-071-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-072",
+    "region": "Telemark",
+    "city": "Skien",
+    "site": "Henrik Ibsen Museum",
+    "caption": "Henrik Ibsen Museum, Skien",
+    "scenario": "25 September 2026 · 10:45 Europe/Oslo",
+    "composition": "The Venstop museum farm of Henrik Ibsen's childhood · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-072-16x9.png",
+    "file_4x5": "assets/no-01-072-4x5.png"
   }
 ]
