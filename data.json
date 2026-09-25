@@ -1150,5 +1150,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-096-16x9.png",
     "file_4x5": "assets/no-01-096-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-097",
+    "region": "Akershus",
+    "city": "Drøbak",
+    "site": "Drøbak old town waterfront",
+    "caption": "Drøbak old town waterfront, Drøbak",
+    "scenario": "25 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Tourist viewpoint standing on Storgata by the harbour: to the left the row of low white-and-ochre timber houses lining the waterfront street, in the center the Drøbak harbour with moored boats and the small customs house pier, and to the right the Oslofjord stretching toward the Kaholmene islands with Oscarsborg's white buildings visible across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-097-16x9.png",
+    "file_4x5": "assets/no-01-097-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-098",
+    "region": "Akershus",
+    "city": "Son",
+    "site": "Son old town",
+    "caption": "Son old town, Son",
+    "scenario": "25 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Tourist viewpoint on Storgata looking toward the fjord: to the left the historic timber warehouses and merchants' houses of the old trading town, in the center the street sloping down to the small harbour with the Oslofjord beyond, and to the right the marina and sailboats with the low green hills of Vestby rising behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-098-16x9.png",
+    "file_4x5": "assets/no-01-098-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-099",
+    "region": "Akershus",
+    "city": "Bærums Verk",
+    "site": "Bærums Verk",
+    "caption": "Bærums Verk, Bærums Verk",
+    "scenario": "25 September 2026 · 15:30 Europe/Oslo",
+    "composition": "Tourist viewpoint on Verksgata in the historic ironworks village: to the left the preserved low timber workshops and smithies along the Lomma river, in the center the cobbled street lined with craft shops and galleries, and to the right the restored foundry-era buildings with their tarred-timber facades set against the wooded hillside. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-099-16x9.png",
+    "file_4x5": "assets/no-01-099-4x5.png"
   }
 ]
