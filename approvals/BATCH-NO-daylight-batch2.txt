@@ -2,9 +2,10 @@ BATCH NO daylight variants — batch 2
 Date: 2026-09-26
 Country: Norway
 Repo: devlij/jason-ds-vision-norway-preview
-Base tip before this batch: 5e9e4b399edff5b19efe9e18a7f8a1715adaf474
+Base tip before this batch: cd0861f2080230f56ed4a6f048d30e0b0ddc1dc0
+Work began at 5e9e4b399edff5b19efe9e18a7f8a1715adaf474. origin/main then advanced through the NO-01-163–165 gallery sync and the daylight-toggle script in index.html (cd0861f). This batch was rebased onto that tip. index.html was not edited.
 Directive: 2026-09-25 Jason daylight-variants workstream, Norway batch 2 (next up-to-16 approved night scenes after batch 1).
-Scope scanned: NO-01 catalogue in data.json, 162 scenes (NO-01-001 through NO-01-162). Germany excluded. Other countries not touched. Weather fields not edited. Night images not regenerated.
+Scope scanned: NO-01 catalogue in data.json, 165 scenes (NO-01-001 through NO-01-165). Germany excluded. Other countries not touched. Weather fields not edited. Night images not regenerated.
 
 Scan rule: Approved (data.json approved true, live gallery master) night interpretation, both night masters present (1920×1080 and 864×1080), no existing *-daylight-* file. Skip already-daylight and dusk-only scenes that have no night master. Candidates wait. Prefer Approved over Candidate. Include any previously skipped Approved-night gaps before NO-01-019.
 Qualifying check: gallery descriptions for the selected scenes are night interpretations (Europe/Oslo scenario labels). No Approved-night gap remains before NO-01-019 (NO-01-001–013 and NO-01-016–018 already have daylight variants from batch 1). NO-01-014 and NO-01-015 remain Candidate and were not used.
@@ -21,7 +22,8 @@ SKIP INSIDE THE SPAN
 - Further approved night scenes after NO-01-035 are outside this 16-scene cap. No variants written for them.
 - Existing *-daylight-* files before this batch: 16 scenes (batch 1). None of those files were rewritten.
 
-Gallery: Norway cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. Gallery wiring deferred. index.html was not edited.
+Gallery: index.html on this tip includes daylight-toggle script (day-tab / data-src-16-day / data-src-45-day) but the scene cards are not yet given those attributes. Card wiring was left untouched. index.html was not edited.
+Catalogue note: the gallery sync (c63fcfa) republished data.json without the batch 1 daylight_variant blocks, while the batch 1 variant PNGs remained. Those 16 blocks were restored from the batch 1 manifest (same paths and SHA-256). No batch 1 PNG was rewritten.
 
 On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
 Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = Norway, embedded when the variant PNG was written. Title and Copyright use a straight apostrophe and an em dash. Night IDAT was not touched.
@@ -355,7 +357,7 @@ Variant scene count: 16. Variant master count: 32.
 Night masters byte-unchanged: YES
 
 REMAINING AFTER THIS BATCH
-Approved night scenes still without a daylight variant: 119
+Approved night scenes still without a daylight variant: 122
 NO-01-036
 NO-01-037
 NO-01-039
@@ -475,6 +477,9 @@ NO-01-159
 NO-01-160
 NO-01-161
 NO-01-162
+NO-01-163
+NO-01-164
+NO-01-165
 
 Candidate night scenes still waiting (not varied): 11
 NO-01-014
