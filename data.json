@@ -2806,5 +2806,44 @@
     "file_16x9": "assets/no-01-216-16x9.png",
     "file_4x5": "assets/no-01-216-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-217",
+    "region": "Akershus",
+    "city": "Hurdal",
+    "site": "Lake Hurdal",
+    "caption": "Lake Hurdal, Hurdal",
+    "scenario": "26 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Forest-fringed lake at Hurdal, viewed from the shore across the still water toward the tree line. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-217-16x9.png",
+    "file_4x5": "assets/no-01-217-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-218",
+    "region": "Akershus",
+    "city": "Nittedal",
+    "site": "Nittedal Church",
+    "caption": "Nittedal Church, Nittedal",
+    "scenario": "26 September 2026 · 11:15 Europe/Oslo",
+    "composition": "White wooden church with its tower in Nittedal, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-218-16x9.png",
+    "file_4x5": "assets/no-01-218-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-219",
+    "region": "Akershus",
+    "city": "Gjerdrum",
+    "site": "Gjerdrum Church",
+    "caption": "Gjerdrum Church, Gjerdrum",
+    "scenario": "26 September 2026 · 11:30 Europe/Oslo",
+    "composition": "White wooden church in Gjerdrum, viewed from the churchyard with the surrounding farmland. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-219-16x9.png",
+    "file_4x5": "assets/no-01-219-4x5.png",
+    "audio": null
   }
 ]
