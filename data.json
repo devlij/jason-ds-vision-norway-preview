@@ -3586,5 +3586,31 @@
     "file_16x9": "assets/no-01-276-16x9.png",
     "file_4x5": "assets/no-01-276-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-277",
+    "region": "Innlandet",
+    "city": "Vang",
+    "site": "Høre stave church",
+    "caption": "Høre stave church, Vang",
+    "scenario": "26 September 2026 · 21:45 Europe/Oslo",
+    "composition": "The stave church of Høre with its tall shingled tower, framed by meadows and the hills of Vang. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-277-16x9.png",
+    "file_4x5": "assets/no-01-277-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-278",
+    "region": "Innlandet",
+    "city": "Lomen",
+    "site": "Lomen stave church",
+    "caption": "Lomen stave church, Lomen",
+    "scenario": "26 September 2026 · 21:45 Europe/Oslo",
+    "composition": "Lomen stave church with its shingled roofs and carved wooden portals, seen across the churchyard with Vestre Slidre fells behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-278-16x9.png",
+    "file_4x5": "assets/no-01-278-4x5.png",
+    "audio": null
   }
 ]
