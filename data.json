@@ -3235,5 +3235,44 @@
     "file_16x9": "assets/no-01-249-16x9.png",
     "file_4x5": "assets/no-01-249-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-250",
+    "region": "Agder",
+    "city": "Farsund",
+    "site": "Kviljo beach, Lista",
+    "caption": "Kviljo beach, Lista, Farsund",
+    "scenario": "26 September 2026 · 16:45 Europe/Oslo",
+    "composition": "Sandy beach at Kviljo on the Lista coast: long stretch of pale sand with dunes and heath behind, open North Sea in front. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-250-16x9.png",
+    "file_4x5": "assets/no-01-250-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-251",
+    "region": "Agder",
+    "city": "Farsund",
+    "site": "Farsund old town",
+    "caption": "Farsund old town, Farsund",
+    "scenario": "26 September 2026 · 17:00 Europe/Oslo",
+    "composition": "Old town of Farsund: white wooden houses along narrow streets near the harbor, small-town streetscape with boats at the quays. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-251-16x9.png",
+    "file_4x5": "assets/no-01-251-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-252",
+    "region": "Agder",
+    "city": "Kvinesdal",
+    "site": "Feda old harbor",
+    "caption": "Feda old harbor, Kvinesdal",
+    "scenario": "26 September 2026 · 17:00 Europe/Oslo",
+    "composition": "Old harbor at Feda on the Fedafjorden: small wooden houses and boathouses along the waterfront, calm fjord water, steep hillsides behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-252-16x9.png",
+    "file_4x5": "assets/no-01-252-4x5.png",
+    "audio": null
   }
 ]
