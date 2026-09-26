@@ -2572,5 +2572,44 @@
     "file_16x9": "assets/no-01-198-16x9.png",
     "file_4x5": "assets/no-01-198-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-199",
+    "region": "Rogaland",
+    "city": "Sauda",
+    "site": "Allmannajuvet",
+    "caption": "Allmannajuvet, Sauda",
+    "scenario": "26 September 2026 · 08:15 Europe/Oslo",
+    "composition": "Old zinc mine buildings in the steep gorge, viewed from the gorge path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-199-16x9.png",
+    "file_4x5": "assets/no-01-199-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-200",
+    "region": "Rogaland",
+    "city": "Flørli",
+    "site": "Flørli 4444",
+    "caption": "Flørli 4444, Flørli",
+    "scenario": "26 September 2026 · 08:15 Europe/Oslo",
+    "composition": "Village on the Lysefjord shore with the long wooden staircase climbing the mountainside, viewed from the quay. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-200-16x9.png",
+    "file_4x5": "assets/no-01-200-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-201",
+    "region": "Rogaland",
+    "city": "Lysebotn",
+    "site": "Kjerag",
+    "caption": "Kjerag, Lysebotn",
+    "scenario": "26 September 2026 · 08:30 Europe/Oslo",
+    "composition": "Sheer mountain cliff above the Lysefjord, viewed from the mountain plateau. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-201-16x9.png",
+    "file_4x5": "assets/no-01-201-4x5.png",
+    "audio": null
   }
 ]
