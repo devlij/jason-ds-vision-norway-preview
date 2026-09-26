@@ -9,49 +9,7 @@
     "composition": "Fjord arm winding between steep green mountainsides, viewed from the Flydalsjuvet overlook above the village · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-001-16x9.png",
-    "file_4x5": "assets/no-01-001-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-001-16x9.png",
-          "sha256": "550f455a23ffd515e1e9c98397a0be1dd9d579973df265c4be4683ff4db47faa"
-        },
-        "4x5": {
-          "path": "assets/no-01-001-4x5.png",
-          "sha256": "4b3c2b1b0319accccd0edd75a741761b2f4e01d137e27a4bfd0b47a444cd6ac0"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-001-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "fa0dbdb3d4f87deb16efb251263b227ee3316530e36eb4f834be7d42b0b36d7a"
-        },
-        "4x5": {
-          "path": "assets/no-01-001-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "2ae1578098de85955de5f6f420160d0dc30cd29f5ecb38466cbddba670a3e69a"
-        }
-      },
-      "on_image_text": [
-        "Geirangerfjord, Geiranger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-001-4x5.png"
   },
   {
     "entry_id": "NO-01-002",
@@ -63,49 +21,7 @@
     "composition": "Colorful wooden Hanseatic wharf houses along the harbor, viewed from across Vågen bay · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-002-16x9.png",
-    "file_4x5": "assets/no-01-002-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-002-16x9.png",
-          "sha256": "84a9150c21d5ae095466b5d15a540a41613bb15e6046e7dc8b43c9d956fe054d"
-        },
-        "4x5": {
-          "path": "assets/no-01-002-4x5.png",
-          "sha256": "8bbd0dd6329c6d8e124a869b41df1759e1879d88604e2862bc61a39bdc2135fc"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-002-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "ff6a1d03d2d280a47fb29a4836e842b66c88540c1c61de3c55d1fd02f06808e6"
-        },
-        "4x5": {
-          "path": "assets/no-01-002-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "f7bfe7408905d90545317ed115cb90aaff3e6781f7d769ee9323eee79b6c8c85"
-        }
-      },
-      "on_image_text": [
-        "Bryggen, Bergen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-002-4x5.png"
   },
   {
     "entry_id": "NO-01-003",
@@ -117,49 +33,7 @@
     "composition": "White marble roof sloping into Oslofjord, viewed from the harbor promenade · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-003-16x9.png",
-    "file_4x5": "assets/no-01-003-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-003-16x9.png",
-          "sha256": "62ff7477e1ac78f7731217fa5822b5f4278493cdd322cfc19a289dfc4c879f3a"
-        },
-        "4x5": {
-          "path": "assets/no-01-003-4x5.png",
-          "sha256": "00ee2346ff5cc3f228a1aa1ce8863b0c94b3c1e7a697fffa720474717b0dde43"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-003-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d977684137eac1da3216f59c7f9964ea28d9406cf2aed687b01cbdd135a82f19"
-        },
-        "4x5": {
-          "path": "assets/no-01-003-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "86c53de1e9d1bb94f1c5b1cb5ea20f9a49f77025073418923ca6e53066b1745b"
-        }
-      },
-      "on_image_text": [
-        "Oslo Opera House, Oslo",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-003-4x5.png"
   },
   {
     "entry_id": "NO-01-004",
@@ -171,49 +45,7 @@
     "composition": "Granite cliff plateau jutting 600m over Lysefjorden, viewed from the plateau edge · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-004-16x9.png",
-    "file_4x5": "assets/no-01-004-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-004-16x9.png",
-          "sha256": "7936fe8cad207b49dab25e96e9647e987da7e9b3004f885aefd67cba49125178"
-        },
-        "4x5": {
-          "path": "assets/no-01-004-4x5.png",
-          "sha256": "da3ea292d3a798c6c25a8c53f72332085e98c6fab20fb38f0893fa45306c5e04"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-004-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "8477caec6435bd850e5dd6f8ccdcdc6691780579754e254f0cfde2fb91aa5d7f"
-        },
-        "4x5": {
-          "path": "assets/no-01-004-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "e2c9d5a34ea9474772db65872c1108f38cdb5a66f25b2a8b2a877dd208dbbd3c"
-        }
-      },
-      "on_image_text": [
-        "Preikestolen, Stavanger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-004-4x5.png"
   },
   {
     "entry_id": "NO-01-005",
@@ -225,49 +57,7 @@
     "composition": "Curved wooden viewing platform over Aurlandsfjord, fjord and mountains beyond · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-005-16x9.png",
-    "file_4x5": "assets/no-01-005-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-005-16x9.png",
-          "sha256": "cddb1e247fc1d726d728312fa48b7b5cbfafd21bf2a13702349034795d99eeb5"
-        },
-        "4x5": {
-          "path": "assets/no-01-005-4x5.png",
-          "sha256": "d05da91839e57a2bdb62f6a979f9f1985394996647a3092822782edd52d3a86c"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-005-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "a25775a9dcccb0fbae85a34fd3b3458c3220e2a5a0f4a0feb84590c0b01a7e57"
-        },
-        "4x5": {
-          "path": "assets/no-01-005-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "a93894cac1bb584c948d58e1e9ce585bd79c845cb70f3a934083fe2e7552cb9c"
-        }
-      },
-      "on_image_text": [
-        "Stegastein viewpoint, Aurland",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-005-4x5.png"
   },
   {
     "entry_id": "NO-01-006",
@@ -279,49 +69,7 @@
     "composition": "Jagged Lofoten peaks rising over Reine fishing village and Reinefjorden, viewed from the Reinebringen ridge trail · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-006-16x9.png",
-    "file_4x5": "assets/no-01-006-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-006-16x9.png",
-          "sha256": "8085ec00792d1913c04af1593ec86476a7e7247dc98bfc295a0f998301d5386f"
-        },
-        "4x5": {
-          "path": "assets/no-01-006-4x5.png",
-          "sha256": "0064ef6eed16a77cb70ae878027db0e2f06d3e6c297ec63bc2d71644ada6c4c5"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-006-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "e0e40dbd3efe8a6a523b28cb6dcbe7f4e3b0a274e67eee84e5aa7f56985892c2"
-        },
-        "4x5": {
-          "path": "assets/no-01-006-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "aa9b2d51f5217c2e2e753b2b14843a3f6fa2efc493e814ec2f6d9e652486a5af"
-        }
-      },
-      "on_image_text": [
-        "Reinebringen, Reine",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-006-4x5.png"
   },
   {
     "entry_id": "NO-01-007",
@@ -333,49 +81,7 @@
     "composition": "Dark tarred stave church with tiered roofs and dragon heads, viewed from the churchyard · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-007-16x9.png",
-    "file_4x5": "assets/no-01-007-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-007-16x9.png",
-          "sha256": "28564c6808ecaa3b46b81e39c1fb22c6dea1ff8c2e1fdbf60ca81f5c16df4050"
-        },
-        "4x5": {
-          "path": "assets/no-01-007-4x5.png",
-          "sha256": "e6e825810614ac5dd19e4b1a4f73595cb25d267c0157dc7929468206480a5ba1"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-007-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d81f0dc59056f04c0b141ac18ac7e7a0f2fcc3d4f006c36196608fbdd5f8b14f"
-        },
-        "4x5": {
-          "path": "assets/no-01-007-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "64ed909922d33c3690b6ef2e0cdda020b9b67f8682568de3f8d62a15d7c3390d"
-        }
-      },
-      "on_image_text": [
-        "Borgund Stave Church, Lærdal",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-007-4x5.png"
   },
   {
     "entry_id": "NO-01-008",
@@ -387,49 +93,7 @@
     "composition": "Storseisundet Bridge curving dramatically over the ocean, viewed from the roadside viewpoint · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-008-16x9.png",
-    "file_4x5": "assets/no-01-008-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-008-16x9.png",
-          "sha256": "5ded82fb2b21092c437653b01e61c6442f90a9a5eaa7d381a026d72e03a3ab29"
-        },
-        "4x5": {
-          "path": "assets/no-01-008-4x5.png",
-          "sha256": "e4b865e6c149c4f4d733d4a9d57a9153b415a96ea4e907d1bc6c1a3b146f7bdb"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-008-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "81403882722fce7b1528b3736940e85e99deb74dce4dd6bf6c103cbc5ff7fe5e"
-        },
-        "4x5": {
-          "path": "assets/no-01-008-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "715ec7ff55f726a80dc22234be645139ba05c25489ff2e74751d815eb7f63adb"
-        }
-      },
-      "on_image_text": [
-        "Atlantic Road, Averøy",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-008-4x5.png"
   },
   {
     "entry_id": "NO-01-009",
@@ -441,49 +105,7 @@
     "composition": "Gothic cathedral west front with rows of statues, viewed from the cathedral green · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-009-16x9.png",
-    "file_4x5": "assets/no-01-009-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-009-16x9.png",
-          "sha256": "86d636722498661b0064bf06120a38f2536b8c6006d29214d646afe7e9bfb3f8"
-        },
-        "4x5": {
-          "path": "assets/no-01-009-4x5.png",
-          "sha256": "31a0edd3b54b64e39fd9782fa8a6b25271479e8f8b2aca638cf4c60e8baf36be"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-009-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "4596475c7b6deb2a2bccfcd68ff91b7812c85f200a0e70d785e2755e1e497a9c"
-        },
-        "4x5": {
-          "path": "assets/no-01-009-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "b18c3a2be6899fbdda452e65a972bb9c30c74e846c46ba4f6fa843dd27143243"
-        }
-      },
-      "on_image_text": [
-        "Nidaros Cathedral, Trondheim",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-009-4x5.png"
   },
   {
     "entry_id": "NO-01-010",
@@ -495,49 +117,7 @@
     "composition": "Cliff plateau with the globe monument at Europe's northern edge, Barents Sea horizon · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-010-16x9.png",
-    "file_4x5": "assets/no-01-010-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-010-16x9.png",
-          "sha256": "4ac845927a226d5eab714d8a90445c15b852d5dc5f7088a5d2ca47a990114b7c"
-        },
-        "4x5": {
-          "path": "assets/no-01-010-4x5.png",
-          "sha256": "04b7a8de31c6aa8a8a87564ddd2c5b82612161d213a039f694fb41babc12b04a"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-010-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "ce62eb63bd2157b1804c04d4c9c996806bf412ac71025c4401b930c7c7c98fcd"
-        },
-        "4x5": {
-          "path": "assets/no-01-010-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "d2395b50b5b833c31ed6c8d641d6426e98a3ff5293010ea28f82516e07af84f7"
-        }
-      },
-      "on_image_text": [
-        "North Cape, Honningsvåg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-010-4x5.png"
   },
   {
     "entry_id": "NO-01-011",
@@ -549,49 +129,7 @@
     "composition": "Oldest stave church above Lustrafjorden, wooden shingles and carved portal · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-011-16x9.png",
-    "file_4x5": "assets/no-01-011-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-011-16x9.png",
-          "sha256": "16034cffa50241e965141bb992d4021dfd255cdc8ae21d2e27a1fe95feaa14a3"
-        },
-        "4x5": {
-          "path": "assets/no-01-011-4x5.png",
-          "sha256": "3217afa71c39a71d1a3595773cb8586186e2d480adf5cff5a2c39de5dead6d8f"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-011-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "30864af46602aeab6b426762f0f295e176420cead1af83ed4b47d9b640c36e99"
-        },
-        "4x5": {
-          "path": "assets/no-01-011-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "39c9be0c11ae43ec649373851c47afb1b0046412aca62d35cb07ca7440104f6e"
-        }
-      },
-      "on_image_text": [
-        "Urnes Stave Church, Luster",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-011-4x5.png"
   },
   {
     "entry_id": "NO-01-012",
@@ -603,49 +141,7 @@
     "composition": "Serpentine mountain road with eleven hairpins and Stigfossen waterfall, viewed from the plateau viewpoint · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-012-16x9.png",
-    "file_4x5": "assets/no-01-012-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-012-16x9.png",
-          "sha256": "9f5bb9652660a6b4fe974542211deb047a6a237c9df1cd80a720649587a5819b"
-        },
-        "4x5": {
-          "path": "assets/no-01-012-4x5.png",
-          "sha256": "a1ae7edf7bbf06d18cb381b12fa9825f6e20b352182802b88e27bbdf8496312b"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-012-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "5796a5096381c87276e8757f47f60d55735576100d0cd4394ab9cd7ce9094d2a"
-        },
-        "4x5": {
-          "path": "assets/no-01-012-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "003734cd94c990ec4b6d1f860f941985222a07865ba7165c5fd0683575806419"
-        }
-      },
-      "on_image_text": [
-        "Trollstigen, Åndalsnes",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-012-4x5.png"
   },
   {
     "entry_id": "NO-01-013",
@@ -657,49 +153,7 @@
     "composition": "Granite sculptures along the Frogner Park axis, the Monolith rising at the far end · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-013-16x9.png",
-    "file_4x5": "assets/no-01-013-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-013-16x9.png",
-          "sha256": "ad38bb8aebf6bfed176ff5985f8c39e9fb5edb86db42b1dacf57cddc9e8d6d99"
-        },
-        "4x5": {
-          "path": "assets/no-01-013-4x5.png",
-          "sha256": "551acb4d1d6a589475699ca11f59557a3a7949451a2471fe0099b9e4dfd3cd37"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-013-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "e28f5aa72fd7896cb25db22ad9fd7941300d0d681cdb2771a5a639db922b54bd"
-        },
-        "4x5": {
-          "path": "assets/no-01-013-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "8e9cca02f1285f4f74a126931fb1e9de81015cf714693aa9f1962f001d35bf6b"
-        }
-      },
-      "on_image_text": [
-        "Vigeland Park, Oslo",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-013-4x5.png"
   },
   {
     "entry_id": "NO-01-014",
@@ -735,49 +189,7 @@
     "composition": "Rock ledge jutting horizontally over Ringedalsvatnet lake, viewed from the ledge approach · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-016-16x9.png",
-    "file_4x5": "assets/no-01-016-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-016-16x9.png",
-          "sha256": "29c561ba8431c1579dbd7d982e502d984eeb3145d288187eadd1a2a8dcf7994f"
-        },
-        "4x5": {
-          "path": "assets/no-01-016-4x5.png",
-          "sha256": "f4122f6613f8b160cff7ffe223bdaa3c46e01bdf534d4ea6117844127ed7cf1e"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-016-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "4c6913e79ebc73b17eca3cafe6c7dffcb4e3b9693d52eddbf844f4fd625d297d"
-        },
-        "4x5": {
-          "path": "assets/no-01-016-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "5b643c1088090cf1d8d7fd9d646097cb0f9e113221f2d926f74a74bdfb420b62"
-        }
-      },
-      "on_image_text": [
-        "Trolltunga, Odda",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-016-4x5.png"
   },
   {
     "entry_id": "NO-01-017",
@@ -789,49 +201,7 @@
     "composition": "Waterfall curtain dropping into Geirangerfjord, viewed from the fjord · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-017-16x9.png",
-    "file_4x5": "assets/no-01-017-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-017-16x9.png",
-          "sha256": "48ce5de2a165f4e4ed1bd62dddcac99299b7ed2e7ebfdb214067691f8f91d1ec"
-        },
-        "4x5": {
-          "path": "assets/no-01-017-4x5.png",
-          "sha256": "38cee0d397c8b77605bc828d78faa08eebdce25942a12e31eb5afe0ca0cb0c0a"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-017-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "4e5b64e32425302df37a337f28be6adf1bcd363ec715bf31d3bb077de04c2e76"
-        },
-        "4x5": {
-          "path": "assets/no-01-017-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "90f6c0d2fbbd2484bac87b3184f999512274b7e1826edc5fea97f8dd29258e04"
-        }
-      },
-      "on_image_text": [
-        "Seven Sisters waterfall, Geiranger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-017-4x5.png"
   },
   {
     "entry_id": "NO-01-018",
@@ -843,49 +213,7 @@
     "composition": "Glass-floored skywalk platform 1500m above Geirangerfjord · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-018-16x9.png",
-    "file_4x5": "assets/no-01-018-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-018-16x9.png",
-          "sha256": "52aad74904a3af7e5c27b1631cf6a9a06e05e0090daed2ad8f950e6d33b90929"
-        },
-        "4x5": {
-          "path": "assets/no-01-018-4x5.png",
-          "sha256": "292903249fbc79e805ad88a22a84c4b9c61a59294336a5ce307a82bbaff41aa9"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-018-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "bea4bfc290c465faf1a79719f4a52cdff3112872c5238256bc1d0f226acb43c7"
-        },
-        "4x5": {
-          "path": "assets/no-01-018-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "7d8034b05bbe817c505a4d82e2e507cb95d5cf90d0fa18c814318f717da49bed"
-        }
-      },
-      "on_image_text": [
-        "Dalsnibba Skywalk, Geiranger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-018-4x5.png"
   },
   {
     "entry_id": "NO-01-019",
@@ -897,49 +225,7 @@
     "composition": "City, harbor and fjord panorama from the Fløyen terrace · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-019-16x9.png",
-    "file_4x5": "assets/no-01-019-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-019-16x9.png",
-          "sha256": "ebe1b5f9fb632ae97811345547d46640c268e4f1eeee2c3321703c4d633c5a4d"
-        },
-        "4x5": {
-          "path": "assets/no-01-019-4x5.png",
-          "sha256": "abba99930c4ad75a37ece0e2d0e6e2e22833deaf11d331723aa884e0c24eb26d"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-019-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d2c256b944bdbfe720274d79408853eda41162738b6eafff7315897f839b9ea1"
-        },
-        "4x5": {
-          "path": "assets/no-01-019-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "d2c704e411bc5860bd86b9ea976187d8a943829c529af43d120703a6ac6ba20a"
-        }
-      },
-      "on_image_text": [
-        "Mount Fløyen, Bergen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-019-4x5.png"
   },
   {
     "entry_id": "NO-01-020",
@@ -951,49 +237,7 @@
     "composition": "Rosenkrantz Tower and medieval fortress walls above the harbor · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-020-16x9.png",
-    "file_4x5": "assets/no-01-020-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-020-16x9.png",
-          "sha256": "32d9aa48013c7a15bc28e5d07e1a429b3351837c47f9a93c02b087907d9fc5d1"
-        },
-        "4x5": {
-          "path": "assets/no-01-020-4x5.png",
-          "sha256": "96d43e8b8f1e3d234e898f09ff020917947ad17e3f36976c689b9f692b4d0636"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-020-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "f97f901fd58435b28cf02e1f1359de9fff1f380a8335ac05fa030012077217a5"
-        },
-        "4x5": {
-          "path": "assets/no-01-020-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "43313f1a28fce98f3ca03c3c7ee96273d4fc2e90abdf09878decf97b208fd140"
-        }
-      },
-      "on_image_text": [
-        "Bergenhus Fortress, Bergen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-020-4x5.png"
   },
   {
     "entry_id": "NO-01-021",
@@ -1005,49 +249,7 @@
     "composition": "Fish market stalls and boats along the Bergen harbor · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-021-16x9.png",
-    "file_4x5": "assets/no-01-021-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-021-16x9.png",
-          "sha256": "a2c97245d32aa503e8a6f4bb43e6b896cd6a36b24b57485b899c84cb00db384e"
-        },
-        "4x5": {
-          "path": "assets/no-01-021-4x5.png",
-          "sha256": "24f576503e0f28436f9a38ea852324ca9aebe856eaa266ad8f357af55160a09f"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-021-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "a8d64606cdb915d9d5eff76d670cde2916536b962a4965da4953f7f87de9879a"
-        },
-        "4x5": {
-          "path": "assets/no-01-021-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "adb008f0bdf3bb861ecbf04841c2daffeed1ac616ab9b1f65307f91c68ef9adb"
-        }
-      },
-      "on_image_text": [
-        "Fisketorget, Bergen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-021-4x5.png"
   },
   {
     "entry_id": "NO-01-022",
@@ -1059,49 +261,7 @@
     "composition": "Medieval fortress ramparts above Oslofjord · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-022-16x9.png",
-    "file_4x5": "assets/no-01-022-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-022-16x9.png",
-          "sha256": "7ec8a6a1276c158a2eaa21fbc97065be9c331400debe5addcab613a136b3581b"
-        },
-        "4x5": {
-          "path": "assets/no-01-022-4x5.png",
-          "sha256": "49860615fce44c28d79e0fb23de50def44e4320429a69565c9d5c254da99964e"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-022-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "564043e6b15d6a5d4c22e609a8b726bd533746ea30ea8af14b00972dceaaa8c1"
-        },
-        "4x5": {
-          "path": "assets/no-01-022-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "272225529b49c931ba5027527eb3f6755adee77cb5c43784521a7be01a97792e"
-        }
-      },
-      "on_image_text": [
-        "Akershus Fortress, Oslo",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-022-4x5.png"
   },
   {
     "entry_id": "NO-01-023",
@@ -1113,49 +273,7 @@
     "composition": "Modern waterfront promenade with the Oslofjord beyond · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-023-16x9.png",
-    "file_4x5": "assets/no-01-023-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-023-16x9.png",
-          "sha256": "93ad2f6d2e82d95c1f7ca24e247b3329f147848de51e524fe9fa37c4a8f62ffc"
-        },
-        "4x5": {
-          "path": "assets/no-01-023-4x5.png",
-          "sha256": "7461ee4ce0e688835dc25e9534a41e1ff780c1fd8a065d80eaac77c15f2fbe6f"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-023-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "1e500fc672b2ca134864d1ed7757906a667a4ccc342eaf1d5cd928debdf456da"
-        },
-        "4x5": {
-          "path": "assets/no-01-023-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "a95656c1d700925f03d054a0b66ae13e68a2abf887aa1acdd12c90bdb1586390"
-        }
-      },
-      "on_image_text": [
-        "Aker Brygge, Oslo",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-023-4x5.png"
   },
   {
     "entry_id": "NO-01-024",
@@ -1167,49 +285,7 @@
     "composition": "Palace facade and gardens at the end of Karl Johans gate · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-024-16x9.png",
-    "file_4x5": "assets/no-01-024-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-024-16x9.png",
-          "sha256": "794ff3b7eaaa5861b8f116bc06208c847d88234c20eb8c3e4ae23919d79ddbb0"
-        },
-        "4x5": {
-          "path": "assets/no-01-024-4x5.png",
-          "sha256": "8507d36fae1b66c00df7d5cabfe01984fb44ee317bba21d8025828e0263d6237"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-024-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "77d66430ec25fcba5363ccb31fc8c8314a5cca45def352c6cdb3c7125a5b2b09"
-        },
-        "4x5": {
-          "path": "assets/no-01-024-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "da5eab27540ac36431c6341df3a9c2b254e6338a4cce116a34ec5752255b4889"
-        }
-      },
-      "on_image_text": [
-        "Royal Palace, Oslo",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-024-4x5.png"
   },
   {
     "entry_id": "NO-01-025",
@@ -1221,49 +297,7 @@
     "composition": "White wooden houses along the cobbled old harbor street · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-025-16x9.png",
-    "file_4x5": "assets/no-01-025-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-025-16x9.png",
-          "sha256": "0ed7ec7eda0268d7e86afe6221f9f6bc1372d74aa9cc898b26ee3266461d7bb0"
-        },
-        "4x5": {
-          "path": "assets/no-01-025-4x5.png",
-          "sha256": "db584ef4bb1f3810966309a7850da7cad3ab892367670fbd3d846871f7f27473"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-025-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "de8b1b8c37a00ef122e062392bc0e5ad886acfeef420ed92f729e049690e89cf"
-        },
-        "4x5": {
-          "path": "assets/no-01-025-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "7652a1c4409d2fb169d395e555845e0a0177706ea715e13d379f16d31eb5178b"
-        }
-      },
-      "on_image_text": [
-        "Old Stavanger, Stavanger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-025-4x5.png"
   },
   {
     "entry_id": "NO-01-026",
@@ -1275,49 +309,7 @@
     "composition": "Three giant bronze swords planted on the Hafrsfjord shore · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-026-16x9.png",
-    "file_4x5": "assets/no-01-026-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-026-16x9.png",
-          "sha256": "f7307f11b62c5272411f54b383739da6a24c8db0b385fff2ee920412e6026ae1"
-        },
-        "4x5": {
-          "path": "assets/no-01-026-4x5.png",
-          "sha256": "e58d13d543100963eb2ee1c54a5864f9961be8800a7af18e79f5a9d3d60ce325"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-026-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "b43b22a9f1bb4f4846be44a1cd4ded71b8712fd68b3e66b219f068f748c98f14"
-        },
-        "4x5": {
-          "path": "assets/no-01-026-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "f6e11657d222725ef252b0b7efa6dbe83434794da4bc978125007848974421f7"
-        }
-      },
-      "on_image_text": [
-        "Sverd i fjell, Stavanger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-026-4x5.png"
   },
   {
     "entry_id": "NO-01-027",
@@ -1329,49 +321,7 @@
     "composition": "Mountain railway curving through the steep Flåm valley · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-027-16x9.png",
-    "file_4x5": "assets/no-01-027-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-027-16x9.png",
-          "sha256": "047ea4203f24e606c9409f7f20b14d37471029f57db4287a657004e63b00175c"
-        },
-        "4x5": {
-          "path": "assets/no-01-027-4x5.png",
-          "sha256": "2e81e7a5b9953848277b8642fd0cb99a39797779f97bdbbf7bbafd817a536e10"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-027-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "552503461c6909c72917f500364c3cf8eff6add02cb4a9ae241536e336a5090a"
-        },
-        "4x5": {
-          "path": "assets/no-01-027-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "d0dc8e935e06f96d4051518504245caf76e3a440aff33aacbc75cfa39175cea1"
-        }
-      },
-      "on_image_text": [
-        "Flåm Railway, Aurland",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-027-4x5.png"
   },
   {
     "entry_id": "NO-01-028",
@@ -1383,49 +333,7 @@
     "composition": "Tiny fjord hamlet with Norway's smallest stave church · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-028-16x9.png",
-    "file_4x5": "assets/no-01-028-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-028-16x9.png",
-          "sha256": "168eaaed7d6cd1e992b52d6aa99f9a779f58e7ed1ac62ae8ffad4c731d2196de"
-        },
-        "4x5": {
-          "path": "assets/no-01-028-4x5.png",
-          "sha256": "20d2dfc229a2ecfa9d8dd31ec01897e315c0947c64f1bc9342f7a364db6d3e1f"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-028-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "fd17796f2a592c70794959a425c767c3537cea1a75cad98b1316d7ca4b49c971"
-        },
-        "4x5": {
-          "path": "assets/no-01-028-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "e1bbabc74d55971853d554e5ba7cbc8224ae7ee220cc3f60716da1644140e97d"
-        }
-      },
-      "on_image_text": [
-        "Undredal, Aurland",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-028-4x5.png"
   },
   {
     "entry_id": "NO-01-029",
@@ -1437,49 +345,7 @@
     "composition": "Red rorbu fishing cabins along the shore at Lofoten's tip · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-029-16x9.png",
-    "file_4x5": "assets/no-01-029-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-029-16x9.png",
-          "sha256": "57d92d7a0ae1962987ad455ccfa2d7f9d6a81716043a1f6e236a2e2bf81daf56"
-        },
-        "4x5": {
-          "path": "assets/no-01-029-4x5.png",
-          "sha256": "032f2225acb2cfdc982ad3cf496f95202b068ca977693f0f123e31c35e3ffbd1"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-029-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "28652c2557062c7a9142a118cbe579e90a50faef86eb6d0a245a3b25cec3d746"
-        },
-        "4x5": {
-          "path": "assets/no-01-029-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "8cf0c2722e825c355c22c09a3585ad1556f8976db311c4158a7394f1f5b93b73"
-        }
-      },
-      "on_image_text": [
-        "Å village, Moskenes",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-029-4x5.png"
   },
   {
     "entry_id": "NO-01-030",
@@ -1491,49 +357,7 @@
     "composition": "Fishing village and its island football pitch among skerries · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-030-16x9.png",
-    "file_4x5": "assets/no-01-030-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-030-16x9.png",
-          "sha256": "c8ffdaaabb6142c0833efd2115888968edf519f655ab68df8fc76787fbee74b6"
-        },
-        "4x5": {
-          "path": "assets/no-01-030-4x5.png",
-          "sha256": "2d13d5045edf52c56be08acaae932348fbf4fd88cbec405d2c0bf0dfb799a070"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-030-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "b7c64edf329561d85242fdf7aa99228c71b0307688c356e9792352e7ccf53cb8"
-        },
-        "4x5": {
-          "path": "assets/no-01-030-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "dc7b26b323be0dbe810b84eaa7dd6545bd1366347aa6103a7c5ee2644c421923"
-        }
-      },
-      "on_image_text": [
-        "Henningsvær, Vågan",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-030-4x5.png"
   },
   {
     "entry_id": "NO-01-031",
@@ -1557,49 +381,7 @@
     "composition": "Colorful wooden houses along the Nidelva river · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-032-16x9.png",
-    "file_4x5": "assets/no-01-032-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-032-16x9.png",
-          "sha256": "767b4f95af049899d10f70360f880e0fd72ca27842b348f45b11c6943e5f11bb"
-        },
-        "4x5": {
-          "path": "assets/no-01-032-4x5.png",
-          "sha256": "5a5a66fbbf397fb0aaa596c47c8ecd66ab97d16339fc0a67f6ff83abb9a817da"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-032-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "840aa1b07a5217aebcbeb55298a56671df7776b0ee83caf92bd0ebb03bead9f7"
-        },
-        "4x5": {
-          "path": "assets/no-01-032-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "09234e2e10ab555808df231b8656805a293291cb70e683ba4481eba634d1e94a"
-        }
-      },
-      "on_image_text": [
-        "Bakklandet, Trondheim",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-032-4x5.png"
   },
   {
     "entry_id": "NO-01-033",
@@ -1611,49 +393,7 @@
     "composition": "Fortress ramparts with the city and fjord below · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-033-16x9.png",
-    "file_4x5": "assets/no-01-033-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-033-16x9.png",
-          "sha256": "304e63a54ee7df68788f05e1fac387891ad6a97c72488cdd497b80f2a49ac469"
-        },
-        "4x5": {
-          "path": "assets/no-01-033-4x5.png",
-          "sha256": "041b4a903706133fba98ac459f1935adaaa7e4913067f343b32f89fc37fdc2bf"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-033-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "5f3c774dc0b65874e591ee40be0b5739fa7a421ac844c663d2065475bc5cc5c7"
-        },
-        "4x5": {
-          "path": "assets/no-01-033-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "a933106843784796ab64e554b9891bae1c69100f9aebabc1b6310ad656bdf864"
-        }
-      },
-      "on_image_text": [
-        "Kristiansten Fortress, Trondheim",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-033-4x5.png"
   },
   {
     "entry_id": "NO-01-034",
@@ -1665,49 +405,7 @@
     "composition": "Fishing hamlet below the North Cape plateau · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-034-16x9.png",
-    "file_4x5": "assets/no-01-034-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-034-16x9.png",
-          "sha256": "750935f23edcba2ccfe871f3e4f278df5458f22a6a35cbbedd7b812aaba984d0"
-        },
-        "4x5": {
-          "path": "assets/no-01-034-4x5.png",
-          "sha256": "d719ccddb4acbcb15ffe48101dc9c9c3a61df2764cb4a89996745c3d79583bd0"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-034-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "2d8c4a61645aa7676db71033f5fd2627f59752167dccabda3b258e339521a687"
-        },
-        "4x5": {
-          "path": "assets/no-01-034-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "834f377868de1cfa699ac7c0cab4aa14c75ff3ef46b47a098ed89f7f272e21f4"
-        }
-      },
-      "on_image_text": [
-        "Skarsvåg, Nordkapp",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-034-4x5.png"
   },
   {
     "entry_id": "NO-01-035",
@@ -1719,49 +417,7 @@
     "composition": "Glacier tongue descending toward the meltwater lake · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-035-16x9.png",
-    "file_4x5": "assets/no-01-035-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-035-16x9.png",
-          "sha256": "28f66f544923f07057edd4bb0565c9bd0a49dd6454b619fb89b214b509bf6cbf"
-        },
-        "4x5": {
-          "path": "assets/no-01-035-4x5.png",
-          "sha256": "02c71a967d5646106929965de41bb556a35bc555afb665f0b94dccbb2421fdb2"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-035-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d3085c52fe46e09db38fc5d97a63e338925472c25721baaf9366e4927181dc5f"
-        },
-        "4x5": {
-          "path": "assets/no-01-035-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "fd152fc16088cf6f507c6b798744e46783f6ea42f45c5d6188c61ca3b029440e"
-        }
-      },
-      "on_image_text": [
-        "Nigardsbreen, Luster",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-035-4x5.png"
   },
   {
     "entry_id": "NO-01-036",
@@ -1773,49 +429,7 @@
     "composition": "Viewing platform jutting from the mountainside over Romsdalsfjord · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-036-16x9.png",
-    "file_4x5": "assets/no-01-036-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-036-16x9.png",
-          "sha256": "2dd0cad39ccd003a16587b5d254b95852236dcbc8917cad66f36e537aeae96b8"
-        },
-        "4x5": {
-          "path": "assets/no-01-036-4x5.png",
-          "sha256": "7292fd65bcd26f61e40820c8b55c2e64951ecdac1ac89d3d979d7a281cbf7508"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-036-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "4c9253014b8ccc8c13b34a4e4ea3752f8813cf32a22d63d6e1f6f73565ac960d"
-        },
-        "4x5": {
-          "path": "assets/no-01-036-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "ea20de27dae62deb0f3710b22c4a0045d9d3deed1e2b7dbbd4c9743824ab2c07"
-        }
-      },
-      "on_image_text": [
-        "Rampestreken, Åndalsnes",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-036-4x5.png"
   },
   {
     "entry_id": "NO-01-037",
@@ -1827,49 +441,7 @@
     "composition": "Historic copper mine works on the hillside above town · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-037-16x9.png",
-    "file_4x5": "assets/no-01-037-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-037-16x9.png",
-          "sha256": "df48451410f07425b148fc2af32b948eba04c0b6d531096335d57f0f082826e1"
-        },
-        "4x5": {
-          "path": "assets/no-01-037-4x5.png",
-          "sha256": "a28fc2578abd15439d9652f242a51fffb3dd3eb6fccc11f5869d293da7551724"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-037-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "bd1e1870480027b136578d7326aa861476343beb8d9bb4bb04afb12a9ea1ad56"
-        },
-        "4x5": {
-          "path": "assets/no-01-037-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "203738966ed5af2d6c4108102979a16e344e6a2022cf380033b7254574362e1c"
-        }
-      },
-      "on_image_text": [
-        "Olavsgruva, Røros",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-037-4x5.png"
   },
   {
     "entry_id": "NO-01-038",
@@ -1893,49 +465,7 @@
     "composition": "Cable car summit view over Tromsø island and the fjords · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-039-16x9.png",
-    "file_4x5": "assets/no-01-039-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-039-16x9.png",
-          "sha256": "1b614d0d33f0e3b7c7583ae5ffc7c2a3b3eeda4e2a778540d4b05b0e9a99690b"
-        },
-        "4x5": {
-          "path": "assets/no-01-039-4x5.png",
-          "sha256": "c7513cf94e7c67f7c570e748c58c5ca88cbeecfdf8da43605b2e52292786a5f4"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-039-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "0654c5c987f28c3c13a8bd7297da04e4939aed0d2f401da0323e26731a32407f"
-        },
-        "4x5": {
-          "path": "assets/no-01-039-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "04ee141b22e9ffaada5794eb4ae7ca9a7d50bc4e511a3fb8a715cd164573a163"
-        }
-      },
-      "on_image_text": [
-        "Fjellheisen, Tromsø",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-039-4x5.png"
   },
   {
     "entry_id": "NO-01-040",
@@ -1947,49 +477,7 @@
     "composition": "Twin waterfall plunging beneath the old stone bridge · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-040-16x9.png",
-    "file_4x5": "assets/no-01-040-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-040-16x9.png",
-          "sha256": "2240f377394ca78ab94f7dde88d793444530d4a6daabafaac1cfce64d741e65e"
-        },
-        "4x5": {
-          "path": "assets/no-01-040-4x5.png",
-          "sha256": "b5447bb18537d37d7735f6c651a796f235c695e07e5f9a26734e9478285dc89d"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-040-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "97e5facc04928c6e748dc43e8d84e349b27dccf0328f87de88e1eb17a4badd17"
-        },
-        "4x5": {
-          "path": "assets/no-01-040-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "ea399b938d7f9f746e1b2bcf1c29b708e13914df02cffbe9f34aaa67b9b10173"
-        }
-      },
-      "on_image_text": [
-        "Låtefossen, Odda",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-040-4x5.png"
   },
   {
     "entry_id": "NO-01-041",
@@ -2001,49 +489,7 @@
     "composition": "Waterfront boardwalk with boats and seafood stalls · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-041-16x9.png",
-    "file_4x5": "assets/no-01-041-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-041-16x9.png",
-          "sha256": "9b68e62135c247ba843f4620b530dc49c3f66e24975a433989745e713ed171f9"
-        },
-        "4x5": {
-          "path": "assets/no-01-041-4x5.png",
-          "sha256": "b6e4c287ca8de45e654fda59e39e82d2406200256f30c8159c3739c3432727d8"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-041-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "2825d0e49bdd7a2586c8d2fd362934934bdb5faacec899ce8cf287f98f928f11"
-        },
-        "4x5": {
-          "path": "assets/no-01-041-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "2edb52d1cf1ab26477960e0d29cf7e3b98669a462f0f80e2fa160c54db641fb1"
-        }
-      },
-      "on_image_text": [
-        "Fiskebrygga, Kristiansand",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-041-4x5.png"
   },
   {
     "entry_id": "NO-01-042",
@@ -2055,49 +501,7 @@
     "composition": "Seaside fortress cannons facing the Skagerrak · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-042-16x9.png",
-    "file_4x5": "assets/no-01-042-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-042-16x9.png",
-          "sha256": "7bfe8ae632a4ce1cd684a7ef09f95eb0386d102ebfa3129fbfd2d1b314a951eb"
-        },
-        "4x5": {
-          "path": "assets/no-01-042-4x5.png",
-          "sha256": "d0d3842ab736a992a964b8e2ccb68dc635c5899556bc78fa5d3473da5ab1a2a3"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-042-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "57813158f216ce3e596f5c66fc79824f880a65a742149ebeee24db1f056dc425"
-        },
-        "4x5": {
-          "path": "assets/no-01-042-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "dd420b0a2129e9c945c0795cf920b682f2d209ae5d6c3b8814408f1f3761f241"
-        }
-      },
-      "on_image_text": [
-        "Christiansholm Fortress, Kristiansand",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-042-4x5.png"
   },
   {
     "entry_id": "NO-01-043",
@@ -2109,49 +513,7 @@
     "composition": "City beach and promenade on a summer day · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-043-16x9.png",
-    "file_4x5": "assets/no-01-043-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-043-16x9.png",
-          "sha256": "fcda905105f7a36faa906996b3c3db70ad1ca1edfce9674c408e8cf63c54a40a"
-        },
-        "4x5": {
-          "path": "assets/no-01-043-4x5.png",
-          "sha256": "a668d43ff57ca3d852fd4571bb5d0559a53104c74ae7e6b0c63a91ce70a3e161"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-043-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "65646151ff8f2f54710ef23f3796f289212bc3d1eb95230a15a60f0f14b2c8ec"
-        },
-        "4x5": {
-          "path": "assets/no-01-043-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "b789b0e69af41557f46568fdbf140d3a085445a43db1bc89c1f031c01d67cbcf"
-        }
-      },
-      "on_image_text": [
-        "Bystranda, Kristiansand",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-043-4x5.png"
   },
   {
     "entry_id": "NO-01-044",
@@ -2163,49 +525,7 @@
     "composition": "Island fortress guarding the Oslofjord narrows · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-044-16x9.png",
-    "file_4x5": "assets/no-01-044-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-044-16x9.png",
-          "sha256": "0fa958bc9fab98b0bffd9005b7d81e3b9f5374ea6bb0eef126997c02e5ba201d"
-        },
-        "4x5": {
-          "path": "assets/no-01-044-4x5.png",
-          "sha256": "bcd4d3ff615148a15ecbc9d254670955db5814fa48b584199eaf7e12faacd8ea"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-044-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "0f1aa86b4421196563d1a734f6a291aec2571e0435ca4dcb2e390533156249a8"
-        },
-        "4x5": {
-          "path": "assets/no-01-044-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "e1ae3839ef08dade86298ed626b9ea13ee122cb1c9edebed47ab6590a12be218"
-        }
-      },
-      "on_image_text": [
-        "Oscarsborg Fortress, Drøbak",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-044-4x5.png"
   },
   {
     "entry_id": "NO-01-045",
@@ -2217,49 +537,7 @@
     "composition": "Old wooden houses and boats along the fjord shore · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-045-16x9.png",
-    "file_4x5": "assets/no-01-045-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-045-16x9.png",
-          "sha256": "cd1f3d4e6828d15ab097e707597592753c7797dec7ae5f9f793c99f65cb14444"
-        },
-        "4x5": {
-          "path": "assets/no-01-045-4x5.png",
-          "sha256": "9dbcc7310dfebaceb7188b6fc9500de6c52291de7fda3af9eb22ecb10c6a74ab"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-045-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d0b7cc3384412a8c99727270c57156c7a86d56e2413162771fce86b9136900b1"
-        },
-        "4x5": {
-          "path": "assets/no-01-045-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "ea1b96466f10aa1c5c2c34bf5e4538af7179d946ced1b6ee6030ac7e96dd5482"
-        }
-      },
-      "on_image_text": [
-        "Drøbak harbor, Drøbak",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-045-4x5.png"
   },
   {
     "entry_id": "NO-01-046",
@@ -2271,49 +549,7 @@
     "composition": "Manor house where Norway's constitution was signed · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-046-16x9.png",
-    "file_4x5": "assets/no-01-046-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-046-16x9.png",
-          "sha256": "543d16f5da87b7f192de2dc48aca829171be60a25e4595e7608eb8f986740394"
-        },
-        "4x5": {
-          "path": "assets/no-01-046-4x5.png",
-          "sha256": "8a405da07aedc6274e35774d3a2743404e198d77ca3e4b23a38355ed712ab4e1"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-046-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "b9ef7722f56b5ec011cabf907cc8d66ddb1bf8b56fd630aabae9b05aef9f16d0"
-        },
-        "4x5": {
-          "path": "assets/no-01-046-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "37026af81489cf8d7b45c82ec3322d56be1e8900b5fa5a68e82c22fb3b732271"
-        }
-      },
-      "on_image_text": [
-        "Eidsvoll Manor, Eidsvoll",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-046-4x5.png"
   },
   {
     "entry_id": "NO-01-047",
@@ -2325,49 +561,7 @@
     "composition": "Baroque church dominating the old mining town · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-047-16x9.png",
-    "file_4x5": "assets/no-01-047-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-047-16x9.png",
-          "sha256": "85d7401b4e9bf3a7e5a433fbbdcc4d801afaf8b00eb4d0c85fec82a11b87cdb9"
-        },
-        "4x5": {
-          "path": "assets/no-01-047-4x5.png",
-          "sha256": "813d28b12d44127dfe382e7ee497b2021adf7ce521ed0f635a7c606adad905f1"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-047-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "b868af18b1534e2b58730f0f113b589e0a69fded81631c0a1dc83daeaf31656e"
-        },
-        "4x5": {
-          "path": "assets/no-01-047-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "cb470cea3e20420f1215306c19f8a5f9e5a8efd65e23bb1df6d34aa644ec3560"
-        }
-      },
-      "on_image_text": [
-        "Kongsberg Church, Kongsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-047-4x5.png"
   },
   {
     "entry_id": "NO-01-048",
@@ -2379,49 +573,7 @@
     "composition": "Old mining town along the Numedalslågen · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-048-16x9.png",
-    "file_4x5": "assets/no-01-048-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-048-16x9.png",
-          "sha256": "460e38397eb3ddb7b0e9ab7057c56f90ec1729f5a040826b54cb47502febd5ed"
-        },
-        "4x5": {
-          "path": "assets/no-01-048-4x5.png",
-          "sha256": "0bc1229af93469edd1fb7640b54fa5274e88901f656d44a79dd7be3d455662d6"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-048-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "021d82b38f61c0a7c0cfd1b5e28ec348000a4eba9c7b1c3fc11a5577c0516159"
-        },
-        "4x5": {
-          "path": "assets/no-01-048-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "a81b816a560bbc60165a53ee94377b95f537b1af71ae08d70e2a586f3132c590"
-        }
-      },
-      "on_image_text": [
-        "Lågen riverfront, Kongsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-048-4x5.png"
   },
   {
     "entry_id": "NO-01-049",
@@ -2433,49 +585,7 @@
     "composition": "Rock tunnel spiraling up to the Skansen viewpoint · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-049-16x9.png",
-    "file_4x5": "assets/no-01-049-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-049-16x9.png",
-          "sha256": "d66dd82aa4f5b87208abd00a064aa650599186cc4756b6bfcdc3931172e704f9"
-        },
-        "4x5": {
-          "path": "assets/no-01-049-4x5.png",
-          "sha256": "b4f1577dda3b667defafe5df3e6b8051f7d3ae9a2ea3e710ae69a3dd3f676dda"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-049-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d81d441824d81ea6a73db874bbdab92cc0a62ca84e9078afb60b26eaa274fc3f"
-        },
-        "4x5": {
-          "path": "assets/no-01-049-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "a397c8429af63b228f9aa12d0c5133ebb2befa2a72ec7819f4b7b22fcae62cda"
-        }
-      },
-      "on_image_text": [
-        "Drammen Spiral, Drammen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-049-4x5.png"
   },
   {
     "entry_id": "NO-01-050",
@@ -2487,49 +597,7 @@
     "composition": "Open-air museum farmsteads above Lake Mjøsa · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-050-16x9.png",
-    "file_4x5": "assets/no-01-050-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-050-16x9.png",
-          "sha256": "556d30e1d34221d11416f3b0baae98f533a3a7c6fda089ba102663d8baacb7e8"
-        },
-        "4x5": {
-          "path": "assets/no-01-050-4x5.png",
-          "sha256": "9719b9ff4c20b58e631d3aa5f4069c3cd39393a88c30886fb20ebc15e8933137"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-050-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "130d49e09f84a2374a7bb773fa50f75966bd614c428e0c7642efd2253ea3b004"
-        },
-        "4x5": {
-          "path": "assets/no-01-050-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "8b96e77997373773d85f8375ec0f99f00e0633d91e541a01f000cac3bf436727"
-        }
-      },
-      "on_image_text": [
-        "Maihaugen, Lillehammer",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-050-4x5.png"
   },
   {
     "entry_id": "NO-01-051",
@@ -2541,49 +609,7 @@
     "composition": "Olympic ski jumps towering over the town · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-051-16x9.png",
-    "file_4x5": "assets/no-01-051-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-051-16x9.png",
-          "sha256": "71c90a4322c50ed8f86188343a71adf7530fce973fcb98ed9587232900c729a5"
-        },
-        "4x5": {
-          "path": "assets/no-01-051-4x5.png",
-          "sha256": "b96cbdfd382527bd4f79edc291bc60e7309a1afe424e6d69572ae6ba83e826e7"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-051-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "f510760ec395272b829169f773bf84fd0804f6ca6b868b6108fd2f3eb8061fa6"
-        },
-        "4x5": {
-          "path": "assets/no-01-051-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "1393c9c7190b2ef9f24fbdf6197d244fb5517b7f31cb39900eff38d9ee573de1"
-        }
-      },
-      "on_image_text": [
-        "Lysgårdsbakkene, Lillehammer",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-051-4x5.png"
   },
   {
     "entry_id": "NO-01-052",
@@ -2595,49 +621,7 @@
     "composition": "Medieval cathedral ruins under a glass shelter by Mjøsa · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-052-16x9.png",
-    "file_4x5": "assets/no-01-052-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-052-16x9.png",
-          "sha256": "e0f021430f8a372290bbdf46cf20f319f42c1922208e7795dd2e0a00d0c4e802"
-        },
-        "4x5": {
-          "path": "assets/no-01-052-4x5.png",
-          "sha256": "8152063c3104b6491a4b359e00b449b4ac9c031e0b0c6f4a3cdc2c661b1fd53c"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "assets/no-01-052-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "631793f3bcbba8dc419143a9ff6ee5e3af7b09cf10a8985b1d5921f852fce025"
-        },
-        "4x5": {
-          "path": "assets/no-01-052-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "84dbf7a5a8e93442cede6c47d8e874de2af2ac3c6970c8ba17874db8465089b2"
-        }
-      },
-      "on_image_text": [
-        "Domkirkeodden, Hamar",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-052-4x5.png"
   },
   {
     "entry_id": "NO-01-053",
@@ -3453,49 +1437,7 @@
     "composition": "Tourist view across the open-air museum grounds, old timber farm buildings arranged around the grassed courtyard with forest edge behind. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-120-16x9.png",
-    "file_4x5": "assets/no-01-120-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-120-16x9.png",
-          "sha256": "8c2ab254828bff86592e37d66e9f34f14d66e11dd32a19fff26d3e39722e0030"
-        },
-        "4x5": {
-          "path": "assets/no-01-120-4x5.png",
-          "sha256": "56d3b92c573455b9506bb5f5fc22e0b0f618b6b66f00ba3c5134177dceae066a"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Elverum/no-01-120-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "a85bab24ee3cb66af1782aad802258fda7e307cebf12ba9397fd0eb5931d5314"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Elverum/no-01-120-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "9b72e1c9ff9f4bb642e663f98e0c789ef8c4e8cd097ebe974d8ece89bae83ed3"
-        }
-      },
-      "on_image_text": [
-        "Glomdalsmuseet, Elverum",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-120-4x5.png"
   },
   {
     "entry_id": "NO-01-121",
@@ -3507,49 +1449,7 @@
     "composition": "Tourist view from the fortress courtyard looking over the star-shaped ramparts and old buildings, the town and Glomma valley falling away below. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-121-16x9.png",
-    "file_4x5": "assets/no-01-121-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-121-16x9.png",
-          "sha256": "62d91e5ec9e6bd00f42e03cbebbb0918d1d75830dae01a4dc9f06a9224ae7e40"
-        },
-        "4x5": {
-          "path": "assets/no-01-121-4x5.png",
-          "sha256": "df6e97ed571a49e219c990f57cb0a43d17847eef995630fb730b6cc803c5afce"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Kongsvinger/no-01-121-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "3b02ec9497df26414db366fe33b5ee83ab14d38780563ba22185a1dd9ed40cc8"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Kongsvinger/no-01-121-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "7bae8829dbd33070f165966dd5465a4c2f9b5cb9558fe46f548fa8510a72e8eb"
-        }
-      },
-      "on_image_text": [
-        "Kongsvinger Fortress, Kongsvinger",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-121-4x5.png"
   },
   {
     "entry_id": "NO-01-122",
@@ -3561,49 +1461,7 @@
     "composition": "Tourist view from the weathering-steel viewing ramp looking out over Dovrefjell's open fell toward the Snøhetta massif, the pavilion's angular form anchoring the foreground. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-122-16x9.png",
-    "file_4x5": "assets/no-01-122-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-122-16x9.png",
-          "sha256": "6f7742e090890ccff7fbdf1c2a9239e5757d15f0da6e3b62d2c7121d6c27a025"
-        },
-        "4x5": {
-          "path": "assets/no-01-122-4x5.png",
-          "sha256": "5f5d9bca49ddcdfdb90be05e8faa69b0ab45228e645aba40585d953d58437d76"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Hjerkinn/no-01-122-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "c9f6160a7832e824e948deafe708c5d7938b02e9721ee637f563edcdc1d0df6f"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Hjerkinn/no-01-122-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "f702bf389270c69696dc89b9425d17d03e12718b72ce916391765ceb58333b14"
-        }
-      },
-      "on_image_text": [
-        "Viewpoint Snøhetta, Hjerkinn",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-122-4x5.png"
   },
   {
     "entry_id": "NO-01-123",
@@ -3615,49 +1473,7 @@
     "composition": "Tourist view from the timber-and-stone viewing platform over Lake Atnsjøen and the rounded Rondane peaks rising beyond, pines framing the sides. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-123-16x9.png",
-    "file_4x5": "assets/no-01-123-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-123-16x9.png",
-          "sha256": "806e45009d986b1b280e6a0406582e1bfe38185c3c027e2fb7a97e44d6e093b8"
-        },
-        "4x5": {
-          "path": "assets/no-01-123-4x5.png",
-          "sha256": "7f473a45effe18a93719ae55effd33c8b8f2c9264eaa48476872b216369344e7"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Atnbrua/no-01-123-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "6d5a8187686b99cd936220aa80080ca53a0d1da9d0bd563c2eed1b4376b09671"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Atnbrua/no-01-123-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "ab243b5738a0df6c459fb25911a7f4a130a4e9e6109fe57b09488b8d2557f3bd"
-        }
-      },
-      "on_image_text": [
-        "Sohlbergplassen viewpoint, Atnbrua",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-123-4x5.png"
   },
   {
     "entry_id": "NO-01-124",
@@ -3669,49 +1485,7 @@
     "composition": "Tourist view of the rock-carved arena's facade and entrance at the base of the forested mountainside, the mountain hall sign above the glass frontage. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-124-16x9.png",
-    "file_4x5": "assets/no-01-124-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-124-16x9.png",
-          "sha256": "df33b06f9e43b25764375ab9f98d53c5ea4e0484d7a16a880d342fbbf8a04b96"
-        },
-        "4x5": {
-          "path": "assets/no-01-124-4x5.png",
-          "sha256": "417ddc1bb6a03a1a65d486da6116748be99a137182c815928b15c360f3417013"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Gjøvik/no-01-124-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d1470f03937f3f7e36ae51c01008e97d0f50a505cad82f5f97e5b63b91b201c2"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Gjøvik/no-01-124-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "de7471476ec4864f5ab6218abc1caed37269b18fbeb381b07486f556a83e88f3"
-        }
-      },
-      "on_image_text": [
-        "Gjøvik Olympic Cavern Hall, Gjøvik",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-124-4x5.png"
   },
   {
     "entry_id": "NO-01-125",
@@ -3723,49 +1497,7 @@
     "composition": "Tourist view from the open plateau trails over rolling spruce-covered ridges with scattered cabins, wide sky and mountain horizon beyond. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-125-16x9.png",
-    "file_4x5": "assets/no-01-125-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-125-16x9.png",
-          "sha256": "2affd0ee05a4c6d972c0db4bc7fd1539afe46c36ea2a879365beac2e3a2912f7"
-        },
-        "4x5": {
-          "path": "assets/no-01-125-4x5.png",
-          "sha256": "2d0a958c5e356e0ccd30cda3380057ecfcc031ed93616ac6fb59d120d8df3194"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Sjusjøen/no-01-125-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "1cfaaf18da5fe16efbd82d79112ab31914569b4582496997e7aea253dfc7789e"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Sjusjøen/no-01-125-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "0ca5fd1d37e67dc5057fd59beb0faa1075dbc35a96d00e65e88bcb68a3c6fe57"
-        }
-      },
-      "on_image_text": [
-        "Sjusjøen mountain plateau, Sjusjøen",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-125-4x5.png"
   },
   {
     "entry_id": "NO-01-126",
@@ -3777,49 +1509,7 @@
     "composition": "Tourist view from the street looking up at the tall timber tower's cross-braced wooden facade rising above the town rooftops. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-126-16x9.png",
-    "file_4x5": "assets/no-01-126-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-126-16x9.png",
-          "sha256": "07243ec81f72878606dee721ffe0fdff86bae359a83b8380f7656891154a4343"
-        },
-        "4x5": {
-          "path": "assets/no-01-126-4x5.png",
-          "sha256": "cea2f273185ac852ab05e9e57fdedf1d89fad54c8d5d10c6a9a7c9f012155328"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Brumunddal/no-01-126-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "0cc6f27b038b388d36a0a94f9037b0a0f073e010928a7c39b0970680d690fc1e"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Brumunddal/no-01-126-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "bfe374005477f7a61b33e841313c9502335e9866dc31b9288f2777d41e51c696"
-        }
-      },
-      "on_image_text": [
-        "Mjøstårnet, Brumunddal",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-126-4x5.png"
   },
   {
     "entry_id": "NO-01-127",
@@ -3831,49 +1521,7 @@
     "composition": "Tourist view from the valley lifts base looking up at the broad ski mountainside, slopes and lift lines climbing through forest to the summit ridge. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-127-16x9.png",
-    "file_4x5": "assets/no-01-127-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-127-16x9.png",
-          "sha256": "854e7ede0fab8eb176993f7754d63e711d443bc8041440532fcd6f25d90528c4"
-        },
-        "4x5": {
-          "path": "assets/no-01-127-4x5.png",
-          "sha256": "9d46745a7b15a281a56a31bc1d368963c8547079346639961c3e2100c1619cd2"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Trysil/no-01-127-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "fbd7906230a668ed1cfc3ce24bac1115c0e5d358325c25e83d915831113f7f9b"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Trysil/no-01-127-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "83ef353088a601b890c953e4e83530fb663a953cc61d1162daa2f4666573eca9"
-        }
-      },
-      "on_image_text": [
-        "Trysilfjellet, Trysil",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-127-4x5.png"
   },
   {
     "entry_id": "NO-01-128",
@@ -3885,49 +1533,7 @@
     "composition": "Tourist view from the churchyard path of the cruciform stave church with its elevated central tower, gravestones and old timber buildings in the foreground. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-128-16x9.png",
-    "file_4x5": "assets/no-01-128-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-128-16x9.png",
-          "sha256": "66a9572f650e11a0186c6458d73643ef267ee3533b51cf639c570f68ddb25787"
-        },
-        "4x5": {
-          "path": "assets/no-01-128-4x5.png",
-          "sha256": "b0e57e8ad765192ccb59287dfb213a99ce2c4bd4ed8860dd9e49580395f184ec"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Lom/no-01-128-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "7580eb742c323086ac4801232c2de9d0bbdabc123ed7b1865f8c6e8bf1a6d5b5"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Lom/no-01-128-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "7bbbd6589e8115607280e6b0f3ef4c531a84ff12d7e0b499e4b102d031db8e66"
-        }
-      },
-      "on_image_text": [
-        "Lom stave church, Lom",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-128-4x5.png"
   },
   {
     "entry_id": "NO-01-129",
@@ -3939,49 +1545,7 @@
     "composition": "Tourist view of the white wooden farmhouse of Bjørnstjerne Bjørnson's home set among birch trees and meadows, outbuildings alongside. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-129-16x9.png",
-    "file_4x5": "assets/no-01-129-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-129-16x9.png",
-          "sha256": "7ce0bd84087550e58ba3f178a596e6232989b0f180ea3d323300d52a90332b55"
-        },
-        "4x5": {
-          "path": "assets/no-01-129-4x5.png",
-          "sha256": "4db77e1ed6e683946300551d5732077dbd849c176d1c0342c8efe57149860cc8"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Follebu/no-01-129-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "2fd78e909686588e26362178b5a6625efec12e7f6b6a709c5d4102c9917b526e"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Follebu/no-01-129-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "6d5ff8934da9150cc131c706e97997204aeaf60eba57f2416c2e80ac6a99908f"
-        }
-      },
-      "on_image_text": [
-        "Aulestad, Follebu",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-129-4x5.png"
   },
   {
     "entry_id": "NO-01-130",
@@ -3993,49 +1557,7 @@
     "composition": "Low stone ruins of Scandinavia's largest round church, viewed at street level from Storgaten beside the Tønsberg library. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-130-16x9.png",
-    "file_4x5": "assets/no-01-130-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-130-16x9.png",
-          "sha256": "f152545d8c267beb3e5486b3b256d20d86e87d5d771d03b5fd075f9863849d36"
-        },
-        "4x5": {
-          "path": "assets/no-01-130-4x5.png",
-          "sha256": "e5f46ec55c98a4223af7b7431433dd0a237661e5bddc6ea5558529b3ae7805b3"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Tønsberg/no-01-130-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "70385c440345b7e615fcd6a1ec56cae018983bb2c179d031285f29f2b8b6f46d"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Tønsberg/no-01-130-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "657d6944d77e2cadc0c789dcc255c411c12ef10b0e59ea118e506e10617cfbe9"
-        }
-      },
-      "on_image_text": [
-        "St. Olav's Abbey Ruins, Tønsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-130-4x5.png"
   },
   {
     "entry_id": "NO-01-131",
@@ -4047,49 +1569,7 @@
     "composition": "Neo-Gothic cathedral spire rising over the old town, viewed from the harbour promenade across the canal. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-131-16x9.png",
-    "file_4x5": "assets/no-01-131-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-131-16x9.png",
-          "sha256": "168d20bd80f95a7ca62a657b02c5bf6592e5f455d2da6c745a6e623304f33c71"
-        },
-        "4x5": {
-          "path": "assets/no-01-131-4x5.png",
-          "sha256": "06d5b0465d1decb36df9694236a53a39bda3656dde39ece19f377eee6d7b5a22"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Tønsberg/no-01-131-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "d55980cb871dc0e6848f9ac65601dfd94af7d5ff053b6549309a5fc52d3010f7"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Tønsberg/no-01-131-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "c15051dfe28fc4612bc1b60c105b4dcf6d617c20b8f6011f04bc9387bdf260c7"
-        }
-      },
-      "on_image_text": [
-        "Tønsberg Cathedral, Tønsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-131-4x5.png"
   },
   {
     "entry_id": "NO-01-132",
@@ -4101,49 +1581,7 @@
     "composition": "Colourful wooden houses lining the wharf, viewed along the waterfront promenade with boats moored in front. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-132-16x9.png",
-    "file_4x5": "assets/no-01-132-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-132-16x9.png",
-          "sha256": "f3e1df2f147f6c25dd6c68527c9d7c1d27b2796320aa8afa80d1dc660bfacdb8"
-        },
-        "4x5": {
-          "path": "assets/no-01-132-4x5.png",
-          "sha256": "2d329ea880d63f5de91fe95aec02583ef17e41660e6505d1a8e5b2f9a9b7f1a6"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Tønsberg/no-01-132-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "a4b0654597a88fd5103b4bbf77ae558f07e3a01771d18d0953055b4d4edeea9e"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Tønsberg/no-01-132-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "39a4161a51368d4adaef1c1a60a9cb7de50251d24fffe3255ab49719d40d2ea5"
-        }
-      },
-      "on_image_text": [
-        "Tønsberg Wharf, Tønsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-132-4x5.png"
   },
   {
     "entry_id": "NO-01-133",
@@ -4167,49 +1605,7 @@
     "composition": "Red-brick art museum in the former navigation school, viewed from Haugar park among the surrounding greenery. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-134-16x9.png",
-    "file_4x5": "assets/no-01-134-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-134-16x9.png",
-          "sha256": "83ae22576ae6e1743459fde5b3ff5526e2e770daf18d8365cc261f3baad54c06"
-        },
-        "4x5": {
-          "path": "assets/no-01-134-4x5.png",
-          "sha256": "907de56bf306ecf37f630079ca8ed30c55b628bbe12fe497ba75c26f3c4cf3a4"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Tønsberg/no-01-134-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "472086a5e276faf37dfb84595d3d78a52283177f8c0c3da08d79484dffa54874"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Tønsberg/no-01-134-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "6f0959ad8745c90ba426e36b6045f02f0d6407a4bee3033b61c4cdcc7f8aaff0"
-        }
-      },
-      "on_image_text": [
-        "Haugar Art Museum, Tønsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-134-4x5.png"
   },
   {
     "entry_id": "NO-01-135",
@@ -4221,49 +1617,7 @@
     "composition": "Empire-style manor house fronted by parkland and gardens, viewed from the grounds near the shore. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-135-16x9.png",
-    "file_4x5": "assets/no-01-135-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-135-16x9.png",
-          "sha256": "fe9aebd8b54a827159256ffa7625822b92fb966cf79a2c80b698b9e2d07b5077"
-        },
-        "4x5": {
-          "path": "assets/no-01-135-4x5.png",
-          "sha256": "382fa8511f5f1a481cf9bc81f43a852e1cd2100e55283d28a3dba9d499a330c0"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Tønsberg/no-01-135-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "c3ceb816636d0b8d6ba5e34c9c495b2e6783b5a623733b31e302a2e0f6dc55d2"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Tønsberg/no-01-135-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "c4e2c9ab440c609586437eab9b2c68cb41eb594da9755c9d503fe03104356a8a"
-        }
-      },
-      "on_image_text": [
-        "Jarlsberg Manor, Tønsberg",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-135-4x5.png"
   },
   {
     "entry_id": "NO-01-136",
@@ -4275,49 +1629,7 @@
     "composition": "Viking burial mound rising in the field at Gokstad, where the Gokstad ship was excavated, viewed from the path below. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-136-16x9.png",
-    "file_4x5": "assets/no-01-136-4x5.png",
-    "daylight_variant": {
-      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
-      "source_night": {
-        "16x9": {
-          "path": "assets/no-01-136-16x9.png",
-          "sha256": "3fd969b05ecc16bf1c4a90fcfa6bd599891e4f35d89114040f26b9d6b4734ba9"
-        },
-        "4x5": {
-          "path": "assets/no-01-136-4x5.png",
-          "sha256": "480efa46d9b8f46331a943fcd39bf9b1bb9ef9abec59bea2ef3091ab8d149267"
-        },
-        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
-      },
-      "masters": {
-        "16x9": {
-          "path": "library/world/Norway/Sandefjord/no-01-136-daylight-16x9.png",
-          "width": 1920,
-          "height": 1080,
-          "sha256": "39dc772d2d23342f0ea4536f8dc0e7be1f3d9d532a6681065be3d0d493f6f9b8"
-        },
-        "4x5": {
-          "path": "library/world/Norway/Sandefjord/no-01-136-daylight-4x5.png",
-          "width": 864,
-          "height": 1080,
-          "sha256": "d1a1cc1445e104dcf7d417d5ba85f2f0d220c569e6a441437e2b20b576604029"
-        }
-      },
-      "on_image_text": [
-        "Gokstad Mound, Sandefjord",
-        "☀ Daylight variant · derived from the night interpretation",
-        "AI-generated artistic interpretation · Not a photograph.",
-        "Jason D’s Vision"
-      ],
-      "art50_png_chunks": [
-        "Title",
-        "Description",
-        "Copyright",
-        "Software",
-        "Comment"
-      ],
-      "country": "Norway"
-    }
+    "file_4x5": "assets/no-01-136-4x5.png"
   },
   {
     "entry_id": "NO-01-137",
@@ -4666,5 +1978,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-165-16x9.png",
     "file_4x5": "assets/no-01-165-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-166",
+    "region": "Østfold",
+    "city": "Skjærhalden",
+    "site": "Skjærhalden harbour",
+    "caption": "Skjærhalden harbour, Skjærhalden",
+    "scenario": "26 September 2026 · 02:45 Europe/Oslo",
+    "composition": "Harbour front with moored boats and low wooden houses along the quay, viewed from the pier. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-166-16x9.png",
+    "file_4x5": "assets/no-01-166-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-167",
+    "region": "Østfold",
+    "city": "Skjærhalden",
+    "site": "Hvaler kirke",
+    "caption": "Hvaler kirke, Skjærhalden",
+    "scenario": "26 September 2026 · 03:00 Europe/Oslo",
+    "composition": "Medieval stone church among trees on the island, viewed from the churchyard gate. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-167-16x9.png",
+    "file_4x5": "assets/no-01-167-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-168",
+    "region": "Østfold",
+    "city": "Vesterøy",
+    "site": "Spjærøy kirke",
+    "caption": "Spjærøy kirke, Vesterøy",
+    "scenario": "26 September 2026 · 03:00 Europe/Oslo",
+    "composition": "Small white island church with its bell tower, viewed from the coastal path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-168-16x9.png",
+    "file_4x5": "assets/no-01-168-4x5.png"
   }
 ]
