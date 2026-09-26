@@ -3079,5 +3079,44 @@
     "file_16x9": "assets/no-01-237-16x9.png",
     "file_4x5": "assets/no-01-237-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-238",
+    "region": "Agder",
+    "city": "Arendal",
+    "site": "Tromøya",
+    "caption": "Tromøya, Arendal",
+    "scenario": "26 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Large island off Arendal with beaches and forest, viewed from the shore across the open sea. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-238-16x9.png",
+    "file_4x5": "assets/no-01-238-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-239",
+    "region": "Agder",
+    "city": "Sirdal",
+    "site": "Tonstad",
+    "caption": "Tonstad, Sirdal",
+    "scenario": "26 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Village at the head of Sirdalsvatnet, viewed from the waterfront with the lake and mountains around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-239-16x9.png",
+    "file_4x5": "assets/no-01-239-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-240",
+    "region": "Agder",
+    "city": "Sirdal",
+    "site": "Suleskard",
+    "caption": "Suleskard, Sirdal",
+    "scenario": "26 September 2026 · 15:00 Europe/Oslo",
+    "composition": "Mountain-road landscape over the Suleskar pass, viewed along the road with the high plateau and valleys around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-240-16x9.png",
+    "file_4x5": "assets/no-01-240-4x5.png",
+    "audio": null
   }
 ]
