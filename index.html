@@ -64,6 +64,7 @@
   .flag-chip.flag-gr { background: repeating-linear-gradient(to bottom,#0D5EAF 0 3px,#fff 0 6px); }
   .flag-chip.flag-dk { background: linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E; }
   .flag-chip.flag-ch { background: linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C; }
+  .flag-chip.flag-nl { background: linear-gradient(to bottom, #AE1C28 0 33.34%, #fff 0 66.67%, #21468B 0); }
   header { padding: 28px 24px 12px; border-bottom: 1px solid var(--line); }
   header h1 { margin: 0 0 6px; font-size: 26px; font-weight: 700; }
   header p { margin: 0; color: var(--muted); font-size: 14px; }
@@ -142,6 +143,16 @@
   .lb-close { position: absolute; top: 14px; right: 14px; }
   .lb-play { font-size: 16px; }
   .lb-play.playing { color: #f5c518; border-color: #f5c518; }
+
+.wotd{border-top:1px solid #e6e1d5;border-bottom:1px solid #e6e1d5;background:#faf8f3;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
+.wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8a8578;font-weight:600;white-space:nowrap}
+.wotd .word{font-weight:700;font-size:15px}
+.wotd .gloss{color:#55555c}
+.wotd .sep{color:#c9c3b4}
+.wotd .phrase{font-style:italic}
+.wotd .day{margin-left:auto;font-size:11px;color:#a09a89;white-space:nowrap}
+.wotd .translit{color:#8a8578;font-size:12.5px}
+@media (max-width:520px){.wotd .day{margin-left:0;width:100%}}
 </style>
 </head>
 <body>
@@ -149,8 +160,2223 @@
 <header>
   <h1><span class="flag" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Jason D&rsquo;s Vision &mdash; Norway</h1>
   <p>Worldwide location-image library &mdash; 177 scenes — 164 approved &mdash; AI-generated artistic interpretations</p>
-  <nav class="switcher"><span class="current" aria-current="page"><span class="flag-chip flag-no" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Norway</span> | <a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a> | <a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a> | <a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a> | <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a> | <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a> | <a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a> | <a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
+  <nav class="switcher"><span class="current" aria-current="page"><span class="flag-chip flag-no" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Norway</span> | <a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a> | <a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a> | <a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a> | <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a> | <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a> | <a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a> | <a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a> | <a href="https://devlij.github.io/jason-ds-vision-netherlands-preview/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a></nav>
 </header>
+<div class="wotd" id="wotd" lang="no">
+  <span class="kicker">Dagens ord · Word of the day</span>
+  <span class="wotd-body" aria-live="polite"></span>
+  <span class="day" id="wotd-day"></span>
+</div>
+<script type="application/json" id="wotd-data">[
+  {
+    "word": "et fjell",
+    "word_en": "mountain",
+    "phrase": "Morgenstund har gull i munn.",
+    "phrase_en": "An early start brings its reward."
+  },
+  {
+    "word": "en fjord",
+    "word_en": "fjord",
+    "phrase": "Borte bra, men hjemme best.",
+    "phrase_en": "Away is good, but home is best."
+  },
+  {
+    "word": "et hav",
+    "word_en": "ocean",
+    "phrase": "Brent barn skyr ilden.",
+    "phrase_en": "A burnt child shuns the fire."
+  },
+  {
+    "word": "en innsjø",
+    "word_en": "lake",
+    "phrase": "Det er ikke gull alt som glimrer.",
+    "phrase_en": "Not all that glitters is gold."
+  },
+  {
+    "word": "en elv",
+    "word_en": "river",
+    "phrase": "Én fugl i hånden er bedre enn ti på taket.",
+    "phrase_en": "One bird in the hand beats ten on the roof."
+  },
+  {
+    "word": "en foss",
+    "word_en": "waterfall",
+    "phrase": "Mange bekker små gjør en stor å.",
+    "phrase_en": "Many small streams make a great river."
+  },
+  {
+    "word": "en skog",
+    "word_en": "forest",
+    "phrase": "Hastverk er lastverk.",
+    "phrase_en": "Haste makes waste."
+  },
+  {
+    "word": "et tre",
+    "word_en": "tree",
+    "phrase": "Øvelse gjør mester.",
+    "phrase_en": "Practice makes perfect."
+  },
+  {
+    "word": "en blomst",
+    "word_en": "flower",
+    "phrase": "Tiden leger alle sår.",
+    "phrase_en": "Time heals all wounds."
+  },
+  {
+    "word": "en fugl",
+    "word_en": "bird",
+    "phrase": "Gresset er alltid grønnere på den andre siden.",
+    "phrase_en": "The grass is always greener on the other side."
+  },
+  {
+    "word": "en fisk",
+    "word_en": "fish",
+    "phrase": "Penger vokser ikke på trær.",
+    "phrase_en": "Money doesn't grow on trees."
+  },
+  {
+    "word": "ei sol",
+    "word_en": "sun",
+    "phrase": "Rom ble ikke bygget på én dag.",
+    "phrase_en": "Rome wasn't built in a day."
+  },
+  {
+    "word": "en måne",
+    "word_en": "moon",
+    "phrase": "Uten mat og drikke duger helten ikke.",
+    "phrase_en": "Without food and drink, the hero is no good."
+  },
+  {
+    "word": "ei stjerne",
+    "word_en": "star",
+    "phrase": "Ingen nyheter er gode nyheter.",
+    "phrase_en": "No news is good news."
+  },
+  {
+    "word": "en himmel",
+    "word_en": "sky",
+    "phrase": "Gå over bekken etter vann.",
+    "phrase_en": "To cross the brook to fetch water."
+  },
+  {
+    "word": "ei sky",
+    "word_en": "cloud",
+    "phrase": "Har man sagt a, får man si b.",
+    "phrase_en": "Once you've said A, you must say B too."
+  },
+  {
+    "word": "et regn",
+    "word_en": "rain",
+    "phrase": "Det som ikke tar livet av deg, gjør deg sterkere.",
+    "phrase_en": "What doesn't kill you makes you stronger."
+  },
+  {
+    "word": "en snø",
+    "word_en": "snow",
+    "phrase": "Ærlighet varer lengst.",
+    "phrase_en": "Honesty lasts the longest."
+  },
+  {
+    "word": "en is",
+    "word_en": "ice",
+    "phrase": "Snakk om sola, så skinner den.",
+    "phrase_en": "Speak of the sun, and it shines."
+  },
+  {
+    "word": "en vind",
+    "word_en": "wind",
+    "phrase": "Man skal ikke skue hunden på hårene.",
+    "phrase_en": "Don't judge the dog by its coat."
+  },
+  {
+    "word": "ei bølge",
+    "word_en": "wave",
+    "phrase": "Eplet faller ikke langt fra stammen.",
+    "phrase_en": "The apple doesn't fall far from the trunk."
+  },
+  {
+    "word": "ei strand",
+    "word_en": "beach",
+    "phrase": "Tomme tønner rumler mest.",
+    "phrase_en": "Empty barrels rumble the loudest."
+  },
+  {
+    "word": "en klippe",
+    "word_en": "cliff",
+    "phrase": "Alle veier fører til Rom.",
+    "phrase_en": "All roads lead to Rome."
+  },
+  {
+    "word": "en dal",
+    "word_en": "valley",
+    "phrase": "Førstemann til mølla.",
+    "phrase_en": "First come, first served."
+  },
+  {
+    "word": "ei vidde",
+    "word_en": "mountain plateau",
+    "phrase": "Skille klinten fra hveten.",
+    "phrase_en": "To separate the chaff from the wheat."
+  },
+  {
+    "word": "ei myr",
+    "word_en": "marsh",
+    "phrase": "Øye for øye, tann for tann.",
+    "phrase_en": "An eye for an eye, a tooth for a tooth."
+  },
+  {
+    "word": "ei eng",
+    "word_en": "meadow",
+    "phrase": "Pennen er mektigere enn sverdet.",
+    "phrase_en": "The pen is mightier than the sword."
+  },
+  {
+    "word": "en ås",
+    "word_en": "hill",
+    "phrase": "Leve i nuet.",
+    "phrase_en": "To live in the present moment."
+  },
+  {
+    "word": "en topp",
+    "word_en": "summit",
+    "phrase": "En kjede er aldri sterkere enn sitt svakeste ledd.",
+    "phrase_en": "A chain is only as strong as its weakest link."
+  },
+  {
+    "word": "en bre",
+    "word_en": "glacier",
+    "phrase": "Ennå er ikke alle jomsvikinger døde.",
+    "phrase_en": "The Vikings aren't all dead yet."
+  },
+  {
+    "word": "ei tåke",
+    "word_en": "fog",
+    "phrase": "Små gryter har også ører.",
+    "phrase_en": "Little pots have ears too."
+  },
+  {
+    "word": "et nordlys",
+    "word_en": "northern lights",
+    "phrase": "Det er lov å være blid.",
+    "phrase_en": "It's allowed to be cheerful."
+  },
+  {
+    "word": "ei midnattssol",
+    "word_en": "midnight sun",
+    "phrase": "Alt ordner seg.",
+    "phrase_en": "Everything will work out in the end."
+  },
+  {
+    "word": "en solnedgang",
+    "word_en": "sunset",
+    "phrase": "Ta det som det kommer.",
+    "phrase_en": "Take things as they come."
+  },
+  {
+    "word": "en soloppgang",
+    "word_en": "sunrise",
+    "phrase": "Stille vann har dypest grunn.",
+    "phrase_en": "Still waters run deepest."
+  },
+  {
+    "word": "en morgen",
+    "word_en": "morning",
+    "phrase": "Når katten er borte, danser musene på bordet.",
+    "phrase_en": "When the cat's away, the mice dance on the table."
+  },
+  {
+    "word": "en kveld",
+    "word_en": "evening",
+    "phrase": "Liten tue velter stort lass.",
+    "phrase_en": "A small tuft can overturn a heavy load."
+  },
+  {
+    "word": "ei natt",
+    "word_en": "night",
+    "phrase": "Bedre sent enn aldri.",
+    "phrase_en": "Better late than never."
+  },
+  {
+    "word": "en dag",
+    "word_en": "day",
+    "phrase": "Den som graver en grav for andre, faller ofte selv i den.",
+    "phrase_en": "Who digs a pit for others often falls in it."
+  },
+  {
+    "word": "en skumring",
+    "word_en": "dusk",
+    "phrase": "Hvor det er hjerterom, er det husrom.",
+    "phrase_en": "Where there's room in the heart, there's room in the house."
+  },
+  {
+    "word": "ei demring",
+    "word_en": "daybreak",
+    "phrase": "Kjærlighet gjør blind.",
+    "phrase_en": "Love is blind."
+  },
+  {
+    "word": "et lyn",
+    "word_en": "lightning",
+    "phrase": "Klær skaper ikke mannen.",
+    "phrase_en": "Clothes don't make the man."
+  },
+  {
+    "word": "en torden",
+    "word_en": "thunder",
+    "phrase": "Nøden lærer naken kvinne å spinne.",
+    "phrase_en": "Need teaches the naked woman to spin."
+  },
+  {
+    "word": "et uvær",
+    "word_en": "stormy weather",
+    "phrase": "Den som intet våger, intet vinner.",
+    "phrase_en": "Nothing ventured, nothing gained."
+  },
+  {
+    "word": "en bris",
+    "word_en": "breeze",
+    "phrase": "Først tenke, så tale.",
+    "phrase_en": "First think, then speak."
+  },
+  {
+    "word": "en storm",
+    "word_en": "storm",
+    "phrase": "Tale er sølv, taushet er gull.",
+    "phrase_en": "Speech is silver, silence is gold."
+  },
+  {
+    "word": "en strøm",
+    "word_en": "current",
+    "phrase": "Et ord er et ord.",
+    "phrase_en": "A promise is a promise."
+  },
+  {
+    "word": "ei bukt",
+    "word_en": "bay",
+    "phrase": "Håpet er det siste som svikter.",
+    "phrase_en": "Hope is the last thing to fail us."
+  },
+  {
+    "word": "ei vik",
+    "word_en": "cove",
+    "phrase": "Etter regn kommer sol.",
+    "phrase_en": "After rain comes sunshine."
+  },
+  {
+    "word": "et spark",
+    "word_en": "kicksled",
+    "phrase": "Når nøden er størst, er hjelpen nærmest.",
+    "phrase_en": "When need is greatest, help is nearest."
+  },
+  {
+    "word": "ei øy",
+    "word_en": "island",
+    "phrase": "Sulten ulv jakter best.",
+    "phrase_en": "A hungry wolf hunts best."
+  },
+  {
+    "word": "et skjær",
+    "word_en": "skerry",
+    "phrase": "Det er ingen skam å snu.",
+    "phrase_en": "There's no shame in turning back."
+  },
+  {
+    "word": "en tang",
+    "word_en": "seaweed",
+    "phrase": "Man lærer så lenge man lever.",
+    "phrase_en": "You learn as long as you live."
+  },
+  {
+    "word": "en sand",
+    "word_en": "sand",
+    "phrase": "Årene går, men minnene består.",
+    "phrase_en": "Years pass, but memories remain."
+  },
+  {
+    "word": "en stein",
+    "word_en": "stone",
+    "phrase": "Den som venter på noe godt, venter ikke forgjeves.",
+    "phrase_en": "Good things come to those who wait."
+  },
+  {
+    "word": "en mose",
+    "word_en": "moss",
+    "phrase": "Like barn leker best.",
+    "phrase_en": "Birds of a feather flock together."
+  },
+  {
+    "word": "en lyng",
+    "word_en": "heather",
+    "phrase": "Nye koster feier best.",
+    "phrase_en": "New brooms sweep cleanest."
+  },
+  {
+    "word": "en einer",
+    "word_en": "juniper",
+    "phrase": "Smi mens jernet er varmt.",
+    "phrase_en": "Strike while the iron is hot."
+  },
+  {
+    "word": "ei bjørk",
+    "word_en": "birch",
+    "phrase": "Ikke selg skinnet før bjørnen er skutt.",
+    "phrase_en": "Don't sell the skin before the bear is shot."
+  },
+  {
+    "word": "ei gran",
+    "word_en": "spruce",
+    "phrase": "Å bære vann i sil.",
+    "phrase_en": "To carry water in a sieve."
+  },
+  {
+    "word": "ei furu",
+    "word_en": "pine",
+    "phrase": "Å koke suppe på en spiker.",
+    "phrase_en": "To make soup from a nail."
+  },
+  {
+    "word": "ei osp",
+    "word_en": "aspen",
+    "phrase": "Det er ikke alle som har vett til å bli redde.",
+    "phrase_en": "Not everyone has the sense to be afraid."
+  },
+  {
+    "word": "et vann",
+    "word_en": "water",
+    "phrase": "Den som sover, synder ikke.",
+    "phrase_en": "Who sleeps, sins not."
+  },
+  {
+    "word": "en bekk",
+    "word_en": "brook",
+    "phrase": "God morgen.",
+    "phrase_en": "Good morning."
+  },
+  {
+    "word": "et tjern",
+    "word_en": "tarn",
+    "phrase": "God dag.",
+    "phrase_en": "Hello (good day)."
+  },
+  {
+    "word": "et bål",
+    "word_en": "bonfire",
+    "phrase": "God kveld.",
+    "phrase_en": "Good evening."
+  },
+  {
+    "word": "en gnist",
+    "word_en": "spark",
+    "phrase": "God natt.",
+    "phrase_en": "Good night."
+  },
+  {
+    "word": "en flamme",
+    "word_en": "flame",
+    "phrase": "Hei.",
+    "phrase_en": "Hi."
+  },
+  {
+    "word": "en røyk",
+    "word_en": "smoke",
+    "phrase": "Hallo.",
+    "phrase_en": "Hello (on the phone)."
+  },
+  {
+    "word": "en aske",
+    "word_en": "ash",
+    "phrase": "Velkommen.",
+    "phrase_en": "Welcome."
+  },
+  {
+    "word": "en sopp",
+    "word_en": "mushroom",
+    "phrase": "Velkommen tilbake.",
+    "phrase_en": "Welcome back."
+  },
+  {
+    "word": "et bær",
+    "word_en": "berry",
+    "phrase": "Hvordan går det?",
+    "phrase_en": "How's it going?"
+  },
+  {
+    "word": "en sommerfugl",
+    "word_en": "butterfly",
+    "phrase": "Hvordan har du det?",
+    "phrase_en": "How are you doing?"
+  },
+  {
+    "word": "ei bie",
+    "word_en": "bee",
+    "phrase": "Alt bra?",
+    "phrase_en": "All good?"
+  },
+  {
+    "word": "en ski",
+    "word_en": "ski",
+    "phrase": "Takk.",
+    "phrase_en": "Thank you."
+  },
+  {
+    "word": "en ørret",
+    "word_en": "trout",
+    "phrase": "Tusen takk.",
+    "phrase_en": "Thank you very much."
+  },
+  {
+    "word": "en laks",
+    "word_en": "salmon",
+    "phrase": "Takk skal du ha.",
+    "phrase_en": "Thanks to you."
+  },
+  {
+    "word": "en torsk",
+    "word_en": "cod",
+    "phrase": "Takk for sist.",
+    "phrase_en": "Thanks for last time."
+  },
+  {
+    "word": "en sild",
+    "word_en": "herring",
+    "phrase": "Takk for maten.",
+    "phrase_en": "Thanks for the meal."
+  },
+  {
+    "word": "en makrell",
+    "word_en": "mackerel",
+    "phrase": "Vær så god.",
+    "phrase_en": "Here you are."
+  },
+  {
+    "word": "ei måke",
+    "word_en": "seagull",
+    "phrase": "Ingen årsak.",
+    "phrase_en": "You're welcome (no cause)."
+  },
+  {
+    "word": "en ørn",
+    "word_en": "eagle",
+    "phrase": "Bare hyggelig.",
+    "phrase_en": "My pleasure."
+  },
+  {
+    "word": "en ravn",
+    "word_en": "raven",
+    "phrase": "Unnskyld.",
+    "phrase_en": "Excuse me."
+  },
+  {
+    "word": "ei ugle",
+    "word_en": "owl",
+    "phrase": "Beklager.",
+    "phrase_en": "I'm sorry."
+  },
+  {
+    "word": "en elg",
+    "word_en": "moose",
+    "phrase": "Det går bra.",
+    "phrase_en": "It's all right."
+  },
+  {
+    "word": "en hjort",
+    "word_en": "deer",
+    "phrase": "Ikke noe problem.",
+    "phrase_en": "No problem at all."
+  },
+  {
+    "word": "en rein",
+    "word_en": "reindeer",
+    "phrase": "Ha en fin dag.",
+    "phrase_en": "Have a lovely day."
+  },
+  {
+    "word": "en rev",
+    "word_en": "fox",
+    "phrase": "God tur.",
+    "phrase_en": "Enjoy your trip."
+  },
+  {
+    "word": "en hare",
+    "word_en": "hare",
+    "phrase": "God ferie.",
+    "phrase_en": "Enjoy your holiday."
+  },
+  {
+    "word": "en bjørn",
+    "word_en": "bear",
+    "phrase": "God helg.",
+    "phrase_en": "Have a great weekend."
+  },
+  {
+    "word": "en ulv",
+    "word_en": "wolf",
+    "phrase": "God jul.",
+    "phrase_en": "Merry Christmas."
+  },
+  {
+    "word": "ei gaupe",
+    "word_en": "lynx",
+    "phrase": "Godt nyttår.",
+    "phrase_en": "Happy New Year."
+  },
+  {
+    "word": "en oter",
+    "word_en": "otter",
+    "phrase": "Gratulerer.",
+    "phrase_en": "Congratulations."
+  },
+  {
+    "word": "en sel",
+    "word_en": "seal",
+    "phrase": "Gratulerer med dagen.",
+    "phrase_en": "Happy birthday."
+  },
+  {
+    "word": "en hval",
+    "word_en": "whale",
+    "phrase": "Lykke til.",
+    "phrase_en": "Good luck."
+  },
+  {
+    "word": "en krabbe",
+    "word_en": "crab",
+    "phrase": "Skål.",
+    "phrase_en": "Cheers."
+  },
+  {
+    "word": "en hummer",
+    "word_en": "lobster",
+    "phrase": "Velbekomme.",
+    "phrase_en": "Enjoy your meal (to fellow diners)."
+  },
+  {
+    "word": "ei reke",
+    "word_en": "shrimp",
+    "phrase": "Ha det bra.",
+    "phrase_en": "Goodbye."
+  },
+  {
+    "word": "en manet",
+    "word_en": "jellyfish",
+    "phrase": "Ha det.",
+    "phrase_en": "Bye."
+  },
+  {
+    "word": "en reise",
+    "word_en": "journey",
+    "phrase": "Vi sees.",
+    "phrase_en": "See you soon."
+  },
+  {
+    "word": "en tur",
+    "word_en": "hike",
+    "phrase": "Snakkes.",
+    "phrase_en": "Talk to you later."
+  },
+  {
+    "word": "en ferie",
+    "word_en": "vacation",
+    "phrase": "På gjensyn.",
+    "phrase_en": "Until we meet again."
+  },
+  {
+    "word": "et eventyr",
+    "word_en": "adventure",
+    "phrase": "God bedring.",
+    "phrase_en": "Get well soon."
+  },
+  {
+    "word": "en sti",
+    "word_en": "trail",
+    "phrase": "Hold ut.",
+    "phrase_en": "Hang in there."
+  },
+  {
+    "word": "en vei",
+    "word_en": "road",
+    "phrase": "Stå på.",
+    "phrase_en": "Keep going strong."
+  },
+  {
+    "word": "en bro",
+    "word_en": "bridge",
+    "phrase": "Kom igjen.",
+    "phrase_en": "Come on now."
+  },
+  {
+    "word": "et tog",
+    "word_en": "train",
+    "phrase": "Så hyggelig.",
+    "phrase_en": "How lovely."
+  },
+  {
+    "word": "en båt",
+    "word_en": "boat",
+    "phrase": "Hyggelig å møte deg.",
+    "phrase_en": "Nice to meet you."
+  },
+  {
+    "word": "ei ferge",
+    "word_en": "ferry",
+    "phrase": "Hva heter du?",
+    "phrase_en": "What is your name?"
+  },
+  {
+    "word": "et fly",
+    "word_en": "airplane",
+    "phrase": "Jeg heter ...",
+    "phrase_en": "My name is ..."
+  },
+  {
+    "word": "en bil",
+    "word_en": "car",
+    "phrase": "Hvor kommer du fra?",
+    "phrase_en": "Where are you from?"
+  },
+  {
+    "word": "en sykkel",
+    "word_en": "bicycle",
+    "phrase": "Snakker du engelsk?",
+    "phrase_en": "Do you speak English?"
+  },
+  {
+    "word": "et kart",
+    "word_en": "map",
+    "phrase": "Jeg forstår ikke.",
+    "phrase_en": "I don't understand."
+  },
+  {
+    "word": "et kompass",
+    "word_en": "compass",
+    "phrase": "Kan du gjenta det?",
+    "phrase_en": "Could you repeat that?"
+  },
+  {
+    "word": "en ryggsekk",
+    "word_en": "backpack",
+    "phrase": "Kan du hjelpe meg?",
+    "phrase_en": "Could you help me?"
+  },
+  {
+    "word": "et telt",
+    "word_en": "tent",
+    "phrase": "Hvor er toalettet?",
+    "phrase_en": "Where is the restroom?"
+  },
+  {
+    "word": "ei hytte",
+    "word_en": "cabin",
+    "phrase": "Hva koster det?",
+    "phrase_en": "How much does it cost?"
+  },
+  {
+    "word": "et hotell",
+    "word_en": "hotel",
+    "phrase": "Jeg vil gjerne ha ...",
+    "phrase_en": "I would like ..."
+  },
+  {
+    "word": "et vertshus",
+    "word_en": "inn",
+    "phrase": "En kaffe, takk.",
+    "phrase_en": "One coffee, please."
+  },
+  {
+    "word": "ei utsikt",
+    "word_en": "view",
+    "phrase": "Regningen, takk.",
+    "phrase_en": "The check, please."
+  },
+  {
+    "word": "en severdighet",
+    "word_en": "tourist attraction",
+    "phrase": "Takk for hjelpen.",
+    "phrase_en": "Thanks for your help."
+  },
+  {
+    "word": "et minne",
+    "word_en": "memory",
+    "phrase": "Fjorden ligger speilblank i morgensolen.",
+    "phrase_en": "The fjord lies mirror-calm in the morning sun."
+  },
+  {
+    "word": "et foto",
+    "word_en": "photo",
+    "phrase": "Bølgene slår mot brygga.",
+    "phrase_en": "The waves beat against the pier."
+  },
+  {
+    "word": "et kamera",
+    "word_en": "camera",
+    "phrase": "En ferge glir stille over fjorden.",
+    "phrase_en": "A ferry glides quietly across the fjord."
+  },
+  {
+    "word": "et postkort",
+    "word_en": "postcard",
+    "phrase": "Måken skriker over havna.",
+    "phrase_en": "The gull cries over the harbor."
+  },
+  {
+    "word": "en suvenir",
+    "word_en": "souvenir",
+    "phrase": "Vi seiler utaskjærs i solnedgangen.",
+    "phrase_en": "We sail among the skerries at sunset."
+  },
+  {
+    "word": "et pass",
+    "word_en": "passport",
+    "phrase": "Havet lukter salt og tang.",
+    "phrase_en": "The sea smells of salt and seaweed."
+  },
+  {
+    "word": "en billett",
+    "word_en": "ticket",
+    "phrase": "Fiskebåtene kommer inn med dagens fangst.",
+    "phrase_en": "The fishing boats come in with the day's catch."
+  },
+  {
+    "word": "en perrong",
+    "word_en": "platform",
+    "phrase": "Fyret blinker ute på odden.",
+    "phrase_en": "The lighthouse blinks out on the headland."
+  },
+  {
+    "word": "en holdeplass",
+    "word_en": "transport stop",
+    "phrase": "Vi padler kajakk mellom holmene.",
+    "phrase_en": "We paddle kayaks between the islets."
+  },
+  {
+    "word": "en avgang",
+    "word_en": "departure",
+    "phrase": "Stranda er full av glatte steiner.",
+    "phrase_en": "The beach is full of smooth stones."
+  },
+  {
+    "word": "en ankomst",
+    "word_en": "arrival",
+    "phrase": "Barna bader fra brygga hele sommeren.",
+    "phrase_en": "The children swim off the pier all summer."
+  },
+  {
+    "word": "en forsinkelse",
+    "word_en": "delay",
+    "phrase": "En sel titter opp av vannet.",
+    "phrase_en": "A seal peeks up out of the water."
+  },
+  {
+    "word": "en bagasje",
+    "word_en": "luggage",
+    "phrase": "Tåka letter over sundet.",
+    "phrase_en": "The fog lifts over the sound."
+  },
+  {
+    "word": "et vandrerhjem",
+    "word_en": "hostel",
+    "phrase": "Vi spiser reker på bryggekanten.",
+    "phrase_en": "We eat shrimp on the edge of the pier."
+  },
+  {
+    "word": "en campingplass",
+    "word_en": "campsite",
+    "phrase": "Sola speiler seg i bølgene.",
+    "phrase_en": "The sun mirrors itself in the waves."
+  },
+  {
+    "word": "en rasteplass",
+    "word_en": "rest area",
+    "phrase": "Havørna svever over klippene.",
+    "phrase_en": "The sea eagle soars above the cliffs."
+  },
+  {
+    "word": "et utsiktspunkt",
+    "word_en": "viewpoint",
+    "phrase": "Det lukter tjære og tauverk på kaia.",
+    "phrase_en": "It smells of tar and rigging on the quay."
+  },
+  {
+    "word": "et sentrum",
+    "word_en": "downtown",
+    "phrase": "Vi drar ut med fiskeskøyta i grålysningen.",
+    "phrase_en": "We head out on the fishing smack at daybreak."
+  },
+  {
+    "word": "et torg",
+    "word_en": "plaza",
+    "phrase": "Bølgene har slipt steinene runde.",
+    "phrase_en": "The waves have ground the stones round."
+  },
+  {
+    "word": "ei gate",
+    "word_en": "street",
+    "phrase": "En nise leker i baugbølgen.",
+    "phrase_en": "A porpoise plays in the bow wave."
+  },
+  {
+    "word": "ei kirke",
+    "word_en": "church",
+    "phrase": "Kvelden senker seg over fjorden.",
+    "phrase_en": "Evening settles over the fjord."
+  },
+  {
+    "word": "en katedral",
+    "word_en": "cathedral",
+    "phrase": "Vi tenner bål på stranda.",
+    "phrase_en": "We light a bonfire on the beach."
+  },
+  {
+    "word": "et slott",
+    "word_en": "palace",
+    "phrase": "Måneskinnet danser på vannet.",
+    "phrase_en": "The moonlight dances on the water."
+  },
+  {
+    "word": "et museum",
+    "word_en": "museum",
+    "phrase": "Stormen har rast fra seg.",
+    "phrase_en": "The storm has blown itself out."
+  },
+  {
+    "word": "et galleri",
+    "word_en": "gallery",
+    "phrase": "Vi finner krabber i fjæra.",
+    "phrase_en": "We find crabs on the foreshore."
+  },
+  {
+    "word": "et fyrtårn",
+    "word_en": "lighthouse",
+    "phrase": "Sjølufta er frisk og klar.",
+    "phrase_en": "The sea air is fresh and clear."
+  },
+  {
+    "word": "ei brygge",
+    "word_en": "pier",
+    "phrase": "Båten duver rolig ved kai.",
+    "phrase_en": "The boat bobs gently at the quay."
+  },
+  {
+    "word": "ei havn",
+    "word_en": "harbor",
+    "phrase": "Vi seiler forbi et gammelt fyr.",
+    "phrase_en": "We sail past an old lighthouse."
+  },
+  {
+    "word": "en kai",
+    "word_en": "quay",
+    "phrase": "Horisonten er endeløs.",
+    "phrase_en": "The horizon is endless."
+  },
+  {
+    "word": "et marked",
+    "word_en": "market",
+    "phrase": "Havet er mektig og vakkert.",
+    "phrase_en": "The sea is mighty and beautiful."
+  },
+  {
+    "word": "et bakeri",
+    "word_en": "bakery",
+    "phrase": "Vi vandrer oppover lia.",
+    "phrase_en": "We hike up the hillside."
+  },
+  {
+    "word": "en kafé",
+    "word_en": "café",
+    "phrase": "Stien slynger seg mellom bjørketrærne.",
+    "phrase_en": "The trail winds between the birch trees."
+  },
+  {
+    "word": "et brød",
+    "word_en": "bread",
+    "phrase": "Utsikten fra toppen er storslått.",
+    "phrase_en": "The view from the summit is magnificent."
+  },
+  {
+    "word": "en ost",
+    "word_en": "cheese",
+    "phrase": "Vi tar en rast ved et tjern.",
+    "phrase_en": "We take a rest by a tarn."
+  },
+  {
+    "word": "en kaffe",
+    "word_en": "coffee",
+    "phrase": "Skyene henger lavt over fjellene.",
+    "phrase_en": "The clouds hang low over the mountains."
+  },
+  {
+    "word": "en sjokolade",
+    "word_en": "chocolate",
+    "phrase": "Det er langt ned til dalen.",
+    "phrase_en": "It's a long way down to the valley."
+  },
+  {
+    "word": "en kanelbolle",
+    "word_en": "cinnamon bun",
+    "phrase": "Vi følger de røde merkene.",
+    "phrase_en": "We follow the red trail markers."
+  },
+  {
+    "word": "en vaffel",
+    "word_en": "waffle",
+    "phrase": "Varden viser vei i tåka.",
+    "phrase_en": "The cairn shows the way in the fog."
+  },
+  {
+    "word": "en brunost",
+    "word_en": "brown cheese",
+    "phrase": "Snøen ligger fortsatt i skyggen.",
+    "phrase_en": "Snow still lies in the shadows."
+  },
+  {
+    "word": "vakker",
+    "word_en": "beautiful",
+    "phrase": "Vi hører en bekk klukke i nærheten.",
+    "phrase_en": "We hear a brook babbling nearby."
+  },
+  {
+    "word": "pen",
+    "word_en": "pretty",
+    "phrase": "Fjellvettreglene redder liv.",
+    "phrase_en": "The mountain safety rules save lives."
+  },
+  {
+    "word": "nydelig",
+    "word_en": "lovely",
+    "phrase": "Vi pakker sekken kvelden før.",
+    "phrase_en": "We pack our backpacks the night before."
+  },
+  {
+    "word": "flott",
+    "word_en": "great",
+    "phrase": "Turen opp tar tre timer.",
+    "phrase_en": "The hike up takes three hours."
+  },
+  {
+    "word": "praktfull",
+    "word_en": "splendid",
+    "phrase": "Vi spiser niste med utsikt over vidda.",
+    "phrase_en": "We eat our packed lunch overlooking the plateau."
+  },
+  {
+    "word": "storslått",
+    "word_en": "magnificent",
+    "phrase": "Regnet pisker mot fjellsiden.",
+    "phrase_en": "The rain lashes the mountainside."
+  },
+  {
+    "word": "stor",
+    "word_en": "big",
+    "phrase": "Plutselig letter skydekket.",
+    "phrase_en": "Suddenly the cloud cover lifts."
+  },
+  {
+    "word": "liten",
+    "word_en": "small",
+    "phrase": "Vi ser rein på avstand.",
+    "phrase_en": "We spot reindeer in the distance."
+  },
+  {
+    "word": "diger",
+    "word_en": "huge",
+    "phrase": "Fjellskoene er godt inngått.",
+    "phrase_en": "The hiking boots are well broken in."
+  },
+  {
+    "word": "høy",
+    "word_en": "tall",
+    "phrase": "Vi krysser en hengebro over elva.",
+    "phrase_en": "We cross a suspension bridge over the river."
+  },
+  {
+    "word": "lav",
+    "word_en": "low",
+    "phrase": "Fossen bruser i det fjerne.",
+    "phrase_en": "The waterfall roars in the distance."
+  },
+  {
+    "word": "dyp",
+    "word_en": "deep",
+    "phrase": "Vi når toppen akkurat til solnedgang.",
+    "phrase_en": "We reach the summit just in time for sunset."
+  },
+  {
+    "word": "grunn",
+    "word_en": "shallow",
+    "phrase": "Nedstigningen går raskere enn oppstigningen.",
+    "phrase_en": "The descent goes faster than the ascent."
+  },
+  {
+    "word": "lang",
+    "word_en": "long",
+    "phrase": "Beina er møre etter langturen.",
+    "phrase_en": "Our legs are weary after the long hike."
+  },
+  {
+    "word": "kort",
+    "word_en": "short",
+    "phrase": "Vi overnatter i en ubetjent hytte.",
+    "phrase_en": "We stay overnight in an unstaffed cabin."
+  },
+  {
+    "word": "bred",
+    "word_en": "wide",
+    "phrase": "Hytta har vedovn og gassbluss.",
+    "phrase_en": "The cabin has a wood stove and a gas burner."
+  },
+  {
+    "word": "smal",
+    "word_en": "narrow",
+    "phrase": "Vi skriver oss inn i hytteboka.",
+    "phrase_en": "We sign the cabin guest book."
+  },
+  {
+    "word": "rund",
+    "word_en": "round",
+    "phrase": "Morgenen er klar og kald.",
+    "phrase_en": "The morning is crisp and cold."
+  },
+  {
+    "word": "gammel",
+    "word_en": "old",
+    "phrase": "Vi starter tidlig for å rekke fram før mørket.",
+    "phrase_en": "We start early to arrive before dark."
+  },
+  {
+    "word": "ny",
+    "word_en": "new",
+    "phrase": "Kartet viser en snarvei over fjellet.",
+    "phrase_en": "The map shows a shortcut over the mountain."
+  },
+  {
+    "word": "ung",
+    "word_en": "young",
+    "phrase": "Kompasset peker mot nord.",
+    "phrase_en": "The compass points north."
+  },
+  {
+    "word": "varm",
+    "word_en": "warm",
+    "phrase": "Skogen dufter av gran og mose.",
+    "phrase_en": "The forest smells of spruce and moss."
+  },
+  {
+    "word": "kald",
+    "word_en": "cold",
+    "phrase": "En elg står stille mellom trærne.",
+    "phrase_en": "A moose stands motionless between the trees."
+  },
+  {
+    "word": "kjølig",
+    "word_en": "chilly",
+    "phrase": "Vi plukker blåbær langs stien.",
+    "phrase_en": "We pick bilberries along the trail."
+  },
+  {
+    "word": "lunken",
+    "word_en": "lukewarm",
+    "phrase": "Kantarellene gjemmer seg under løvet.",
+    "phrase_en": "The chanterelles hide under the foliage."
+  },
+  {
+    "word": "lys",
+    "word_en": "bright",
+    "phrase": "En rev smyger seg gjennom lyngen.",
+    "phrase_en": "A fox slinks through the heather."
+  },
+  {
+    "word": "mørk",
+    "word_en": "dark",
+    "phrase": "Hakkespetten hamrer mot en trestamme.",
+    "phrase_en": "The woodpecker hammers at a tree trunk."
+  },
+  {
+    "word": "klar",
+    "word_en": "clear",
+    "phrase": "Vi hører gjøken rope i det fjerne.",
+    "phrase_en": "We hear the cuckoo calling in the distance."
+  },
+  {
+    "word": "disig",
+    "word_en": "hazy",
+    "phrase": "Maurtua yrer av liv.",
+    "phrase_en": "The anthill teems with life."
+  },
+  {
+    "word": "tåkete",
+    "word_en": "foggy",
+    "phrase": "Sommerfuglene danser over enga.",
+    "phrase_en": "The butterflies dance over the meadow."
+  },
+  {
+    "word": "stille",
+    "word_en": "quiet",
+    "phrase": "En hare spretter over stien.",
+    "phrase_en": "A hare darts across the trail."
+  },
+  {
+    "word": "rolig",
+    "word_en": "calm",
+    "phrase": "Vi ser spor etter bjørn i myra.",
+    "phrase_en": "We see bear tracks in the marsh."
+  },
+  {
+    "word": "fredelig",
+    "word_en": "peaceful",
+    "phrase": "Ugla hoier i skumringen.",
+    "phrase_en": "The owl hoots at dusk."
+  },
+  {
+    "word": "vill",
+    "word_en": "wild",
+    "phrase": "Skogen er gammel og trolsk.",
+    "phrase_en": "The forest is ancient and enchanted."
+  },
+  {
+    "word": "tam",
+    "word_en": "tame",
+    "phrase": "Lyset filtreres gjennom trekronene.",
+    "phrase_en": "The light filters through the treetops."
+  },
+  {
+    "word": "koselig",
+    "word_en": "cozy",
+    "phrase": "Vi finner en bekk med krystallklart vann.",
+    "phrase_en": "We find a brook with crystal-clear water."
+  },
+  {
+    "word": "hyggelig",
+    "word_en": "nice",
+    "phrase": "Oteren leker i elva.",
+    "phrase_en": "The otter plays in the river."
+  },
+  {
+    "word": "trivelig",
+    "word_en": "pleasant",
+    "phrase": "En tiur letter med et brak.",
+    "phrase_en": "A capercaillie takes off with a crash."
+  },
+  {
+    "word": "vennlig",
+    "word_en": "friendly",
+    "phrase": "Vi går stille for ikke å skremme dyra.",
+    "phrase_en": "We walk quietly so as not to frighten the animals."
+  },
+  {
+    "word": "gjestfri",
+    "word_en": "hospitable",
+    "phrase": "Ekornet samler kongler til vinteren.",
+    "phrase_en": "The squirrel gathers cones for the winter."
+  },
+  {
+    "word": "stolt",
+    "word_en": "proud",
+    "phrase": "Mosen er myk under føttene.",
+    "phrase_en": "The moss is soft underfoot."
+  },
+  {
+    "word": "glad",
+    "word_en": "happy",
+    "phrase": "Vi tenner bål på en gammel bålplass.",
+    "phrase_en": "We light a fire at an old fire pit."
+  },
+  {
+    "word": "lykkelig",
+    "word_en": "fortunate",
+    "phrase": "Røyken stiger rett opp i den stille lufta.",
+    "phrase_en": "The smoke rises straight up in the still air."
+  },
+  {
+    "word": "trist",
+    "word_en": "sad",
+    "phrase": "Stjernene tennes én etter én.",
+    "phrase_en": "The stars ignite one by one."
+  },
+  {
+    "word": "spent",
+    "word_en": "excited",
+    "phrase": "Vi forteller historier rundt bålet.",
+    "phrase_en": "We tell stories around the campfire."
+  },
+  {
+    "word": "trøtt",
+    "word_en": "tired",
+    "phrase": "Natta i skogen er full av lyder.",
+    "phrase_en": "The night in the forest is full of sounds."
+  },
+  {
+    "word": "sliten",
+    "word_en": "exhausted",
+    "phrase": "Lyset skifter hvert minutt.",
+    "phrase_en": "The light changes every minute."
+  },
+  {
+    "word": "uthvilt",
+    "word_en": "rested",
+    "phrase": "Skyene driver raskt over himmelen.",
+    "phrase_en": "The clouds race across the sky."
+  },
+  {
+    "word": "sulten",
+    "word_en": "hungry",
+    "phrase": "Et regnskyll trekker inn fra vest.",
+    "phrase_en": "A rain shower moves in from the west."
+  },
+  {
+    "word": "tørst",
+    "word_en": "thirsty",
+    "phrase": "Vi søker ly under et overheng.",
+    "phrase_en": "We shelter under an overhang."
+  },
+  {
+    "word": "mett",
+    "word_en": "satiated",
+    "phrase": "Regnet trommer mot teltduken.",
+    "phrase_en": "The rain drums on the tent canvas."
+  },
+  {
+    "word": "frisk",
+    "word_en": "healthy",
+    "phrase": "Etter regnet lukter jorda friskt.",
+    "phrase_en": "After the rain, the earth smells fresh."
+  },
+  {
+    "word": "sunn",
+    "word_en": "wholesome",
+    "phrase": "Regnbuen spenner over dalen.",
+    "phrase_en": "The rainbow arches over the valley."
+  },
+  {
+    "word": "sterk",
+    "word_en": "strong",
+    "phrase": "Sola bryter gjennom skydekket.",
+    "phrase_en": "The sun breaks through the cloud cover."
+  },
+  {
+    "word": "svak",
+    "word_en": "weak",
+    "phrase": "Lyset er gyllent og lavt.",
+    "phrase_en": "The light is golden and low."
+  },
+  {
+    "word": "rask",
+    "word_en": "fast",
+    "phrase": "Skyggene blir lange.",
+    "phrase_en": "The shadows grow long."
+  },
+  {
+    "word": "hurtig",
+    "word_en": "quick",
+    "phrase": "Tåka ligger som et teppe over vannet.",
+    "phrase_en": "The fog lies like a blanket over the water."
+  },
+  {
+    "word": "kvikk",
+    "word_en": "agile",
+    "phrase": "Duggen glitrer i gresset.",
+    "phrase_en": "The dew glitters in the grass."
+  },
+  {
+    "word": "langsom",
+    "word_en": "slow",
+    "phrase": "Frosten biter i kinnene.",
+    "phrase_en": "The frost nips at our cheeks."
+  },
+  {
+    "word": "tidlig",
+    "word_en": "early",
+    "phrase": "Vinden uler rundt hushjørnet.",
+    "phrase_en": "The wind howls around the corner of the house."
+  },
+  {
+    "word": "sen",
+    "word_en": "late",
+    "phrase": "Snøen laver ned.",
+    "phrase_en": "The snow comes pouring down."
+  },
+  {
+    "word": "nær",
+    "word_en": "near",
+    "phrase": "Alt er hvitt og stille.",
+    "phrase_en": "Everything is white and silent."
+  },
+  {
+    "word": "fjern",
+    "word_en": "distant",
+    "phrase": "Nordlyset flammer over himmelen.",
+    "phrase_en": "The northern lights blaze across the sky."
+  },
+  {
+    "word": "bratt",
+    "word_en": "steep",
+    "phrase": "Midnattssola henger over horisonten.",
+    "phrase_en": "The midnight sun hangs over the horizon."
+  },
+  {
+    "word": "slak",
+    "word_en": "gently sloping",
+    "phrase": "Det blir aldri helt mørkt om sommeren.",
+    "phrase_en": "It never gets fully dark in summer."
+  },
+  {
+    "word": "grønn",
+    "word_en": "green",
+    "phrase": "Mørketida senker seg over nord.",
+    "phrase_en": "The polar night settles over the north."
+  },
+  {
+    "word": "blå",
+    "word_en": "blue",
+    "phrase": "Vi tenner lys i vinduene.",
+    "phrase_en": "We light candles in the windows."
+  },
+  {
+    "word": "rød",
+    "word_en": "red",
+    "phrase": "Lyset fra fyret sveiper over sjøen.",
+    "phrase_en": "The lighthouse beam sweeps across the sea."
+  },
+  {
+    "word": "gul",
+    "word_en": "yellow",
+    "phrase": "Lynet splitter himmelen.",
+    "phrase_en": "Lightning splits the sky."
+  },
+  {
+    "word": "hvit",
+    "word_en": "white",
+    "phrase": "Tordenen ruller over fjellene.",
+    "phrase_en": "The thunder rolls over the mountains."
+  },
+  {
+    "word": "svart",
+    "word_en": "black",
+    "phrase": "Uværet står på som verst.",
+    "phrase_en": "The storm rages at its worst."
+  },
+  {
+    "word": "grå",
+    "word_en": "grey",
+    "phrase": "Så stilner det av.",
+    "phrase_en": "Then it calms down again."
+  },
+  {
+    "word": "brun",
+    "word_en": "brown",
+    "phrase": "Havet ligger blankt igjen.",
+    "phrase_en": "The sea lies calm once more."
+  },
+  {
+    "word": "gyllen",
+    "word_en": "golden",
+    "phrase": "Luften er klar etter stormen.",
+    "phrase_en": "The air is clear after the storm."
+  },
+  {
+    "word": "sølvgrå",
+    "word_en": "silvery",
+    "phrase": "Sola varmer i ansiktet.",
+    "phrase_en": "The sun warms our faces."
+  },
+  {
+    "word": "fargerik",
+    "word_en": "colorful",
+    "phrase": "Vi myser mot lyset.",
+    "phrase_en": "We squint into the light."
+  },
+  {
+    "word": "stripet",
+    "word_en": "striped",
+    "phrase": "Vi spenner på oss skiene.",
+    "phrase_en": "We strap on our skis."
+  },
+  {
+    "word": "prikket",
+    "word_en": "dotted",
+    "phrase": "Løypa er nypreparert.",
+    "phrase_en": "The ski track is freshly groomed."
+  },
+  {
+    "word": "myk",
+    "word_en": "soft",
+    "phrase": "Skiene glir lett over snøen.",
+    "phrase_en": "The skis glide easily over the snow."
+  },
+  {
+    "word": "hard",
+    "word_en": "hard",
+    "phrase": "Vi går en skitur i måneskinn.",
+    "phrase_en": "We go skiing by moonlight."
+  },
+  {
+    "word": "glatt",
+    "word_en": "smooth",
+    "phrase": "Kvikk Lunsj og appelsin hører med.",
+    "phrase_en": "Chocolate and oranges are part of the tradition."
+  },
+  {
+    "word": "ru",
+    "word_en": "rough",
+    "phrase": "Vi bygger en snøhule.",
+    "phrase_en": "We build a snow cave."
+  },
+  {
+    "word": "skarp",
+    "word_en": "sharp",
+    "phrase": "Barna aker ned bakken.",
+    "phrase_en": "The children sled down the slope."
+  },
+  {
+    "word": "tung",
+    "word_en": "heavy",
+    "phrase": "Vi tar sparken til butikken.",
+    "phrase_en": "We take the kicksled to the shop."
+  },
+  {
+    "word": "lett",
+    "word_en": "lightweight",
+    "phrase": "Isen synger under skøytene.",
+    "phrase_en": "The ice sings under our skates."
+  },
+  {
+    "word": "tynn",
+    "word_en": "thin",
+    "phrase": "Vi sparker oss fram over isen.",
+    "phrase_en": "We kick our way across the ice."
+  },
+  {
+    "word": "tykk",
+    "word_en": "thick",
+    "phrase": "Kulda biter i nesa.",
+    "phrase_en": "The cold bites our noses."
+  },
+  {
+    "word": "våt",
+    "word_en": "wet",
+    "phrase": "Vi varmer oss med kakao.",
+    "phrase_en": "We warm ourselves with hot cocoa."
+  },
+  {
+    "word": "tørr",
+    "word_en": "dry",
+    "phrase": "Peisen knitrer i stua.",
+    "phrase_en": "The fireplace crackles in the living room."
+  },
+  {
+    "word": "fuktig",
+    "word_en": "humid",
+    "phrase": "Vi leser en god bok inne.",
+    "phrase_en": "We read a good book indoors."
+  },
+  {
+    "word": "ren",
+    "word_en": "clean",
+    "phrase": "Julestjerna henger i vinduet.",
+    "phrase_en": "The Christmas star hangs in the window."
+  },
+  {
+    "word": "skitten",
+    "word_en": "dirty",
+    "phrase": "Vi pynter juletreet.",
+    "phrase_en": "We decorate the Christmas tree."
+  },
+  {
+    "word": "ryddig",
+    "word_en": "tidy",
+    "phrase": "Det lukter gran og klementin.",
+    "phrase_en": "It smells of spruce and clementines."
+  },
+  {
+    "word": "rotete",
+    "word_en": "messy",
+    "phrase": "Vi synger julesanger.",
+    "phrase_en": "We sing Christmas carols."
+  },
+  {
+    "word": "tom",
+    "word_en": "empty",
+    "phrase": "Ribba står i ovnen.",
+    "phrase_en": "The pork ribs roast in the oven."
+  },
+  {
+    "word": "full",
+    "word_en": "full",
+    "phrase": "Vi åpner gaver på julaften.",
+    "phrase_en": "We open presents on Christmas Eve."
+  },
+  {
+    "word": "åpen",
+    "word_en": "open",
+    "phrase": "Nyttårsrakettene lyser opp himmelen.",
+    "phrase_en": "The New Year's rockets light up the sky."
+  },
+  {
+    "word": "lukket",
+    "word_en": "closed",
+    "phrase": "Vi ønsker hverandre godt nytt år.",
+    "phrase_en": "We wish each other a happy new year."
+  },
+  {
+    "word": "låst",
+    "word_en": "locked",
+    "phrase": "Vinteren er lang, men vakker.",
+    "phrase_en": "Winter is long but beautiful."
+  },
+  {
+    "word": "fri",
+    "word_en": "free",
+    "phrase": "Dagene blir lysere igjen.",
+    "phrase_en": "The days grow lighter again."
+  },
+  {
+    "word": "opptatt",
+    "word_en": "busy",
+    "phrase": "Vi gleder oss til våren.",
+    "phrase_en": "We look forward to spring."
+  },
+  {
+    "word": "ledig",
+    "word_en": "vacant",
+    "phrase": "Sommeren er kort og intens.",
+    "phrase_en": "Summer is short and intense."
+  },
+  {
+    "word": "ferdig",
+    "word_en": "finished",
+    "phrase": "Vi bader hver dag.",
+    "phrase_en": "We swim every day."
+  },
+  {
+    "word": "parat",
+    "word_en": "ready",
+    "phrase": "Jordbærene er modne.",
+    "phrase_en": "The strawberries are ripe."
+  },
+  {
+    "word": "modig",
+    "word_en": "brave",
+    "phrase": "Vi spiser is i solveggen.",
+    "phrase_en": "We eat ice cream in the sunny nook."
+  },
+  {
+    "word": "gå",
+    "word_en": "to walk",
+    "phrase": "Myggen svermer i skumringen.",
+    "phrase_en": "The mosquitoes swarm at dusk."
+  },
+  {
+    "word": "løpe",
+    "word_en": "to run",
+    "phrase": "Vi griller på terrassen.",
+    "phrase_en": "We barbecue on the terrace."
+  },
+  {
+    "word": "sykle",
+    "word_en": "to cycle",
+    "phrase": "Natta er lys og mild.",
+    "phrase_en": "The night is bright and mild."
+  },
+  {
+    "word": "kjøre",
+    "word_en": "to drive",
+    "phrase": "Vi sitter ute til langt på natt.",
+    "phrase_en": "We sit outside until late at night."
+  },
+  {
+    "word": "sveve",
+    "word_en": "to soar",
+    "phrase": "Fuglene synger hele døgnet.",
+    "phrase_en": "The birds sing around the clock."
+  },
+  {
+    "word": "seile",
+    "word_en": "to sail",
+    "phrase": "Vi plukker markblomster.",
+    "phrase_en": "We pick wildflowers."
+  },
+  {
+    "word": "ro",
+    "word_en": "to row",
+    "phrase": "Enga står i full blomst.",
+    "phrase_en": "The meadow is in full bloom."
+  },
+  {
+    "word": "padle",
+    "word_en": "to paddle",
+    "phrase": "Vi drar på biltur langs kysten.",
+    "phrase_en": "We take a road trip along the coast."
+  },
+  {
+    "word": "svømme",
+    "word_en": "to swim",
+    "phrase": "Hver vik har sin egen strand.",
+    "phrase_en": "Every cove has its own beach."
+  },
+  {
+    "word": "dykke",
+    "word_en": "to dive",
+    "phrase": "Vi overnatter i telt.",
+    "phrase_en": "We sleep in a tent."
+  },
+  {
+    "word": "bade",
+    "word_en": "to bathe",
+    "phrase": "Morgenbadet er forfriskende.",
+    "phrase_en": "The morning swim is refreshing."
+  },
+  {
+    "word": "fiske",
+    "word_en": "to fish",
+    "phrase": "Vi seiler mellom øyene.",
+    "phrase_en": "We sail between the islands."
+  },
+  {
+    "word": "klatre",
+    "word_en": "to climb",
+    "phrase": "Sommerregnet er varmt.",
+    "phrase_en": "The summer rain is warm."
+  },
+  {
+    "word": "vandre",
+    "word_en": "to wander",
+    "phrase": "Vi tørker i sola etter badet.",
+    "phrase_en": "We dry in the sun after swimming."
+  },
+  {
+    "word": "stå",
+    "word_en": "to stand",
+    "phrase": "Ferien går altfor fort.",
+    "phrase_en": "The holiday passes far too quickly."
+  },
+  {
+    "word": "sitte",
+    "word_en": "to sit",
+    "phrase": "Vi samler skjell på stranda.",
+    "phrase_en": "We collect shells on the beach."
+  },
+  {
+    "word": "ligge",
+    "word_en": "to lie down",
+    "phrase": "Bryggen i Bergen er på verdensarvlista.",
+    "phrase_en": "Bryggen in Bergen is on the World Heritage List."
+  },
+  {
+    "word": "sove",
+    "word_en": "to sleep",
+    "phrase": "Vi vandrer gjennom gamlebyen.",
+    "phrase_en": "We wander through the old town."
+  },
+  {
+    "word": "våkne",
+    "word_en": "to wake up",
+    "phrase": "Domkirken ruver over byen.",
+    "phrase_en": "The cathedral towers over the city."
+  },
+  {
+    "word": "drømme",
+    "word_en": "to dream",
+    "phrase": "Vi tar Fløibanen til toppen.",
+    "phrase_en": "We take the Fløibanen funicular to the top."
+  },
+  {
+    "word": "hvile",
+    "word_en": "to rest",
+    "phrase": "Utsikten over byen er upåklagelig.",
+    "phrase_en": "The view over the city is impeccable."
+  },
+  {
+    "word": "slappe av",
+    "word_en": "to relax",
+    "phrase": "Vi besøker et vikingmuseum.",
+    "phrase_en": "We visit a Viking museum."
+  },
+  {
+    "word": "stå opp",
+    "word_en": "to get up",
+    "phrase": "Stavkirken er over 800 år gammel.",
+    "phrase_en": "The stave church is over 800 years old."
+  },
+  {
+    "word": "legge seg",
+    "word_en": "to go to bed",
+    "phrase": "Vi rusler langs Aker Brygge.",
+    "phrase_en": "We stroll along Aker Brygge."
+  },
+  {
+    "word": "spise",
+    "word_en": "to eat",
+    "phrase": "Operahuset ser ut som et isfjell.",
+    "phrase_en": "The Opera House looks like an iceberg."
+  },
+  {
+    "word": "drikke",
+    "word_en": "to drink",
+    "phrase": "Vi tar en kaffe på en fortaucafé.",
+    "phrase_en": "We have a coffee at a sidewalk café."
+  },
+  {
+    "word": "smake",
+    "word_en": "to taste",
+    "phrase": "Nasjonalmuseet har en fantastisk samling.",
+    "phrase_en": "The National Museum has a fantastic collection."
+  },
+  {
+    "word": "lage",
+    "word_en": "to make",
+    "phrase": "Vi ser Munchs Skrik.",
+    "phrase_en": "We see Munch's The Scream."
+  },
+  {
+    "word": "lage mat",
+    "word_en": "to cook",
+    "phrase": "Vi spaserer i Slottsparken.",
+    "phrase_en": "We stroll through the Palace Park."
+  },
+  {
+    "word": "bake",
+    "word_en": "to bake",
+    "phrase": "Karl Johan er full av liv.",
+    "phrase_en": "Karl Johan is full of life."
+  },
+  {
+    "word": "steke",
+    "word_en": "to fry",
+    "phrase": "Vi tar trikken til Majorstuen.",
+    "phrase_en": "We take the tram to Majorstuen."
+  },
+  {
+    "word": "koke",
+    "word_en": "to boil",
+    "phrase": "Holmenkollen ruver over Oslo.",
+    "phrase_en": "Holmenkollen towers over Oslo."
+  },
+  {
+    "word": "grille",
+    "word_en": "to grill",
+    "phrase": "Nidarosdomen er et mesterverk.",
+    "phrase_en": "Nidaros Cathedral is a masterpiece."
+  },
+  {
+    "word": "handle",
+    "word_en": "to shop",
+    "phrase": "Vi går over den gamle bybroen.",
+    "phrase_en": "We walk across the old city bridge."
+  },
+  {
+    "word": "betale",
+    "word_en": "to pay",
+    "phrase": "Trondheim har sjarmerende trehusbebyggelse.",
+    "phrase_en": "Trondheim has charming wooden houses."
+  },
+  {
+    "word": "bestille",
+    "word_en": "to order",
+    "phrase": "Vi spiser fisk på Ravnkloa.",
+    "phrase_en": "We eat fish at Ravnkloa."
+  },
+  {
+    "word": "reservere",
+    "word_en": "to reserve",
+    "phrase": "Hurtigruta legger til kai.",
+    "phrase_en": "The coastal steamer docks."
+  },
+  {
+    "word": "avbestille",
+    "word_en": "to cancel",
+    "phrase": "Vi blir med på et fjordcruise.",
+    "phrase_en": "We join a fjord cruise."
+  },
+  {
+    "word": "pakke",
+    "word_en": "to pack",
+    "phrase": "Trolltunga henger over avgrunnen.",
+    "phrase_en": "Trolltunga juts out over the abyss."
+  },
+  {
+    "word": "pakke ut",
+    "word_en": "to unpack",
+    "phrase": "Preikestolen er et yndet turmål.",
+    "phrase_en": "Preikestolen is a beloved hiking destination."
+  },
+  {
+    "word": "planlegge",
+    "word_en": "to plan",
+    "phrase": "Vi tar Flåmsbana ned til fjorden.",
+    "phrase_en": "We take the Flåm Railway down to the fjord."
+  },
+  {
+    "word": "bestemme",
+    "word_en": "to decide",
+    "phrase": "Geirangerfjorden tar pusten fra oss.",
+    "phrase_en": "The Geirangerfjord takes our breath away."
+  },
+  {
+    "word": "velge",
+    "word_en": "to choose",
+    "phrase": "De syv søstre styrter ned fjellsiden.",
+    "phrase_en": "The Seven Sisters plunge down the mountainside."
+  },
+  {
+    "word": "prøve",
+    "word_en": "to try",
+    "phrase": "Vi besøker en samisk lavvo.",
+    "phrase_en": "We visit a Sámi lavvu tent."
+  },
+  {
+    "word": "lykkes",
+    "word_en": "to succeed",
+    "phrase": "Vi går på ski i Marka.",
+    "phrase_en": "We go skiing in the Marka forests."
+  },
+  {
+    "word": "begynne",
+    "word_en": "to begin",
+    "phrase": "Lillehammer er en koselig småby.",
+    "phrase_en": "Lillehammer is a cozy small town."
+  },
+  {
+    "word": "slutte",
+    "word_en": "to quit",
+    "phrase": "Vi koser oss med vafler og brunost.",
+    "phrase_en": "We cozy up with waffles and brown cheese."
+  },
+  {
+    "word": "fortsette",
+    "word_en": "to continue",
+    "phrase": "Vaffelhjertet deles rundt bordet.",
+    "phrase_en": "The waffle heart is shared around the table."
+  },
+  {
+    "word": "stoppe",
+    "word_en": "to halt",
+    "phrase": "Vi drikker kakao etter skituren.",
+    "phrase_en": "We drink cocoa after the ski trip."
+  },
+  {
+    "word": "skynde seg",
+    "word_en": "to hurry",
+    "phrase": "Fårikålen putrer på komfyren.",
+    "phrase_en": "The mutton stew simmers on the stove."
+  },
+  {
+    "word": "komme",
+    "word_en": "to come",
+    "phrase": "Vi spiser lutefisk med ertestuving og bacon.",
+    "phrase_en": "We eat lutefisk with mashed peas and bacon."
+  },
+  {
+    "word": "dra",
+    "word_en": "to leave",
+    "phrase": "Rakfisken serveres med flatbrød.",
+    "phrase_en": "The fermented fish is served with flatbread."
+  },
+  {
+    "word": "fare",
+    "word_en": "to travel",
+    "phrase": "Vi smaker på brunosten.",
+    "phrase_en": "We taste the brown cheese."
+  },
+  {
+    "word": "ankomme",
+    "word_en": "to arrive",
+    "phrase": "Geitosten er søt og karamellaktig.",
+    "phrase_en": "The goat cheese is sweet and caramel-like."
+  },
+  {
+    "word": "besøke",
+    "word_en": "to visit",
+    "phrase": "Vi baker kanelboller.",
+    "phrase_en": "We bake cinnamon buns."
+  },
+  {
+    "word": "invitere",
+    "word_en": "to invite",
+    "phrase": "Vi kjøper ferske reker på torget.",
+    "phrase_en": "We buy fresh shrimp at the market."
+  },
+  {
+    "word": "møte",
+    "word_en": "to meet",
+    "phrase": "Fisken er fanget samme morgen.",
+    "phrase_en": "The fish was caught the same morning."
+  },
+  {
+    "word": "hilse",
+    "word_en": "to greet",
+    "phrase": "Vi griller laks på bålet.",
+    "phrase_en": "We grill salmon over the fire."
+  },
+  {
+    "word": "snakke",
+    "word_en": "to talk",
+    "phrase": "Multekremen er en festdessert.",
+    "phrase_en": "The cloudberry cream is a festive dessert."
+  },
+  {
+    "word": "prate",
+    "word_en": "to chat",
+    "phrase": "Vi plukker multer på vidda.",
+    "phrase_en": "We pick cloudberries on the plateau."
+  },
+  {
+    "word": "spørre",
+    "word_en": "to ask",
+    "phrase": "Tyttebærene er syrlige og gode.",
+    "phrase_en": "The lingonberries are tart and tasty."
+  },
+  {
+    "word": "svare",
+    "word_en": "to answer",
+    "phrase": "Vi lager syltetøy av bærene.",
+    "phrase_en": "We make jam from the berries."
+  },
+  {
+    "word": "fortelle",
+    "word_en": "to tell",
+    "phrase": "Eplekaka serveres med vaniljesaus.",
+    "phrase_en": "The apple cake is served with vanilla sauce."
+  },
+  {
+    "word": "forklare",
+    "word_en": "to explain",
+    "phrase": "Vi drikker eplemost fra Hardanger.",
+    "phrase_en": "We drink apple juice from Hardanger."
+  },
+  {
+    "word": "vise",
+    "word_en": "to show",
+    "phrase": "Akevitt hører julen til.",
+    "phrase_en": "Aquavit belongs to Christmas."
+  },
+  {
+    "word": "lytte",
+    "word_en": "to listen",
+    "phrase": "Vi skåler for vertskapet.",
+    "phrase_en": "We toast the hosts."
+  },
+  {
+    "word": "høre",
+    "word_en": "to hear",
+    "phrase": "Kaffen er svart og sterk.",
+    "phrase_en": "The coffee is black and strong."
+  },
+  {
+    "word": "se",
+    "word_en": "to see",
+    "phrase": "Vi tar en kaffepause i sola.",
+    "phrase_en": "We take a coffee break in the sun."
+  },
+  {
+    "word": "titte",
+    "word_en": "to peek",
+    "phrase": "Kvelden avsluttes med te og stearinlys.",
+    "phrase_en": "The evening ends with tea and candles."
+  },
+  {
+    "word": "betrakte",
+    "word_en": "to gaze at",
+    "phrase": "Pinnekjøttet dampes over bjørkepinner.",
+    "phrase_en": "The cured lamb steams over birch sticks."
+  },
+  {
+    "word": "beundre",
+    "word_en": "to admire",
+    "phrase": "Vi bestiller billetter på forhånd.",
+    "phrase_en": "We book tickets in advance."
+  },
+  {
+    "word": "oppdage",
+    "word_en": "to discover",
+    "phrase": "Toget går fra spor tre.",
+    "phrase_en": "The train leaves from track three."
+  },
+  {
+    "word": "utforske",
+    "word_en": "to explore",
+    "phrase": "Vi rekker akkurat ferga.",
+    "phrase_en": "We just catch the ferry."
+  },
+  {
+    "word": "finne",
+    "word_en": "to find",
+    "phrase": "Bussen er forsinket.",
+    "phrase_en": "The bus is delayed."
+  },
+  {
+    "word": "lete",
+    "word_en": "to look for",
+    "phrase": "Vi spør om veien.",
+    "phrase_en": "We ask for directions."
+  },
+  {
+    "word": "miste",
+    "word_en": "to lose",
+    "phrase": "Kartet er ikke til å stole på.",
+    "phrase_en": "The map can't be trusted."
+  },
+  {
+    "word": "glemme",
+    "word_en": "to forget",
+    "phrase": "Vi følger skiltingen til sentrum.",
+    "phrase_en": "We follow the signs to the center."
+  },
+  {
+    "word": "huske",
+    "word_en": "to remember",
+    "phrase": "Hotellet ligger sentralt.",
+    "phrase_en": "The hotel is centrally located."
+  },
+  {
+    "word": "lære",
+    "word_en": "to learn",
+    "phrase": "Vi sjekker inn klokka tre.",
+    "phrase_en": "We check in at three o'clock."
+  },
+  {
+    "word": "forstå",
+    "word_en": "to understand",
+    "phrase": "Rommet har utsikt over fjorden.",
+    "phrase_en": "The room overlooks the fjord."
+  },
+  {
+    "word": "vite",
+    "word_en": "to know (facts)",
+    "phrase": "Frokosten serveres fra sju til ti.",
+    "phrase_en": "Breakfast is served from seven to ten."
+  },
+  {
+    "word": "kjenne",
+    "word_en": "to know (people)",
+    "phrase": "Vi ber om en ekstra dyne.",
+    "phrase_en": "We ask for an extra duvet."
+  },
+  {
+    "word": "tro",
+    "word_en": "to believe",
+    "phrase": "Nøkkelen leveres i resepsjonen.",
+    "phrase_en": "The key is returned at reception."
+  },
+  {
+    "word": "mene",
+    "word_en": "to mean",
+    "phrase": "Vi pakker ut og slapper av.",
+    "phrase_en": "We unpack and relax."
+  },
+  {
+    "word": "synes",
+    "word_en": "to think, to be of the opinion",
+    "phrase": "Hva koster en dagsbillett?",
+    "phrase_en": "How much is a day pass?"
+  },
+  {
+    "word": "tenke",
+    "word_en": "to think",
+    "phrase": "Vi kjøper et reisekort.",
+    "phrase_en": "We buy a travel card."
+  },
+  {
+    "word": "håpe",
+    "word_en": "to hope",
+    "phrase": "Turistinformasjonen ligger ved havna.",
+    "phrase_en": "The tourist office is by the harbor."
+  },
+  {
+    "word": "ønske",
+    "word_en": "to wish",
+    "phrase": "Vi blir med på en guidet tur.",
+    "phrase_en": "We join a guided tour."
+  },
+  {
+    "word": "vente",
+    "word_en": "to wait",
+    "phrase": "Guiden forteller gode historier.",
+    "phrase_en": "The guide tells great stories."
+  },
+  {
+    "word": "savne",
+    "word_en": "to miss",
+    "phrase": "Vi tar bilder av hvert øyeblikk.",
+    "phrase_en": "We photograph every moment."
+  },
+  {
+    "word": "elske",
+    "word_en": "to love",
+    "phrase": "Minnekortet er snart fullt.",
+    "phrase_en": "The memory card is almost full."
+  },
+  {
+    "word": "like",
+    "word_en": "to like",
+    "phrase": "Vi sender postkort hjem.",
+    "phrase_en": "We send postcards home."
+  },
+  {
+    "word": "le",
+    "word_en": "to laugh",
+    "phrase": "Suvenirene får plass i sekken.",
+    "phrase_en": "The souvenirs fit in the backpack."
+  },
+  {
+    "word": "smile",
+    "word_en": "to smile",
+    "phrase": "Vi veksler penger på flyplassen.",
+    "phrase_en": "We exchange money at the airport."
+  },
+  {
+    "word": "gråte",
+    "word_en": "to cry",
+    "phrase": "Kortet virker overalt.",
+    "phrase_en": "The card works everywhere."
+  },
+  {
+    "word": "synge",
+    "word_en": "to sing",
+    "phrase": "Vi lærer noen gloser hver dag.",
+    "phrase_en": "We learn a few words every day."
+  },
+  {
+    "word": "nynne",
+    "word_en": "to hum",
+    "phrase": "Nordmenn snakker godt engelsk.",
+    "phrase_en": "Norwegians speak English well."
+  },
+  {
+    "word": "danse",
+    "word_en": "to dance",
+    "phrase": "Vi prøver oss på norsk.",
+    "phrase_en": "We try our hand at Norwegian."
+  },
+  {
+    "word": "spille",
+    "word_en": "to play",
+    "phrase": "Takk for en fantastisk tur.",
+    "phrase_en": "Thanks for a fantastic trip."
+  },
+  {
+    "word": "lese",
+    "word_en": "to read",
+    "phrase": "Vi kommer garantert tilbake.",
+    "phrase_en": "We'll definitely be back."
+  }
+]
+</script>
+<script>(function(){
+  try{
+    var data=JSON.parse(document.getElementById('wotd-data').textContent);
+    if(!data||!data.length)return;
+    var now=new Date();
+    var doy=Math.floor((now-new Date(now.getFullYear(),0,0))/864e5); /* Jan 1 -> 1 */
+    var e=data[(doy-1)%data.length];
+    var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+    var h='<span class="word">'+esc(e.word)+'</span>';
+    if(e.translit)h+=' <span class="translit">('+esc(e.translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.word_en)+'&rdquo;</span> <span class="sep">&middot;</span> <span class="phrase">&ldquo;'+esc(e.phrase)+'&rdquo;</span>';
+    if(e.phrase_translit)h+=' <span class="translit">('+esc(e.phrase_translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.phrase_en)+'&rdquo;</span>';
+    document.querySelector('#wotd .wotd-body').innerHTML=h;
+    document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
+  }catch(err){}
+})();</script>
 <div class="top-pointer">Every image is free to use &mdash; no credit required. <a href="#license">See license below.</a></div>
 <main class="wrap">
   <div class="toolbar">
