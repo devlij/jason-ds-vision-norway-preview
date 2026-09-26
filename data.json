@@ -3040,5 +3040,44 @@
     "file_16x9": "assets/no-01-234-16x9.png",
     "file_4x5": "assets/no-01-234-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-235",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Kunstsilo",
+    "caption": "Kunstsilo, Kristiansand",
+    "scenario": "26 September 2026 · 14:15 Europe/Oslo",
+    "composition": "Art museum converted from a 1930s grain silo on the waterfront, viewed from the promenade with the harbor in front. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-235-16x9.png",
+    "file_4x5": "assets/no-01-235-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-236",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Ravnedalen Park",
+    "caption": "Ravnedalen Park, Kristiansand",
+    "scenario": "26 September 2026 · 14:15 Europe/Oslo",
+    "composition": "Park landscape with lawns and ponds at the foot of a steep rock wall, viewed from the paths among the trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-236-16x9.png",
+    "file_4x5": "assets/no-01-236-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-237",
+    "region": "Agder",
+    "city": "Lillesand",
+    "site": "Brekkestø",
+    "caption": "Brekkestø, Lillesand",
+    "scenario": "26 September 2026 · 14:15 Europe/Oslo",
+    "composition": "Traditional outport hamlet in the Lillesand archipelago, viewed from the water with wooden houses along the sound. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-237-16x9.png",
+    "file_4x5": "assets/no-01-237-4x5.png",
+    "audio": null
   }
 ]
