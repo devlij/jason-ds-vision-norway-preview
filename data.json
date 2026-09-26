@@ -3352,5 +3352,44 @@
     "file_16x9": "assets/no-01-258-16x9.png",
     "file_4x5": "assets/no-01-258-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-259",
+    "region": "Agder",
+    "city": "Risør",
+    "site": "Stangholmen",
+    "caption": "Stangholmen, Risør",
+    "scenario": "26 September 2026 · 18:15 Europe/Oslo",
+    "composition": "Stangholmen islet in Risør harbor: the lighthouse and white buildings on the small rocky islet, boats passing in the sound, the town rising behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-259-16x9.png",
+    "file_4x5": "assets/no-01-259-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-260",
+    "region": "Agder",
+    "city": "Søgne",
+    "site": "Høllen harbor",
+    "caption": "Høllen harbor, Søgne",
+    "scenario": "26 September 2026 · 18:30 Europe/Oslo",
+    "composition": "Harbor at Høllen: small boats at wooden jetties, red boathouses along the shore, the Søgne skjærgård islands beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-260-16x9.png",
+    "file_4x5": "assets/no-01-260-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-261",
+    "region": "Agder",
+    "city": "Lindesnes",
+    "site": "Bjelland Church",
+    "caption": "Bjelland Church, Lindesnes",
+    "scenario": "26 September 2026 · 16:33 UTC",
+    "composition": "Bjelland old stone church: the small stone church among fields and trees, its simple tower and whitewashed walls, quiet countryside around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-261-16x9.png",
+    "file_4x5": "assets/no-01-261-4x5.png",
+    "audio": null
   }
 ]
