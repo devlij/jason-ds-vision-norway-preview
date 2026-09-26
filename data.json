@@ -3729,5 +3729,44 @@
     "file_16x9": "assets/no-01-287-16x9.png",
     "file_4x5": "assets/no-01-287-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-288",
+    "region": "Innlandet",
+    "city": "Alvdal",
+    "site": "Aukrustsenteret",
+    "caption": "Aukrustsenteret, Alvdal",
+    "scenario": "26 September 2026 · 23:30 Europe/Oslo",
+    "composition": "The Aukrustsenteret cultural centre in Alvdal, its modern building devoted to Kjell Aukrust and the Flåklypa universe. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-288-16x9.png",
+    "file_4x5": "assets/no-01-288-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-289",
+    "region": "Innlandet",
+    "city": "Dokka",
+    "site": "Lands Museum",
+    "caption": "Lands Museum, Dokka",
+    "scenario": "26 September 2026 · 23:30 Europe/Oslo",
+    "composition": "Lands Museum in Dokka with its traditional farm buildings and artefacts around the courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-289-16x9.png",
+    "file_4x5": "assets/no-01-289-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-290",
+    "region": "Telemark",
+    "city": "Ulefoss",
+    "site": "Ulefos Hovedgaard",
+    "caption": "Ulefos Hovedgaard, Ulefoss",
+    "scenario": "26 September 2026 · 23:30 Europe/Oslo",
+    "composition": "Ground-level view of the white Empire-style manor house (completed 1807) from its English-style park, symmetrical facade centered, gardens and trees in the foreground, the Telemark Canal valley beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-290-16x9.png",
+    "file_4x5": "assets/no-01-290-4x5.png",
+    "audio": null
   }
 ]
