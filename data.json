@@ -2650,5 +2650,44 @@
     "file_16x9": "assets/no-01-204-16x9.png",
     "file_4x5": "assets/no-01-204-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-205",
+    "region": "Rogaland",
+    "city": "Randaberg",
+    "site": "Tungenes fyr",
+    "caption": "Tungenes fyr, Randaberg",
+    "scenario": "26 September 2026 · 09:15 Europe/Oslo",
+    "composition": "Lighthouse and historic buildings at the headland, viewed from the coastal path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-205-16x9.png",
+    "file_4x5": "assets/no-01-205-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-206",
+    "region": "Akershus",
+    "city": "Bærum",
+    "site": "Henie Onstad Art Centre",
+    "caption": "Henie Onstad Art Centre, Bærum",
+    "scenario": "26 September 2026 · 09:15 Europe/Oslo",
+    "composition": "Modernist museum buildings at Høvikodden on the Oslofjord shore, viewed from the waterfront promenade with sculptures and the fjord beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-206-16x9.png",
+    "file_4x5": "assets/no-01-206-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-207",
+    "region": "Akershus",
+    "city": "Sandvika",
+    "site": "Sandvika Waterfront",
+    "caption": "Sandvika Waterfront, Sandvika",
+    "scenario": "26 September 2026 · 09:30 Europe/Oslo",
+    "composition": "Beach park and marina at Kadettangen, viewed along the shoreline with the Oslofjord opening toward the town. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-207-16x9.png",
+    "file_4x5": "assets/no-01-207-4x5.png",
+    "audio": null
   }
 ]
