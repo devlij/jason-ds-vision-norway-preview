@@ -1,0 +1,317 @@
+BATCH NO daylight variants — batch 6 FINAL
+Date: 2026-09-26
+Country: Norway
+Repo: devlij/jason-ds-vision-norway-preview
+Base tip at start: 3607e00b9e88d951c75f26759ec4887a03616284
+Directive: 2026-09-25 Jason daylight-variants workstream, Norway batch 6 FINAL (remaining Approved night scenes from NO-01-156).
+Scope scanned: NO-01 catalogue in data.json, 168 scenes (NO-01-001 through NO-01-168). Germany excluded. Other countries not touched. Weather fields not edited. Night images not regenerated. index.html was not edited.
+
+Scan rule: Approved (data.json approved true) night interpretation, both night masters present (1920×1080 and 864×1080), no existing *-daylight-* file. Skip Candidates. Skip daylight-only masters (the published 16:9 and 4:5 are already a daytime interpretation, so there is no night master to derive from). Skip already-varianted scenes. Start at NO-01-156 and walk in ID order. Cap 16; the qualifying set is 13.
+Qualifying check: gallery descriptions plus the night master itself. A scene counts as a night interpretation when the published master is dusk, twilight, or night (lights on, dark sky), including post-sunset dusk. A scene counts as daylight-only when the gallery description and the master are morning, midday, afternoon, or overcast daytime, with no night lighting. Every selected master in this batch is a post-sunset dusk or night interpretation. NO-01-166 Skjærhalden harbour is post-sunset dusk (blue hour, harbour lights on) and is treated as a night interpretation.
+Batches 1–5 already covered the approved nights through NO-01-155 (with daylight-only scenes in NO-01-053–119 skipped, and Candidates skipped). No already-varianted scene was encountered from NO-01-156 upward. Existing daylight_variant blocks (80) were kept content-identical; data.json was not reformatted around them, and no weather field was rewritten.
+
+Selected (every remaining Approved night from NO-01-156 through NO-01-168): NO-01-156, NO-01-157, NO-01-158, NO-01-159, NO-01-160, NO-01-161, NO-01-162, NO-01-163, NO-01-164, NO-01-165, NO-01-166, NO-01-167, NO-01-168.
+Built: 13 scenes × 2 masters = 26 variant masters.
+  library/world/Norway/<City>/no-01-XXX-daylight-16x9.png (1920×1080)
+  library/world/Norway/<City>/no-01-XXX-daylight-4x5.png (864×1080)
+Path layout: this batch follows the daylight-variants spec path library/world/Norway/<City>/. City folder is the catalogue city name. Night masters stay in assets/ and were not moved.
+
+SKIP INSIDE THE SPAN (NO-01-156 through NO-01-168)
+- Candidates inside this span: none.
+- Daylight-only inside this span: none. Every Approved scene from NO-01-156 through NO-01-168 is a dusk or night interpretation.
+- Already-varianted from NO-01-156 upward: none.
+- Missing night master: none. Every selected scene has both 1920×1080 and 864×1080 night masters.
+- Scenes past the 16-scene cap: none. The qualifying set is 13, under the cap.
+- Existing *-daylight-* files before this batch: 80 scenes (batches 1–5). None of those files were rewritten. Their daylight_variant blocks were left content-identical.
+
+Gallery: index.html was not edited. Daylight button logic was not changed. The catalogue has no file_16x9_day / file_4x5_day keys, and none were added.
+
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = Norway, embedded when the variant PNG was written. Title and Copyright use a straight apostrophe and an em dash. Chunk payloads match the batch 5 exemplar. Night IDAT was not touched.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+Manifest: each selected scene record in data.json carries a daylight_variant block with source-night paths and SHA-256, both variant paths, variant SHA-256, dimensions, and the derivative disclosure. Norway has no separate per-scene manifest files; data.json is the catalogue. Earlier daylight_variant blocks were not edited.
+
+NIGHT-UNCHANGED CONFIRMATION
+Night masters: byte-unchanged. SHA-256 recorded before any variant write and again after. Pre and post are identical for every night file of the 13 selected scenes, and for every other PNG that already existed in assets/ and library/ (496 files, 0 changed, 0 missing, 0 extra among the pre-existing set). No night image was regenerated. git shows no modification under assets/ and no modification of pre-existing library files.
+
+========================================================================
+NO-01-156  Nøtterøy Church, Nøtterøy
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:00 Europe/Oslo
+  night 16x9  assets/no-01-156-16x9.png
+    sha256 before  acb4985fa8121aa04e1dba2ddce3bf8dc30b58a2b6860d9b2589214a003f2e85
+    sha256 after   acb4985fa8121aa04e1dba2ddce3bf8dc30b58a2b6860d9b2589214a003f2e85
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Nøtterøy/no-01-156-daylight-16x9.png
+    1920×1080
+    sha256         6a57f548591d74b212527b0c6b9cbd67e574f4ccd2a18698bb0c9d22a93fac3d
+  night 4x5  assets/no-01-156-4x5.png
+    sha256 before  e1430348d61ac48cf3c25fdba08442a59f990547cc68c614714df02b3f34b3cd
+    sha256 after   e1430348d61ac48cf3c25fdba08442a59f990547cc68c614714df02b3f34b3cd
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Nøtterøy/no-01-156-daylight-4x5.png
+    864×1080
+    sha256         e4f9f0d01d192bd3b72f07c1cece820d812d49c77c9c0721be8b0dac36a812fc
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-157  Munch's House, Åsgårdstrand
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:15 Europe/Oslo
+  night 16x9  assets/no-01-157-16x9.png
+    sha256 before  9118ff69274c5069f72cd61f6524d7ff5b8a009a8c108525aef71f1d8bd3f26a
+    sha256 after   9118ff69274c5069f72cd61f6524d7ff5b8a009a8c108525aef71f1d8bd3f26a
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Åsgårdstrand/no-01-157-daylight-16x9.png
+    1920×1080
+    sha256         ca324b1236c51649091934d3171d2822f81200fbf7546844b0d4fdf185927938
+  night 4x5  assets/no-01-157-4x5.png
+    sha256 before  59468e5ad5f74a3840d849000f345752a3cb629a6b67ee1838fa56804763b770
+    sha256 after   59468e5ad5f74a3840d849000f345752a3cb629a6b67ee1838fa56804763b770
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Åsgårdstrand/no-01-157-daylight-4x5.png
+    864×1080
+    sha256         ce278fa624f7ee62b173d5c996c9b849f668a35decb85d1b058507810efe0e4c
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-158  Eidsfoss Ironworks, Eidsfoss
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:15 Europe/Oslo
+  night 16x9  assets/no-01-158-16x9.png
+    sha256 before  a5e10dc1a76d5fdcdc8474a85224864997968556e302b9df4e0cd77ac1f37c41
+    sha256 after   a5e10dc1a76d5fdcdc8474a85224864997968556e302b9df4e0cd77ac1f37c41
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Eidsfoss/no-01-158-daylight-16x9.png
+    1920×1080
+    sha256         de397066b96f23459e082ee9daa8bc5b5ba35e224893b2833bad9cc12c4dc82e
+  night 4x5  assets/no-01-158-4x5.png
+    sha256 before  36b7918cd3ad3d3df46210174d6a81b9ed1a8b04a4640a6aaa7898fded8f4e19
+    sha256 after   36b7918cd3ad3d3df46210174d6a81b9ed1a8b04a4640a6aaa7898fded8f4e19
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Eidsfoss/no-01-158-daylight-4x5.png
+    864×1080
+    sha256         6ef56cc6e853a7862704c5b3ced39df041e788d321366e48fe8716a53fb25b2d
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-159  Holmestrand Harbour, Holmestrand
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:30 Europe/Oslo
+  night 16x9  assets/no-01-159-16x9.png
+    sha256 before  50a0bcbdb8b8882c544d329681653632d89c60fef5028b82a701ac9d328b0d0e
+    sha256 after   50a0bcbdb8b8882c544d329681653632d89c60fef5028b82a701ac9d328b0d0e
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Holmestrand/no-01-159-daylight-16x9.png
+    1920×1080
+    sha256         d1158558b4da87397e2c91c8875d2f055543399adac844229ee0e058094e18a4
+  night 4x5  assets/no-01-159-4x5.png
+    sha256 before  9a23756dfe30e666cb48125e2c672c4329431408f016affc1c6cdd535eb835d2
+    sha256 after   9a23756dfe30e666cb48125e2c672c4329431408f016affc1c6cdd535eb835d2
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Holmestrand/no-01-159-daylight-4x5.png
+    864×1080
+    sha256         2f77b26cf36ab860a035de5295e1214924be17b43f395837c00bcd2b4a097624
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-160  Sarpsfossen, Sarpsborg
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:45 Europe/Oslo
+  night 16x9  assets/no-01-160-16x9.png
+    sha256 before  ba9313656ef6a844b0c98962c90eaccaee4d33c744b336ed1c5200ce3c46446a
+    sha256 after   ba9313656ef6a844b0c98962c90eaccaee4d33c744b336ed1c5200ce3c46446a
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Sarpsborg/no-01-160-daylight-16x9.png
+    1920×1080
+    sha256         dd9d7bcdf0665af0747a3e23798cddbf9f288252beaf72fd7af86438aeb56949
+  night 4x5  assets/no-01-160-4x5.png
+    sha256 before  8ebb2f9b0a6785173af000cd3775a85393c8f6cae29c3692832fc0ea24eb93c3
+    sha256 after   8ebb2f9b0a6785173af000cd3775a85393c8f6cae29c3692832fc0ea24eb93c3
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Sarpsborg/no-01-160-daylight-4x5.png
+    864×1080
+    sha256         2cd5037680919597c7cea5dd81e6f445f8db68710bcabe916bdbcf3e9717a098
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-161  Hafslund Hovedgård, Sarpsborg
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 01:45 Europe/Oslo
+  night 16x9  assets/no-01-161-16x9.png
+    sha256 before  052b6fa2292a071b3fb0236b3dbe7993408f72977b6cb263a24d227ac7d4911f
+    sha256 after   052b6fa2292a071b3fb0236b3dbe7993408f72977b6cb263a24d227ac7d4911f
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Sarpsborg/no-01-161-daylight-16x9.png
+    1920×1080
+    sha256         424ce070ae449e4afc85fb52a05fe46717e0c669cd3f05d49322fe4caf2869f0
+  night 4x5  assets/no-01-161-4x5.png
+    sha256 before  012d1a37d6be59f89bea75c6afc057371520a5997fc90ae55415279dfcc975b5
+    sha256 after   012d1a37d6be59f89bea75c6afc057371520a5997fc90ae55415279dfcc975b5
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Sarpsborg/no-01-161-daylight-4x5.png
+    864×1080
+    sha256         52f201c2c8b762a6e9d1308f8717dfcbcc26bfd0edbbe6d72b6b168c2f2f843f
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-162  Borgarsyssel Museum, Sarpsborg
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 02:00 Europe/Oslo
+  night 16x9  assets/no-01-162-16x9.png
+    sha256 before  526787a457bfb2df9d3a28d8aa901dfe9977cba1aabe43d01175115fec8314be
+    sha256 after   526787a457bfb2df9d3a28d8aa901dfe9977cba1aabe43d01175115fec8314be
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Sarpsborg/no-01-162-daylight-16x9.png
+    1920×1080
+    sha256         5a07d2c762ca97420cd726291cf193c33f143b3e0fc602a73c77d2f211a65f92
+  night 4x5  assets/no-01-162-4x5.png
+    sha256 before  dcd08f8a65eae81301e52dea582eb2104ac67585ba8cee0c89027e7a512cfad4
+    sha256 after   dcd08f8a65eae81301e52dea582eb2104ac67585ba8cee0c89027e7a512cfad4
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Sarpsborg/no-01-162-daylight-4x5.png
+    864×1080
+    sha256         a006156be9a5612b0c522b13b79251c6affcfec17a4ad7ea1850c912c150e1a6
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-163  Tune kirke, Sarpsborg
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 00:26 UTC
+  night 16x9  assets/no-01-163-16x9.png
+    sha256 before  38139882ce7d74249a79da871ce5802c586a785829ccae8f2ee0f1ac9be9ced9
+    sha256 after   38139882ce7d74249a79da871ce5802c586a785829ccae8f2ee0f1ac9be9ced9
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Sarpsborg/no-01-163-daylight-16x9.png
+    1920×1080
+    sha256         fedb7ab310562a89421f6e50be518c10fe24c6528c8bb3c8572fbf376199ea25
+  night 4x5  assets/no-01-163-4x5.png
+    sha256 before  76889bfec31efcad4b5e2bc91124db6ec84292946b160b6d2d79f25e4cdb96cf
+    sha256 after   76889bfec31efcad4b5e2bc91124db6ec84292946b160b6d2d79f25e4cdb96cf
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Sarpsborg/no-01-163-daylight-4x5.png
+    864×1080
+    sha256         af10f8a3ce1af17e6f1c6fb6a66fe03fb73f47fe77ec32520ecb2fbd41de45a4
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-164  Fredrikstad Domkirke, Fredrikstad
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 02:15 Europe/Oslo
+  night 16x9  assets/no-01-164-16x9.png
+    sha256 before  0a9dbbde7493b5920f8ffb552fa4143b99d5fc8870a9ca4a298304d24f7d6861
+    sha256 after   0a9dbbde7493b5920f8ffb552fa4143b99d5fc8870a9ca4a298304d24f7d6861
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Fredrikstad/no-01-164-daylight-16x9.png
+    1920×1080
+    sha256         f22747db944fb87fabefe9cf4553389a8584f7ea4dc26ddc0032a66111d89c38
+  night 4x5  assets/no-01-164-4x5.png
+    sha256 before  5a3988c494925a2f0bb3dcfa4c4baa66bb4367be6e96e7826eb5cce4f853e22b
+    sha256 after   5a3988c494925a2f0bb3dcfa4c4baa66bb4367be6e96e7826eb5cce4f853e22b
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Fredrikstad/no-01-164-daylight-4x5.png
+    864×1080
+    sha256         f1fbe6b420484c3f9af1d9ecd2c49544b2ca845c41ad959ff4ad2ede9c022eb0
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-165  Isegran, Fredrikstad
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 02:30 Europe/Oslo
+  night 16x9  assets/no-01-165-16x9.png
+    sha256 before  3925ed4478ddd80a652222aee0f2cd8e56fc21d564633ed5f041f693dac598ee
+    sha256 after   3925ed4478ddd80a652222aee0f2cd8e56fc21d564633ed5f041f693dac598ee
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Fredrikstad/no-01-165-daylight-16x9.png
+    1920×1080
+    sha256         a0ce2556c0739cd6e4a38304fe6527701d9256c99ff76bd725773d5d7020b492
+  night 4x5  assets/no-01-165-4x5.png
+    sha256 before  56236a32f1a9e10553de838cdecf22dc3ebbd6fc8827a7aa439c0a3be4305bc6
+    sha256 after   56236a32f1a9e10553de838cdecf22dc3ebbd6fc8827a7aa439c0a3be4305bc6
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Fredrikstad/no-01-165-daylight-4x5.png
+    864×1080
+    sha256         a76df9c482121f257740e9d1c5d9fc2a2e0fe9f24afbb44fa45b07714bbbb5f8
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-166  Skjærhalden harbour, Skjærhalden
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 02:45 Europe/Oslo
+  night 16x9  assets/no-01-166-16x9.png
+    sha256 before  4016ef82ee3b481b33cf18c15c93c254f7b83d96173bd9f29fd97696a88d8b8f
+    sha256 after   4016ef82ee3b481b33cf18c15c93c254f7b83d96173bd9f29fd97696a88d8b8f
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Skjærhalden/no-01-166-daylight-16x9.png
+    1920×1080
+    sha256         064ab9659b20db3d6f617ee2623f42ffe8945efa4af93e33a41c834699cd584c
+  night 4x5  assets/no-01-166-4x5.png
+    sha256 before  15393541baf6ee8cd0e9a24102c59d209f8dc154e3b07bc4f1f9d88f2c603ab6
+    sha256 after   15393541baf6ee8cd0e9a24102c59d209f8dc154e3b07bc4f1f9d88f2c603ab6
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Skjærhalden/no-01-166-daylight-4x5.png
+    864×1080
+    sha256         d93a08372de20e9db148dbb5fd5e3e56e9533058cb619772ad674c80383a62f8
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-167  Hvaler kirke, Skjærhalden
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 03:00 Europe/Oslo
+  night 16x9  assets/no-01-167-16x9.png
+    sha256 before  9866dfeb34f16d4d00ea9963aa5a2debe301dbb02ed3a931db14b97342677afc
+    sha256 after   9866dfeb34f16d4d00ea9963aa5a2debe301dbb02ed3a931db14b97342677afc
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Skjærhalden/no-01-167-daylight-16x9.png
+    1920×1080
+    sha256         d36dba7df8dadeb316e4ad80cf71d5458f5ed33f64ab0f4090fb6f7b4b773cef
+  night 4x5  assets/no-01-167-4x5.png
+    sha256 before  58034ad89888973c17dc7146ff51d7c26fe5cf8e4e1576553527391143baa52b
+    sha256 after   58034ad89888973c17dc7146ff51d7c26fe5cf8e4e1576553527391143baa52b
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Skjærhalden/no-01-167-daylight-4x5.png
+    864×1080
+    sha256         2f3c4176dbcbc5c0af4aa473a93cfd6f7d21d68fcb17b9db80dab78b7bd23652
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+NO-01-168  Spjærøy kirke, Vesterøy
+  approval_state: approved
+  scenario_label (night scene, not printed on the variant): 26 September 2026 · 03:00 Europe/Oslo
+  night 16x9  assets/no-01-168-16x9.png
+    sha256 before  f5d094bd4a7255bee9ac26f7b03f095673cc6c6c5324d1bad66112dcca46940a
+    sha256 after   f5d094bd4a7255bee9ac26f7b03f095673cc6c6c5324d1bad66112dcca46940a
+    night master   IDENTICAL
+  variant 16x9  library/world/Norway/Vesterøy/no-01-168-daylight-16x9.png
+    1920×1080
+    sha256         8a04e2f78372e347bc0cd161ed70067842c2af482ff828f99c53f542b6c85deb
+  night 4x5  assets/no-01-168-4x5.png
+    sha256 before  b04d45d7e9271c03a124e522e1e5c1a08ed78682651e4fea061c9dcba53004f5
+    sha256 after   b04d45d7e9271c03a124e522e1e5c1a08ed78682651e4fea061c9dcba53004f5
+    night master   IDENTICAL
+  variant 4x5  library/world/Norway/Vesterøy/no-01-168-daylight-4x5.png
+    864×1080
+    sha256         2e2d6da7e0c904d70efaad8bac57c5e13c6f7700eb9f4893d3e70d5372348761
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+Variant scene count: 13. Variant master count: 26.
+Night masters byte-unchanged: YES
+
+REMAINING AFTER THIS BATCH
+Approved night scenes still without a daylight variant: 0
+RUNWAY STATUS: COMPLETE. Every Approved night scene in the Norway catalogue (NO-01-001 through NO-01-168) that has both night masters now has a daylight variant. Nothing remains on the Approved night runway.
+
+Daylight-only approved scenes skipped across the workstream and not part of the night runway: 64 (NO-01-053 through NO-01-119, excluding Candidates NO-01-076, NO-01-077, and NO-01-093). They are daytime masters. They are not queued for a night-derived daylight variant.
+
+Candidate night scenes still waiting (not varied): 11
+NO-01-014
+NO-01-015
+NO-01-031
+NO-01-038
+NO-01-076
+NO-01-077
+NO-01-093
+NO-01-133
+NO-01-145
+NO-01-146
+NO-01-147

@@ -5229,7 +5229,49 @@
     "composition": "Medieval stone church on Nøtterøy, viewed from the churchyard. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-156-16x9.png",
-    "file_4x5": "assets/no-01-156-4x5.png"
+    "file_4x5": "assets/no-01-156-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-156-16x9.png",
+          "sha256": "acb4985fa8121aa04e1dba2ddce3bf8dc30b58a2b6860d9b2589214a003f2e85"
+        },
+        "4x5": {
+          "path": "assets/no-01-156-4x5.png",
+          "sha256": "e1430348d61ac48cf3c25fdba08442a59f990547cc68c614714df02b3f34b3cd"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Nøtterøy/no-01-156-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "6a57f548591d74b212527b0c6b9cbd67e574f4ccd2a18698bb0c9d22a93fac3d"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Nøtterøy/no-01-156-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "e4f9f0d01d192bd3b72f07c1cece820d812d49c77c9c0721be8b0dac36a812fc"
+        }
+      },
+      "on_image_text": [
+        "Nøtterøy Church, Nøtterøy",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-157",
@@ -5241,7 +5283,49 @@
     "composition": "Small wooden house where Edvard Munch spent his summers, viewed from the garden toward the fjord. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-157-16x9.png",
-    "file_4x5": "assets/no-01-157-4x5.png"
+    "file_4x5": "assets/no-01-157-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-157-16x9.png",
+          "sha256": "9118ff69274c5069f72cd61f6524d7ff5b8a009a8c108525aef71f1d8bd3f26a"
+        },
+        "4x5": {
+          "path": "assets/no-01-157-4x5.png",
+          "sha256": "59468e5ad5f74a3840d849000f345752a3cb629a6b67ee1838fa56804763b770"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Åsgårdstrand/no-01-157-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "ca324b1236c51649091934d3171d2822f81200fbf7546844b0d4fdf185927938"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Åsgårdstrand/no-01-157-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "ce278fa624f7ee62b173d5c996c9b849f668a35decb85d1b058507810efe0e4c"
+        }
+      },
+      "on_image_text": [
+        "Munch's House, Åsgårdstrand",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-158",
@@ -5253,7 +5337,49 @@
     "composition": "Preserved ironworks village with old workers' houses and the manor, viewed along the river between the lakes. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-158-16x9.png",
-    "file_4x5": "assets/no-01-158-4x5.png"
+    "file_4x5": "assets/no-01-158-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-158-16x9.png",
+          "sha256": "a5e10dc1a76d5fdcdc8474a85224864997968556e302b9df4e0cd77ac1f37c41"
+        },
+        "4x5": {
+          "path": "assets/no-01-158-4x5.png",
+          "sha256": "36b7918cd3ad3d3df46210174d6a81b9ed1a8b04a4640a6aaa7898fded8f4e19"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Eidsfoss/no-01-158-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "de397066b96f23459e082ee9daa8bc5b5ba35e224893b2833bad9cc12c4dc82e"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Eidsfoss/no-01-158-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "6ef56cc6e853a7862704c5b3ced39df041e788d321366e48fe8716a53fb25b2d"
+        }
+      },
+      "on_image_text": [
+        "Eidsfoss Ironworks, Eidsfoss",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-159",
@@ -5265,7 +5391,49 @@
     "composition": "Wooden houses lining the harbour front, viewed across the water. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-159-16x9.png",
-    "file_4x5": "assets/no-01-159-4x5.png"
+    "file_4x5": "assets/no-01-159-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-159-16x9.png",
+          "sha256": "50a0bcbdb8b8882c544d329681653632d89c60fef5028b82a701ac9d328b0d0e"
+        },
+        "4x5": {
+          "path": "assets/no-01-159-4x5.png",
+          "sha256": "9a23756dfe30e666cb48125e2c672c4329431408f016affc1c6cdd535eb835d2"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Holmestrand/no-01-159-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d1158558b4da87397e2c91c8875d2f055543399adac844229ee0e058094e18a4"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Holmestrand/no-01-159-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "2f77b26cf36ab860a035de5295e1214924be17b43f395837c00bcd2b4a097624"
+        }
+      },
+      "on_image_text": [
+        "Holmestrand Harbour, Holmestrand",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-160",
@@ -5277,7 +5445,49 @@
     "composition": "Wide view across the Glomma as the falls plunge over the rock shelf, spray rising, riverside walkway in the foreground. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-160-16x9.png",
-    "file_4x5": "assets/no-01-160-4x5.png"
+    "file_4x5": "assets/no-01-160-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-160-16x9.png",
+          "sha256": "ba9313656ef6a844b0c98962c90eaccaee4d33c744b336ed1c5200ce3c46446a"
+        },
+        "4x5": {
+          "path": "assets/no-01-160-4x5.png",
+          "sha256": "8ebb2f9b0a6785173af000cd3775a85393c8f6cae29c3692832fc0ea24eb93c3"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sarpsborg/no-01-160-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "dd9d7bcdf0665af0747a3e23798cddbf9f288252beaf72fd7af86438aeb56949"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sarpsborg/no-01-160-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "2cd5037680919597c7cea5dd81e6f445f8db68710bcabe916bdbcf3e9717a098"
+        }
+      },
+      "on_image_text": [
+        "Sarpsfossen, Sarpsborg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-161",
@@ -5289,7 +5499,49 @@
     "composition": "Stately manor house front facade with its gardens, viewed from the approach drive. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-161-16x9.png",
-    "file_4x5": "assets/no-01-161-4x5.png"
+    "file_4x5": "assets/no-01-161-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-161-16x9.png",
+          "sha256": "052b6fa2292a071b3fb0236b3dbe7993408f72977b6cb263a24d227ac7d4911f"
+        },
+        "4x5": {
+          "path": "assets/no-01-161-4x5.png",
+          "sha256": "012d1a37d6be59f89bea75c6afc057371520a5997fc90ae55415279dfcc975b5"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sarpsborg/no-01-161-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "424ce070ae449e4afc85fb52a05fe46717e0c669cd3f05d49322fe4caf2869f0"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sarpsborg/no-01-161-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "52f201c2c8b762a6e9d1308f8717dfcbcc26bfd0edbbe6d72b6b168c2f2f843f"
+        }
+      },
+      "on_image_text": [
+        "Hafslund Hovedgård, Sarpsborg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-162",
@@ -5301,7 +5553,49 @@
     "composition": "Open-air museum grounds with historic wooden buildings, viewed from the main courtyard path. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-162-16x9.png",
-    "file_4x5": "assets/no-01-162-4x5.png"
+    "file_4x5": "assets/no-01-162-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-162-16x9.png",
+          "sha256": "526787a457bfb2df9d3a28d8aa901dfe9977cba1aabe43d01175115fec8314be"
+        },
+        "4x5": {
+          "path": "assets/no-01-162-4x5.png",
+          "sha256": "dcd08f8a65eae81301e52dea582eb2104ac67585ba8cee0c89027e7a512cfad4"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sarpsborg/no-01-162-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "5a07d2c762ca97420cd726291cf193c33f143b3e0fc602a73c77d2f211a65f92"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sarpsborg/no-01-162-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "a006156be9a5612b0c522b13b79251c6affcfec17a4ad7ea1850c912c150e1a6"
+        }
+      },
+      "on_image_text": [
+        "Borgarsyssel Museum, Sarpsborg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-163",
@@ -5313,7 +5607,49 @@
     "composition": "Medieval stone church with its stout tower, viewed across the churchyard lawn. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-163-16x9.png",
-    "file_4x5": "assets/no-01-163-4x5.png"
+    "file_4x5": "assets/no-01-163-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-163-16x9.png",
+          "sha256": "38139882ce7d74249a79da871ce5802c586a785829ccae8f2ee0f1ac9be9ced9"
+        },
+        "4x5": {
+          "path": "assets/no-01-163-4x5.png",
+          "sha256": "76889bfec31efcad4b5e2bc91124db6ec84292946b160b6d2d79f25e4cdb96cf"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sarpsborg/no-01-163-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "fedb7ab310562a89421f6e50be518c10fe24c6528c8bb3c8572fbf376199ea25"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sarpsborg/no-01-163-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "af10f8a3ce1af17e6f1c6fb6a66fe03fb73f47fe77ec32520ecb2fbd41de45a4"
+        }
+      },
+      "on_image_text": [
+        "Tune kirke, Sarpsborg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-164",
@@ -5325,7 +5661,49 @@
     "composition": "Brick cathedral with single western tower, viewed from the square below. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-164-16x9.png",
-    "file_4x5": "assets/no-01-164-4x5.png"
+    "file_4x5": "assets/no-01-164-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-164-16x9.png",
+          "sha256": "0a9dbbde7493b5920f8ffb552fa4143b99d5fc8870a9ca4a298304d24f7d6861"
+        },
+        "4x5": {
+          "path": "assets/no-01-164-4x5.png",
+          "sha256": "5a3988c494925a2f0bb3dcfa4c4baa66bb4367be6e96e7826eb5cce4f853e22b"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Fredrikstad/no-01-164-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "f22747db944fb87fabefe9cf4553389a8584f7ea4dc26ddc0032a66111d89c38"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Fredrikstad/no-01-164-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "f1fbe6b420484c3f9af1d9ecd2c49544b2ca845c41ad959ff4ad2ede9c022eb0"
+        }
+      },
+      "on_image_text": [
+        "Fredrikstad Domkirke, Fredrikstad",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-165",
@@ -5337,7 +5715,49 @@
     "composition": "Small fortified island at the river mouth with stone ramparts and red-roofed buildings, viewed from the waterfront. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-165-16x9.png",
-    "file_4x5": "assets/no-01-165-4x5.png"
+    "file_4x5": "assets/no-01-165-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-165-16x9.png",
+          "sha256": "3925ed4478ddd80a652222aee0f2cd8e56fc21d564633ed5f041f693dac598ee"
+        },
+        "4x5": {
+          "path": "assets/no-01-165-4x5.png",
+          "sha256": "56236a32f1a9e10553de838cdecf22dc3ebbd6fc8827a7aa439c0a3be4305bc6"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Fredrikstad/no-01-165-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "a0ce2556c0739cd6e4a38304fe6527701d9256c99ff76bd725773d5d7020b492"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Fredrikstad/no-01-165-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "a76df9c482121f257740e9d1c5d9fc2a2e0fe9f24afbb44fa45b07714bbbb5f8"
+        }
+      },
+      "on_image_text": [
+        "Isegran, Fredrikstad",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-166",
@@ -5349,7 +5769,49 @@
     "composition": "Harbour front with moored boats and low wooden houses along the quay, viewed from the pier. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-166-16x9.png",
-    "file_4x5": "assets/no-01-166-4x5.png"
+    "file_4x5": "assets/no-01-166-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-166-16x9.png",
+          "sha256": "4016ef82ee3b481b33cf18c15c93c254f7b83d96173bd9f29fd97696a88d8b8f"
+        },
+        "4x5": {
+          "path": "assets/no-01-166-4x5.png",
+          "sha256": "15393541baf6ee8cd0e9a24102c59d209f8dc154e3b07bc4f1f9d88f2c603ab6"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Skjærhalden/no-01-166-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "064ab9659b20db3d6f617ee2623f42ffe8945efa4af93e33a41c834699cd584c"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Skjærhalden/no-01-166-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "d93a08372de20e9db148dbb5fd5e3e56e9533058cb619772ad674c80383a62f8"
+        }
+      },
+      "on_image_text": [
+        "Skjærhalden harbour, Skjærhalden",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-167",
@@ -5361,7 +5823,49 @@
     "composition": "Medieval stone church among trees on the island, viewed from the churchyard gate. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-167-16x9.png",
-    "file_4x5": "assets/no-01-167-4x5.png"
+    "file_4x5": "assets/no-01-167-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-167-16x9.png",
+          "sha256": "9866dfeb34f16d4d00ea9963aa5a2debe301dbb02ed3a931db14b97342677afc"
+        },
+        "4x5": {
+          "path": "assets/no-01-167-4x5.png",
+          "sha256": "58034ad89888973c17dc7146ff51d7c26fe5cf8e4e1576553527391143baa52b"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Skjærhalden/no-01-167-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d36dba7df8dadeb316e4ad80cf71d5458f5ed33f64ab0f4090fb6f7b4b773cef"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Skjærhalden/no-01-167-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "2f3c4176dbcbc5c0af4aa473a93cfd6f7d21d68fcb17b9db80dab78b7bd23652"
+        }
+      },
+      "on_image_text": [
+        "Hvaler kirke, Skjærhalden",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-168",
@@ -5373,6 +5877,48 @@
     "composition": "Small white island church with its bell tower, viewed from the coastal path. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-168-16x9.png",
-    "file_4x5": "assets/no-01-168-4x5.png"
+    "file_4x5": "assets/no-01-168-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-168-16x9.png",
+          "sha256": "f5d094bd4a7255bee9ac26f7b03f095673cc6c6c5324d1bad66112dcca46940a"
+        },
+        "4x5": {
+          "path": "assets/no-01-168-4x5.png",
+          "sha256": "b04d45d7e9271c03a124e522e1e5c1a08ed78682651e4fea061c9dcba53004f5"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Vesterøy/no-01-168-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "8a04e2f78372e347bc0cd161ed70067842c2af482ff828f99c53f542b6c85deb"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Vesterøy/no-01-168-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "2e2d6da7e0c904d70efaad8bac57c5e13c6f7700eb9f4893d3e70d5372348761"
+        }
+      },
+      "on_image_text": [
+        "Spjærøy kirke, Vesterøy",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   }
 ]
