@@ -2338,5 +2338,44 @@
     "file_16x9": "assets/no-01-180-16x9.png",
     "file_4x5": "assets/no-01-180-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-181",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Ledaal",
+    "caption": "Ledaal, Stavanger",
+    "scenario": "26 September 2026 · 05:15 Europe/Oslo",
+    "composition": "Manor house with its garden, viewed from the park grounds. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-181-16x9.png",
+    "file_4x5": "assets/no-01-181-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-182",
+    "region": "Rogaland",
+    "city": "Tau",
+    "site": "Flor & Fjære",
+    "caption": "Flor & Fjære, Tau",
+    "scenario": "26 September 2026 · 05:30 Europe/Oslo",
+    "composition": "Lush island garden with exotic plantings and sculptures, viewed from the garden paths. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-182-16x9.png",
+    "file_4x5": "assets/no-01-182-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-183",
+    "region": "Rogaland",
+    "city": "Mosterøy",
+    "site": "Utstein Abbey",
+    "caption": "Utstein Abbey, Mosterøy",
+    "scenario": "26 September 2026 · 05:30 Europe/Oslo",
+    "composition": "Medieval monastery buildings with the abbey church tower, viewed from the courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-183-16x9.png",
+    "file_4x5": "assets/no-01-183-4x5.png",
+    "audio": null
   }
 ]
