@@ -3391,5 +3391,44 @@
     "file_16x9": "assets/no-01-261-16x9.png",
     "file_4x5": "assets/no-01-261-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-262",
+    "region": "Buskerud",
+    "city": "Kongsberg",
+    "site": "Labrofossen waterfall",
+    "caption": "Labrofossen waterfall, Kongsberg",
+    "scenario": "26 September 2026 · 19:00 Europe/Oslo",
+    "composition": "Labrofossen waterfall on the Numedalslågen river near Kongsberg: broad cascade over rock ledges, pine forest on both banks. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-262-16x9.png",
+    "file_4x5": "assets/no-01-262-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-263",
+    "region": "Buskerud",
+    "city": "Drammen",
+    "site": "Bragernes Church",
+    "caption": "Bragernes Church, Drammen",
+    "scenario": "26 September 2026 · 19:00 Europe/Oslo",
+    "composition": "Bragernes Church in Drammen: twin-spired brick church on the riverfront, viewed from the square or across the river. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-263-16x9.png",
+    "file_4x5": "assets/no-01-263-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-264",
+    "region": "Buskerud",
+    "city": "Vikersund",
+    "site": "Vikersundbakken ski jump",
+    "caption": "Vikersundbakken ski jump, Vikersund",
+    "scenario": "26 September 2026 · 19:15 Europe/Oslo",
+    "composition": "Vikersundbakken ski flying hill in Vikersund: towering inrun and landing slope rising above the tree line on the hillside. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-264-16x9.png",
+    "file_4x5": "assets/no-01-264-4x5.png",
+    "audio": null
   }
 ]
