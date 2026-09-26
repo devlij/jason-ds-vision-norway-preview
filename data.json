@@ -2689,5 +2689,44 @@
     "file_16x9": "assets/no-01-207-16x9.png",
     "file_4x5": "assets/no-01-207-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-208",
+    "region": "Akershus",
+    "city": "Sandvika",
+    "site": "Kalvøya Island",
+    "caption": "Kalvøya Island, Sandvika",
+    "scenario": "26 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Rocky swimming island at the Sandvika shore, viewed from the bridge across the water with swimmers' rocks and pines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-208-16x9.png",
+    "file_4x5": "assets/no-01-208-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-209",
+    "region": "Akershus",
+    "city": "Bærum",
+    "site": "Haslum Church",
+    "caption": "Haslum Church, Bærum",
+    "scenario": "26 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Medieval stone church with its saddle roof and tower, viewed from the churchyard at Bekkestua. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-209-16x9.png",
+    "file_4x5": "assets/no-01-209-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-210",
+    "region": "Akershus",
+    "city": "Blaker",
+    "site": "Blaker Skanse",
+    "caption": "Blaker Skanse, Blaker",
+    "scenario": "26 September 2026 · 10:00 Europe/Oslo",
+    "composition": "17th-century fortress earthworks above the Glomma valley, viewed from the ramparts with the river plain below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-210-16x9.png",
+    "file_4x5": "assets/no-01-210-4x5.png",
+    "audio": null
   }
 ]
