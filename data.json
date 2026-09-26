@@ -2377,5 +2377,44 @@
     "file_16x9": "assets/no-01-183-16x9.png",
     "file_4x5": "assets/no-01-183-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-184",
+    "region": "Rogaland",
+    "city": "Sola",
+    "site": "Solastranden",
+    "caption": "Solastranden, Sola",
+    "scenario": "26 September 2026 · 06:00 Europe/Oslo",
+    "composition": "Wide sandy beach with dunes, viewed along the shoreline. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-184-16x9.png",
+    "file_4x5": "assets/no-01-184-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-185",
+    "region": "Rogaland",
+    "city": "Sola",
+    "site": "Sola ruinkirke",
+    "caption": "Sola ruinkirke, Sola",
+    "scenario": "26 September 2026 · 06:00 Europe/Oslo",
+    "composition": "Stone ruins of the medieval church, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-185-16x9.png",
+    "file_4x5": "assets/no-01-185-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-186",
+    "region": "Rogaland",
+    "city": "Sandnes",
+    "site": "Vitenfabrikken",
+    "caption": "Vitenfabrikken, Sandnes",
+    "scenario": "26 September 2026 · 06:00 Europe/Oslo",
+    "composition": "Modern science centre building in the town centre, viewed from the street. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-186-16x9.png",
+    "file_4x5": "assets/no-01-186-4x5.png",
+    "audio": null
   }
 ]
