@@ -3001,5 +3001,44 @@
     "file_16x9": "assets/no-01-231-16x9.png",
     "file_4x5": "assets/no-01-231-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-232",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Posebyen",
+    "caption": "Posebyen, Kristiansand",
+    "scenario": "26 September 2026 · 13:45 Europe/Oslo",
+    "composition": "Old town quarter with small wooden houses and narrow streets, viewed along Kronprinsens gate among the historic homes. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-232-16x9.png",
+    "file_4x5": "assets/no-01-232-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-233",
+    "region": "Agder",
+    "city": "Grimstad",
+    "site": "Homborsund Lighthouse",
+    "caption": "Homborsund Lighthouse, Grimstad",
+    "scenario": "26 September 2026 · 13:45 Europe/Oslo",
+    "composition": "Lighthouse on the skerry at Homborsund south of Grimstad, viewed from the shore or the water with the sea and islands around. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-233-16x9.png",
+    "file_4x5": "assets/no-01-233-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-234",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Gimle Gård",
+    "caption": "Gimle Gård, Kristiansand",
+    "scenario": "26 September 2026 · 14:00 Europe/Oslo",
+    "composition": "Manor house and farmyard set in parkland east of the center, viewed from the grounds among the old buildings. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-234-16x9.png",
+    "file_4x5": "assets/no-01-234-4x5.png",
+    "audio": null
   }
 ]
