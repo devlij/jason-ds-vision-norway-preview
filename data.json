@@ -3118,5 +3118,44 @@
     "file_16x9": "assets/no-01-240-16x9.png",
     "file_4x5": "assets/no-01-240-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-241",
+    "region": "Agder",
+    "city": "Valle",
+    "site": "Valle Church",
+    "caption": "Valle Church, Valle",
+    "scenario": "26 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Church in the Setesdal valley village of Valle, viewed from the churchyard with the surrounding mountains. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-241-16x9.png",
+    "file_4x5": "assets/no-01-241-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-242",
+    "region": "Agder",
+    "city": "Rysstad",
+    "site": "Setesdal Museum",
+    "caption": "Setesdal Museum, Rysstad",
+    "scenario": "26 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Regional museum buildings along the Otra at Rysstad, viewed from the grounds with the valley and river around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-242-16x9.png",
+    "file_4x5": "assets/no-01-242-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-243",
+    "region": "Agder",
+    "city": "Mandal",
+    "site": "Risøbank",
+    "caption": "Risøbank, Mandal",
+    "scenario": "26 September 2026 · 15:30 Europe/Oslo",
+    "composition": "Historic manor estate in British style set in a large park by the shore, viewed from the park paths with the main house among the trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-243-16x9.png",
+    "file_4x5": "assets/no-01-243-4x5.png",
+    "audio": null
   }
 ]
