@@ -2494,5 +2494,44 @@
     "file_16x9": "assets/no-01-192-16x9.png",
     "file_4x5": "assets/no-01-192-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-193",
+    "region": "Rogaland",
+    "city": "Orre",
+    "site": "Orrestranda",
+    "caption": "Orrestranda, Orre",
+    "scenario": "26 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Long sandy beach with grass dunes, viewed along the shoreline. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-193-16x9.png",
+    "file_4x5": "assets/no-01-193-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-194",
+    "region": "Rogaland",
+    "city": "Nærbø",
+    "site": "Hå gamle prestegard",
+    "caption": "Hå gamle prestegard, Nærbø",
+    "scenario": "26 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Historic vicarage buildings, viewed from the courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-194-16x9.png",
+    "file_4x5": "assets/no-01-194-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-195",
+    "region": "Rogaland",
+    "city": "Nærbø",
+    "site": "Obrestad fyr",
+    "caption": "Obrestad fyr, Nærbø",
+    "scenario": "26 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Lighthouse and keeper's buildings on the coastal rocks, viewed from the coastal path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-195-16x9.png",
+    "file_4x5": "assets/no-01-195-4x5.png",
+    "audio": null
   }
 ]
