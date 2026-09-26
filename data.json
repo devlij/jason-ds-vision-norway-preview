@@ -3768,5 +3768,44 @@
     "file_16x9": "assets/no-01-290-16x9.png",
     "file_4x5": "assets/no-01-290-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-291",
+    "region": "Telemark",
+    "city": "Lunde",
+    "site": "Vrangfoss locks",
+    "caption": "Vrangfoss locks, Lunde",
+    "scenario": "26 September 2026 · 23:45 Europe/Oslo",
+    "composition": "View across the five lock chambers of the Telemark Canal staircase locks, stone lock walls and gates stepping down the gorge, lock-keeper buildings and wooded hillsides around, a boat mid-passage when traffic allows. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-291-16x9.png",
+    "file_4x5": "assets/no-01-291-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-292",
+    "region": "Telemark",
+    "city": "Morgedal",
+    "site": "Morgedal",
+    "caption": "Morgedal, Morgedal",
+    "scenario": "27 September 2026 · 00:00 Europe/Oslo",
+    "composition": "The Norsk Skieventyr ski museum buildings in the Morgedal valley, home village of Sondre Norheim, timber architecture set against forested mountain slopes, open-air exhibits and the trail up to Øverbø in the frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-292-16x9.png",
+    "file_4x5": "assets/no-01-292-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-293",
+    "region": "Telemark",
+    "city": "Brevik",
+    "site": "Brevik",
+    "caption": "Brevik, Brevik",
+    "scenario": "27 September 2026 · 00:00 Europe/Oslo",
+    "composition": "Harbour-front view of the old wooden sailing-ship town, white and colored timber houses with crooked streets rising from the sheltered harbour basin, the town hall and church visible above the rooftops. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-293-16x9.png",
+    "file_4x5": "assets/no-01-293-4x5.png",
+    "audio": null
   }
 ]
