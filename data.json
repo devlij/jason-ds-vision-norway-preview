@@ -2845,5 +2845,83 @@
     "file_16x9": "assets/no-01-219-16x9.png",
     "file_4x5": "assets/no-01-219-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-220",
+    "region": "Akershus",
+    "city": "Aurskog",
+    "site": "Aurskog Church",
+    "caption": "Aurskog Church, Aurskog",
+    "scenario": "26 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Wooden church at Aurskog, viewed from the churchyard among the pines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-220-16x9.png",
+    "file_4x5": "assets/no-01-220-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-221",
+    "region": "Akershus",
+    "city": "Nordre Follo",
+    "site": "Kråkstad Church",
+    "caption": "Kråkstad Church, Nordre Follo",
+    "scenario": "26 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Medieval stone church at Kråkstad, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-221-16x9.png",
+    "file_4x5": "assets/no-01-221-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-222",
+    "region": "Akershus",
+    "city": "Nannestad",
+    "site": "Nannestad Church",
+    "caption": "Nannestad Church, Nannestad",
+    "scenario": "26 September 2026 · 12:00 Europe/Oslo",
+    "composition": "Stone church at Nannestad, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-222-16x9.png",
+    "file_4x5": "assets/no-01-222-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-223",
+    "region": "Akershus",
+    "city": "Vestby",
+    "site": "Ramme",
+    "caption": "Ramme, Vestby",
+    "scenario": "26 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Cultural estate buildings at Ramme by the Oslofjord near Hvitsten, viewed from the grounds toward the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-223-16x9.png",
+    "file_4x5": "assets/no-01-223-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-224",
+    "region": "Akershus",
+    "city": "Ås",
+    "site": "Ås Church",
+    "caption": "Ås Church, Ås",
+    "scenario": "26 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Brick long church at Ås (1867, Jacob Wilhelm Nordan), viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-224-16x9.png",
+    "file_4x5": "assets/no-01-224-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-225",
+    "region": "Akershus",
+    "city": "Lillestrøm",
+    "site": "Skedsmo Church",
+    "caption": "Skedsmo Church, Lillestrøm",
+    "scenario": "26 September 2026 · 12:30 Europe/Oslo",
+    "composition": "Medieval stone church at Skedsmokorset, one of Akershus's oldest, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-225-16x9.png",
+    "file_4x5": "assets/no-01-225-4x5.png",
+    "audio": null
   }
 ]
