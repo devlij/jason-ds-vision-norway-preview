@@ -3453,7 +3453,49 @@
     "composition": "Tourist view across the open-air museum grounds, old timber farm buildings arranged around the grassed courtyard with forest edge behind. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-120-16x9.png",
-    "file_4x5": "assets/no-01-120-4x5.png"
+    "file_4x5": "assets/no-01-120-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-120-16x9.png",
+          "sha256": "8c2ab254828bff86592e37d66e9f34f14d66e11dd32a19fff26d3e39722e0030"
+        },
+        "4x5": {
+          "path": "assets/no-01-120-4x5.png",
+          "sha256": "56d3b92c573455b9506bb5f5fc22e0b0f618b6b66f00ba3c5134177dceae066a"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Elverum/no-01-120-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "a85bab24ee3cb66af1782aad802258fda7e307cebf12ba9397fd0eb5931d5314"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Elverum/no-01-120-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "9b72e1c9ff9f4bb642e663f98e0c789ef8c4e8cd097ebe974d8ece89bae83ed3"
+        }
+      },
+      "on_image_text": [
+        "Glomdalsmuseet, Elverum",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-121",
@@ -3465,7 +3507,49 @@
     "composition": "Tourist view from the fortress courtyard looking over the star-shaped ramparts and old buildings, the town and Glomma valley falling away below. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-121-16x9.png",
-    "file_4x5": "assets/no-01-121-4x5.png"
+    "file_4x5": "assets/no-01-121-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-121-16x9.png",
+          "sha256": "62d91e5ec9e6bd00f42e03cbebbb0918d1d75830dae01a4dc9f06a9224ae7e40"
+        },
+        "4x5": {
+          "path": "assets/no-01-121-4x5.png",
+          "sha256": "df6e97ed571a49e219c990f57cb0a43d17847eef995630fb730b6cc803c5afce"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Kongsvinger/no-01-121-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "3b02ec9497df26414db366fe33b5ee83ab14d38780563ba22185a1dd9ed40cc8"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Kongsvinger/no-01-121-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "7bae8829dbd33070f165966dd5465a4c2f9b5cb9558fe46f548fa8510a72e8eb"
+        }
+      },
+      "on_image_text": [
+        "Kongsvinger Fortress, Kongsvinger",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-122",
@@ -3477,7 +3561,49 @@
     "composition": "Tourist view from the weathering-steel viewing ramp looking out over Dovrefjell's open fell toward the Snøhetta massif, the pavilion's angular form anchoring the foreground. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-122-16x9.png",
-    "file_4x5": "assets/no-01-122-4x5.png"
+    "file_4x5": "assets/no-01-122-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-122-16x9.png",
+          "sha256": "6f7742e090890ccff7fbdf1c2a9239e5757d15f0da6e3b62d2c7121d6c27a025"
+        },
+        "4x5": {
+          "path": "assets/no-01-122-4x5.png",
+          "sha256": "5f5d9bca49ddcdfdb90be05e8faa69b0ab45228e645aba40585d953d58437d76"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Hjerkinn/no-01-122-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "c9f6160a7832e824e948deafe708c5d7938b02e9721ee637f563edcdc1d0df6f"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Hjerkinn/no-01-122-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "f702bf389270c69696dc89b9425d17d03e12718b72ce916391765ceb58333b14"
+        }
+      },
+      "on_image_text": [
+        "Viewpoint Snøhetta, Hjerkinn",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-123",
@@ -3489,7 +3615,49 @@
     "composition": "Tourist view from the timber-and-stone viewing platform over Lake Atnsjøen and the rounded Rondane peaks rising beyond, pines framing the sides. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-123-16x9.png",
-    "file_4x5": "assets/no-01-123-4x5.png"
+    "file_4x5": "assets/no-01-123-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-123-16x9.png",
+          "sha256": "806e45009d986b1b280e6a0406582e1bfe38185c3c027e2fb7a97e44d6e093b8"
+        },
+        "4x5": {
+          "path": "assets/no-01-123-4x5.png",
+          "sha256": "7f473a45effe18a93719ae55effd33c8b8f2c9264eaa48476872b216369344e7"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Atnbrua/no-01-123-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "6d5a8187686b99cd936220aa80080ca53a0d1da9d0bd563c2eed1b4376b09671"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Atnbrua/no-01-123-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "ab243b5738a0df6c459fb25911a7f4a130a4e9e6109fe57b09488b8d2557f3bd"
+        }
+      },
+      "on_image_text": [
+        "Sohlbergplassen viewpoint, Atnbrua",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-124",
@@ -3501,7 +3669,49 @@
     "composition": "Tourist view of the rock-carved arena's facade and entrance at the base of the forested mountainside, the mountain hall sign above the glass frontage. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-124-16x9.png",
-    "file_4x5": "assets/no-01-124-4x5.png"
+    "file_4x5": "assets/no-01-124-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-124-16x9.png",
+          "sha256": "df33b06f9e43b25764375ab9f98d53c5ea4e0484d7a16a880d342fbbf8a04b96"
+        },
+        "4x5": {
+          "path": "assets/no-01-124-4x5.png",
+          "sha256": "417ddc1bb6a03a1a65d486da6116748be99a137182c815928b15c360f3417013"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Gjøvik/no-01-124-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d1470f03937f3f7e36ae51c01008e97d0f50a505cad82f5f97e5b63b91b201c2"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Gjøvik/no-01-124-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "de7471476ec4864f5ab6218abc1caed37269b18fbeb381b07486f556a83e88f3"
+        }
+      },
+      "on_image_text": [
+        "Gjøvik Olympic Cavern Hall, Gjøvik",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-125",
@@ -3513,7 +3723,49 @@
     "composition": "Tourist view from the open plateau trails over rolling spruce-covered ridges with scattered cabins, wide sky and mountain horizon beyond. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-125-16x9.png",
-    "file_4x5": "assets/no-01-125-4x5.png"
+    "file_4x5": "assets/no-01-125-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-125-16x9.png",
+          "sha256": "2affd0ee05a4c6d972c0db4bc7fd1539afe46c36ea2a879365beac2e3a2912f7"
+        },
+        "4x5": {
+          "path": "assets/no-01-125-4x5.png",
+          "sha256": "2d0a958c5e356e0ccd30cda3380057ecfcc031ed93616ac6fb59d120d8df3194"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sjusjøen/no-01-125-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "1cfaaf18da5fe16efbd82d79112ab31914569b4582496997e7aea253dfc7789e"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sjusjøen/no-01-125-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "0ca5fd1d37e67dc5057fd59beb0faa1075dbc35a96d00e65e88bcb68a3c6fe57"
+        }
+      },
+      "on_image_text": [
+        "Sjusjøen mountain plateau, Sjusjøen",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-126",
@@ -3525,7 +3777,49 @@
     "composition": "Tourist view from the street looking up at the tall timber tower's cross-braced wooden facade rising above the town rooftops. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-126-16x9.png",
-    "file_4x5": "assets/no-01-126-4x5.png"
+    "file_4x5": "assets/no-01-126-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-126-16x9.png",
+          "sha256": "07243ec81f72878606dee721ffe0fdff86bae359a83b8380f7656891154a4343"
+        },
+        "4x5": {
+          "path": "assets/no-01-126-4x5.png",
+          "sha256": "cea2f273185ac852ab05e9e57fdedf1d89fad54c8d5d10c6a9a7c9f012155328"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Brumunddal/no-01-126-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "0cc6f27b038b388d36a0a94f9037b0a0f073e010928a7c39b0970680d690fc1e"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Brumunddal/no-01-126-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "bfe374005477f7a61b33e841313c9502335e9866dc31b9288f2777d41e51c696"
+        }
+      },
+      "on_image_text": [
+        "Mjøstårnet, Brumunddal",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-127",
@@ -3537,7 +3831,49 @@
     "composition": "Tourist view from the valley lifts base looking up at the broad ski mountainside, slopes and lift lines climbing through forest to the summit ridge. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-127-16x9.png",
-    "file_4x5": "assets/no-01-127-4x5.png"
+    "file_4x5": "assets/no-01-127-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-127-16x9.png",
+          "sha256": "854e7ede0fab8eb176993f7754d63e711d443bc8041440532fcd6f25d90528c4"
+        },
+        "4x5": {
+          "path": "assets/no-01-127-4x5.png",
+          "sha256": "9d46745a7b15a281a56a31bc1d368963c8547079346639961c3e2100c1619cd2"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Trysil/no-01-127-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "fbd7906230a668ed1cfc3ce24bac1115c0e5d358325c25e83d915831113f7f9b"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Trysil/no-01-127-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "83ef353088a601b890c953e4e83530fb663a953cc61d1162daa2f4666573eca9"
+        }
+      },
+      "on_image_text": [
+        "Trysilfjellet, Trysil",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-128",
@@ -3549,7 +3885,49 @@
     "composition": "Tourist view from the churchyard path of the cruciform stave church with its elevated central tower, gravestones and old timber buildings in the foreground. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-128-16x9.png",
-    "file_4x5": "assets/no-01-128-4x5.png"
+    "file_4x5": "assets/no-01-128-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-128-16x9.png",
+          "sha256": "66a9572f650e11a0186c6458d73643ef267ee3533b51cf639c570f68ddb25787"
+        },
+        "4x5": {
+          "path": "assets/no-01-128-4x5.png",
+          "sha256": "b0e57e8ad765192ccb59287dfb213a99ce2c4bd4ed8860dd9e49580395f184ec"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Lom/no-01-128-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "7580eb742c323086ac4801232c2de9d0bbdabc123ed7b1865f8c6e8bf1a6d5b5"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Lom/no-01-128-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "7bbbd6589e8115607280e6b0f3ef4c531a84ff12d7e0b499e4b102d031db8e66"
+        }
+      },
+      "on_image_text": [
+        "Lom stave church, Lom",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-129",
@@ -3561,7 +3939,49 @@
     "composition": "Tourist view of the white wooden farmhouse of Bjørnstjerne Bjørnson's home set among birch trees and meadows, outbuildings alongside. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-129-16x9.png",
-    "file_4x5": "assets/no-01-129-4x5.png"
+    "file_4x5": "assets/no-01-129-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-129-16x9.png",
+          "sha256": "7ce0bd84087550e58ba3f178a596e6232989b0f180ea3d323300d52a90332b55"
+        },
+        "4x5": {
+          "path": "assets/no-01-129-4x5.png",
+          "sha256": "4db77e1ed6e683946300551d5732077dbd849c176d1c0342c8efe57149860cc8"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Follebu/no-01-129-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "2fd78e909686588e26362178b5a6625efec12e7f6b6a709c5d4102c9917b526e"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Follebu/no-01-129-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "6d5ff8934da9150cc131c706e97997204aeaf60eba57f2416c2e80ac6a99908f"
+        }
+      },
+      "on_image_text": [
+        "Aulestad, Follebu",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-130",
@@ -3573,7 +3993,49 @@
     "composition": "Low stone ruins of Scandinavia's largest round church, viewed at street level from Storgaten beside the Tønsberg library. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-130-16x9.png",
-    "file_4x5": "assets/no-01-130-4x5.png"
+    "file_4x5": "assets/no-01-130-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-130-16x9.png",
+          "sha256": "f152545d8c267beb3e5486b3b256d20d86e87d5d771d03b5fd075f9863849d36"
+        },
+        "4x5": {
+          "path": "assets/no-01-130-4x5.png",
+          "sha256": "e5f46ec55c98a4223af7b7431433dd0a237661e5bddc6ea5558529b3ae7805b3"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Tønsberg/no-01-130-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "70385c440345b7e615fcd6a1ec56cae018983bb2c179d031285f29f2b8b6f46d"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Tønsberg/no-01-130-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "657d6944d77e2cadc0c789dcc255c411c12ef10b0e59ea118e506e10617cfbe9"
+        }
+      },
+      "on_image_text": [
+        "St. Olav's Abbey Ruins, Tønsberg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-131",
@@ -3585,7 +4047,49 @@
     "composition": "Neo-Gothic cathedral spire rising over the old town, viewed from the harbour promenade across the canal. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-131-16x9.png",
-    "file_4x5": "assets/no-01-131-4x5.png"
+    "file_4x5": "assets/no-01-131-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-131-16x9.png",
+          "sha256": "168d20bd80f95a7ca62a657b02c5bf6592e5f455d2da6c745a6e623304f33c71"
+        },
+        "4x5": {
+          "path": "assets/no-01-131-4x5.png",
+          "sha256": "06d5b0465d1decb36df9694236a53a39bda3656dde39ece19f377eee6d7b5a22"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Tønsberg/no-01-131-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d55980cb871dc0e6848f9ac65601dfd94af7d5ff053b6549309a5fc52d3010f7"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Tønsberg/no-01-131-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "c15051dfe28fc4612bc1b60c105b4dcf6d617c20b8f6011f04bc9387bdf260c7"
+        }
+      },
+      "on_image_text": [
+        "Tønsberg Cathedral, Tønsberg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-132",
@@ -3597,7 +4101,49 @@
     "composition": "Colourful wooden houses lining the wharf, viewed along the waterfront promenade with boats moored in front. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-132-16x9.png",
-    "file_4x5": "assets/no-01-132-4x5.png"
+    "file_4x5": "assets/no-01-132-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-132-16x9.png",
+          "sha256": "f3e1df2f147f6c25dd6c68527c9d7c1d27b2796320aa8afa80d1dc660bfacdb8"
+        },
+        "4x5": {
+          "path": "assets/no-01-132-4x5.png",
+          "sha256": "2d329ea880d63f5de91fe95aec02583ef17e41660e6505d1a8e5b2f9a9b7f1a6"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Tønsberg/no-01-132-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "a4b0654597a88fd5103b4bbf77ae558f07e3a01771d18d0953055b4d4edeea9e"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Tønsberg/no-01-132-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "39a4161a51368d4adaef1c1a60a9cb7de50251d24fffe3255ab49719d40d2ea5"
+        }
+      },
+      "on_image_text": [
+        "Tønsberg Wharf, Tønsberg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-133",
@@ -3621,7 +4167,49 @@
     "composition": "Red-brick art museum in the former navigation school, viewed from Haugar park among the surrounding greenery. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-134-16x9.png",
-    "file_4x5": "assets/no-01-134-4x5.png"
+    "file_4x5": "assets/no-01-134-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-134-16x9.png",
+          "sha256": "83ae22576ae6e1743459fde5b3ff5526e2e770daf18d8365cc261f3baad54c06"
+        },
+        "4x5": {
+          "path": "assets/no-01-134-4x5.png",
+          "sha256": "907de56bf306ecf37f630079ca8ed30c55b628bbe12fe497ba75c26f3c4cf3a4"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Tønsberg/no-01-134-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "472086a5e276faf37dfb84595d3d78a52283177f8c0c3da08d79484dffa54874"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Tønsberg/no-01-134-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "6f0959ad8745c90ba426e36b6045f02f0d6407a4bee3033b61c4cdcc7f8aaff0"
+        }
+      },
+      "on_image_text": [
+        "Haugar Art Museum, Tønsberg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-135",
@@ -3633,7 +4221,49 @@
     "composition": "Empire-style manor house fronted by parkland and gardens, viewed from the grounds near the shore. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-135-16x9.png",
-    "file_4x5": "assets/no-01-135-4x5.png"
+    "file_4x5": "assets/no-01-135-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-135-16x9.png",
+          "sha256": "fe9aebd8b54a827159256ffa7625822b92fb966cf79a2c80b698b9e2d07b5077"
+        },
+        "4x5": {
+          "path": "assets/no-01-135-4x5.png",
+          "sha256": "382fa8511f5f1a481cf9bc81f43a852e1cd2100e55283d28a3dba9d499a330c0"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Tønsberg/no-01-135-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "c3ceb816636d0b8d6ba5e34c9c495b2e6783b5a623733b31e302a2e0f6dc55d2"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Tønsberg/no-01-135-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "c4e2c9ab440c609586437eab9b2c68cb41eb594da9755c9d503fe03104356a8a"
+        }
+      },
+      "on_image_text": [
+        "Jarlsberg Manor, Tønsberg",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-136",
@@ -3645,7 +4275,49 @@
     "composition": "Viking burial mound rising in the field at Gokstad, where the Gokstad ship was excavated, viewed from the path below. · AI-generated artistic interpretation",
     "approved": true,
     "file_16x9": "assets/no-01-136-16x9.png",
-    "file_4x5": "assets/no-01-136-4x5.png"
+    "file_4x5": "assets/no-01-136-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-136-16x9.png",
+          "sha256": "3fd969b05ecc16bf1c4a90fcfa6bd599891e4f35d89114040f26b9d6b4734ba9"
+        },
+        "4x5": {
+          "path": "assets/no-01-136-4x5.png",
+          "sha256": "480efa46d9b8f46331a943fcd39bf9b1bb9ef9abec59bea2ef3091ab8d149267"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Sandefjord/no-01-136-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "39dc772d2d23342f0ea4536f8dc0e7be1f3d9d532a6681065be3d0d493f6f9b8"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Sandefjord/no-01-136-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "d1a1cc1445e104dcf7d417d5ba85f2f0d220c569e6a441437e2b20b576604029"
+        }
+      },
+      "on_image_text": [
+        "Gokstad Mound, Sandefjord",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   },
   {
     "entry_id": "NO-01-137",
