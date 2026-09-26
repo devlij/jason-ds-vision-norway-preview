@@ -2122,5 +2122,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-177-16x9.png",
     "file_4x5": "assets/no-01-177-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-178",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Valbergtårnet",
+    "caption": "Valbergtårnet, Stavanger",
+    "scenario": "26 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Old stone watchtower above the town, viewed from the square below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-178-16x9.png",
+    "file_4x5": "assets/no-01-178-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-179",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Fargegaten",
+    "caption": "Fargegaten, Stavanger",
+    "scenario": "26 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Colourful painted wooden houses along the narrow street, viewed at street level. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-179-16x9.png",
+    "file_4x5": "assets/no-01-179-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-180",
+    "region": "Rogaland",
+    "city": "Stavanger",
+    "site": "Norwegian Canning Museum",
+    "caption": "Norwegian Canning Museum, Stavanger",
+    "scenario": "26 September 2026 · 05:00 Europe/Oslo",
+    "composition": "Old cannery building in Old Stavanger, viewed from the cobbled street among the white wooden houses. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-180-16x9.png",
+    "file_4x5": "assets/no-01-180-4x5.png"
   }
 ]
