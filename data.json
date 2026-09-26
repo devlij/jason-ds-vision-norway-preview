@@ -2416,5 +2416,44 @@
     "file_16x9": "assets/no-01-186-16x9.png",
     "file_4x5": "assets/no-01-186-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-187",
+    "region": "Rogaland",
+    "city": "Haugesund",
+    "site": "Haraldshaugen",
+    "caption": "Haraldshaugen, Haugesund",
+    "scenario": "26 September 2026 · 06:15 Europe/Oslo",
+    "composition": "National monument obelisk on its mound, viewed from the park path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-187-16x9.png",
+    "file_4x5": "assets/no-01-187-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-188",
+    "region": "Rogaland",
+    "city": "Kvitsøy",
+    "site": "Kvitsøy fyr",
+    "caption": "Kvitsøy fyr, Kvitsøy",
+    "scenario": "26 September 2026 · 06:15 Europe/Oslo",
+    "composition": "Lighthouse on the rocky island coast, viewed from the shore path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-188-16x9.png",
+    "file_4x5": "assets/no-01-188-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-189",
+    "region": "Rogaland",
+    "city": "Avaldsnes",
+    "site": "St. Olav's Church, Avaldsnes",
+    "caption": "St. Olav's Church, Avaldsnes, Avaldsnes",
+    "scenario": "26 September 2026 · 06:30 Europe/Oslo",
+    "composition": "Medieval stone church with its tower, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-189-16x9.png",
+    "file_4x5": "assets/no-01-189-4x5.png",
+    "audio": null
   }
 ]
