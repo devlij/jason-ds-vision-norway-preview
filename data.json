@@ -3157,5 +3157,44 @@
     "file_16x9": "assets/no-01-243-16x9.png",
     "file_4x5": "assets/no-01-243-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-244",
+    "region": "Agder",
+    "city": "Grimstad",
+    "site": "Ibsen Museum",
+    "caption": "Ibsen Museum, Grimstad",
+    "scenario": "26 September 2026 · 15:45 Europe/Oslo",
+    "composition": "House where Henrik Ibsen lived and worked as a young pharmacist's apprentice, viewed from the street in the old town. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-244-16x9.png",
+    "file_4x5": "assets/no-01-244-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-245",
+    "region": "Agder",
+    "city": "Rygnestad",
+    "site": "Rygnestadtunet",
+    "caption": "Rygnestadtunet, Rygnestad",
+    "scenario": "26 September 2026 · 16:00 Europe/Oslo",
+    "composition": "Open-air museum farmyard preserved as it stood in 1919, viewed among the old timber buildings with the Setesdal valley around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-245-16x9.png",
+    "file_4x5": "assets/no-01-245-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-246",
+    "region": "Agder",
+    "city": "Flekkefjord",
+    "site": "Hidra old fishing village",
+    "caption": "Hidra old fishing village, Flekkefjord",
+    "scenario": "26 September 2026 · 16:00 Europe/Oslo",
+    "composition": "Old fishing village on the island of Hidra: white and red wooden houses along the water, small harbor and jetties, rocky coastline and open sea around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-246-16x9.png",
+    "file_4x5": "assets/no-01-246-4x5.png",
+    "audio": null
   }
 ]
