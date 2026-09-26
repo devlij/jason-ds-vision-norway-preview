@@ -3469,5 +3469,44 @@
     "file_16x9": "assets/no-01-267-16x9.png",
     "file_4x5": "assets/no-01-267-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-268",
+    "region": "Buskerud",
+    "city": "Flå",
+    "site": "Bjørneparken",
+    "caption": "Bjørneparken, Flå",
+    "scenario": "26 September 2026 · 19:45 Europe/Oslo",
+    "composition": "Bjørneparken wildlife park in Flå: large forested enclosures in natural terrain among pines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-268-16x9.png",
+    "file_4x5": "assets/no-01-268-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-269",
+    "region": "Buskerud",
+    "city": "Hønefoss",
+    "site": "Veien kulturminnepark",
+    "caption": "Veien kulturminnepark, Hønefoss",
+    "scenario": "26 September 2026 · 20:00 Europe/Oslo",
+    "composition": "Veien cultural heritage park near Hønefoss: ancient burial mounds in open meadow, forest edge beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-269-16x9.png",
+    "file_4x5": "assets/no-01-269-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-270",
+    "region": "Buskerud",
+    "city": "Ustaoset",
+    "site": "Ustaoset mountain village",
+    "caption": "Ustaoset mountain village, Ustaoset",
+    "scenario": "26 September 2026 · 20:00 Europe/Oslo",
+    "composition": "Ustaoset mountain village: scattered cabins and a small lake between rounded fells on the Hardangervidda fringe. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-270-16x9.png",
+    "file_4x5": "assets/no-01-270-4x5.png",
+    "audio": null
   }
 ]
