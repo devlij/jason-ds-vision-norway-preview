@@ -5920,5 +5920,167 @@
       ],
       "country": "Norway"
     }
+  },
+  {
+    "entry_id": "NO-01-169",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Galleri F 15, Alby",
+    "caption": "Galleri F 15, Alby, Moss",
+    "scenario": "26 September 2026 · 03:15 Europe/Oslo",
+    "composition": "Alby manor farm and gallery with gardens on Jeløya, viewed from the lawn fronting the house. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-169-16x9.png",
+    "file_4x5": "assets/no-01-169-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-169-16x9.png",
+          "sha256": "728287e8123eb62a26a767060996126917b8b5b583afdc62f8a1c220772d80a6"
+        },
+        "4x5": {
+          "path": "assets/no-01-169-4x5.png",
+          "sha256": "f0d9a39ea28323340febc0361c96413fd28e16463af4f99d8745f08989e45c5e"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Moss/no-01-169-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "a34640d9a8b84bd92d3da7cb1674afb233628315094db2c28c90e59561579c6c"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Moss/no-01-169-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "d56adda96e8f875e4d8838a452497b0eda7396a07b056e1146afb9a9a2f4a460"
+        }
+      },
+      "on_image_text": [
+        "Galleri F 15, Alby, Moss",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
+  },
+  {
+    "entry_id": "NO-01-170",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Moss havn",
+    "caption": "Moss havn, Moss",
+    "scenario": "26 September 2026 · 03:30 Europe/Oslo",
+    "composition": "Working harbour with boats at the quay and the town rising behind, viewed across the inner basin. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-170-16x9.png",
+    "file_4x5": "assets/no-01-170-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-170-16x9.png",
+          "sha256": "4476a8c008bd6459771b780d1d52af22975515d6b3d1d6d0097913fa612453d5"
+        },
+        "4x5": {
+          "path": "assets/no-01-170-4x5.png",
+          "sha256": "fa359df856529d7671ebe0508a81ae9595b2fbf4ce30d1a2e60494c2513439de"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Moss/no-01-170-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "dfd8a839b9b99977dfe7c5923c77a957aa9b87eb6a0e32821f716e480c79857d"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Moss/no-01-170-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "e61892988ea96b955cba27c6c49290379ebdfe51874389233cd1addd2315c5cc"
+        }
+      },
+      "on_image_text": [
+        "Moss havn, Moss",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
+  },
+  {
+    "entry_id": "NO-01-171",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Møllebyen",
+    "caption": "Møllebyen, Moss",
+    "scenario": "26 September 2026 · 03:30 Europe/Oslo",
+    "composition": "Converted industrial quarter of brick mill buildings along the river, viewed from the footbridge. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-171-16x9.png",
+    "file_4x5": "assets/no-01-171-4x5.png",
+    "daylight_variant": {
+      "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. Not an independently modelled weather scenario. No weather claim and no scenario timestamp are printed on the variant masters.",
+      "source_night": {
+        "16x9": {
+          "path": "assets/no-01-171-16x9.png",
+          "sha256": "3e548b308411df96991fe92a3058b31d0b6d2df5a1ecc37a98aa7e4fd502f7b4"
+        },
+        "4x5": {
+          "path": "assets/no-01-171-4x5.png",
+          "sha256": "7d8e9c4cdaa7f6199c650f353a3ffbdc12b1c818140e4e3c7f78495fe21ee518"
+        },
+        "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      },
+      "masters": {
+        "16x9": {
+          "path": "library/world/Norway/Moss/no-01-171-daylight-16x9.png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "8d3f38c9e7358c14a1c8d996af545c742641aa5996b30a7f90ddc2045565b49b"
+        },
+        "4x5": {
+          "path": "library/world/Norway/Moss/no-01-171-daylight-4x5.png",
+          "width": 864,
+          "height": 1080,
+          "sha256": "082881d845d965db1b7863f8a03ff07e89ffb581c71664d51e5dd2b440367bd2"
+        }
+      },
+      "on_image_text": [
+        "Møllebyen, Moss",
+        "☀ Daylight variant · derived from the night interpretation",
+        "AI-generated artistic interpretation · Not a photograph.",
+        "Jason D’s Vision"
+      ],
+      "art50_png_chunks": [
+        "Title",
+        "Description",
+        "Copyright",
+        "Software",
+        "Comment"
+      ],
+      "country": "Norway"
+    }
   }
 ]
