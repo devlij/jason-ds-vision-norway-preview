@@ -3430,5 +3430,44 @@
     "file_16x9": "assets/no-01-264-16x9.png",
     "file_4x5": "assets/no-01-264-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-265",
+    "region": "Buskerud",
+    "city": "Mjøndalen",
+    "site": "Portåsen",
+    "caption": "Portåsen, Mjøndalen",
+    "scenario": "26 September 2026 · 19:15 Europe/Oslo",
+    "composition": "Portåsen in Mjøndalen: forested hillside homestead and museum grounds, log buildings among pines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-265-16x9.png",
+    "file_4x5": "assets/no-01-265-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-266",
+    "region": "Buskerud",
+    "city": "Hønefoss",
+    "site": "Norderhov Church",
+    "caption": "Norderhov Church, Hønefoss",
+    "scenario": "26 September 2026 · 19:30 Europe/Oslo",
+    "composition": "Norderhov Church near Hønefoss: medieval stone church with steep roofs, graveyard and Ringerike farmland around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-266-16x9.png",
+    "file_4x5": "assets/no-01-266-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-267",
+    "region": "Buskerud",
+    "city": "Nore",
+    "site": "Nore stave church",
+    "caption": "Nore stave church, Nore",
+    "scenario": "26 September 2026 · 19:30 Europe/Oslo",
+    "composition": "Nore stave church in Numedal: small wooden stave church with shingled roofs, set in a mountain valley. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-267-16x9.png",
+    "file_4x5": "assets/no-01-267-4x5.png",
+    "audio": null
   }
 ]
