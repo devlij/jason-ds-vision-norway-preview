@@ -3508,5 +3508,44 @@
     "file_16x9": "assets/no-01-270-16x9.png",
     "file_4x5": "assets/no-01-270-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-271",
+    "region": "Buskerud",
+    "city": "Krødsherad",
+    "site": "Krøderen",
+    "caption": "Krøderen, Krødsherad",
+    "scenario": "26 September 2026 · 20:15 Europe/Oslo",
+    "composition": "Krøderen lakeside village: small settlement on the shore of Lake Krøderen, forested hills rising behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-271-16x9.png",
+    "file_4x5": "assets/no-01-271-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-272",
+    "region": "Buskerud",
+    "city": "Drammen",
+    "site": "Union Scene",
+    "caption": "Union Scene, Drammen",
+    "scenario": "26 September 2026 · 20:45 Europe/Oslo",
+    "composition": "Union Scene in Drammen: historic red-brick former paper mill turned cultural venue on the Drammen riverbank. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-272-16x9.png",
+    "file_4x5": "assets/no-01-272-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-273",
+    "region": "Buskerud",
+    "city": "Eggedal",
+    "site": "Eggedal valley",
+    "caption": "Eggedal valley, Eggedal",
+    "scenario": "26 September 2026 · 20:45 Europe/Oslo",
+    "composition": "Eggedal valley in Sigdal: narrow farming valley with meadows and timber farms between forested slopes. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-273-16x9.png",
+    "file_4x5": "assets/no-01-273-4x5.png",
+    "audio": null
   }
 ]
