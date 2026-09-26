@@ -3313,5 +3313,44 @@
     "file_16x9": "assets/no-01-255-16x9.png",
     "file_4x5": "assets/no-01-255-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-256",
+    "region": "Agder",
+    "city": "Hægebostad",
+    "site": "Tingvatn Fornminnepark",
+    "caption": "Tingvatn Fornminnepark, Hægebostad",
+    "scenario": "26 September 2026 · 17:45 Europe/Oslo",
+    "composition": "Tingvatn Fornminnepark archaeological park: reconstructed Iron-Age buildings and burial mounds in a forest clearing, gravel paths through the trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-256-16x9.png",
+    "file_4x5": "assets/no-01-256-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-257",
+    "region": "Agder",
+    "city": "Tvedestrand",
+    "site": "Næs Ironworks",
+    "caption": "Næs Ironworks, Tvedestrand",
+    "scenario": "26 September 2026 · 17:45 Europe/Oslo",
+    "composition": "Næs Ironworks historic site: old ironworks buildings in brick and timber, the furnace and smithy, quiet woodland around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-257-16x9.png",
+    "file_4x5": "assets/no-01-257-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-258",
+    "region": "Agder",
+    "city": "Grimstad",
+    "site": "Nørholm",
+    "caption": "Nørholm, Grimstad",
+    "scenario": "26 September 2026 · 18:00 Europe/Oslo",
+    "composition": "Nørholm, Knut Hamsun's farm: red farm buildings and white main house on a rise above the sea, fields and the Grimstad coast beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-258-16x9.png",
+    "file_4x5": "assets/no-01-258-4x5.png",
+    "audio": null
   }
 ]
