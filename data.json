@@ -2728,5 +2728,44 @@
     "file_16x9": "assets/no-01-210-16x9.png",
     "file_4x5": "assets/no-01-210-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-211",
+    "region": "Akershus",
+    "city": "Lørenskog",
+    "site": "Losby Manor",
+    "caption": "Losby Manor, Lørenskog",
+    "scenario": "26 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Manor house of the Losby estate set among parkland and forest, viewed from the grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-211-16x9.png",
+    "file_4x5": "assets/no-01-211-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-212",
+    "region": "Akershus",
+    "city": "Nordre Follo",
+    "site": "Ingierstrand Bathing Place",
+    "caption": "Ingierstrand Bathing Place, Nordre Follo",
+    "scenario": "26 September 2026 · 10:15 Europe/Oslo",
+    "composition": "1930s modernist lido buildings by the Bunnefjorden, viewed from the beach with the diving tower and restaurant. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-212-16x9.png",
+    "file_4x5": "assets/no-01-212-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-213",
+    "region": "Akershus",
+    "city": "Jevnaker",
+    "site": "Hadeland Glassverk",
+    "caption": "Hadeland Glassverk, Jevnaker",
+    "scenario": "26 September 2026 · 10:30 Europe/Oslo",
+    "composition": "Historic glassworks village on the Randsfjorden shore, viewed along the water with the old factory buildings. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-213-16x9.png",
+    "file_4x5": "assets/no-01-213-4x5.png",
+    "audio": null
   }
 ]
