@@ -3612,5 +3612,44 @@
     "file_16x9": "assets/no-01-278-16x9.png",
     "file_4x5": "assets/no-01-278-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-279",
+    "region": "Innlandet",
+    "city": "Øyer",
+    "site": "Hunderfossen Familiepark",
+    "caption": "Hunderfossen Familiepark, Øyer",
+    "scenario": "26 September 2026 · 21:45 Europe/Oslo",
+    "composition": "The entrance area of Hunderfossen family park with its troll-themed buildings at the edge of the forest along Hunderfossvegen. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-279-16x9.png",
+    "file_4x5": "assets/no-01-279-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-280",
+    "region": "Innlandet",
+    "city": "Hamar",
+    "site": "Vikingskipet Olympic arena",
+    "caption": "Vikingskipet Olympic arena, Hamar",
+    "scenario": "26 September 2026 · 22:00 Europe/Oslo",
+    "composition": "The Viking-ship-shaped Olympic arena Vikingskipet in Hamar, its long curved roofline seen from the arena grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-280-16x9.png",
+    "file_4x5": "assets/no-01-280-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-281",
+    "region": "Innlandet",
+    "city": "Elverum",
+    "site": "Norsk Skogmuseum",
+    "caption": "Norsk Skogmuseum, Elverum",
+    "scenario": "26 September 2026 · 22:00 Europe/Oslo",
+    "composition": "The Norwegian Forest Museum complex at Elverum with its timber buildings and exhibitions by the Glomma river. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-281-16x9.png",
+    "file_4x5": "assets/no-01-281-4x5.png",
+    "audio": null
   }
 ]
