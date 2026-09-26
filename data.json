@@ -3196,5 +3196,44 @@
     "file_16x9": "assets/no-01-246-16x9.png",
     "file_4x5": "assets/no-01-246-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-247",
+    "region": "Agder",
+    "city": "Lindesnes",
+    "site": "Vigeland old wooden town",
+    "caption": "Vigeland old wooden town, Lindesnes",
+    "scenario": "26 September 2026 · 16:15 Europe/Oslo",
+    "composition": "Old wooden town center of Vigeland: white wooden houses along the main street, small shops and gardens, the Lindesnes countryside around. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-247-16x9.png",
+    "file_4x5": "assets/no-01-247-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-248",
+    "region": "Agder",
+    "city": "Mandal",
+    "site": "Uranienborg viewpoint",
+    "caption": "Uranienborg viewpoint, Mandal",
+    "scenario": "26 September 2026 · 16:30 Europe/Oslo",
+    "composition": "Viewpoint above Mandal: the town and the skerries spread out below, islands and open sea beyond, viewed from the hilltop with rocky foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-248-16x9.png",
+    "file_4x5": "assets/no-01-248-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-249",
+    "region": "Agder",
+    "city": "Mandal",
+    "site": "Skjernøy",
+    "caption": "Skjernøy, Mandal",
+    "scenario": "26 September 2026 · 16:30 Europe/Oslo",
+    "composition": "The island of Skjernøy with the Skjernøy bridge crossing to the mainland: rocky shores, small houses and boathouses, the narrow sound below the bridge. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-249-16x9.png",
+    "file_4x5": "assets/no-01-249-4x5.png",
+    "audio": null
   }
 ]
