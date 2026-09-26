@@ -1906,5 +1906,41 @@
     "approved": true,
     "file_16x9": "assets/no-01-159-16x9.png",
     "file_4x5": "assets/no-01-159-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-160",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Sarpsfossen",
+    "caption": "Sarpsfossen, Sarpsborg",
+    "scenario": "26 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Wide view across the Glomma as the falls plunge over the rock shelf, spray rising, riverside walkway in the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-160-16x9.png",
+    "file_4x5": "assets/no-01-160-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-161",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Hafslund Hovedgård",
+    "caption": "Hafslund Hovedgård, Sarpsborg",
+    "scenario": "26 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Stately manor house front facade with its gardens, viewed from the approach drive. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-161-16x9.png",
+    "file_4x5": "assets/no-01-161-4x5.png"
+  },
+  {
+    "entry_id": "NO-01-162",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Borgarsyssel Museum",
+    "caption": "Borgarsyssel Museum, Sarpsborg",
+    "scenario": "26 September 2026 · 02:00 Europe/Oslo",
+    "composition": "Open-air museum grounds with historic wooden buildings, viewed from the main courtyard path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-162-16x9.png",
+    "file_4x5": "assets/no-01-162-4x5.png"
   }
 ]
