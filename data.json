@@ -3274,5 +3274,44 @@
     "file_16x9": "assets/no-01-252-16x9.png",
     "file_4x5": "assets/no-01-252-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-253",
+    "region": "Agder",
+    "city": "Lyngdal",
+    "site": "Korshamn fishing village",
+    "caption": "Korshamn fishing village, Lyngdal",
+    "scenario": "26 September 2026 · 17:15 Europe/Oslo",
+    "composition": "Fishing village at Korshamn: small cluster of wooden houses and fishing boats in a sheltered cove, rocky skerries and open sea outside. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-253-16x9.png",
+    "file_4x5": "assets/no-01-253-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-254",
+    "region": "Agder",
+    "city": "Bygland",
+    "site": "Reiårsfossen",
+    "caption": "Reiårsfossen, Bygland",
+    "scenario": "26 September 2026 · 17:15 Europe/Oslo",
+    "composition": "Reiårsfossen waterfall plunging beside the road in Setesdal: white water dropping over dark rock, spray and green gorge around, viewed from the roadside. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-254-16x9.png",
+    "file_4x5": "assets/no-01-254-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-255",
+    "region": "Agder",
+    "city": "Åmli",
+    "site": "Åmli Church",
+    "caption": "Åmli Church, Åmli",
+    "scenario": "26 September 2026 · 17:30 Europe/Oslo",
+    "composition": "Åmli Church standing among the trees: white wooden church with tower, churchyard around it, the forest and the village beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-255-16x9.png",
+    "file_4x5": "assets/no-01-255-4x5.png",
+    "audio": null
   }
 ]
