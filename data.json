@@ -3690,5 +3690,44 @@
     "file_16x9": "assets/no-01-284-16x9.png",
     "file_4x5": "assets/no-01-284-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-285",
+    "region": "Innlandet",
+    "city": "Jaren",
+    "site": "Hadeland Folkemuseum",
+    "caption": "Hadeland Folkemuseum, Jaren",
+    "scenario": "26 September 2026 · 22:45 Europe/Oslo",
+    "composition": "Hadeland Folkemuseum's traditional farm buildings and open-air exhibition on the hill at Tingelstad. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-285-16x9.png",
+    "file_4x5": "assets/no-01-285-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-286",
+    "region": "Innlandet",
+    "city": "Engerdal",
+    "site": "Lake Femunden, Femundsmarka",
+    "caption": "Lake Femunden, Femundsmarka, Engerdal",
+    "scenario": "26 September 2026 · 22:45 Europe/Oslo",
+    "composition": "Lake Femunden stretching toward the low fells of Femundsmarka, with shoreline birch forest in the foreground. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-286-16x9.png",
+    "file_4x5": "assets/no-01-286-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-287",
+    "region": "Innlandet",
+    "city": "Gausdal",
+    "site": "Skeikampen",
+    "caption": "Skeikampen, Gausdal",
+    "scenario": "26 September 2026 · 23:00 Europe/Oslo",
+    "composition": "Skeikampen's pistes and lifts on the mountain slopes above Gausdal, with the fell plateau beyond. · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/no-01-287-16x9.png",
+    "file_4x5": "assets/no-01-287-4x5.png",
+    "audio": null
   }
 ]
