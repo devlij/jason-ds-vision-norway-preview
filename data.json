@@ -3807,5 +3807,44 @@
     "file_16x9": "assets/no-01-293-16x9.png",
     "file_4x5": "assets/no-01-293-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-294",
+    "region": "Telemark",
+    "city": "Kragerø",
+    "site": "Kragerø",
+    "caption": "Kragerø, Kragerø",
+    "scenario": "27 September 2026 · 00:15 Europe/Oslo",
+    "composition": "View over the guest harbour toward the town's wooden houses climbing the hillside, boats moored in the foreground, the islands of the Kragerø archipelago on the horizon. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-294-16x9.png",
+    "file_4x5": "assets/no-01-294-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-295",
+    "region": "Telemark",
+    "city": "Kragerø",
+    "site": "Jomfruland",
+    "caption": "Jomfruland, Kragerø",
+    "scenario": "27 September 2026 · 00:15 Europe/Oslo",
+    "composition": "The two Jomfruland lighthouse towers (brick 1839 and iron 1939) on the low island, white sandy beach and rounded coastal rocks in the foreground, open sea around, part of the Jomfruland national park. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-295-16x9.png",
+    "file_4x5": "assets/no-01-295-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-296",
+    "region": "Telemark",
+    "city": "Langesund",
+    "site": "Langesund",
+    "caption": "Langesund, Langesund",
+    "scenario": "27 September 2026 · 00:30 Europe/Oslo",
+    "composition": "View across the harbour of the peninsula town, wooden houses along the waterfront with Wrightegaarden's courtyard buildings nearby, the Langesundsfjorden and Skagerrak opening beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-296-16x9.png",
+    "file_4x5": "assets/no-01-296-4x5.png",
+    "audio": null
   }
 ]
