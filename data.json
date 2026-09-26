@@ -2611,5 +2611,44 @@
     "file_16x9": "assets/no-01-201-16x9.png",
     "file_4x5": "assets/no-01-201-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-202",
+    "region": "Rogaland",
+    "city": "Vikeså",
+    "site": "Gloppedalsura",
+    "caption": "Gloppedalsura, Vikeså",
+    "scenario": "26 September 2026 · 09:00 Europe/Oslo",
+    "composition": "Vast boulder field of tumbled rocks, viewed from the road. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-202-16x9.png",
+    "file_4x5": "assets/no-01-202-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-203",
+    "region": "Rogaland",
+    "city": "Dirdal",
+    "site": "Månafossen",
+    "caption": "Månafossen, Dirdal",
+    "scenario": "26 September 2026 · 09:00 Europe/Oslo",
+    "composition": "Waterfall plunging into the gorge, viewed from the trail viewpoint. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-203-16x9.png",
+    "file_4x5": "assets/no-01-203-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-204",
+    "region": "Rogaland",
+    "city": "Utsira",
+    "site": "Utsira fyr",
+    "caption": "Utsira fyr, Utsira",
+    "scenario": "26 September 2026 · 09:00 Europe/Oslo",
+    "composition": "Lighthouse on the island's high ground, viewed from the island road. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-204-16x9.png",
+    "file_4x5": "assets/no-01-204-4x5.png",
+    "audio": null
   }
 ]
