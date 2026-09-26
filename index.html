@@ -116,6 +116,13 @@
   .actions .badge { display: inline-block; font-size: 12px; color: var(--accent); text-decoration: none;
                     border: 1px solid var(--line); border-radius: 20px; padding: 4px 10px; }
   .actions .badge:hover { text-decoration: underline; }
+  /* Studio narration: Listen button in the card text area BELOW the image —
+     never overlaid on the artwork (Jason's hard rule). */
+  .actions button.narrate { display: inline-block; background: #243049; color: var(--text);
+               border-radius: 8px; padding: 6px 10px; font-size: 12px; border: 1px solid var(--line);
+               cursor: pointer; }
+  .actions button.narrate:hover { border-color: var(--accent); }
+  .actions button.narrate.playing { border-color: var(--accent); color: var(--accent); }
   #promise { max-width: 1200px; margin: 0 auto; padding: 24px; border-top: 1px solid var(--line); }
   #promise h2 { font-size: 18px; }
   #promise p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -137,21 +144,22 @@
   .lb-count { color: #9fb2c3; font-size: 14px; min-width: 72px; text-align: center;
               white-space: nowrap; }
   .lb-controls { display: flex; justify-content: center; padding: 12px 0 0; }
-  .lb-close, .lb-prev, .lb-next, .lb-play { background: rgba(24,34,44,.85); color: #f0f4f8;
+  .lb-close, .lb-prev, .lb-next, .lb-play, .lb-narrate { background: rgba(24,34,44,.85); color: #f0f4f8;
         border: 1px solid #2c3a47; border-radius: 999px; width: 46px; height: 46px;
         font-size: 20px; cursor: pointer; line-height: 1; flex: 0 0 auto; }
   .lb-close { position: absolute; top: 14px; right: 14px; }
   .lb-play { font-size: 16px; }
   .lb-play.playing { color: #f5c518; border-color: #f5c518; }
+  .lb-narrate.playing { color: #f5c518; border-color: #f5c518; }
 
-.wotd{border-top:1px solid #e6e1d5;border-bottom:1px solid #e6e1d5;background:#faf8f3;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
-.wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8a8578;font-weight:600;white-space:nowrap}
-.wotd .word{font-weight:700;font-size:15px}
-.wotd .gloss{color:#55555c}
-.wotd .sep{color:#c9c3b4}
-.wotd .phrase{font-style:italic}
-.wotd .day{margin-left:auto;font-size:11px;color:#a09a89;white-space:nowrap}
-.wotd .translit{color:#8a8578;font-size:12.5px}
+.wotd{border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);background:#141419;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5;color:#eceae2}
+.wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8f8a7d;font-weight:600;white-space:nowrap}
+.wotd .word{font-weight:700;font-size:15px;color:#f5f2ea}
+.wotd .gloss{color:#b9b4a6}
+.wotd .sep{color:#5a564c}
+.wotd .phrase{font-style:italic;color:#eceae2}
+.wotd .day{margin-left:auto;font-size:11px;color:#8f8a7d;white-space:nowrap}
+.wotd .translit{color:#8f8a7d;font-size:12.5px}
 @media (max-width:520px){.wotd .day{margin-left:0;width:100%}}
 </style>
 </head>
@@ -2386,7 +2394,7 @@
   </div>
   <div id="no-results">No scenes match your search.</div>
   <div class="grid">
-<article class="card" data-search="geiranger geirangerfjord møre og romsdal no-01-001 from the flydalsjuvet overlook above geiranger, the geirangerfjord bends away between steep, cloud-wrapped mountainsides at night. the village&#x27;s warm lights glow at the head of the fjord below, mist drifting across the dark green slopes under a heavy overcast sky. a wooden viewing platform stands on the rocky cliff edge in the right foreground.">
+<article class="card" data-search="geiranger geirangerfjord møre og romsdal no-01-001 from the flydalsjuvet overlook above geiranger, the geirangerfjord bends away between steep, cloud-wrapped mountainsides at night. the village&#x27;s warm lights glow at the head of the fjord below, mist drifting across the dark green slopes under a heavy overcast sky. a wooden viewing platform stands on the rocky cliff edge in the right foreground." data-audio="audio/no-01-001-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-001-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-001-16x9.png" data-src-16="assets/no-01-001-16x9.png" data-src-45="assets/no-01-001-4x5.png" data-src-916="assets/no-01-001-9x16.png" alt="AI-generated artistic interpretation of Geirangerfjord in Geiranger, Norway" loading="lazy" />
@@ -2410,11 +2418,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-001-16x9.png" download="no-01-001-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-001-4x5.png" download="no-01-001-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-001-9x16.png" download="no-01-001-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-001-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="bergen bryggen vestland no-01-002 across vågen bay, the colorful gabled wharf houses of bryggen line bergen&#x27;s harbor, their lit windows glowing against the night. small boats sit moored in the dark water in the foreground, while the misty, cloud-capped fløyen hillside rises behind the town. the overcast night sky presses low over the scene.">
+<article class="card" data-search="bergen bryggen vestland no-01-002 across vågen bay, the colorful gabled wharf houses of bryggen line bergen&#x27;s harbor, their lit windows glowing against the night. small boats sit moored in the dark water in the foreground, while the misty, cloud-capped fløyen hillside rises behind the town. the overcast night sky presses low over the scene." data-audio="audio/no-01-002-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-002-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-002-16x9.png" data-src-16="assets/no-01-002-16x9.png" data-src-45="assets/no-01-002-4x5.png" data-src-916="assets/no-01-002-9x16.png" alt="AI-generated artistic interpretation of Bryggen in Bergen, Norway" loading="lazy" />
@@ -2438,11 +2447,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-002-16x9.png" download="no-01-002-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-002-4x5.png" download="no-01-002-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-002-9x16.png" download="no-01-002-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-002-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="oslo oslo opera house oslo no-01-003 the oslo opera house rises from the oslofjord at night, its white marble roof sloping down to the water&#x27;s edge beside the harbor promenade. the glass foyer glows warm beneath the pale stage tower, stars visible in the clear dark-blue sky. the lit hillside with akershus fortress sits behind the building to the right.">
+<article class="card" data-search="oslo oslo opera house oslo no-01-003 the oslo opera house rises from the oslofjord at night, its white marble roof sloping down to the water&#x27;s edge beside the harbor promenade. the glass foyer glows warm beneath the pale stage tower, stars visible in the clear dark-blue sky. the lit hillside with akershus fortress sits behind the building to the right." data-audio="audio/no-01-003-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-003-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-003-16x9.png" data-src-16="assets/no-01-003-16x9.png" data-src-45="assets/no-01-003-4x5.png" data-src-916="assets/no-01-003-9x16.png" alt="AI-generated artistic interpretation of Oslo Opera House in Oslo, Norway" loading="lazy" />
@@ -2466,11 +2476,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-003-16x9.png" download="no-01-003-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-003-4x5.png" download="no-01-003-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-003-9x16.png" download="no-01-003-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-003-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="stavanger preikestolen rogaland no-01-004 standing on the back of the preikestolen plateau at night, looking out over the squared granite slab as it juts into the darkness above the lysefjorden. the moonlit cliff edge dominates the right of frame while the black fjord winds left into the distance between steep mountain walls, with scattered settlement lights glowing along the far shore. a nearly-full moon and a starry, mostly clear sky complete the late-september night scene at 23:45.">
+<article class="card" data-search="stavanger preikestolen rogaland no-01-004 standing on the back of the preikestolen plateau at night, looking out over the squared granite slab as it juts into the darkness above the lysefjorden. the moonlit cliff edge dominates the right of frame while the black fjord winds left into the distance between steep mountain walls, with scattered settlement lights glowing along the far shore. a nearly-full moon and a starry, mostly clear sky complete the late-september night scene at 23:45." data-audio="audio/no-01-004-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-004-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-004-16x9.png" data-src-16="assets/no-01-004-16x9.png" data-src-45="assets/no-01-004-4x5.png" data-src-916="assets/no-01-004-9x16.png" alt="AI-generated artistic interpretation of Preikestolen in Stavanger, Norway" loading="lazy" />
@@ -2494,11 +2505,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-004-16x9.png" download="no-01-004-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-004-4x5.png" download="no-01-004-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-004-9x16.png" download="no-01-004-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-004-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="aurland stegastein viewpoint vestland no-01-005 standing on the stegastein viewing platform at night, the curved wooden ramp leads the eye out over the 650 m drop to the aurlandsfjord. the glass balustrade marks the far end of the platform while below-left the lights of aurlandsvangen glow along the dark water, and steep fjord walls rise on both sides into a low, brooding overcast sky. a quiet, moody late-september night scene at 23:45.">
+<article class="card" data-search="aurland stegastein viewpoint vestland no-01-005 standing on the stegastein viewing platform at night, the curved wooden ramp leads the eye out over the 650 m drop to the aurlandsfjord. the glass balustrade marks the far end of the platform while below-left the lights of aurlandsvangen glow along the dark water, and steep fjord walls rise on both sides into a low, brooding overcast sky. a quiet, moody late-september night scene at 23:45." data-audio="audio/no-01-005-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-005-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-005-16x9.png" data-src-16="assets/no-01-005-16x9.png" data-src-45="assets/no-01-005-4x5.png" data-src-916="assets/no-01-005-9x16.png" alt="AI-generated artistic interpretation of Stegastein viewpoint in Aurland, Norway" loading="lazy" />
@@ -2522,11 +2534,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-005-16x9.png" download="no-01-005-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-005-4x5.png" download="no-01-005-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-005-9x16.png" download="no-01-005-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-005-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="reine reinebringen nordland no-01-006 from the reinebringen ridge trail at night, the red rorbu cabins of reine glow along the harbour below while boats rest at their moorings. the jagged lofoten peaks rise centre-frame behind the village, wrapped in low cloud and mist, with the fjord winding off to either side. a dramatic, moody overcast night panorama at 23:45 in late september.">
+<article class="card" data-search="reine reinebringen nordland no-01-006 from the reinebringen ridge trail at night, the red rorbu cabins of reine glow along the harbour below while boats rest at their moorings. the jagged lofoten peaks rise centre-frame behind the village, wrapped in low cloud and mist, with the fjord winding off to either side. a dramatic, moody overcast night panorama at 23:45 in late september." data-audio="audio/no-01-006-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-006-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-006-16x9.png" data-src-16="assets/no-01-006-16x9.png" data-src-45="assets/no-01-006-4x5.png" data-src-916="assets/no-01-006-9x16.png" alt="AI-generated artistic interpretation of Reinebringen in Reine, Norway" loading="lazy" />
@@ -2550,11 +2563,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-006-16x9.png" download="no-01-006-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-006-4x5.png" download="no-01-006-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-006-9x16.png" download="no-01-006-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-006-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="lærdal borgund stave church vestland no-01-007 a night visit to the churchyard of borgund stave church: the dark, tarred medieval church rises in stacked tiers of shingled roofs at center, dragon heads silhouetted on the gable tips against a partly cloudy night sky. weathered gravestones dot the grassy churchyard in the left foreground, with warm ambient light grazing the timber walls, while forested valley slopes fade into darkness on both sides. no people — the classic candid tourist viewpoint under the modelled late-september night conditions.">
+<article class="card" data-search="lærdal borgund stave church vestland no-01-007 a night visit to the churchyard of borgund stave church: the dark, tarred medieval church rises in stacked tiers of shingled roofs at center, dragon heads silhouetted on the gable tips against a partly cloudy night sky. weathered gravestones dot the grassy churchyard in the left foreground, with warm ambient light grazing the timber walls, while forested valley slopes fade into darkness on both sides. no people — the classic candid tourist viewpoint under the modelled late-september night conditions." data-audio="audio/no-01-007-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-007-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-007-16x9.png" data-src-16="assets/no-01-007-16x9.png" data-src-45="assets/no-01-007-4x5.png" data-src-916="assets/no-01-007-9x16.png" alt="AI-generated artistic interpretation of Borgund Stave Church in Lærdal, Norway" loading="lazy" />
@@ -2578,11 +2592,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-007-16x9.png" download="no-01-007-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-007-4x5.png" download="no-01-007-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-007-9x16.png" download="no-01-007-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-007-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="averøy atlantic road møre og romsdal no-01-008 a night view of the atlantic road from the roadside: the storseisundet bridge&#x27;s concrete arch rises at left-center, its curving span threading between dark skerries with warm roadside light pooling along the asphalt. to the right, the open norwegian sea stretches to the horizon under a partly cloudy night sky, the moon glowing through drifting cloud. rocky foreshore and low coastal hills frame the causeway — the classic candid tourist stop, no people in frame, under the modelled late-september night conditions.">
+<article class="card" data-search="averøy atlantic road møre og romsdal no-01-008 a night view of the atlantic road from the roadside: the storseisundet bridge&#x27;s concrete arch rises at left-center, its curving span threading between dark skerries with warm roadside light pooling along the asphalt. to the right, the open norwegian sea stretches to the horizon under a partly cloudy night sky, the moon glowing through drifting cloud. rocky foreshore and low coastal hills frame the causeway — the classic candid tourist stop, no people in frame, under the modelled late-september night conditions." data-audio="audio/no-01-008-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-008-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-008-16x9.png" data-src-16="assets/no-01-008-16x9.png" data-src-45="assets/no-01-008-4x5.png" data-src-916="assets/no-01-008-9x16.png" alt="AI-generated artistic interpretation of Atlantic Road in Averøy, Norway" loading="lazy" />
@@ -2606,11 +2621,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-008-16x9.png" download="no-01-008-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-008-4x5.png" download="no-01-008-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-008-9x16.png" download="no-01-008-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-008-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="trondheim nidaros cathedral trøndelag no-01-009 a night view of nidaros cathedral&#x27;s floodlit west front from the cathedral green: three tiers of carved saints and kings glow warmly in their niches across the facade, the rose window luminous at center, with the twin towers flanking left and right against a deep-blue starry sky. dark grass in the foreground and silhouetted trees at both edges frame the stone screen, while lamplight in the square completes the classic late-september night postcard view — no people in frame.">
+<article class="card" data-search="trondheim nidaros cathedral trøndelag no-01-009 a night view of nidaros cathedral&#x27;s floodlit west front from the cathedral green: three tiers of carved saints and kings glow warmly in their niches across the facade, the rose window luminous at center, with the twin towers flanking left and right against a deep-blue starry sky. dark grass in the foreground and silhouetted trees at both edges frame the stone screen, while lamplight in the square completes the classic late-september night postcard view — no people in frame." data-audio="audio/no-01-009-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-009-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-009-16x9.png" data-src-16="assets/no-01-009-16x9.png" data-src-45="assets/no-01-009-4x5.png" data-src-916="assets/no-01-009-9x16.png" alt="AI-generated artistic interpretation of Nidaros Cathedral in Trondheim, Norway" loading="lazy" />
@@ -2634,11 +2650,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-009-16x9.png" download="no-01-009-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-009-4x5.png" download="no-01-009-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-009-9x16.png" download="no-01-009-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-009-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="honningsvåg north cape finnmark no-01-010 from the cliff-edge apron at the nordkapp plateau, the iron globe monument stands silhouetted against a moonlit barents sea, its plinth set on a paved stone terrace with metal guard rails; the sheer 307-metre cliffs drop away to the left while open arctic water fills the horizon, and broken clouds glow in a dark night sky above the windswept tundra plateau.">
+<article class="card" data-search="honningsvåg north cape finnmark no-01-010 from the cliff-edge apron at the nordkapp plateau, the iron globe monument stands silhouetted against a moonlit barents sea, its plinth set on a paved stone terrace with metal guard rails; the sheer 307-metre cliffs drop away to the left while open arctic water fills the horizon, and broken clouds glow in a dark night sky above the windswept tundra plateau." data-audio="audio/no-01-010-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-010-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-010-16x9.png" data-src-16="assets/no-01-010-16x9.png" data-src-45="assets/no-01-010-4x5.png" data-src-916="assets/no-01-010-9x16.png" alt="AI-generated artistic interpretation of North Cape in Honningsvåg, Norway" loading="lazy" />
@@ -2662,11 +2679,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-010-16x9.png" download="no-01-010-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-010-4x5.png" download="no-01-010-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-010-9x16.png" download="no-01-010-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-010-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="luster urnes stave church vestland no-01-011 from the churchyard path on the hillside above the lustrafjorden, the tarred urnes stave church fills the centre of frame — tiered wooden-shingle roofs, a small cross on the ridge turret, and the carved portal glowing warm from within; gravestones and a stone churchyard wall sit to the left, a forested mountain slope rises behind, and the fjord stretches out below to the right with solvorn&#x27;s lights twinkling across the water under a clear night sky.">
+<article class="card" data-search="luster urnes stave church vestland no-01-011 from the churchyard path on the hillside above the lustrafjorden, the tarred urnes stave church fills the centre of frame — tiered wooden-shingle roofs, a small cross on the ridge turret, and the carved portal glowing warm from within; gravestones and a stone churchyard wall sit to the left, a forested mountain slope rises behind, and the fjord stretches out below to the right with solvorn&#x27;s lights twinkling across the water under a clear night sky." data-audio="audio/no-01-011-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-011-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-011-16x9.png" data-src-16="assets/no-01-011-16x9.png" data-src-45="assets/no-01-011-4x5.png" data-src-916="assets/no-01-011-9x16.png" alt="AI-generated artistic interpretation of Urnes Stave Church in Luster, Norway" loading="lazy" />
@@ -2690,11 +2708,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-011-16x9.png" download="no-01-011-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-011-4x5.png" download="no-01-011-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-011-9x16.png" download="no-01-011-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-011-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="åndalsnes trollstigen møre og romsdal no-01-012 from the trollstigen plateau viewpoint at night, the serpentine mountain road zigzags down the isterdalen valley in a series of hairpin legs whose asphalt ribbons catch the moonlight, while the stigfossen waterfall plunges in a white cascade down the right-hand flank; jagged trolltinden peaks enclose the valley on both sides, and the wooden viewing-platform railing anchors the near foreground under a starlit, mainly clear sky.">
+<article class="card" data-search="åndalsnes trollstigen møre og romsdal no-01-012 from the trollstigen plateau viewpoint at night, the serpentine mountain road zigzags down the isterdalen valley in a series of hairpin legs whose asphalt ribbons catch the moonlight, while the stigfossen waterfall plunges in a white cascade down the right-hand flank; jagged trolltinden peaks enclose the valley on both sides, and the wooden viewing-platform railing anchors the near foreground under a starlit, mainly clear sky." data-audio="audio/no-01-012-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-012-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-012-16x9.png" data-src-16="assets/no-01-012-16x9.png" data-src-45="assets/no-01-012-4x5.png" data-src-916="assets/no-01-012-9x16.png" alt="AI-generated artistic interpretation of Trollstigen in Åndalsnes, Norway" loading="lazy" />
@@ -2718,11 +2737,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-012-16x9.png" download="no-01-012-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-012-4x5.png" download="no-01-012-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-012-9x16.png" download="no-01-012-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-012-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="oslo vigeland park oslo no-01-013 a nighttime view down the central axis of vigeland park in oslo’s frogner park. granite sculptures line the paved, lamp-lit path on both sides, while the floodlit monolith rises at the far end of the vista. a glowing street lamp stands beside the axis under a partly cloudy night sky with the moon breaking through the clouds, and dark trees frame the lawns on either side. the scene captures the park’s monumental open-air setting at 1:15 am under honest night lighting.">
+<article class="card" data-search="oslo vigeland park oslo no-01-013 a nighttime view down the central axis of vigeland park in oslo’s frogner park. granite sculptures line the paved, lamp-lit path on both sides, while the floodlit monolith rises at the far end of the vista. a glowing street lamp stands beside the axis under a partly cloudy night sky with the moon breaking through the clouds, and dark trees frame the lawns on either side. the scene captures the park’s monumental open-air setting at 1:15 am under honest night lighting." data-audio="audio/no-01-013-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-013-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-013-16x9.png" data-src-16="assets/no-01-013-16x9.png" data-src-45="assets/no-01-013-4x5.png" data-src-916="assets/no-01-013-9x16.png" alt="AI-generated artistic interpretation of Vigeland Park in Oslo, Norway" loading="lazy" />
@@ -2746,6 +2766,7 @@
               <a class="download" data-dl="16x9" href="assets/no-01-013-16x9.png" download="no-01-013-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-013-4x5.png" download="no-01-013-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-013-9x16.png" download="no-01-013-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-013-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
@@ -2806,7 +2827,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="odda trolltunga vestland no-01-016 from the ledge-approach trail high above ringedalsvatnet, trolltunga juts horizontally into the night from the left foreground, its flat rock nose tapering over the dark void. below the tongue, the black lake winds between steep mountain walls at center and right, its surface catching faint starlight, while snow-dusted ridgelines fade toward the folgefonna glacier country on the horizon. the mainly clear sky shows scattered stars over the bare, snow-free september plateau.">
+<article class="card" data-search="odda trolltunga vestland no-01-016 from the ledge-approach trail high above ringedalsvatnet, trolltunga juts horizontally into the night from the left foreground, its flat rock nose tapering over the dark void. below the tongue, the black lake winds between steep mountain walls at center and right, its surface catching faint starlight, while snow-dusted ridgelines fade toward the folgefonna glacier country on the horizon. the mainly clear sky shows scattered stars over the bare, snow-free september plateau." data-audio="audio/no-01-016-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-016-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-016-16x9.png" data-src-16="assets/no-01-016-16x9.png" data-src-45="assets/no-01-016-4x5.png" data-src-916="assets/no-01-016-9x16.png" alt="AI-generated artistic interpretation of Trolltunga in Odda, Norway" loading="lazy" />
@@ -2830,11 +2851,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-016-16x9.png" download="no-01-016-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-016-4x5.png" download="no-01-016-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-016-9x16.png" download="no-01-016-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-016-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="geiranger seven sisters waterfall møre og romsdal no-01-017 from the water of geirangerfjord at night, the seven sisters fall as seven parallel silver-white ribbons down the dark cliff face at center, mist drifting where they meet the black fjord water below. forested slopes and steep fjord walls frame the falls left and right, while faint moon-glow breaks through the partly cloudy sky on the right and mist wraps the ridgeline beyond.">
+<article class="card" data-search="geiranger seven sisters waterfall møre og romsdal no-01-017 from the water of geirangerfjord at night, the seven sisters fall as seven parallel silver-white ribbons down the dark cliff face at center, mist drifting where they meet the black fjord water below. forested slopes and steep fjord walls frame the falls left and right, while faint moon-glow breaks through the partly cloudy sky on the right and mist wraps the ridgeline beyond." data-audio="audio/no-01-017-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-017-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-017-16x9.png" data-src-16="assets/no-01-017-16x9.png" data-src-45="assets/no-01-017-4x5.png" data-src-916="assets/no-01-017-9x16.png" alt="AI-generated artistic interpretation of Seven Sisters waterfall in Geiranger, Norway" loading="lazy" />
@@ -2858,11 +2880,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-017-16x9.png" download="no-01-017-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-017-4x5.png" download="no-01-017-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-017-9x16.png" download="no-01-017-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-017-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="geiranger dalsnibba skywalk møre og romsdal no-01-018 from the geiranger skywalk at night, the glass floor panels and glass guardrails fill the near foreground, jutting off the cliff edge with bare rock at right. below and beyond, geirangerfjord winds darkly between mountain walls under broken moonlit cloud, while the warm lights of the village far below glint through the glass floor at center-left. snow patches sit on the distant high ridges under a cold, clear-black sky.">
+<article class="card" data-search="geiranger dalsnibba skywalk møre og romsdal no-01-018 from the geiranger skywalk at night, the glass floor panels and glass guardrails fill the near foreground, jutting off the cliff edge with bare rock at right. below and beyond, geirangerfjord winds darkly between mountain walls under broken moonlit cloud, while the warm lights of the village far below glint through the glass floor at center-left. snow patches sit on the distant high ridges under a cold, clear-black sky." data-audio="audio/no-01-018-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-018-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-018-16x9.png" data-src-16="assets/no-01-018-16x9.png" data-src-45="assets/no-01-018-4x5.png" data-src-916="assets/no-01-018-9x16.png" alt="AI-generated artistic interpretation of Dalsnibba Skywalk in Geiranger, Norway" loading="lazy" />
@@ -2886,11 +2909,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-018-16x9.png" download="no-01-018-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-018-4x5.png" download="no-01-018-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-018-9x16.png" download="no-01-018-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-018-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="bergen mount fløyen vestland no-01-019 from the wooden-railed viewing terrace on mount fløyen, the camera looks down over bergen in the dead of night. to the left and centre the city spreads in a field of warm lights down to the dark curve of vågen harbour, with byfjorden and its lit shoreline stretching to the right toward the open water. low cloud hangs over the far mountains while the glow of the city washes faintly upward, an overcast september night in the west of norway.">
+<article class="card" data-search="bergen mount fløyen vestland no-01-019 from the wooden-railed viewing terrace on mount fløyen, the camera looks down over bergen in the dead of night. to the left and centre the city spreads in a field of warm lights down to the dark curve of vågen harbour, with byfjorden and its lit shoreline stretching to the right toward the open water. low cloud hangs over the far mountains while the glow of the city washes faintly upward, an overcast september night in the west of norway." data-audio="audio/no-01-019-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-019-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-019-16x9.png" data-src-16="assets/no-01-019-16x9.png" data-src-45="assets/no-01-019-4x5.png" data-src-916="assets/no-01-019-9x16.png" alt="AI-generated artistic interpretation of Mount Fløyen in Bergen, Norway" loading="lazy" />
@@ -2914,11 +2938,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-019-16x9.png" download="no-01-019-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-019-4x5.png" download="no-01-019-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-019-9x16.png" download="no-01-019-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-019-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="bergen bergenhus fortress vestland no-01-020 standing on the dark waterfront at the harbour edge, the camera faces the medieval mass of bergenhus fortress at night. the rosenkrantz tower rises to the left with its gabled stone crown and a few lit windows, while the whitewashed gatehouse and the heavy stone rampart walls run right along the water, washed by warm wall lamps. moored fishing boats bob at the wooden piers in the foreground and the town lights glimmer far to the right under the overcast sky.">
+<article class="card" data-search="bergen bergenhus fortress vestland no-01-020 standing on the dark waterfront at the harbour edge, the camera faces the medieval mass of bergenhus fortress at night. the rosenkrantz tower rises to the left with its gabled stone crown and a few lit windows, while the whitewashed gatehouse and the heavy stone rampart walls run right along the water, washed by warm wall lamps. moored fishing boats bob at the wooden piers in the foreground and the town lights glimmer far to the right under the overcast sky." data-audio="audio/no-01-020-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-020-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-020-16x9.png" data-src-16="assets/no-01-020-16x9.png" data-src-45="assets/no-01-020-4x5.png" data-src-916="assets/no-01-020-9x16.png" alt="AI-generated artistic interpretation of Bergenhus Fortress in Bergen, Norway" loading="lazy" />
@@ -2942,11 +2967,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-020-16x9.png" download="no-01-020-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-020-4x5.png" download="no-01-020-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-020-9x16.png" download="no-01-020-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-020-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="bergen fisketorget vestland no-01-021 at the water’s edge on the torget quay, the camera looks along fisketorget after closing time. the market stalls stand shuttered with their awnings lowered and displays covered, signed &#x27;stengt&#x27;, while covered fishing boats rock gently at the wooden piers and the wet cobbles reflect the row of street lamps. across the dark water of vågen, the lit gabled fronts of bryggen glow under the low overcast night sky.">
+<article class="card" data-search="bergen fisketorget vestland no-01-021 at the water’s edge on the torget quay, the camera looks along fisketorget after closing time. the market stalls stand shuttered with their awnings lowered and displays covered, signed &#x27;stengt&#x27;, while covered fishing boats rock gently at the wooden piers and the wet cobbles reflect the row of street lamps. across the dark water of vågen, the lit gabled fronts of bryggen glow under the low overcast night sky." data-audio="audio/no-01-021-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-021-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-021-16x9.png" data-src-16="assets/no-01-021-16x9.png" data-src-45="assets/no-01-021-4x5.png" data-src-916="assets/no-01-021-9x16.png" alt="AI-generated artistic interpretation of Fisketorget in Bergen, Norway" loading="lazy" />
@@ -2970,11 +2996,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-021-16x9.png" download="no-01-021-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-021-4x5.png" download="no-01-021-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-021-9x16.png" download="no-01-021-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-021-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="oslo akershus fortress oslo no-01-022 standing on the floodlit southern ramparts of akershus fortress in the deep of night, the medieval stone walls lead the eye down toward the oslofjord, where ships and harbour lights scatter across the dark water. in the center rises the castle complex with its gabled roofs and lit windows, while the far shore glows with the lit waterfront of oslo — the harbour and skyline strung with lights beneath a clear sky. a crescent moon hangs overhead, and the cannons along the wall sit as quiet silhouettes in the warm wash of the rampart lamps.">
+<article class="card" data-search="oslo akershus fortress oslo no-01-022 standing on the floodlit southern ramparts of akershus fortress in the deep of night, the medieval stone walls lead the eye down toward the oslofjord, where ships and harbour lights scatter across the dark water. in the center rises the castle complex with its gabled roofs and lit windows, while the far shore glows with the lit waterfront of oslo — the harbour and skyline strung with lights beneath a clear sky. a crescent moon hangs overhead, and the cannons along the wall sit as quiet silhouettes in the warm wash of the rampart lamps." data-audio="audio/no-01-022-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-022-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-022-16x9.png" data-src-16="assets/no-01-022-16x9.png" data-src-45="assets/no-01-022-4x5.png" data-src-916="assets/no-01-022-9x16.png" alt="AI-generated artistic interpretation of Akershus Fortress in Oslo, Norway" loading="lazy" />
@@ -2998,11 +3025,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-022-16x9.png" download="no-01-022-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-022-4x5.png" download="no-01-022-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-022-9x16.png" download="no-01-022-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-022-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="oslo aker brygge oslo no-01-023 walking the wooden promenade at aker brygge in the deep of night, the lamp line stretches ahead along the quay while moored sailboats and motorboats rest in the marina to the left. the modern building row rises on the right — café terraces empty and umbrellas furled — its warm window-glow spilling onto the boards. beyond the railings the oslofjord opens out, scattered with navigation lights, and the far shoreline glitters under a clear, starry sky.">
+<article class="card" data-search="oslo aker brygge oslo no-01-023 walking the wooden promenade at aker brygge in the deep of night, the lamp line stretches ahead along the quay while moored sailboats and motorboats rest in the marina to the left. the modern building row rises on the right — café terraces empty and umbrellas furled — its warm window-glow spilling onto the boards. beyond the railings the oslofjord opens out, scattered with navigation lights, and the far shoreline glitters under a clear, starry sky." data-audio="audio/no-01-023-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-023-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-023-16x9.png" data-src-16="assets/no-01-023-16x9.png" data-src-45="assets/no-01-023-4x5.png" data-src-916="assets/no-01-023-9x16.png" alt="AI-generated artistic interpretation of Aker Brygge in Oslo, Norway" loading="lazy" />
@@ -3026,11 +3054,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-023-16x9.png" download="no-01-023-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-023-4x5.png" download="no-01-023-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-023-9x16.png" download="no-01-023-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-023-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="oslo royal palace oslo no-01-024 from the quiet slottsplassen at the top of karl johans gate, the floodlit facade of the royal palace rises above the empty square in the deep of night. the columned central portico glows between the dark wings, the equestrian statue of king karl johan stands silhouetted on its plinth, and the drive runs lamp-lit down past manicured garden beds touched with early-autumn color. around the square the old trees of slottsparken stand black against a clear, starry sky, with the flag flying above the roofline.">
+<article class="card" data-search="oslo royal palace oslo no-01-024 from the quiet slottsplassen at the top of karl johans gate, the floodlit facade of the royal palace rises above the empty square in the deep of night. the columned central portico glows between the dark wings, the equestrian statue of king karl johan stands silhouetted on its plinth, and the drive runs lamp-lit down past manicured garden beds touched with early-autumn color. around the square the old trees of slottsparken stand black against a clear, starry sky, with the flag flying above the roofline." data-audio="audio/no-01-024-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-024-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-024-16x9.png" data-src-16="assets/no-01-024-16x9.png" data-src-45="assets/no-01-024-4x5.png" data-src-916="assets/no-01-024-9x16.png" alt="AI-generated artistic interpretation of Royal Palace in Oslo, Norway" loading="lazy" />
@@ -3054,11 +3083,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-024-16x9.png" download="no-01-024-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-024-4x5.png" download="no-01-024-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-024-9x16.png" download="no-01-024-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-024-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="stavanger old stavanger rogaland no-01-025 eye-level along the cobbled øvre strandgate in gamle stavanger at 03:15, small white wooden houses with pitched roofs lining both sides of the street, windows glowing warm against the overcast night. to the right the cobbles open onto the vågen harbour with moored wooden boats and lamplight, house numbers and the blue street sign visible among flower-boxed facades. a quiet late-night scene under heavy cloud at 9.2°c, with wet cobbles catching the street lamps.">
+<article class="card" data-search="stavanger old stavanger rogaland no-01-025 eye-level along the cobbled øvre strandgate in gamle stavanger at 03:15, small white wooden houses with pitched roofs lining both sides of the street, windows glowing warm against the overcast night. to the right the cobbles open onto the vågen harbour with moored wooden boats and lamplight, house numbers and the blue street sign visible among flower-boxed facades. a quiet late-night scene under heavy cloud at 9.2°c, with wet cobbles catching the street lamps." data-audio="audio/no-01-025-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-025-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-025-16x9.png" data-src-16="assets/no-01-025-16x9.png" data-src-45="assets/no-01-025-4x5.png" data-src-916="assets/no-01-025-9x16.png" alt="AI-generated artistic interpretation of Old Stavanger in Stavanger, Norway" loading="lazy" />
@@ -3082,11 +3112,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-025-16x9.png" download="no-01-025-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-025-4x5.png" download="no-01-025-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-025-9x16.png" download="no-01-025-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-025-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="stavanger sverd i fjell rogaland no-01-026 eye-level from the rocky shore path at møllebukta, the three giant bronze swords of sverd i fjell rising from their low rock hillock, their viking-style hilts catching faint ambient light against a heavy overcast night sky. dark hafrsfjord water stretches behind the blades to distant shore lights on the far bank, with wet rock and moss in the foreground. a still 03:15 scene at 9.2°c under full cloud, the monument&#x27;s tribute to the battle of hafrsfjord (trad. 872) and the unification of norway.">
+<article class="card" data-search="stavanger sverd i fjell rogaland no-01-026 eye-level from the rocky shore path at møllebukta, the three giant bronze swords of sverd i fjell rising from their low rock hillock, their viking-style hilts catching faint ambient light against a heavy overcast night sky. dark hafrsfjord water stretches behind the blades to distant shore lights on the far bank, with wet rock and moss in the foreground. a still 03:15 scene at 9.2°c under full cloud, the monument&#x27;s tribute to the battle of hafrsfjord (trad. 872) and the unification of norway." data-audio="audio/no-01-026-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-026-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-026-16x9.png" data-src-16="assets/no-01-026-16x9.png" data-src-45="assets/no-01-026-4x5.png" data-src-916="assets/no-01-026-9x16.png" alt="AI-generated artistic interpretation of Sverd i fjell in Stavanger, Norway" loading="lazy" />
@@ -3110,11 +3141,12 @@
               <a class="download" data-dl="16x9" href="assets/no-01-026-16x9.png" download="no-01-026-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-026-4x5.png" download="no-01-026-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-026-9x16.png" download="no-01-026-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-026-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
-<article class="card" data-search="aurland flåm railway vestland no-01-027 hillside viewpoint over the steep flåm valley at 03:30, a lit flåmsbana train curving along the single rail line cut into the rocky mountainside, warm windows glowing against the blue night ambient. the deep u-shaped glacial valley drops away to the left with waterfalls threading through mist on the opposite slopes, autumn-toned pines and wet rocks in the foreground. an overcast 5.9°c night scene of one of the world&#x27;s steepest railways, 20 km from flåm fjord to the mountain station myrdal.">
+<article class="card" data-search="aurland flåm railway vestland no-01-027 hillside viewpoint over the steep flåm valley at 03:30, a lit flåmsbana train curving along the single rail line cut into the rocky mountainside, warm windows glowing against the blue night ambient. the deep u-shaped glacial valley drops away to the left with waterfalls threading through mist on the opposite slopes, autumn-toned pines and wet rocks in the foreground. an overcast 5.9°c night scene of one of the world&#x27;s steepest railways, 20 km from flåm fjord to the mountain station myrdal." data-audio="audio/no-01-027-narration.mp3">
           <div class="preview">
             <a class="thumb" href="assets/no-01-027-16x9.png" target="_blank" rel="noopener">
               <img src="assets/no-01-027-16x9.png" data-src-16="assets/no-01-027-16x9.png" data-src-45="assets/no-01-027-4x5.png" data-src-916="assets/no-01-027-9x16.png" alt="AI-generated artistic interpretation of Flåm Railway in Aurland, Norway" loading="lazy" />
@@ -3138,6 +3170,7 @@
               <a class="download" data-dl="16x9" href="assets/no-01-027-16x9.png" download="no-01-027-16x9.png">Download 16:9</a>
               <a class="download" data-dl="4x5" href="assets/no-01-027-4x5.png" download="no-01-027-4x5.png">Download 4:5</a>
               <a class="download" data-dl="9x16" href="assets/no-01-027-9x16.png" download="no-01-027-9x16.png">Download 9:16</a>
+              <button type="button" class="narrate" data-audio="audio/no-01-027-narration.mp3" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
@@ -6253,7 +6286,7 @@
 <article class="card" data-search="andebu høyjord stave church vestfold no-01-139 a night-time view of høyjord stave church from its grassy churchyard, where the dark-timber nave rises at center beneath its distinctive shingled tower and steeply pitched roofs. to the left, weathered headstones and a low stone wall edge the graveyard against a dark hillside; to the right, leaded white-trimmed windows glow faintly in the black wooden walls beneath mature trees. under a heavy overcast september sky the scene holds the quiet, almost monochromatic mood of a 22:15 night — the 12th-century stave church rendered as an honest dark silhouette in the vestfold countryside.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-139-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-139-16x9.png" data-src-16="assets/no-01-139-16x9.png" data-src-45="assets/no-01-139-4x5.png" data-src-916="assets/no-01-139-9x16.png" alt="AI-generated artistic interpretation of Høyjord Stave Church in Andebu, Norway" loading="lazy" />
+              <img src="assets/no-01-139-16x9.png" data-src-16="assets/no-01-139-16x9.png" data-src-45="assets/no-01-139-4x5.png" data-src-916="assets/no-01-139-9x16.png" data-src-16-day="assets/no-01-139-daylight-16x9.png" data-src-45-day="assets/no-01-139-daylight-4x5.png" data-src-916-day="assets/no-01-139-daylight-9x16.png" alt="AI-generated artistic interpretation of Høyjord Stave Church in Andebu, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6261,6 +6294,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-139</div>
@@ -6281,7 +6315,7 @@
 <article class="card" data-search="sandefjord sandar church vestfold no-01-140 a night-time view of sandar church from its churchyard, where the white wooden cruciform church glows warmly at center — lit windows across all four arms and the tall dark spire rising over the crossing against a heavy september cloud sky. to the left, weathered gravestones crowd the foreground path; to the right, more headstones and bare autumn trees frame the churchyard under the overcast night. the 1792 church&#x27;s white boards and slate roofs read clearly in the dark, an honest late-night scene in sandefjord.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-140-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-140-16x9.png" data-src-16="assets/no-01-140-16x9.png" data-src-45="assets/no-01-140-4x5.png" data-src-916="assets/no-01-140-9x16.png" alt="AI-generated artistic interpretation of Sandar Church in Sandefjord, Norway" loading="lazy" />
+              <img src="assets/no-01-140-16x9.png" data-src-16="assets/no-01-140-16x9.png" data-src-45="assets/no-01-140-4x5.png" data-src-916="assets/no-01-140-9x16.png" data-src-16-day="assets/no-01-140-daylight-16x9.png" data-src-45-day="assets/no-01-140-daylight-4x5.png" data-src-916-day="assets/no-01-140-daylight-9x16.png" alt="AI-generated artistic interpretation of Sandar Church in Sandefjord, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6289,6 +6323,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-140</div>
@@ -6309,7 +6344,7 @@
 <article class="card" data-search="borre borre mounds vestfold no-01-141 a night-time view across the meadow at borrehaugene, where several large grass-covered viking burial mounds rise at center — smooth turf domes caught in the dim ambient light of the overcast night. to the left, mature oaks edge the meadow; to the right, a gravel path curves past a wooden sign reading &#x27;borreparken – borrehaugene&#x27; toward the mounds, with the distant lights of the midgard area beyond the trees. the unlit park reads as an honest late-september night scene — dark sky, wet path, and the monumental mounds standing quiet in borre national park.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-141-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-141-16x9.png" data-src-16="assets/no-01-141-16x9.png" data-src-45="assets/no-01-141-4x5.png" data-src-916="assets/no-01-141-9x16.png" alt="AI-generated artistic interpretation of Borre Mounds in Borre, Norway" loading="lazy" />
+              <img src="assets/no-01-141-16x9.png" data-src-16="assets/no-01-141-16x9.png" data-src-45="assets/no-01-141-4x5.png" data-src-916="assets/no-01-141-9x16.png" data-src-16-day="assets/no-01-141-daylight-16x9.png" data-src-45-day="assets/no-01-141-daylight-4x5.png" data-src-916-day="assets/no-01-141-daylight-9x16.png" alt="AI-generated artistic interpretation of Borre Mounds in Borre, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6317,6 +6352,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-141</div>
@@ -6337,7 +6373,7 @@
 <article class="card" data-search="borre midgard viking centre vestfold no-01-142 a tourist-path view of the midgard viking centre at borre under a late-september night sky. the reconstructed gildehallen longhouse dominates center-frame, its curved timber walls and steep roof dark against the gloom while warm light spills from its doorways and carved gable section; to the left, flagpoles and the low visitor building bearing the midgard vikingsenter name sit at the park edge. in the foreground, grass-covered burial mounds of borrehaugene and a rain-damp gravel path lead the eye toward the hall, with scattered birch and pine trees around the clearing.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-142-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-142-16x9.png" data-src-16="assets/no-01-142-16x9.png" data-src-45="assets/no-01-142-4x5.png" data-src-916="assets/no-01-142-9x16.png" alt="AI-generated artistic interpretation of Midgard Viking Centre in Borre, Norway" loading="lazy" />
+              <img src="assets/no-01-142-16x9.png" data-src-16="assets/no-01-142-16x9.png" data-src-45="assets/no-01-142-4x5.png" data-src-916="assets/no-01-142-9x16.png" data-src-16-day="assets/no-01-142-daylight-16x9.png" data-src-45-day="assets/no-01-142-daylight-4x5.png" data-src-916-day="assets/no-01-142-daylight-9x16.png" alt="AI-generated artistic interpretation of Midgard Viking Centre in Borre, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6345,6 +6381,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-142</div>
@@ -6365,7 +6402,7 @@
 <article class="card" data-search="horten karljohansvern vestfold no-01-143 a night view down the canal at karljohansvern in horten, framed by the historic brick naval-base buildings on both banks. to the left, the long magazine row glows with lit windows beside a moored vessel and an old cannon on the quay, with a plaque reading &quot;karljohansvern kongelig marineverft fra 1850&quot;; to the right, another arsenal block and a stone rampart wall carry a line of warm lamps that reflect on the still dark water. a rope-coiled bollard and chain railing anchor the foreground as the canal leads the eye toward distant lights under an overcast night sky.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-143-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-143-16x9.png" data-src-16="assets/no-01-143-16x9.png" data-src-45="assets/no-01-143-4x5.png" data-src-916="assets/no-01-143-9x16.png" alt="AI-generated artistic interpretation of Karljohansvern in Horten, Norway" loading="lazy" />
+              <img src="assets/no-01-143-16x9.png" data-src-16="assets/no-01-143-16x9.png" data-src-45="assets/no-01-143-4x5.png" data-src-916="assets/no-01-143-9x16.png" data-src-16-day="assets/no-01-143-daylight-16x9.png" data-src-45-day="assets/no-01-143-daylight-4x5.png" data-src-916-day="assets/no-01-143-daylight-9x16.png" alt="AI-generated artistic interpretation of Karljohansvern in Horten, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6373,6 +6410,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-143</div>
@@ -6393,7 +6431,7 @@
 <article class="card" data-search="horten naval museum vestfold no-01-144 a night view of the naval museum quay at karljohansvern in horten, where the museum&#x27;s brick waterfront hall carries &quot;marinemuseet&quot; banners and a norwegian flag beside its arched entrance. at left, old cannons stand on the rain-glossed cobbled quay in front of rows of lit windows; at right, the black hull and conning tower of the submarine s302 lies alongside the pier with the museum torpedo boat rap moored beyond it. pier lamps and window light reflect off the wet stone and the still dark water under a fully overcast night sky.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-144-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-144-16x9.png" data-src-16="assets/no-01-144-16x9.png" data-src-45="assets/no-01-144-4x5.png" data-src-916="assets/no-01-144-9x16.png" alt="AI-generated artistic interpretation of Naval Museum in Horten, Norway" loading="lazy" />
+              <img src="assets/no-01-144-16x9.png" data-src-16="assets/no-01-144-16x9.png" data-src-45="assets/no-01-144-4x5.png" data-src-916="assets/no-01-144-9x16.png" data-src-16-day="assets/no-01-144-daylight-16x9.png" data-src-45-day="assets/no-01-144-daylight-4x5.png" data-src-916-day="assets/no-01-144-daylight-9x16.png" alt="AI-generated artistic interpretation of Naval Museum in Horten, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6401,6 +6439,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-144</div>
@@ -6421,7 +6460,7 @@
 <article class="card" data-search="borre borrestranda beach vestfold no-01-145 a quiet stretch of borrestranda beach under night cloud cover, the sandy shore curving from the foreground toward wooden jetties and scattered cabins across the bay. the dark fjord water lies calm in the center, with low coastline silhouettes on the far shore. muted night blues and greys dominate, with only faint ambient light — a still, unpeopled late-night beach scene.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-145-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-145-16x9.png" data-src-16="assets/no-01-145-16x9.png" data-src-45="assets/no-01-145-4x5.png" data-src-916="assets/no-01-145-9x16.png" alt="AI-generated artistic interpretation of Borrestranda Beach in Borre, Norway" loading="lazy" />
+              <img src="assets/no-01-145-16x9.png" data-src-16="assets/no-01-145-16x9.png" data-src-45="assets/no-01-145-4x5.png" data-src-916="assets/no-01-145-9x16.png" data-src-16-day="assets/no-01-145-daylight-16x9.png" data-src-45-day="assets/no-01-145-daylight-4x5.png" data-src-916-day="assets/no-01-145-daylight-9x16.png" alt="AI-generated artistic interpretation of Borrestranda Beach in Borre, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6429,6 +6468,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-145</div>
@@ -6449,7 +6489,7 @@
 <article class="card" data-search="larvik kaupang vestfold no-01-146 the excavated fields of kaupang&#x27;s viking trading-place site at night, low excavation plots and marker pegs spread across the grassy pasture in the middle distance. a norwegian informational plaque stands right of center, with open farmland, dark tree lines, and a distant stretch of water beyond. the scene sits in deep night blues under heavy cloud, muted and still.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-146-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-146-16x9.png" data-src-16="assets/no-01-146-16x9.png" data-src-45="assets/no-01-146-4x5.png" data-src-916="assets/no-01-146-9x16.png" alt="AI-generated artistic interpretation of Kaupang in Larvik, Norway" loading="lazy" />
+              <img src="assets/no-01-146-16x9.png" data-src-16="assets/no-01-146-16x9.png" data-src-45="assets/no-01-146-4x5.png" data-src-916="assets/no-01-146-9x16.png" data-src-16-day="assets/no-01-146-daylight-16x9.png" data-src-45-day="assets/no-01-146-daylight-4x5.png" data-src-916-day="assets/no-01-146-daylight-9x16.png" alt="AI-generated artistic interpretation of Kaupang in Larvik, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6457,6 +6497,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-146</div>
@@ -6477,7 +6518,7 @@
 <article class="card" data-search="larvik mølen vestfold no-01-147 mølen&#x27;s vast rolling-stone beach at night, rounded stones carpeting the foreground and middle ground beneath a heavy clouded sky. the iron age burial cairns rise as rounded mounds along the ridge to the right, with the dark sea breaking softly along the shoreline beyond. muted night blues and greys throughout, stones and cairns reduced to cool, soft-edged forms.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-147-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-147-16x9.png" data-src-16="assets/no-01-147-16x9.png" data-src-45="assets/no-01-147-4x5.png" data-src-916="assets/no-01-147-9x16.png" alt="AI-generated artistic interpretation of Mølen in Larvik, Norway" loading="lazy" />
+              <img src="assets/no-01-147-16x9.png" data-src-16="assets/no-01-147-16x9.png" data-src-45="assets/no-01-147-4x5.png" data-src-916="assets/no-01-147-9x16.png" data-src-16-day="assets/no-01-147-daylight-16x9.png" data-src-45-day="assets/no-01-147-daylight-4x5.png" data-src-916-day="assets/no-01-147-daylight-9x16.png" alt="AI-generated artistic interpretation of Mølen in Larvik, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6485,6 +6526,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-147</div>
@@ -6505,7 +6547,7 @@
 <article class="card" data-search="larvik herregården vestfold no-01-148 the red-painted herregården manor in larvik stands lit against the overcast night sky, its rows of warmly glowing windows facing across the formal park. neat boxwood hedges and garden beds fill the foreground, with mature trees framing the scene left and right. a norwegian flag stands on its pole beside the entrance, and garden lamps cast a soft glow over the wet pathways.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-148-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-148-16x9.png" data-src-16="assets/no-01-148-16x9.png" data-src-45="assets/no-01-148-4x5.png" data-src-916="assets/no-01-148-9x16.png" alt="AI-generated artistic interpretation of Herregården in Larvik, Norway" loading="lazy" />
+              <img src="assets/no-01-148-16x9.png" data-src-16="assets/no-01-148-16x9.png" data-src-45="assets/no-01-148-4x5.png" data-src-916="assets/no-01-148-9x16.png" data-src-16-day="assets/no-01-148-daylight-16x9.png" data-src-45-day="assets/no-01-148-daylight-4x5.png" data-src-916-day="assets/no-01-148-daylight-9x16.png" alt="AI-generated artistic interpretation of Herregården in Larvik, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6513,6 +6555,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-148</div>
@@ -6533,7 +6576,7 @@
 <article class="card" data-search="larvik ula harbour vestfold no-01-149 ula&#x27;s small harbour at night, the wooden quay in the foreground piled with lobster pots, coiled ropes and buoys under a quay lamp. red and white wooden boathouses line the left, their windows glowing, while moored boats fill the dark bay in the center and right. low mist drifts over the dark hills behind the village beneath a heavy overcast sky.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-149-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-149-16x9.png" data-src-16="assets/no-01-149-16x9.png" data-src-45="assets/no-01-149-4x5.png" data-src-916="assets/no-01-149-9x16.png" alt="AI-generated artistic interpretation of Ula Harbour in Larvik, Norway" loading="lazy" />
+              <img src="assets/no-01-149-16x9.png" data-src-16="assets/no-01-149-16x9.png" data-src-45="assets/no-01-149-4x5.png" data-src-916="assets/no-01-149-9x16.png" data-src-16-day="assets/no-01-149-daylight-16x9.png" data-src-45-day="assets/no-01-149-daylight-4x5.png" data-src-916-day="assets/no-01-149-daylight-9x16.png" alt="AI-generated artistic interpretation of Ula Harbour in Larvik, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6541,6 +6584,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-149</div>
@@ -6561,7 +6605,7 @@
 <article class="card" data-search="stavern stavern old town vestfold no-01-150 stavern&#x27;s old town at night, seen from the harbour: a row of small white wooden houses with dark pitched roofs lining the stone quay, their windows glowing warm. a wooden jetty and moored boats fill the foreground water, lobster pots and ropes stacked at the edge. lamp light glints off the wet quay while mist drifts over the dark hills behind the town.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-150-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-150-16x9.png" data-src-16="assets/no-01-150-16x9.png" data-src-45="assets/no-01-150-4x5.png" data-src-916="assets/no-01-150-9x16.png" alt="AI-generated artistic interpretation of Stavern Old Town in Stavern, Norway" loading="lazy" />
+              <img src="assets/no-01-150-16x9.png" data-src-16="assets/no-01-150-16x9.png" data-src-45="assets/no-01-150-4x5.png" data-src-916="assets/no-01-150-9x16.png" data-src-16-day="assets/no-01-150-daylight-16x9.png" data-src-45-day="assets/no-01-150-daylight-4x5.png" data-src-916-day="assets/no-01-150-daylight-9x16.png" alt="AI-generated artistic interpretation of Stavern Old Town in Stavern, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -6569,6 +6613,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-150</div>
@@ -7093,7 +7138,7 @@
 <article class="card" data-search="moss galleri f 15, alby østfold no-01-169 the white two-storey alby manor stands centre frame at the far end of its formal lawn, glowing windows and a columned porch warm against the overcast night. the modern gallery wing with its glass frontage sits to the left, while garden beds, path lamps, and bare tree lines frame the composition on both sides. night falls quiet over the grounds; only the lit interior and a few amber garden lights hold against the dark, cloudy sky.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-169-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-169-16x9.png" data-src-16="assets/no-01-169-16x9.png" data-src-45="assets/no-01-169-4x5.png" data-src-916="assets/no-01-169-9x16.png" alt="AI-generated artistic interpretation of Galleri F 15, Alby in Moss, Norway" loading="lazy" />
+              <img src="assets/no-01-169-16x9.png" data-src-16="assets/no-01-169-16x9.png" data-src-45="assets/no-01-169-4x5.png" data-src-916="assets/no-01-169-9x16.png" data-src-16-day="assets/no-01-169-daylight-16x9.png" data-src-45-day="assets/no-01-169-daylight-4x5.png" data-src-916-day="assets/no-01-169-daylight-9x16.png" alt="AI-generated artistic interpretation of Galleri F 15, Alby in Moss, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7101,6 +7146,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-169</div>
@@ -7121,7 +7167,7 @@
 <article class="card" data-search="moss moss havn østfold no-01-170 the inner basin of moss harbour stretches across the foreground, dark water carrying the warm reflections of quay lamps. fishing boats and small craft lie moored along the wooden quay, where red warehouses — one signed moss havn — and stacked crab pots line the right side. behind the harbour the town climbs the hillside, its lit windows glowing softly through the overcast night and low mist on the forested ridge.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-170-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-170-16x9.png" data-src-16="assets/no-01-170-16x9.png" data-src-45="assets/no-01-170-4x5.png" data-src-916="assets/no-01-170-9x16.png" alt="AI-generated artistic interpretation of Moss havn in Moss, Norway" loading="lazy" />
+              <img src="assets/no-01-170-16x9.png" data-src-16="assets/no-01-170-16x9.png" data-src-45="assets/no-01-170-4x5.png" data-src-916="assets/no-01-170-9x16.png" data-src-16-day="assets/no-01-170-daylight-16x9.png" data-src-45-day="assets/no-01-170-daylight-4x5.png" data-src-916-day="assets/no-01-170-daylight-9x16.png" alt="AI-generated artistic interpretation of Moss havn in Moss, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7129,6 +7175,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-170</div>
@@ -7149,7 +7196,7 @@
 <article class="card" data-search="moss møllebyen østfold no-01-171 a steel footbridge railing crosses the foreground as the view opens onto møllebyen, moss&#x27;s converted brick mill quarter, at night. the moss river runs down the left side toward the glowing mosselfossen waterfall, while rows of red-brick industrial buildings with warmly lit windows line the right bank - museum signage and a coffee roastery&#x27;s lit windows visible at street level. lamp light and reflections ripple across the dark water beneath the overcast night sky.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-171-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-171-16x9.png" data-src-16="assets/no-01-171-16x9.png" data-src-45="assets/no-01-171-4x5.png" data-src-916="assets/no-01-171-9x16.png" alt="AI-generated artistic interpretation of Møllebyen in Moss, Norway" loading="lazy" />
+              <img src="assets/no-01-171-16x9.png" data-src-16="assets/no-01-171-16x9.png" data-src-45="assets/no-01-171-4x5.png" data-src-916="assets/no-01-171-9x16.png" data-src-16-day="assets/no-01-171-daylight-16x9.png" data-src-45-day="assets/no-01-171-daylight-4x5.png" data-src-916-day="assets/no-01-171-daylight-9x16.png" alt="AI-generated artistic interpretation of Møllebyen in Moss, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7157,6 +7204,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-171</div>
@@ -7177,7 +7225,7 @@
 <article class="card" data-search="halden rød herregård østfold no-01-172 from the garden path, the manor&#x27;s white frontage rises behind a dark lawn, its windows glowing warm against an overcast night sky at 03:45. a stone monument anchors the centre of the frame, flanked by clipped shrubs and mature park trees, with gravel paths curving through the lawn on either side. the estate sits quiet after hours under heavy cloud, the lit windows the only warm colour in the frame.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-172-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-172-16x9.png" data-src-16="assets/no-01-172-16x9.png" data-src-45="assets/no-01-172-4x5.png" data-src-916="assets/no-01-172-9x16.png" alt="AI-generated artistic interpretation of Rød herregård in Halden, Norway" loading="lazy" />
+              <img src="assets/no-01-172-16x9.png" data-src-16="assets/no-01-172-16x9.png" data-src-45="assets/no-01-172-4x5.png" data-src-916="assets/no-01-172-9x16.png" data-src-16-day="assets/no-01-172-daylight-16x9.png" data-src-45-day="assets/no-01-172-daylight-4x5.png" data-src-916-day="assets/no-01-172-daylight-9x16.png" alt="AI-generated artistic interpretation of Rød herregård in Halden, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7185,6 +7233,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-172</div>
@@ -7205,7 +7254,7 @@
 <article class="card" data-search="ørje basmo festning østfold no-01-173 a mossy forest trail climbs the ridge toward the weathered stone wall of the old fortress, the ruined masonry rising above the trees in the centre of the frame. fallen logs, ferns, and dense undergrowth fill the foreground, with mist drifting between the pines on the right. the scene is dim and overcast, the ruin half-lost in the woods — barely visible defense works, just as the site is today.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-173-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-173-16x9.png" data-src-16="assets/no-01-173-16x9.png" data-src-45="assets/no-01-173-4x5.png" data-src-916="assets/no-01-173-9x16.png" alt="AI-generated artistic interpretation of Basmo festning in Ørje, Norway" loading="lazy" />
+              <img src="assets/no-01-173-16x9.png" data-src-16="assets/no-01-173-16x9.png" data-src-45="assets/no-01-173-4x5.png" data-src-916="assets/no-01-173-9x16.png" data-src-16-day="assets/no-01-173-daylight-16x9.png" data-src-45-day="assets/no-01-173-daylight-4x5.png" data-src-916-day="assets/no-01-173-daylight-9x16.png" alt="AI-generated artistic interpretation of Basmo festning in Ørje, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7213,6 +7262,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-173</div>
@@ -7233,7 +7283,7 @@
 <article class="card" data-search="mysen eidsberg kirke østfold no-01-174 from the wet road below, eidsberg kirke stands on its terraced churchyard rise, the cruciform stone church with its pointed copper-green spire glowing from its own lights against the dark overcast sky at 04:00. gravestones dot the churchyard on the left, a mossy stone retaining wall holding the terrace, while the lit rooftops of the town spread below to the right. puddles on the road catch the church and street light under heavy cloud.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-174-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-174-16x9.png" data-src-16="assets/no-01-174-16x9.png" data-src-45="assets/no-01-174-4x5.png" data-src-916="assets/no-01-174-9x16.png" alt="AI-generated artistic interpretation of Eidsberg kirke in Mysen, Norway" loading="lazy" />
+              <img src="assets/no-01-174-16x9.png" data-src-16="assets/no-01-174-16x9.png" data-src-45="assets/no-01-174-4x5.png" data-src-916="assets/no-01-174-9x16.png" data-src-16-day="assets/no-01-174-daylight-16x9.png" data-src-45-day="assets/no-01-174-daylight-4x5.png" data-src-916-day="assets/no-01-174-daylight-9x16.png" alt="AI-generated artistic interpretation of Eidsberg kirke in Mysen, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7241,6 +7291,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-174</div>
@@ -7261,7 +7312,7 @@
 <article class="card" data-search="fredrikstad kongsten fort østfold no-01-175 from the path at the base, the angular stone bastions of kongsten fort rise up the grassy galgeberget hill, a wooden signpost pointing onward toward the fort. in the center, the lamp-lit gate arch and tiled roof sit beneath ramparts that climb the slope, while the fortress silhouette continues right past a red-roofed outbuilding. on this overcast september night the walls are read only by their own warm lamps against the dark sky, with wet puddles reflecting the path lights and the distant glow of fredrikstad below at left.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-175-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-175-16x9.png" data-src-16="assets/no-01-175-16x9.png" data-src-45="assets/no-01-175-4x5.png" data-src-916="assets/no-01-175-9x16.png" alt="AI-generated artistic interpretation of Kongsten fort in Fredrikstad, Norway" loading="lazy" />
+              <img src="assets/no-01-175-16x9.png" data-src-16="assets/no-01-175-16x9.png" data-src-45="assets/no-01-175-4x5.png" data-src-916="assets/no-01-175-9x16.png" data-src-16-day="assets/no-01-175-daylight-16x9.png" data-src-45-day="assets/no-01-175-daylight-4x5.png" data-src-916-day="assets/no-01-175-daylight-9x16.png" alt="AI-generated artistic interpretation of Kongsten fort in Fredrikstad, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7269,6 +7320,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-175</div>
@@ -7289,7 +7341,7 @@
 <article class="card" data-search="stavanger stavanger cathedral rogaland no-01-176 from the wet cobbled square in front, stavanger cathedral stands floodlit against the dark overcast sky: the gray stone medieval long church with its romanesque-arched nave, gothic choir elements, and west tower crowned by a green copper spire. lamp light reflects in the rain-slicked cobbles; at left, old wooden houses line the square, and at right a lit café front glows beside a streetlamp. the dark facades and lit windows of the city edge complete an honest 04:30 september night.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-176-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-176-16x9.png" data-src-16="assets/no-01-176-16x9.png" data-src-45="assets/no-01-176-4x5.png" data-src-916="assets/no-01-176-9x16.png" alt="AI-generated artistic interpretation of Stavanger Cathedral in Stavanger, Norway" loading="lazy" />
+              <img src="assets/no-01-176-16x9.png" data-src-16="assets/no-01-176-16x9.png" data-src-45="assets/no-01-176-4x5.png" data-src-916="assets/no-01-176-9x16.png" data-src-16-day="assets/no-01-176-daylight-16x9.png" data-src-45-day="assets/no-01-176-daylight-4x5.png" data-src-916-day="assets/no-01-176-daylight-9x16.png" alt="AI-generated artistic interpretation of Stavanger Cathedral in Stavanger, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7297,6 +7349,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-176</div>
@@ -7317,7 +7370,7 @@
 <article class="card" data-search="stavanger norwegian petroleum museum rogaland no-01-177 from the cobbled waterfront promenade, the norwegian petroleum museum rises on stilts over the dark harbour water like a small oil platform: cylindrical steel tanks, a glass exhibition hall glowing from within, and an orange lifeboat hanging from its crane. at center, the wayfinding sign confirms &quot;norsk oljemuseum · norwegian petroleum museum.&quot; on this overcast 04:30 night the lit building and promenade lamps reflect in the water, with the old-town rooftops of stavanger dim at left and the masts of moored boats at right.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-177-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-177-16x9.png" data-src-16="assets/no-01-177-16x9.png" data-src-45="assets/no-01-177-4x5.png" data-src-916="assets/no-01-177-9x16.png" alt="AI-generated artistic interpretation of Norwegian Petroleum Museum in Stavanger, Norway" loading="lazy" />
+              <img src="assets/no-01-177-16x9.png" data-src-16="assets/no-01-177-16x9.png" data-src-45="assets/no-01-177-4x5.png" data-src-916="assets/no-01-177-9x16.png" data-src-16-day="assets/no-01-177-daylight-16x9.png" data-src-45-day="assets/no-01-177-daylight-4x5.png" data-src-916-day="assets/no-01-177-daylight-9x16.png" alt="AI-generated artistic interpretation of Norwegian Petroleum Museum in Stavanger, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -7325,6 +7378,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-177</div>
@@ -7454,7 +7508,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-001-4x5.png",
     "file_9x16": "assets/no-01-001-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-001-narration.mp3"
   },
   {
     "entry_id": "NO-01-002",
@@ -7466,7 +7521,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-002-4x5.png",
     "file_9x16": "assets/no-01-002-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-002-narration.mp3"
   },
   {
     "entry_id": "NO-01-003",
@@ -7478,7 +7534,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-003-4x5.png",
     "file_9x16": "assets/no-01-003-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-003-narration.mp3"
   },
   {
     "entry_id": "NO-01-004",
@@ -7490,7 +7547,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-004-4x5.png",
     "file_9x16": "assets/no-01-004-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-004-narration.mp3"
   },
   {
     "entry_id": "NO-01-005",
@@ -7502,7 +7560,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-005-4x5.png",
     "file_9x16": "assets/no-01-005-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-005-narration.mp3"
   },
   {
     "entry_id": "NO-01-006",
@@ -7514,7 +7573,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-006-4x5.png",
     "file_9x16": "assets/no-01-006-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-006-narration.mp3"
   },
   {
     "entry_id": "NO-01-007",
@@ -7526,7 +7586,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-007-4x5.png",
     "file_9x16": "assets/no-01-007-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-007-narration.mp3"
   },
   {
     "entry_id": "NO-01-008",
@@ -7538,7 +7599,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-008-4x5.png",
     "file_9x16": "assets/no-01-008-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-008-narration.mp3"
   },
   {
     "entry_id": "NO-01-009",
@@ -7550,7 +7612,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-009-4x5.png",
     "file_9x16": "assets/no-01-009-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-009-narration.mp3"
   },
   {
     "entry_id": "NO-01-010",
@@ -7562,7 +7625,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-010-4x5.png",
     "file_9x16": "assets/no-01-010-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-010-narration.mp3"
   },
   {
     "entry_id": "NO-01-011",
@@ -7574,7 +7638,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-011-4x5.png",
     "file_9x16": "assets/no-01-011-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-011-narration.mp3"
   },
   {
     "entry_id": "NO-01-012",
@@ -7586,7 +7651,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-012-4x5.png",
     "file_9x16": "assets/no-01-012-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-012-narration.mp3"
   },
   {
     "entry_id": "NO-01-013",
@@ -7598,7 +7664,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-013-4x5.png",
     "file_9x16": "assets/no-01-013-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-013-narration.mp3"
   },
   {
     "entry_id": "NO-01-014",
@@ -7610,7 +7677,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-014-4x5.png",
     "file_9x16": "assets/no-01-014-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-015",
@@ -7622,7 +7690,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-015-4x5.png",
     "file_9x16": "assets/no-01-015-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-016",
@@ -7634,7 +7703,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-016-4x5.png",
     "file_9x16": "assets/no-01-016-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-016-narration.mp3"
   },
   {
     "entry_id": "NO-01-017",
@@ -7646,7 +7716,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-017-4x5.png",
     "file_9x16": "assets/no-01-017-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-017-narration.mp3"
   },
   {
     "entry_id": "NO-01-018",
@@ -7658,7 +7729,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-018-4x5.png",
     "file_9x16": "assets/no-01-018-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-018-narration.mp3"
   },
   {
     "entry_id": "NO-01-019",
@@ -7670,7 +7742,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-019-4x5.png",
     "file_9x16": "assets/no-01-019-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-019-narration.mp3"
   },
   {
     "entry_id": "NO-01-020",
@@ -7682,7 +7755,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-020-4x5.png",
     "file_9x16": "assets/no-01-020-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-020-narration.mp3"
   },
   {
     "entry_id": "NO-01-021",
@@ -7694,7 +7768,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-021-4x5.png",
     "file_9x16": "assets/no-01-021-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-021-narration.mp3"
   },
   {
     "entry_id": "NO-01-022",
@@ -7706,7 +7781,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-022-4x5.png",
     "file_9x16": "assets/no-01-022-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-022-narration.mp3"
   },
   {
     "entry_id": "NO-01-023",
@@ -7718,7 +7794,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-023-4x5.png",
     "file_9x16": "assets/no-01-023-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-023-narration.mp3"
   },
   {
     "entry_id": "NO-01-024",
@@ -7730,7 +7807,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-024-4x5.png",
     "file_9x16": "assets/no-01-024-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-024-narration.mp3"
   },
   {
     "entry_id": "NO-01-025",
@@ -7742,7 +7820,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-025-4x5.png",
     "file_9x16": "assets/no-01-025-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-025-narration.mp3"
   },
   {
     "entry_id": "NO-01-026",
@@ -7754,7 +7833,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-026-4x5.png",
     "file_9x16": "assets/no-01-026-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-026-narration.mp3"
   },
   {
     "entry_id": "NO-01-027",
@@ -7766,7 +7846,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-027-4x5.png",
     "file_9x16": "assets/no-01-027-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": "audio/no-01-027-narration.mp3"
   },
   {
     "entry_id": "NO-01-028",
@@ -7778,7 +7859,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-028-4x5.png",
     "file_9x16": "assets/no-01-028-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-029",
@@ -7790,7 +7872,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-029-4x5.png",
     "file_9x16": "assets/no-01-029-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-030",
@@ -7802,7 +7885,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-030-4x5.png",
     "file_9x16": "assets/no-01-030-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-031",
@@ -7814,7 +7898,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-031-4x5.png",
     "file_9x16": "assets/no-01-031-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-032",
@@ -7826,7 +7911,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-032-4x5.png",
     "file_9x16": "assets/no-01-032-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-033",
@@ -7838,7 +7924,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-033-4x5.png",
     "file_9x16": "assets/no-01-033-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-034",
@@ -7850,7 +7937,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-034-4x5.png",
     "file_9x16": "assets/no-01-034-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-035",
@@ -7862,7 +7950,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-035-4x5.png",
     "file_9x16": "assets/no-01-035-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-036",
@@ -7874,7 +7963,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-036-4x5.png",
     "file_9x16": "assets/no-01-036-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-037",
@@ -7886,7 +7976,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-037-4x5.png",
     "file_9x16": "assets/no-01-037-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-038",
@@ -7898,7 +7989,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-038-4x5.png",
     "file_9x16": "assets/no-01-038-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-039",
@@ -7910,7 +8002,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-039-4x5.png",
     "file_9x16": "assets/no-01-039-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-040",
@@ -7922,7 +8015,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-040-4x5.png",
     "file_9x16": "assets/no-01-040-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-041",
@@ -7934,7 +8028,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-041-4x5.png",
     "file_9x16": "assets/no-01-041-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-042",
@@ -7946,7 +8041,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-042-4x5.png",
     "file_9x16": "assets/no-01-042-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-043",
@@ -7958,7 +8054,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-043-4x5.png",
     "file_9x16": "assets/no-01-043-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-044",
@@ -7970,7 +8067,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-044-4x5.png",
     "file_9x16": "assets/no-01-044-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-045",
@@ -7982,7 +8080,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-045-4x5.png",
     "file_9x16": "assets/no-01-045-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-046",
@@ -7994,7 +8093,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-046-4x5.png",
     "file_9x16": "assets/no-01-046-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-047",
@@ -8006,7 +8106,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-047-4x5.png",
     "file_9x16": "assets/no-01-047-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-048",
@@ -8018,7 +8119,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-048-4x5.png",
     "file_9x16": "assets/no-01-048-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-049",
@@ -8030,7 +8132,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-049-4x5.png",
     "file_9x16": "assets/no-01-049-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-050",
@@ -8042,7 +8145,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-050-4x5.png",
     "file_9x16": "assets/no-01-050-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-051",
@@ -8054,7 +8158,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-051-4x5.png",
     "file_9x16": "assets/no-01-051-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-052",
@@ -8066,7 +8171,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-052-4x5.png",
     "file_9x16": "assets/no-01-052-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-053",
@@ -8078,7 +8184,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-053-4x5.png",
     "file_9x16": "assets/no-01-053-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-054",
@@ -8090,7 +8197,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-054-4x5.png",
     "file_9x16": "assets/no-01-054-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-055",
@@ -8102,7 +8210,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-055-4x5.png",
     "file_9x16": "assets/no-01-055-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-056",
@@ -8114,7 +8223,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-056-4x5.png",
     "file_9x16": "assets/no-01-056-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-057",
@@ -8126,7 +8236,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-057-4x5.png",
     "file_9x16": "assets/no-01-057-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-058",
@@ -8138,7 +8249,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-058-4x5.png",
     "file_9x16": "assets/no-01-058-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-059",
@@ -8150,7 +8262,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-059-4x5.png",
     "file_9x16": "assets/no-01-059-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-060",
@@ -8162,7 +8275,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-060-4x5.png",
     "file_9x16": "assets/no-01-060-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-061",
@@ -8174,7 +8288,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-061-4x5.png",
     "file_9x16": "assets/no-01-061-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-062",
@@ -8186,7 +8301,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-062-4x5.png",
     "file_9x16": "assets/no-01-062-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-063",
@@ -8198,7 +8314,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-063-4x5.png",
     "file_9x16": "assets/no-01-063-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-064",
@@ -8210,7 +8327,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-064-4x5.png",
     "file_9x16": "assets/no-01-064-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-065",
@@ -8222,7 +8340,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-065-4x5.png",
     "file_9x16": "assets/no-01-065-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-066",
@@ -8234,7 +8353,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-066-4x5.png",
     "file_9x16": "assets/no-01-066-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-067",
@@ -8246,7 +8366,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-067-4x5.png",
     "file_9x16": "assets/no-01-067-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-068",
@@ -8258,7 +8379,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-068-4x5.png",
     "file_9x16": "assets/no-01-068-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-069",
@@ -8270,7 +8392,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-069-4x5.png",
     "file_9x16": "assets/no-01-069-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-070",
@@ -8282,7 +8405,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-070-4x5.png",
     "file_9x16": "assets/no-01-070-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-071",
@@ -8294,7 +8418,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-071-4x5.png",
     "file_9x16": "assets/no-01-071-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-072",
@@ -8306,7 +8431,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-072-4x5.png",
     "file_9x16": "assets/no-01-072-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-073",
@@ -8318,7 +8444,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-073-4x5.png",
     "file_9x16": "assets/no-01-073-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-074",
@@ -8330,7 +8457,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-074-4x5.png",
     "file_9x16": "assets/no-01-074-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-075",
@@ -8342,7 +8470,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-075-4x5.png",
     "file_9x16": "assets/no-01-075-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-076",
@@ -8354,7 +8483,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-076-4x5.png",
     "file_9x16": "assets/no-01-076-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-077",
@@ -8366,7 +8496,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-077-4x5.png",
     "file_9x16": "assets/no-01-077-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-078",
@@ -8378,7 +8509,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-078-4x5.png",
     "file_9x16": "assets/no-01-078-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-079",
@@ -8390,7 +8522,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-079-4x5.png",
     "file_9x16": "assets/no-01-079-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-080",
@@ -8402,7 +8535,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-080-4x5.png",
     "file_9x16": "assets/no-01-080-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-081",
@@ -8414,7 +8548,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-081-4x5.png",
     "file_9x16": "assets/no-01-081-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-082",
@@ -8426,7 +8561,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-082-4x5.png",
     "file_9x16": "assets/no-01-082-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-083",
@@ -8438,7 +8574,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-083-4x5.png",
     "file_9x16": "assets/no-01-083-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-084",
@@ -8450,7 +8587,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-084-4x5.png",
     "file_9x16": "assets/no-01-084-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-085",
@@ -8462,7 +8600,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-085-4x5.png",
     "file_9x16": "assets/no-01-085-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-086",
@@ -8474,7 +8613,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-086-4x5.png",
     "file_9x16": "assets/no-01-086-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-087",
@@ -8486,7 +8626,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-087-4x5.png",
     "file_9x16": "assets/no-01-087-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-088",
@@ -8498,7 +8639,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-088-4x5.png",
     "file_9x16": "assets/no-01-088-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-089",
@@ -8510,7 +8652,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-089-4x5.png",
     "file_9x16": "assets/no-01-089-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-090",
@@ -8522,7 +8665,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-090-4x5.png",
     "file_9x16": "assets/no-01-090-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-091",
@@ -8534,7 +8678,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-091-4x5.png",
     "file_9x16": "assets/no-01-091-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-092",
@@ -8546,7 +8691,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-092-4x5.png",
     "file_9x16": "assets/no-01-092-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-093",
@@ -8558,7 +8704,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-093-4x5.png",
     "file_9x16": "assets/no-01-093-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-094",
@@ -8570,7 +8717,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-094-4x5.png",
     "file_9x16": "assets/no-01-094-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-095",
@@ -8582,7 +8730,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-095-4x5.png",
     "file_9x16": "assets/no-01-095-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-096",
@@ -8594,7 +8743,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-096-4x5.png",
     "file_9x16": "assets/no-01-096-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-097",
@@ -8606,7 +8756,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-097-4x5.png",
     "file_9x16": "assets/no-01-097-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-098",
@@ -8618,7 +8769,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-098-4x5.png",
     "file_9x16": "assets/no-01-098-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-099",
@@ -8630,7 +8782,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-099-4x5.png",
     "file_9x16": "assets/no-01-099-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-100",
@@ -8642,7 +8795,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-100-4x5.png",
     "file_9x16": "assets/no-01-100-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-101",
@@ -8654,7 +8808,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-101-4x5.png",
     "file_9x16": "assets/no-01-101-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-102",
@@ -8666,7 +8821,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-102-4x5.png",
     "file_9x16": "assets/no-01-102-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-103",
@@ -8678,7 +8834,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-103-4x5.png",
     "file_9x16": "assets/no-01-103-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-104",
@@ -8690,7 +8847,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-104-4x5.png",
     "file_9x16": "assets/no-01-104-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-105",
@@ -8702,7 +8860,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-105-4x5.png",
     "file_9x16": "assets/no-01-105-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-106",
@@ -8714,7 +8873,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-106-4x5.png",
     "file_9x16": "assets/no-01-106-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-107",
@@ -8726,7 +8886,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-107-4x5.png",
     "file_9x16": "assets/no-01-107-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-108",
@@ -8738,7 +8899,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-108-4x5.png",
     "file_9x16": "assets/no-01-108-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-109",
@@ -8750,7 +8912,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-109-4x5.png",
     "file_9x16": "assets/no-01-109-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-110",
@@ -8762,7 +8925,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-110-4x5.png",
     "file_9x16": "assets/no-01-110-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-111",
@@ -8774,7 +8938,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-111-4x5.png",
     "file_9x16": "assets/no-01-111-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-112",
@@ -8786,7 +8951,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-112-4x5.png",
     "file_9x16": "assets/no-01-112-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-113",
@@ -8798,7 +8964,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-113-4x5.png",
     "file_9x16": "assets/no-01-113-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-114",
@@ -8810,7 +8977,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-114-4x5.png",
     "file_9x16": "assets/no-01-114-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-115",
@@ -8822,7 +8990,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-115-4x5.png",
     "file_9x16": "assets/no-01-115-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-116",
@@ -8834,7 +9003,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-116-4x5.png",
     "file_9x16": "assets/no-01-116-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-117",
@@ -8846,7 +9016,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-117-4x5.png",
     "file_9x16": "assets/no-01-117-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-118",
@@ -8858,7 +9029,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-118-4x5.png",
     "file_9x16": "assets/no-01-118-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-119",
@@ -8870,7 +9042,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-119-4x5.png",
     "file_9x16": "assets/no-01-119-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-120",
@@ -8882,7 +9055,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-120-4x5.png",
     "file_9x16": "assets/no-01-120-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-121",
@@ -8894,7 +9068,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-121-4x5.png",
     "file_9x16": "assets/no-01-121-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-122",
@@ -8906,7 +9081,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-122-4x5.png",
     "file_9x16": "assets/no-01-122-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-123",
@@ -8918,7 +9094,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-123-4x5.png",
     "file_9x16": "assets/no-01-123-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-124",
@@ -8930,7 +9107,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-124-4x5.png",
     "file_9x16": "assets/no-01-124-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-125",
@@ -8942,7 +9120,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-125-4x5.png",
     "file_9x16": "assets/no-01-125-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-126",
@@ -8954,7 +9133,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-126-4x5.png",
     "file_9x16": "assets/no-01-126-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-127",
@@ -8966,7 +9146,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-127-4x5.png",
     "file_9x16": "assets/no-01-127-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-128",
@@ -8978,7 +9159,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-128-4x5.png",
     "file_9x16": "assets/no-01-128-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-129",
@@ -8990,7 +9172,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-129-4x5.png",
     "file_9x16": "assets/no-01-129-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-130",
@@ -9002,7 +9185,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-130-4x5.png",
     "file_9x16": "assets/no-01-130-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-131",
@@ -9014,7 +9198,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-131-4x5.png",
     "file_9x16": "assets/no-01-131-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-132",
@@ -9026,7 +9211,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-132-4x5.png",
     "file_9x16": "assets/no-01-132-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-133",
@@ -9038,7 +9224,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-133-4x5.png",
     "file_9x16": "assets/no-01-133-9x16.png",
     "file_9x16_day": null,
-    "approved": false
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-134",
@@ -9050,7 +9237,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-134-4x5.png",
     "file_9x16": "assets/no-01-134-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-135",
@@ -9062,7 +9250,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-135-4x5.png",
     "file_9x16": "assets/no-01-135-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-136",
@@ -9074,7 +9263,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-136-4x5.png",
     "file_9x16": "assets/no-01-136-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-137",
@@ -9086,7 +9276,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-137-4x5.png",
     "file_9x16": "assets/no-01-137-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-138",
@@ -9098,7 +9289,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-138-4x5.png",
     "file_9x16": "assets/no-01-138-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-139",
@@ -9109,8 +9301,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-139-16x9.png",
     "file_4x5": "assets/no-01-139-4x5.png",
     "file_9x16": "assets/no-01-139-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-139-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-140",
@@ -9121,8 +9314,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-140-16x9.png",
     "file_4x5": "assets/no-01-140-4x5.png",
     "file_9x16": "assets/no-01-140-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-140-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-141",
@@ -9133,8 +9327,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-141-16x9.png",
     "file_4x5": "assets/no-01-141-4x5.png",
     "file_9x16": "assets/no-01-141-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-141-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-142",
@@ -9145,8 +9340,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-142-16x9.png",
     "file_4x5": "assets/no-01-142-4x5.png",
     "file_9x16": "assets/no-01-142-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-142-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-143",
@@ -9157,8 +9353,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-143-16x9.png",
     "file_4x5": "assets/no-01-143-4x5.png",
     "file_9x16": "assets/no-01-143-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-143-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-144",
@@ -9169,8 +9366,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-144-16x9.png",
     "file_4x5": "assets/no-01-144-4x5.png",
     "file_9x16": "assets/no-01-144-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-144-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-145",
@@ -9181,8 +9379,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-145-16x9.png",
     "file_4x5": "assets/no-01-145-4x5.png",
     "file_9x16": "assets/no-01-145-9x16.png",
-    "file_9x16_day": null,
-    "approved": false
+    "file_9x16_day": "assets/no-01-145-daylight-9x16.png",
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-146",
@@ -9193,8 +9392,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-146-16x9.png",
     "file_4x5": "assets/no-01-146-4x5.png",
     "file_9x16": "assets/no-01-146-9x16.png",
-    "file_9x16_day": null,
-    "approved": false
+    "file_9x16_day": "assets/no-01-146-daylight-9x16.png",
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-147",
@@ -9205,8 +9405,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-147-16x9.png",
     "file_4x5": "assets/no-01-147-4x5.png",
     "file_9x16": "assets/no-01-147-9x16.png",
-    "file_9x16_day": null,
-    "approved": false
+    "file_9x16_day": "assets/no-01-147-daylight-9x16.png",
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-148",
@@ -9217,8 +9418,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-148-16x9.png",
     "file_4x5": "assets/no-01-148-4x5.png",
     "file_9x16": "assets/no-01-148-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-148-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-149",
@@ -9229,8 +9431,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-149-16x9.png",
     "file_4x5": "assets/no-01-149-4x5.png",
     "file_9x16": "assets/no-01-149-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-149-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-150",
@@ -9241,8 +9444,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-150-16x9.png",
     "file_4x5": "assets/no-01-150-4x5.png",
     "file_9x16": "assets/no-01-150-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-150-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-151",
@@ -9254,7 +9458,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-151-4x5.png",
     "file_9x16": "assets/no-01-151-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-152",
@@ -9266,7 +9471,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-152-4x5.png",
     "file_9x16": "assets/no-01-152-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-153",
@@ -9278,7 +9484,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-153-4x5.png",
     "file_9x16": "assets/no-01-153-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-154",
@@ -9290,7 +9497,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-154-4x5.png",
     "file_9x16": "assets/no-01-154-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-155",
@@ -9302,7 +9510,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-155-4x5.png",
     "file_9x16": "assets/no-01-155-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-156",
@@ -9314,7 +9523,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-156-4x5.png",
     "file_9x16": "assets/no-01-156-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-157",
@@ -9326,7 +9536,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-157-4x5.png",
     "file_9x16": "assets/no-01-157-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-158",
@@ -9338,7 +9549,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-158-4x5.png",
     "file_9x16": "assets/no-01-158-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-159",
@@ -9350,7 +9562,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-159-4x5.png",
     "file_9x16": "assets/no-01-159-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-160",
@@ -9362,7 +9575,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-160-4x5.png",
     "file_9x16": "assets/no-01-160-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-161",
@@ -9374,7 +9588,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-161-4x5.png",
     "file_9x16": "assets/no-01-161-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-162",
@@ -9386,7 +9601,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-162-4x5.png",
     "file_9x16": "assets/no-01-162-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-163",
@@ -9398,7 +9614,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-163-4x5.png",
     "file_9x16": "assets/no-01-163-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-164",
@@ -9410,7 +9627,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-164-4x5.png",
     "file_9x16": "assets/no-01-164-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-165",
@@ -9422,7 +9640,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-165-4x5.png",
     "file_9x16": "assets/no-01-165-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-166",
@@ -9434,7 +9653,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-166-4x5.png",
     "file_9x16": "assets/no-01-166-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-167",
@@ -9446,7 +9666,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-167-4x5.png",
     "file_9x16": "assets/no-01-167-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-168",
@@ -9458,7 +9679,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-168-4x5.png",
     "file_9x16": "assets/no-01-168-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-169",
@@ -9469,8 +9691,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-169-16x9.png",
     "file_4x5": "assets/no-01-169-4x5.png",
     "file_9x16": "assets/no-01-169-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-169-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-170",
@@ -9481,8 +9704,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-170-16x9.png",
     "file_4x5": "assets/no-01-170-4x5.png",
     "file_9x16": "assets/no-01-170-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-170-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-171",
@@ -9493,8 +9717,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-171-16x9.png",
     "file_4x5": "assets/no-01-171-4x5.png",
     "file_9x16": "assets/no-01-171-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-171-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-172",
@@ -9505,8 +9730,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-172-16x9.png",
     "file_4x5": "assets/no-01-172-4x5.png",
     "file_9x16": "assets/no-01-172-9x16.png",
-    "file_9x16_day": null,
-    "approved": false
+    "file_9x16_day": "assets/no-01-172-daylight-9x16.png",
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-173",
@@ -9517,8 +9743,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-173-16x9.png",
     "file_4x5": "assets/no-01-173-4x5.png",
     "file_9x16": "assets/no-01-173-9x16.png",
-    "file_9x16_day": null,
-    "approved": false
+    "file_9x16_day": "assets/no-01-173-daylight-9x16.png",
+    "approved": false,
+    "audio": null
   },
   {
     "entry_id": "NO-01-174",
@@ -9529,8 +9756,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-174-16x9.png",
     "file_4x5": "assets/no-01-174-4x5.png",
     "file_9x16": "assets/no-01-174-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-174-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-175",
@@ -9541,8 +9769,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-175-16x9.png",
     "file_4x5": "assets/no-01-175-4x5.png",
     "file_9x16": "assets/no-01-175-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-175-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-176",
@@ -9553,8 +9782,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-176-16x9.png",
     "file_4x5": "assets/no-01-176-4x5.png",
     "file_9x16": "assets/no-01-176-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-176-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-177",
@@ -9565,8 +9795,9 @@ const SCENES = [
     "file_16x9": "assets/no-01-177-16x9.png",
     "file_4x5": "assets/no-01-177-4x5.png",
     "file_9x16": "assets/no-01-177-9x16.png",
-    "file_9x16_day": null,
-    "approved": true
+    "file_9x16_day": "assets/no-01-177-daylight-9x16.png",
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-178",
@@ -9578,7 +9809,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-178-4x5.png",
     "file_9x16": "assets/no-01-178-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-179",
@@ -9590,7 +9822,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-179-4x5.png",
     "file_9x16": "assets/no-01-179-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   },
   {
     "entry_id": "NO-01-180",
@@ -9602,7 +9835,8 @@ const SCENES = [
     "file_4x5": "assets/no-01-180-4x5.png",
     "file_9x16": "assets/no-01-180-9x16.png",
     "file_9x16_day": null,
-    "approved": true
+    "approved": true,
+    "audio": null
   }
 ];
 
@@ -9671,6 +9905,41 @@ const SCENES = [
       });
     });
 
+/* Studio narration — card-level singleton. The Listen button lives in the
+   .actions row BELOW the image, never overlaid on the artwork (Jason's hard
+   rule). Toggling starts/pauses; starting one narration stops any other;
+   the lightbox dispatches 'jdv-stop-audio' on open/nav/close to stop it. */
+(function(){
+  var cardAudio = { el: null, btn: null };
+  function stopCardAudio(){
+    if (cardAudio.el) { cardAudio.el.pause(); cardAudio.el = null; }
+    if (cardAudio.btn) {
+      cardAudio.btn.classList.remove('playing');
+      cardAudio.btn.setAttribute('aria-pressed', 'false');
+      cardAudio.btn.innerHTML = '\u0001F50A Listen';
+      cardAudio.btn = null;
+    }
+  }
+  document.addEventListener('jdv-stop-audio', stopCardAudio);
+  document.addEventListener('click', function(e){
+    var nbtn = e.target.closest ? e.target.closest('.narrate') : null;
+    if (!nbtn) return;
+    e.preventDefault();
+    var src = nbtn.getAttribute('data-audio');
+    if (!src) return;
+    if (cardAudio.btn === nbtn && cardAudio.el && !cardAudio.el.paused) { stopCardAudio(); return; }
+    stopCardAudio();
+    var a = new Audio(src);
+    cardAudio.el = a; cardAudio.btn = nbtn;
+    nbtn.classList.add('playing');
+    nbtn.setAttribute('aria-pressed', 'true');
+    nbtn.innerHTML = '\u0023F8\u00FE0E Pause';
+    a.addEventListener('ended', stopCardAudio);
+    a.addEventListener('error', stopCardAudio);
+    a.play().catch(stopCardAudio);
+  });
+})();
+
 (function(){
   var overlay = document.createElement('div');
   overlay.className = 'lb';
@@ -9680,12 +9949,39 @@ const SCENES = [
     + '<span class="lb-count"></span>'
     + '<button class="lb-next" aria-label="Next image">&#8250;</button></div>'
     + '<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption></figure>'
-    + '<div class="lb-controls"><button class="lb-play" aria-label="Play slideshow">&#9654;</button></div>';
+    + '<div class="lb-controls"><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Play scene narration" style="display:none">&#128266;</button></div>';
   document.body.appendChild(overlay);
   var img = overlay.querySelector('img');
   var cap = overlay.querySelector('.lb-cap');
   var count = overlay.querySelector('.lb-count');
   var playBtn = overlay.querySelector('.lb-play');
+  /* Studio narration: singleton in the control row BENEATH the image —
+     never overlaid on the artwork (Jason's hard rule). */
+  var narrBtn = overlay.querySelector('.lb-narrate');
+  var narrAudio = null;
+  function stopNarr(){
+    if (narrAudio) { narrAudio.pause(); narrAudio = null; }
+    narrBtn.classList.remove('playing');
+    narrBtn.setAttribute('aria-label', 'Play scene narration');
+    narrBtn.innerHTML = '&#128266;';
+  }
+  function setNarrState(playing){
+    narrBtn.classList.toggle('playing', playing);
+    narrBtn.setAttribute('aria-label', playing ? 'Pause scene narration' : 'Play scene narration');
+    narrBtn.innerHTML = playing ? '&#10074;&#10074;' : '&#128266;';
+  }
+  function toggleNarr(){
+    var card = visibleCards()[idx];
+    var src = card ? card.getAttribute('data-audio') : '';
+    if (!src) return;
+    if (narrAudio && !narrAudio.paused) { stopNarr(); return; }
+    stopNarr();
+    narrAudio = new Audio(src);
+    narrAudio.addEventListener('ended', stopNarr);
+    narrAudio.addEventListener('error', stopNarr);
+    setNarrState(true);
+    narrAudio.play().catch(stopNarr);
+  }
   var items = [], idx = 0, playing = false, timer = null;
   /* Lightbox-session format choice: seeded from the opening card's active tab,
      persists across prev/next and slideshow navigation (never reset to 16:9). */
@@ -9752,16 +10048,23 @@ const SCENES = [
     }).filter(function(x){ return x.src; });
     if (!items.length) return;
     idx = (i + items.length) % items.length;
+    stopNarr();
+    document.dispatchEvent(new CustomEvent('jdv-stop-audio'));
     img.src = items[idx].src;
     img.alt = items[idx].cap;
     cap.textContent = items[idx].cap;
     count.textContent = (idx + 1) + ' / ' + items.length;
+    var curCard = visibleCards()[idx];
+    var hasA = !!(curCard && curCard.getAttribute('data-audio'));
+    narrBtn.style.display = hasA ? '' : 'none';
     overlay.classList.add('open');
     overlay.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
   function hide(){
     stopPlayback();
+    stopNarr();
+    document.dispatchEvent(new CustomEvent('jdv-stop-audio'));
     overlay.classList.remove('open');
     overlay.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -9779,6 +10082,7 @@ const SCENES = [
     }
     if (e.target === overlay || (e.target.closest && e.target.closest('.lb-close'))) hide();
     else if (e.target.closest && e.target.closest('.lb-play')) togglePlay();
+    else if (e.target.closest && e.target.closest('.lb-narrate')) toggleNarr();
     else if (e.target.closest && e.target.closest('.lb-prev')) { show(idx - 1); if (playing) startPlayback(); }
     else if (e.target.closest && e.target.closest('.lb-next')) { show(idx + 1); if (playing) startPlayback(); }
   });
