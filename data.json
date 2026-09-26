@@ -3547,5 +3547,44 @@
     "file_16x9": "assets/no-01-273-16x9.png",
     "file_4x5": "assets/no-01-273-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-274",
+    "region": "Innlandet",
+    "city": "Vågåmo",
+    "site": "Besseggen ridge",
+    "caption": "Besseggen ridge, Vågåmo",
+    "scenario": "26 September 2026 · 21:00 Europe/Oslo",
+    "composition": "The narrow ridge of Besseggen rising between Gjende and Bessvatnet, seen from the Gjendesheim trailhead area with Jotunheimen fells beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-274-16x9.png",
+    "file_4x5": "assets/no-01-274-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-275",
+    "region": "Innlandet",
+    "city": "Beitostølen",
+    "site": "Beitostølen",
+    "caption": "Beitostølen, Beitostølen",
+    "scenario": "26 September 2026 · 21:00 Europe/Oslo",
+    "composition": "The mountain village of Beitostølen spread across a south-facing hillside, with Valdres fells in the background. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-275-16x9.png",
+    "file_4x5": "assets/no-01-275-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-276",
+    "region": "Innlandet",
+    "city": "Hedalen",
+    "site": "Hedalen stave church",
+    "caption": "Hedalen stave church, Hedalen",
+    "scenario": "26 September 2026 · 21:15 Europe/Oslo",
+    "composition": "The wooden stave church of Hedalen with its steep shingled roof, standing in the valley landscape near its churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-276-16x9.png",
+    "file_4x5": "assets/no-01-276-4x5.png",
+    "audio": null
   }
 ]
