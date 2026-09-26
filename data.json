@@ -3846,5 +3846,44 @@
     "file_16x9": "assets/no-01-296-16x9.png",
     "file_4x5": "assets/no-01-296-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-297",
+    "region": "Telemark",
+    "city": "Gautefall",
+    "site": "Gautefall",
+    "caption": "Gautefall, Gautefall",
+    "scenario": "27 September 2026 · 00:45 Europe/Oslo",
+    "composition": "The alpine slopes of the Gautefall ski center on the heath, lifts and cleared runs across the smooth rounded svaberg rock, the hotel and scattered cabins on the hillside, mountain panorama behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-297-16x9.png",
+    "file_4x5": "assets/no-01-297-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-298",
+    "region": "Telemark",
+    "city": "Treungen",
+    "site": "Treungen",
+    "caption": "Treungen, Treungen",
+    "scenario": "27 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Village view over the calm water of lake Nisser from its sandy eastern shore, Treungen's rooftops in the midground, forested hills rising on the far shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-298-16x9.png",
+    "file_4x5": "assets/no-01-298-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-299",
+    "region": "Telemark",
+    "city": "Fyresdal",
+    "site": "Fyresdal",
+    "caption": "Fyresdal, Fyresdal",
+    "scenario": "27 September 2026 · 01:00 Europe/Oslo",
+    "composition": "The village of Moland (Fyresdal) at the north end of lake Fyresvatnet, Moland Church among the rooftops, the deep lake stretching south between steep mountain sides. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-299-16x9.png",
+    "file_4x5": "assets/no-01-299-4x5.png",
+    "audio": null
   }
 ]
