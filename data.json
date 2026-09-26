@@ -2767,5 +2767,44 @@
     "file_16x9": "assets/no-01-213-16x9.png",
     "file_4x5": "assets/no-01-213-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-214",
+    "region": "Akershus",
+    "city": "Ullensaker",
+    "site": "Raknehaugen",
+    "caption": "Raknehaugen, Ullensaker",
+    "scenario": "26 September 2026 · 10:45 Europe/Oslo",
+    "composition": "One of Norway's largest burial mounds rising in the field at Hovin, viewed from the path below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-214-16x9.png",
+    "file_4x5": "assets/no-01-214-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-215",
+    "region": "Akershus",
+    "city": "Enebakk",
+    "site": "Enebakk Church",
+    "caption": "Enebakk Church, Enebakk",
+    "scenario": "26 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Medieval stone church with its tall west tower, viewed from the churchyard at Kirkebygda. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-215-16x9.png",
+    "file_4x5": "assets/no-01-215-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-216",
+    "region": "Akershus",
+    "city": "Nesodden",
+    "site": "Nesodden Church",
+    "caption": "Nesodden Church, Nesodden",
+    "scenario": "26 September 2026 · 11:00 Europe/Oslo",
+    "composition": "White wooden church on the Nesodden peninsula, viewed from the churchyard among the trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-216-16x9.png",
+    "file_4x5": "assets/no-01-216-4x5.png",
+    "audio": null
   }
 ]
