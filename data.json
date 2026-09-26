@@ -2455,5 +2455,44 @@
     "file_16x9": "assets/no-01-189-16x9.png",
     "file_4x5": "assets/no-01-189-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-190",
+    "region": "Rogaland",
+    "city": "Avaldsnes",
+    "site": "Nordvegen History Centre",
+    "caption": "Nordvegen History Centre, Avaldsnes",
+    "scenario": "26 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Modern history centre building beside the strait, viewed from the approach path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-190-16x9.png",
+    "file_4x5": "assets/no-01-190-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-191",
+    "region": "Rogaland",
+    "city": "Avaldsnes",
+    "site": "Viking Farm, Avaldsnes",
+    "caption": "Viking Farm, Avaldsnes, Avaldsnes",
+    "scenario": "26 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Reconstructed Viking Age longhouse and farm buildings, viewed from the farmyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-191-16x9.png",
+    "file_4x5": "assets/no-01-191-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-192",
+    "region": "Rogaland",
+    "city": "Skudeneshavn",
+    "site": "Skudeneshavn old town",
+    "caption": "Skudeneshavn old town, Skudeneshavn",
+    "scenario": "26 September 2026 · 07:00 Europe/Oslo",
+    "composition": "White wooden houses of the old town along the harbour, viewed from the quay. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-192-16x9.png",
+    "file_4x5": "assets/no-01-192-4x5.png",
+    "audio": null
   }
 ]
