@@ -2533,5 +2533,44 @@
     "file_16x9": "assets/no-01-195-16x9.png",
     "file_4x5": "assets/no-01-195-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-196",
+    "region": "Rogaland",
+    "city": "Eigerøy",
+    "site": "Eigerøy fyr",
+    "caption": "Eigerøy fyr, Eigerøy",
+    "scenario": "26 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Lighthouse at the tip of the island, viewed from the rocky shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-196-16x9.png",
+    "file_4x5": "assets/no-01-196-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-197",
+    "region": "Rogaland",
+    "city": "Egersund",
+    "site": "Egersund old town",
+    "caption": "Egersund old town, Egersund",
+    "scenario": "26 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Old wooden town houses along the narrow streets, viewed at street level. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-197-16x9.png",
+    "file_4x5": "assets/no-01-197-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-198",
+    "region": "Rogaland",
+    "city": "Sogndalstrand",
+    "site": "Sogndalstrand village",
+    "caption": "Sogndalstrand village, Sogndalstrand",
+    "scenario": "26 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Small protected wooden village by the sea, viewed from the harbour. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-198-16x9.png",
+    "file_4x5": "assets/no-01-198-4x5.png",
+    "audio": null
   }
 ]
