@@ -3651,5 +3651,44 @@
     "file_16x9": "assets/no-01-281-16x9.png",
     "file_4x5": "assets/no-01-281-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-282",
+    "region": "Innlandet",
+    "city": "Lillehammer",
+    "site": "Bjerkebæk – Sigrid Undset's home",
+    "caption": "Bjerkebæk – Sigrid Undset's home, Lillehammer",
+    "scenario": "26 September 2026 · 22:15 Europe/Oslo",
+    "composition": "Sigrid Undset's home Bjerkebæk in Lillehammer, the main house with its garden and outbuildings. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-282-16x9.png",
+    "file_4x5": "assets/no-01-282-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-283",
+    "region": "Innlandet",
+    "city": "Folldal",
+    "site": "Folldal mines",
+    "caption": "Folldal mines, Folldal",
+    "scenario": "26 September 2026 · 22:30 Europe/Oslo",
+    "composition": "The historic mine works at Folldal with the old stone-and-timber processing buildings of the copper mines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-283-16x9.png",
+    "file_4x5": "assets/no-01-283-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-284",
+    "region": "Innlandet",
+    "city": "Eidskog",
+    "site": "Morokulien peace monument",
+    "caption": "Morokulien peace monument, Eidskog",
+    "scenario": "26 September 2026 · 22:30 Europe/Oslo",
+    "composition": "The peace monument area at Morokulien on the Norway–Sweden border, the granite monument standing in its park setting. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-284-16x9.png",
+    "file_4x5": "assets/no-01-284-4x5.png",
+    "audio": null
   }
 ]
