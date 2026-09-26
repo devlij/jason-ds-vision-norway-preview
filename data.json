@@ -2962,5 +2962,44 @@
     "file_16x9": "assets/no-01-228-16x9.png",
     "file_4x5": "assets/no-01-228-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-229",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Ny-Hellesund",
+    "caption": "Ny-Hellesund, Kristiansand",
+    "scenario": "26 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Traditional outport hamlet on the islands off the mainland, viewed from the water with wooden houses along the sounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-229-16x9.png",
+    "file_4x5": "assets/no-01-229-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-230",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Kristiansand Zoo and Amusement Park",
+    "caption": "Kristiansand Zoo and Amusement Park, Kristiansand",
+    "scenario": "26 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Animal park and amusement grounds east of the city, viewed along the paths with enclosures and the surrounding forest. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-230-16x9.png",
+    "file_4x5": "assets/no-01-230-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-231",
+    "region": "Agder",
+    "city": "Kristiansand",
+    "site": "Odderøya",
+    "caption": "Odderøya, Kristiansand",
+    "scenario": "26 September 2026 · 13:30 Europe/Oslo",
+    "composition": "Island off the city center with coastal trails and old fort ruins, viewed along the shore path with the harbor across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-231-16x9.png",
+    "file_4x5": "assets/no-01-231-4x5.png",
+    "audio": null
   }
 ]
