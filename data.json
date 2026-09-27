@@ -4002,5 +4002,44 @@
     "file_16x9": "assets/no-01-308-16x9.png",
     "file_4x5": "assets/no-01-308-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-309",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Hafslund Manor",
+    "caption": "Hafslund Manor, Sarpsborg",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Manor house with its park facing the Glomma at Hafslund, viewed across the lawn from the grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-309-16x9.png",
+    "file_4x5": "assets/no-01-309-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-310",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Borgarsyssel Museum",
+    "caption": "Borgarsyssel Museum, Sarpsborg",
+    "scenario": "27 September 2026 · 10:00 Europe/Oslo",
+    "composition": "Open-air museum farmsteads and old-town buildings at Sarpsborg, viewed along the museum lane. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-310-16x9.png",
+    "file_4x5": "assets/no-01-310-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-311",
+    "region": "Østfold",
+    "city": "Hvaler",
+    "site": "Skjærhalden",
+    "caption": "Skjærhalden, Hvaler",
+    "scenario": "27 September 2026 · 10:00 Europe/Oslo",
+    "composition": "Harbour village on Kirkeøy, boats and white wooden houses around the quay, viewed across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-311-16x9.png",
+    "file_4x5": "assets/no-01-311-4x5.png",
+    "audio": null
   }
 ]
