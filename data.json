@@ -4236,5 +4236,44 @@
     "file_16x9": "assets/no-01-326-16x9.png",
     "file_4x5": "assets/no-01-326-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-327",
+    "region": "Troms",
+    "city": "Senja",
+    "site": "Ersfjordstranda Beach",
+    "caption": "Ersfjordstranda Beach, Senja",
+    "scenario": "28 September 2026 · 00:15 Europe/Oslo",
+    "composition": "The golden curve of Ersfjordstranda beach beneath steep mountain walls, pale shallows lapping the sand. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-327-16x9.png",
+    "file_4x5": "assets/no-01-327-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-328",
+    "region": "Troms",
+    "city": "Senja",
+    "site": "Bergsfjorden",
+    "caption": "Bergsfjorden, Senja",
+    "scenario": "28 September 2026 · 00:30 Europe/Oslo",
+    "composition": "The narrow Bergsfjorden cutting between Senja's steep peaks, calm water mirroring the mountains, viewed from the shore road. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-328-16x9.png",
+    "file_4x5": "assets/no-01-328-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-329",
+    "region": "Troms",
+    "city": "Harstad",
+    "site": "Trondenes Church",
+    "caption": "Trondenes Church, Harstad",
+    "scenario": "28 September 2026 · 00:30 Europe/Oslo",
+    "composition": "The white stone Trondenes Church on its rise above the fjord, with the Trondenes peninsula and mountains beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-329-16x9.png",
+    "file_4x5": "assets/no-01-329-4x5.png",
+    "audio": null
   }
 ]
