@@ -4041,5 +4041,44 @@
     "file_16x9": "assets/no-01-311-16x9.png",
     "file_4x5": "assets/no-01-311-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-312",
+    "region": "Østfold",
+    "city": "Hvaler",
+    "site": "Hvaler Church",
+    "caption": "Hvaler Church, Hvaler",
+    "scenario": "27 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Medieval stone church on Kirkeøy, tower and nave viewed from the churchyard among the coastal pines. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-312-16x9.png",
+    "file_4x5": "assets/no-01-312-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-313",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Brekke Locks",
+    "caption": "Brekke Locks, Halden",
+    "scenario": "27 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Lock staircase of the Halden Canal at Brekke, stone chambers climbing between the lakes, viewed from the towpath. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-313-16x9.png",
+    "file_4x5": "assets/no-01-313-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-314",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Rød Manor",
+    "caption": "Rød Manor, Halden",
+    "scenario": "27 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Manor house with its garden fronting the Iddefjord near Halden, viewed from the grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-314-16x9.png",
+    "file_4x5": "assets/no-01-314-4x5.png",
+    "audio": null
   }
 ]
