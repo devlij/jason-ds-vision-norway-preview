@@ -4119,5 +4119,44 @@
     "file_16x9": "assets/no-01-317-16x9.png",
     "file_4x5": "assets/no-01-317-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-318",
+    "region": "Østfold",
+    "city": "Råde",
+    "site": "Tomb Burial Mounds",
+    "caption": "Tomb Burial Mounds, Råde",
+    "scenario": "27 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Burial mounds in the fields at Tomb, Råde, viewed from the farm track across the open farmland. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-318-16x9.png",
+    "file_4x5": "assets/no-01-318-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-319",
+    "region": "Østfold",
+    "city": "Fredrikstad",
+    "site": "Fredrikstad Cathedral",
+    "caption": "Fredrikstad Cathedral, Fredrikstad",
+    "scenario": "27 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Brick neo-Gothic cathedral in central Fredrikstad, spire and west front viewed from the square. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-319-16x9.png",
+    "file_4x5": "assets/no-01-319-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-320",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Svinesund Bridge",
+    "caption": "Svinesund Bridge, Halden",
+    "scenario": "27 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Arched road bridge spanning the Svinesund strait at the Swedish border, viewed from the Norwegian shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-320-16x9.png",
+    "file_4x5": "assets/no-01-320-4x5.png",
+    "audio": null
   }
 ]
