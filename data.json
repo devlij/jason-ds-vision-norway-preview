@@ -4080,5 +4080,44 @@
     "file_16x9": "assets/no-01-314-16x9.png",
     "file_4x5": "assets/no-01-314-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-315",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Alby Farm",
+    "caption": "Alby Farm, Moss",
+    "scenario": "27 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Manor farm at Alby on Jeløya housing Galleri F 15, main house viewed across the park with the fjord beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-315-16x9.png",
+    "file_4x5": "assets/no-01-315-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-316",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Konventionsgården",
+    "caption": "Konventionsgården, Moss",
+    "scenario": "27 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Historic manor house at Verket in Moss, site of the 1814 Convention of Moss, viewed from the courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-316-16x9.png",
+    "file_4x5": "assets/no-01-316-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-317",
+    "region": "Østfold",
+    "city": "Mysen",
+    "site": "Eidsberg Church",
+    "caption": "Eidsberg Church, Mysen",
+    "scenario": "27 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Medieval stone church at Eidsberg near Mysen, tower and nave viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-317-16x9.png",
+    "file_4x5": "assets/no-01-317-4x5.png",
+    "audio": null
   }
 ]
