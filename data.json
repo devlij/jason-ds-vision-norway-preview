@@ -4275,5 +4275,44 @@
     "file_16x9": "assets/no-01-329-16x9.png",
     "file_4x5": "assets/no-01-329-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-330",
+    "region": "Troms",
+    "city": "Lyngen",
+    "site": "Lyngen Alps",
+    "caption": "Lyngen Alps, Lyngen",
+    "scenario": "28 September 2026 · 00:45 Europe/Oslo",
+    "composition": "The snow-capped Lyngen Alps rising straight from the fjord, glacier-carved ridges viewed from the eastern shore. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-330-16x9.png",
+    "file_4x5": "assets/no-01-330-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-331",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Polaria",
+    "caption": "Polaria, Tromsø",
+    "scenario": "28 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Polaria's distinctive falling-dominoes building on the Tromsø waterfront, the harbor and the mainland mountains behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-331-16x9.png",
+    "file_4x5": "assets/no-01-331-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-332",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Tromsø University Museum",
+    "caption": "Tromsø University Museum, Tromsø",
+    "scenario": "28 September 2026 · 01:00 Europe/Oslo",
+    "composition": "The low museum buildings of the Arctic university museum on the southern shore, surrounded by Arctic-alpine garden plantings. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-332-16x9.png",
+    "file_4x5": "assets/no-01-332-4x5.png",
+    "audio": null
   }
 ]
