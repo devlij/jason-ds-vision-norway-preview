@@ -3963,5 +3963,44 @@
     "file_16x9": "assets/no-01-305-16x9.png",
     "file_4x5": "assets/no-01-305-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-306",
+    "region": "Østfold",
+    "city": "Fredrikstad",
+    "site": "Gamlebyen Old Town",
+    "caption": "Gamlebyen Old Town, Fredrikstad",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Cobbled streets of the fortified old town, half-timbered houses inside the ramparts, viewed from the moat bridge. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-306-16x9.png",
+    "file_4x5": "assets/no-01-306-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-307",
+    "region": "Østfold",
+    "city": "Fredrikstad",
+    "site": "Isegran",
+    "caption": "Isegran, Fredrikstad",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Small fortified island at the Glomma mouth, old wooden buildings and gun positions, viewed from the bridge approach. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-307-16x9.png",
+    "file_4x5": "assets/no-01-307-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-308",
+    "region": "Østfold",
+    "city": "Sarpsborg",
+    "site": "Sarpsfossen",
+    "caption": "Sarpsfossen, Sarpsborg",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "The Glomma's rapids running through the rocky channel at Hafslund, viewed from the riverside path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-308-16x9.png",
+    "file_4x5": "assets/no-01-308-4x5.png",
+    "audio": null
   }
 ]
