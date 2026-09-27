@@ -4158,5 +4158,44 @@
     "file_16x9": "assets/no-01-320-16x9.png",
     "file_4x5": "assets/no-01-320-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-321",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Arctic Cathedral",
+    "caption": "Arctic Cathedral, Tromsø",
+    "scenario": "27 September 2026 · 23:30 Europe/Oslo",
+    "composition": "The landmark triangular Arctic Cathedral rising above the Tromsdalen shore, viewed from the Tromsø city side across the strait. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-321-16x9.png",
+    "file_4x5": "assets/no-01-321-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-322",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Fjellheisen Cable Car",
+    "caption": "Fjellheisen Cable Car, Tromsø",
+    "scenario": "27 September 2026 · 23:30 Europe/Oslo",
+    "composition": "Cable cars climbing to the Storsteinen mountain ledge, panoramic view over Tromsø island, the strait, and the Arctic Cathedral below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-322-16x9.png",
+    "file_4x5": "assets/no-01-322-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-323",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Tromsø Bridge",
+    "caption": "Tromsø Bridge, Tromsø",
+    "scenario": "27 September 2026 · 23:30 Europe/Oslo",
+    "composition": "The elegant cantilevered Tromsø Bridge arching across the strait toward Tromsdalen, viewed from the Tromsø waterfront. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-323-16x9.png",
+    "file_4x5": "assets/no-01-323-4x5.png",
+    "audio": null
   }
 ]
