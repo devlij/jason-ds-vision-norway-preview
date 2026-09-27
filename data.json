@@ -4314,5 +4314,44 @@
     "file_16x9": "assets/no-01-332-16x9.png",
     "file_4x5": "assets/no-01-332-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-333",
+    "region": "Troms",
+    "city": "Bardufoss",
+    "site": "Målselvfossen",
+    "caption": "Målselvfossen, Bardufoss",
+    "scenario": "28 September 2026 · 01:15 Europe/Oslo",
+    "composition": "The broad, thundering Målselvfossen falls on the Målselva river, viewed from the riverside near Bardufoss. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-333-16x9.png",
+    "file_4x5": "assets/no-01-333-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-334",
+    "region": "Troms",
+    "city": "Sommarøy",
+    "site": "Sommarøy",
+    "caption": "Sommarøy, Sommarøy",
+    "scenario": "28 September 2026 · 01:15 Europe/Oslo",
+    "composition": "The bridge-linked island community of Sommarøy, white sand beaches and pale water in the foreground, colorful houses on the island. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-334-16x9.png",
+    "file_4x5": "assets/no-01-334-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-335",
+    "region": "Troms",
+    "city": "Storslett",
+    "site": "Reisa National Park",
+    "caption": "Reisa National Park, Storslett",
+    "scenario": "28 September 2026 · 01:30 Europe/Oslo",
+    "composition": "The wide Reisadalen valley and its river winding through Reisa National Park, canyon walls and pine slopes under Arctic light. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-335-16x9.png",
+    "file_4x5": "assets/no-01-335-4x5.png",
+    "audio": null
   }
 ]
