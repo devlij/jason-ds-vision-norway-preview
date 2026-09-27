@@ -3885,5 +3885,44 @@
     "file_16x9": "assets/no-01-299-16x9.png",
     "file_4x5": "assets/no-01-299-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-300",
+    "region": "Telemark",
+    "city": "Vinje",
+    "site": "Vinje church",
+    "caption": "Vinje church, Vinje",
+    "scenario": "27 September 2026 · 07:00 Europe/Oslo",
+    "composition": "The red wooden cruciform church (1796) in the village of Vinje, churchyard wall and gravestones in the foreground, valley slopes rising behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-300-16x9.png",
+    "file_4x5": "assets/no-01-300-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-301",
+    "region": "Telemark",
+    "city": "Rjukan",
+    "site": "Krossobanen cable car",
+    "caption": "Krossobanen cable car, Rjukan",
+    "scenario": "27 September 2026 · 07:00 Europe/Oslo",
+    "composition": "The cable car line rising from the valley station at Krosso up to Gvepseborg, cabins on the wire above the deep Vestfjorddalen valley, Gaustatoppen on the horizon. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-301-16x9.png",
+    "file_4x5": "assets/no-01-301-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-302",
+    "region": "Telemark",
+    "city": "Rjukan",
+    "site": "Rjukanfossen",
+    "caption": "Rjukanfossen, Rjukan",
+    "scenario": "27 September 2026 · 07:00 Europe/Oslo",
+    "composition": "View of the 104-metre waterfall on the Måna river in the Vestfjorddalen valley from the roadside viewpoint, the river gorge and steep valley walls framing the falls. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-302-16x9.png",
+    "file_4x5": "assets/no-01-302-4x5.png",
+    "audio": null
   }
 ]
