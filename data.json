@@ -4197,5 +4197,44 @@
     "file_16x9": "assets/no-01-323-16x9.png",
     "file_4x5": "assets/no-01-323-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-324",
+    "region": "Troms",
+    "city": "Tromsø",
+    "site": "Telegrafbukta Beach",
+    "caption": "Telegrafbukta Beach, Tromsø",
+    "scenario": "27 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Sandy beach and grassy dunes at Telegrafbukta on the island's southwest tip, waves lapping the shore with the mainland mountains beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-324-16x9.png",
+    "file_4x5": "assets/no-01-324-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-325",
+    "region": "Troms",
+    "city": "Senja",
+    "site": "Tungeneset Viewpoint",
+    "caption": "Tungeneset Viewpoint, Senja",
+    "scenario": "27 September 2026 · 23:45 Europe/Oslo",
+    "composition": "The jagged rock teeth of the Tungeneset headland jutting into the sea, boardwalk viewpoint overlooking the Okshornan peaks across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-325-16x9.png",
+    "file_4x5": "assets/no-01-325-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-326",
+    "region": "Troms",
+    "city": "Senja",
+    "site": "Husøy Fishing Village",
+    "caption": "Husøy Fishing Village, Senja",
+    "scenario": "28 September 2026 · 00:00 Europe/Oslo",
+    "composition": "The tiny island fishing village of Husøy, red and white cabins ringed by the sea and tied to Senja by a single road causeway. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-326-16x9.png",
+    "file_4x5": "assets/no-01-326-4x5.png",
+    "audio": null
   }
 ]
