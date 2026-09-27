@@ -3924,5 +3924,44 @@
     "file_16x9": "assets/no-01-302-16x9.png",
     "file_4x5": "assets/no-01-302-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-303",
+    "region": "Telemark",
+    "city": "Skien",
+    "site": "Skien church",
+    "caption": "Skien church, Skien",
+    "scenario": "27 September 2026 · 09:30 Europe/Oslo",
+    "composition": "The red-brick neo-Gothic church (1894) rising above central Skien, its tall tower over the surrounding streets, stained-glass windows and stone detailing on the facade, the town sloping down toward the river. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-303-16x9.png",
+    "file_4x5": "assets/no-01-303-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-304",
+    "region": "Telemark",
+    "city": "Sauherad",
+    "site": "Sauherad church",
+    "caption": "Sauherad church, Sauherad",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "The white medieval stone church (c. 1150) on the hill in the village of Sauherad, Romanesque nave and the churchyard in the foreground, fields and the Saua river valley beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-304-16x9.png",
+    "file_4x5": "assets/no-01-304-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-305",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Fredriksten Fortress",
+    "caption": "Fredriksten Fortress, Halden",
+    "scenario": "27 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Star fortress on the hill above Halden, ramparts and bastions viewed from the town side with the Iddefjord beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-305-16x9.png",
+    "file_4x5": "assets/no-01-305-4x5.png",
+    "audio": null
   }
 ]
