@@ -5302,5 +5302,83 @@
     "file_16x9": "assets/no-01-409-16x9.png",
     "file_4x5": "assets/no-01-409-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-410",
+    "region": "Innlandet",
+    "city": "Mysuseter",
+    "site": "Mysuseter",
+    "caption": "Mysuseter, Mysuseter",
+    "scenario": "28 September 2026 · 14:15 Europe/Oslo",
+    "composition": "Mysuseter, the mountain gateway village to Rondane National Park, with traditional cabins and the Rondane peaks rising beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-410-16x9.png",
+    "file_4x5": "assets/no-01-410-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-411",
+    "region": "Innlandet",
+    "city": "Fåvang",
+    "site": "Kvitfjell",
+    "caption": "Kvitfjell, Fåvang",
+    "scenario": "28 September 2026 · 14:15 Europe/Oslo",
+    "composition": "Kvitfjell alpine resort above Fåvang, ski slopes and lift lines running down the mountainside in autumn colors. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-411-16x9.png",
+    "file_4x5": "assets/no-01-411-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-412",
+    "region": "Innlandet",
+    "city": "Granrudmoen",
+    "site": "Hafjell",
+    "caption": "Hafjell, Granrudmoen",
+    "scenario": "28 September 2026 · 14:30 Europe/Oslo",
+    "composition": "Hafjell alpine resort at Granrudmoen, lift lines and groomed slopes descending the mountainside above Øyer. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-412-16x9.png",
+    "file_4x5": "assets/no-01-412-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-413",
+    "region": "Innlandet",
+    "city": "Espedalen",
+    "site": "Peer Gyntvegen",
+    "caption": "Peer Gyntvegen, Espedalen",
+    "scenario": "28 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Peer Gyntvegen, the mountain toll road through Espedalen, winding past mountain lakes and open highland moor. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-413-16x9.png",
+    "file_4x5": "assets/no-01-413-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-414",
+    "region": "Innlandet",
+    "city": "Dovre",
+    "site": "Dovre church",
+    "caption": "Dovre church, Dovre",
+    "scenario": "28 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Dovre church along the E6 at Dovre, a wooden parish church with white cladding and spire against the Dovre mountains. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-414-16x9.png",
+    "file_4x5": "assets/no-01-414-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-415",
+    "region": "Innlandet",
+    "city": "Tynset",
+    "site": "Tynset church",
+    "caption": "Tynset church, Tynset",
+    "scenario": "28 September 2026 · 14:45 Europe/Oslo",
+    "composition": "Tynset church, the large wooden church dominating the town center, viewed from the main street with its tower and spire. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-415-16x9.png",
+    "file_4x5": "assets/no-01-415-4x5.png",
+    "audio": null
   }
 ]
