@@ -6043,5 +6043,44 @@
     "file_16x9": "assets/no-01-467-16x9.png",
     "file_4x5": "assets/no-01-467-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-468",
+    "region": "Telemark",
+    "city": "Gransherad",
+    "site": "Gransherad Church",
+    "caption": "Gransherad Church, Gransherad",
+    "scenario": "29 September 2026 · 00:45 Europe/Oslo",
+    "composition": "The white wooden Gransherad Church (1849, Hans Linstow) in the village of Gransherad by the Tinnelva river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-468-16x9.png",
+    "file_4x5": "assets/no-01-468-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-469",
+    "region": "Telemark",
+    "city": "Langangen",
+    "site": "Langangen village",
+    "caption": "Langangen village, Langangen",
+    "scenario": "29 September 2026 · 00:45 Europe/Oslo",
+    "composition": "The village of Langangen in eastern Porsgrunn with Langangen Church, near the Telemark coast · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-469-16x9.png",
+    "file_4x5": "assets/no-01-469-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-470",
+    "region": "Telemark",
+    "city": "Akkerhaugen",
+    "site": "Akkerhaugen lakeside village",
+    "caption": "Akkerhaugen lakeside village, Akkerhaugen",
+    "scenario": "29 September 2026 · 00:45 Europe/Oslo",
+    "composition": "Akkerhaugen village where the Sauarelva river meets the north end of lake Norsjø, former Sauherad municipal centre · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-470-16x9.png",
+    "file_4x5": "assets/no-01-470-4x5.png",
+    "audio": null
   }
 ]
