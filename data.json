@@ -4691,5 +4691,44 @@
     "file_16x9": "assets/no-01-361-16x9.png",
     "file_4x5": "assets/no-01-361-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-362",
+    "region": "Telemark",
+    "city": "Stathelle",
+    "site": "Stathelle harbor",
+    "caption": "Stathelle harbor, Stathelle",
+    "scenario": "28 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The harbor at Stathelle, boats moored along the quay with the coastal town behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-362-16x9.png",
+    "file_4x5": "assets/no-01-362-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-363",
+    "region": "Telemark",
+    "city": "Seljord",
+    "site": "Flatdal valley",
+    "caption": "Flatdal valley, Seljord",
+    "scenario": "28 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The Flatdal valley with its farms, viewed along the valley road toward the hills. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-363-16x9.png",
+    "file_4x5": "assets/no-01-363-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-364",
+    "region": "Telemark",
+    "city": "Haukeli",
+    "site": "Haukelifjell",
+    "caption": "Haukelifjell, Haukeli",
+    "scenario": "28 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The mountain pass landscape at Haukelifjell, viewed from the ski center area toward the fells. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-364-16x9.png",
+    "file_4x5": "assets/no-01-364-4x5.png",
+    "audio": null
   }
 ]
