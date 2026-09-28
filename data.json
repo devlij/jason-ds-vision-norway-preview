@@ -6082,5 +6082,44 @@
     "file_16x9": "assets/no-01-470-16x9.png",
     "file_4x5": "assets/no-01-470-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-471",
+    "region": "Telemark",
+    "city": "Valebø",
+    "site": "Valebø lakeside village",
+    "caption": "Valebø lakeside village, Valebø",
+    "scenario": "29 September 2026 · 01:15 Europe/Oslo",
+    "composition": "Valebø village on the eastern shore of lake Norsjø with Valebø Church, looking across to Ulefoss · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-471-16x9.png",
+    "file_4x5": "assets/no-01-471-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-472",
+    "region": "Telemark",
+    "city": "Rognstranda",
+    "site": "Rognstranda beach",
+    "caption": "Rognstranda beach, Rognstranda",
+    "scenario": "29 September 2026 · 01:15 Europe/Oslo",
+    "composition": "The sandy Rognstranda beach on the Rognsfjorden coast in Bamble, Gea Norvegica geopark rocks · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-472-16x9.png",
+    "file_4x5": "assets/no-01-472-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-473",
+    "region": "Telemark",
+    "city": "Flåbygd",
+    "site": "Flåbygd Church",
+    "caption": "Flåbygd Church, Flåbygd",
+    "scenario": "29 September 2026 · 01:15 Europe/Oslo",
+    "composition": "The white wooden cruciform Flåbygd Church (1822, Gunnar Knutson Saga) in the village of Flåbygd, Nome · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-473-16x9.png",
+    "file_4x5": "assets/no-01-473-4x5.png",
+    "audio": null
   }
 ]
