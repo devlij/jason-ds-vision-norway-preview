@@ -4574,5 +4574,44 @@
     "file_16x9": "assets/no-01-352-16x9.png",
     "file_4x5": "assets/no-01-352-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-353",
+    "region": "Buskerud",
+    "city": "Veggli",
+    "site": "Veggli Church",
+    "caption": "Veggli Church, Veggli",
+    "scenario": "28 September 2026 · 04:45 Europe/Oslo",
+    "composition": "The wooden church (1859) at Veggli viewed from the churchyard, with its white-painted nave, tower and churchyard trees set in the Numedal valley landscape. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-353-16x9.png",
+    "file_4x5": "assets/no-01-353-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-354",
+    "region": "Buskerud",
+    "city": "Skotselv",
+    "site": "Bakke Church",
+    "caption": "Bakke Church, Skotselv",
+    "scenario": "28 September 2026 · 04:45 Europe/Oslo",
+    "composition": "The white wooden church (Bakke kirke, 1883) viewed from the churchyard path, with its long-church form and tower framed by the trees at Skotselv in Øvre Eiker. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-354-16x9.png",
+    "file_4x5": "assets/no-01-354-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-355",
+    "region": "Buskerud",
+    "city": "Sigdal",
+    "site": "Trillemarka Nature Reserve",
+    "caption": "Trillemarka Nature Reserve, Sigdal",
+    "scenario": "28 September 2026 · 04:45 Europe/Oslo",
+    "composition": "The Trillemarka-Rollagsfjell nature reserve viewed from a marked trail, with old-growth forest, mossy ground and a small lake in the foreground and the broken forested ridges rising behind. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-355-16x9.png",
+    "file_4x5": "assets/no-01-355-4x5.png",
+    "audio": null
   }
 ]
