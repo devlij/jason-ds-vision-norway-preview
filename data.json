@@ -5042,5 +5042,44 @@
     "file_16x9": "assets/no-01-388-16x9.png",
     "file_4x5": "assets/no-01-388-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-389",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Nobel Peace Center",
+    "caption": "Nobel Peace Center, Oslo",
+    "scenario": "28 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Former West Station building on the waterfront, viewed from across Rådhuskaia near Aker Brygge. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-389-16x9.png",
+    "file_4x5": "assets/no-01-389-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-390",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Botanical Garden (Tøyen)",
+    "caption": "Botanical Garden (Tøyen), Oslo",
+    "scenario": "28 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Glass palm house and historic garden paths, viewed from the main entrance off Sars gate at Tøyen. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-390-16x9.png",
+    "file_4x5": "assets/no-01-390-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-391",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Ekebergparken Sculpture Park",
+    "caption": "Ekebergparken Sculpture Park, Oslo",
+    "scenario": "28 September 2026 · 10:45 Europe/Oslo",
+    "composition": "Sculptures along the wooded ridge with Oslo and the fjord spread out below, viewed from the panoramic viewpoint. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-391-16x9.png",
+    "file_4x5": "assets/no-01-391-4x5.png",
+    "audio": null
   }
 ]
