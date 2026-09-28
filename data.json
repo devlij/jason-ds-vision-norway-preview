@@ -5237,5 +5237,44 @@
     "file_16x9": "assets/no-01-403-16x9.png",
     "file_4x5": "assets/no-01-403-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-404",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Erkebispegården",
+    "caption": "Erkebispegården, Trondheim",
+    "scenario": "28 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Medieval stone courtyard buildings beside Nidaros Cathedral, viewed from the inner courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-404-16x9.png",
+    "file_4x5": "assets/no-01-404-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-405",
+    "region": "Innlandet",
+    "city": "Vågåmo",
+    "site": "Vågå stave church",
+    "caption": "Vågå stave church, Vågåmo",
+    "scenario": "28 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Vågå stave church (Vågåkyrkja), a medieval wooden church with carved portals and painted interiors, viewed from the churchyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-405-16x9.png",
+    "file_4x5": "assets/no-01-405-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-406",
+    "region": "Innlandet",
+    "city": "Hegge",
+    "site": "Hegge stave church",
+    "caption": "Hegge stave church, Hegge",
+    "scenario": "28 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Hegge stave church, a small 13th-century stave church in Valdres, viewed from the road below with its shingled exterior and modest bell turret. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-406-16x9.png",
+    "file_4x5": "assets/no-01-406-4x5.png",
+    "audio": null
   }
 ]

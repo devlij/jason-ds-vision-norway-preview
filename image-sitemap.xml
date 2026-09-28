@@ -6046,4 +6046,49 @@
       <image:geo_location>Ørlandet, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-404</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-404-16x9.png</image:loc>
+      <image:title>Erkebispegården, Trondheim</image:title>
+      <image:caption>Standing in the inner courtyard of Erkebispegården under a flat grey September sky, with Nidaros Cathedral's gothic tower rising directly behind the stone walls to the north. Left and right, the palace's ochre-plastered medieval wings frame the court, their moss-flecked tiled roofs sloping down to cobblestones strewn with early autumn leaves. Diffusion from full cloud cover softens every shadow, giving the old stone a cool, quiet calm that suits the Nordic region's oldest secular building.</image:caption>
+      <image:geo_location>Trondheim, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-404-4x5.png</image:loc>
+      <image:title>Erkebispegården, Trondheim</image:title>
+      <image:caption>Standing in the inner courtyard of Erkebispegården under a flat grey September sky, with Nidaros Cathedral's gothic tower rising directly behind the stone walls to the north. Left and right, the palace's ochre-plastered medieval wings frame the court, their moss-flecked tiled roofs sloping down to cobblestones strewn with early autumn leaves. Diffusion from full cloud cover softens every shadow, giving the old stone a cool, quiet calm that suits the Nordic region's oldest secular building.</image:caption>
+      <image:geo_location>Trondheim, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-405</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-405-16x9.png</image:loc>
+      <image:title>Vågå stave church, Vågåmo</image:title>
+      <image:caption>From the churchyard fence the eye meets Vågå's dark timber church broadside, its tarred wood almost black beneath a flat overcast sky. In the center frame, a gable door carved with swirling medieval dragon motifs stands ajar on painted interiors, while the slender crossing spire with its small companion towers rises behind the steep shingled roofs. Old gravestones and a dry-stone wall edge the grass in the foreground, with the pale slopes of the Gudbrandsdal valley closing the view behind the church.</image:caption>
+      <image:geo_location>Vågåmo, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-405-4x5.png</image:loc>
+      <image:title>Vågå stave church, Vågåmo</image:title>
+      <image:caption>From the churchyard fence the eye meets Vågå's dark timber church broadside, its tarred wood almost black beneath a flat overcast sky. In the center frame, a gable door carved with swirling medieval dragon motifs stands ajar on painted interiors, while the slender crossing spire with its small companion towers rises behind the steep shingled roofs. Old gravestones and a dry-stone wall edge the grass in the foreground, with the pale slopes of the Gudbrandsdal valley closing the view behind the church.</image:caption>
+      <image:geo_location>Vågåmo, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-406</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-406-16x9.png</image:loc>
+      <image:title>Hegge stave church, Hegge</image:title>
+      <image:caption>From the wet road below, the eye rises with the grassy slope to Hegge's small dark stave church, its tarred timber and shingled roofs plain and humble under a heavy grey sky. Center frame, the modest bell turret with its slender spire and cross pricks the ridgeline, while a wooden fence lines the churchyard edge. Left, mist drifts across the forested valley slopes; right, moss and autumn ferns crowd the roadside verge. Rain-dark asphalt and diffuse, shadowless light keep the mood quiet and thoroughly Valdres.</image:caption>
+      <image:geo_location>Hegge, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-406-4x5.png</image:loc>
+      <image:title>Hegge stave church, Hegge</image:title>
+      <image:caption>From the wet road below, the eye rises with the grassy slope to Hegge's small dark stave church, its tarred timber and shingled roofs plain and humble under a heavy grey sky. Center frame, the modest bell turret with its slender spire and cross pricks the ridgeline, while a wooden fence lines the churchyard edge. Left, mist drifts across the forested valley slopes; right, moss and autumn ferns crowd the roadside verge. Rain-dark asphalt and diffuse, shadowless light keep the mood quiet and thoroughly Valdres.</image:caption>
+      <image:geo_location>Hegge, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>
