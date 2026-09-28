@@ -5276,5 +5276,31 @@
     "file_16x9": "assets/no-01-406-16x9.png",
     "file_4x5": "assets/no-01-406-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-408",
+    "region": "Innlandet",
+    "city": "Selsverket",
+    "site": "Sel church",
+    "caption": "Sel church, Selsverket",
+    "scenario": "28 September 2026 · 13:45 Europe/Oslo",
+    "composition": "Sel church, the octagonal log church at Selsverket, viewed from the road with its distinctive eight-sided timber form and tower. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-408-16x9.png",
+    "file_4x5": "assets/no-01-408-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-409",
+    "region": "Innlandet",
+    "city": "Lesja",
+    "site": "Lesja church",
+    "caption": "Lesja church, Lesja",
+    "scenario": "28 September 2026 · 13:45 Europe/Oslo",
+    "composition": "Lesja church, the 1749 wooden church at Hov prestegård, viewed from Kyrkjevegen with its white timber walls and tall spire. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-409-16x9.png",
+    "file_4x5": "assets/no-01-409-4x5.png",
+    "audio": null
   }
 ]
