@@ -5926,5 +5926,44 @@
     "file_16x9": "assets/no-01-458-16x9.png",
     "file_4x5": "assets/no-01-458-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-459",
+    "region": "Telemark",
+    "city": "Sauland",
+    "site": "Sauland",
+    "caption": "Sauland, Sauland",
+    "scenario": "28 September 2026 · 23:15 Europe/Oslo",
+    "composition": "The wooden Sauland Church (1863) on the hill above the village, the valley behind · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-459-16x9.png",
+    "file_4x5": "assets/no-01-459-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-460",
+    "region": "Telemark",
+    "city": "Porsgrunn",
+    "site": "DuVerden Maritime Museum and Science Centre",
+    "caption": "DuVerden Maritime Museum and Science Centre, Porsgrunn",
+    "scenario": "28 September 2026 · 23:15 Europe/Oslo",
+    "composition": "DuVerden maritime museum and science centre on the Porsgrunn waterfront at the mouth of the Telemark Canal, quay and harbour basin · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-460-16x9.png",
+    "file_4x5": "assets/no-01-460-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-461",
+    "region": "Telemark",
+    "city": "Atrå",
+    "site": "Atrå Church",
+    "caption": "Atrå Church, Atrå",
+    "scenario": "28 September 2026 · 23:15 Europe/Oslo",
+    "composition": "The long church of Atrå (1836) in the village of Atrå in Tinn, near the shore of Tinnsjø · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-461-16x9.png",
+    "file_4x5": "assets/no-01-461-4x5.png",
+    "audio": null
   }
 ]

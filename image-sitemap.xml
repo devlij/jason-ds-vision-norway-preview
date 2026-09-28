@@ -6841,4 +6841,49 @@
       <image:geo_location>Nissedal, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-459</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-459-16x9.png</image:loc>
+      <image:title>Sauland, Sauland</image:title>
+      <image:caption>From a grassy hillside path above Sauland at night, the white wooden Sauland Church stands on the hilltop at right, its tall west tower and warmly lit windows glowing against a dark, starry sky. At left, the village lights of Sauland spill down the valley floor while forested Telemark ridges recede into the blue night behind. The mainly clear 23:15 sky keeps the scene crisp, with early autumn browns and greens in the foreground stone wall and bracken.</image:caption>
+      <image:geo_location>Sauland, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-459-4x5.png</image:loc>
+      <image:title>Sauland, Sauland</image:title>
+      <image:caption>From a grassy hillside path above Sauland at night, the white wooden Sauland Church stands on the hilltop at right, its tall west tower and warmly lit windows glowing against a dark, starry sky. At left, the village lights of Sauland spill down the valley floor while forested Telemark ridges recede into the blue night behind. The mainly clear 23:15 sky keeps the scene crisp, with early autumn browns and greens in the foreground stone wall and bracken.</image:caption>
+      <image:geo_location>Sauland, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-460</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-460-16x9.png</image:loc>
+      <image:title>DuVerden Maritime Museum and Science Centre, Porsgrunn</image:title>
+      <image:caption>From the Porsgrunn waterfront at night, the angular DuVerden museum rises over the quay at right, its scale-patterned aluminium facade glowing under interior light and the museum's name displayed on the building. At left, a glass stair tower and historic red and white wooden houses line the water's edge, while lit bollards and a jetty punctuate the dark harbour basin. The overcast 23:15 sky keeps everything in cool night tones, with warm reflections rippling across the water.</image:caption>
+      <image:geo_location>Porsgrunn, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-460-4x5.png</image:loc>
+      <image:title>DuVerden Maritime Museum and Science Centre, Porsgrunn</image:title>
+      <image:caption>From the Porsgrunn waterfront at night, the angular DuVerden museum rises over the quay at right, its scale-patterned aluminium facade glowing under interior light and the museum's name displayed on the building. At left, a glass stair tower and historic red and white wooden houses line the water's edge, while lit bollards and a jetty punctuate the dark harbour basin. The overcast 23:15 sky keeps everything in cool night tones, with warm reflections rippling across the water.</image:caption>
+      <image:geo_location>Porsgrunn, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-461</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-461-16x9.png</image:loc>
+      <image:title>Atrå Church, Atrå</image:title>
+      <image:caption>From the shore of Tinnsjø at night, the white wooden Atrå Church stands on its stone-walled rise at left, warmly lit windows and the simple tower outlined against a clear, starry sky. The lake laps the rocks at right with faint reflections, while the dark forested slopes of Gøystdalen fill the background and a few village lights glow across the water. The clear 23:15 sky makes the scene crisp and still, early-autumn greens in the reeds and grass at the water's edge.</image:caption>
+      <image:geo_location>Atrå, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-461-4x5.png</image:loc>
+      <image:title>Atrå Church, Atrå</image:title>
+      <image:caption>From the shore of Tinnsjø at night, the white wooden Atrå Church stands on its stone-walled rise at left, warmly lit windows and the simple tower outlined against a clear, starry sky. The lake laps the rocks at right with faint reflections, while the dark forested slopes of Gøystdalen fill the background and a few village lights glow across the water. The clear 23:15 sky makes the scene crisp and still, early-autumn greens in the reeds and grass at the water's edge.</image:caption>
+      <image:geo_location>Atrå, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>
