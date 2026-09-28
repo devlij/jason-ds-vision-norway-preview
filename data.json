@@ -5198,5 +5198,44 @@
     "file_16x9": "assets/no-01-400-16x9.png",
     "file_4x5": "assets/no-01-400-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-401",
+    "region": "Trøndelag",
+    "city": "Verdal",
+    "site": "Stiklestad National Cultural Centre",
+    "caption": "Stiklestad National Cultural Centre, Verdal",
+    "scenario": "28 September 2026 · 12:45 Europe/Oslo",
+    "composition": "Stone cross monument and amphitheatre against rolling farmland, viewed from the cultural centre grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-401-16x9.png",
+    "file_4x5": "assets/no-01-401-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-402",
+    "region": "Trøndelag",
+    "city": "Ørlandet",
+    "site": "Kjeungskjær Lighthouse",
+    "caption": "Kjeungskjær Lighthouse, Ørlandet",
+    "scenario": "28 September 2026 · 12:45 Europe/Oslo",
+    "composition": "Octagonal lighthouse tower on a wave-washed skerry in the fjord, viewed from a boat. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-402-16x9.png",
+    "file_4x5": "assets/no-01-402-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-403",
+    "region": "Trøndelag",
+    "city": "Ørlandet",
+    "site": "Austråttborgen",
+    "caption": "Austråttborgen, Ørlandet",
+    "scenario": "28 September 2026 · 13:00 Europe/Oslo",
+    "composition": "Medieval stone manor with stepped gables above the Ørlandet coast, viewed from the approach road. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-403-16x9.png",
+    "file_4x5": "assets/no-01-403-4x5.png",
+    "audio": null
   }
 ]
