@@ -5371,4 +5371,49 @@
       <image:geo_location>Rjukan, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-359</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-359-16x9.png</image:loc>
+      <image:title>Porsgrund Porcelain Museum, Porsgrunn</image:title>
+      <image:caption>A pre-dawn night view across the Porsgrund factory grounds in Porsgrunn: on the left, the older factory block with its weathered PORSGRUNDS PORSELÆNSFABRIK sign above stacked shipping crates and paper bins; in the center-right, the brick museum building with warm-lit windows and the PORSELENSMUSEET entrance glowing under a white awning; tall chimneys silhouetted against the overcast sky behind. Wet pavement mirrors the lamps and windows under the cloudy 15.1°C night, with the factory's riverside industrial character plain in the lamplight.</image:caption>
+      <image:geo_location>Porsgrunn, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-359-4x5.png</image:loc>
+      <image:title>Porsgrund Porcelain Museum, Porsgrunn</image:title>
+      <image:caption>A pre-dawn night view across the Porsgrund factory grounds in Porsgrunn: on the left, the older factory block with its weathered PORSGRUNDS PORSELÆNSFABRIK sign above stacked shipping crates and paper bins; in the center-right, the brick museum building with warm-lit windows and the PORSELENSMUSEET entrance glowing under a white awning; tall chimneys silhouetted against the overcast sky behind. Wet pavement mirrors the lamps and windows under the cloudy 15.1°C night, with the factory's riverside industrial character plain in the lamplight.</image:caption>
+      <image:geo_location>Porsgrunn, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-360</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-360-16x9.png</image:loc>
+      <image:title>Gjerpen Church, Gjerpen</image:title>
+      <image:caption>A pre-dawn night view from the churchyard at Gjerpen: on the left, the medieval stone church rises with its copper-green-spired west tower and warm-lit arched doorways; in the center, the Romanesque nave wall with round-arched windows glows softly; gravestones and mossy stone markers fill the foreground grass. The overcast 14.5°C night leaves the wet paths and churchyard sheened with reflected light, the dark treeline behind the apse.</image:caption>
+      <image:geo_location>Gjerpen, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-360-4x5.png</image:loc>
+      <image:title>Gjerpen Church, Gjerpen</image:title>
+      <image:caption>A pre-dawn night view from the churchyard at Gjerpen: on the left, the medieval stone church rises with its copper-green-spired west tower and warm-lit arched doorways; in the center, the Romanesque nave wall with round-arched windows glows softly; gravestones and mossy stone markers fill the foreground grass. The overcast 14.5°C night leaves the wet paths and churchyard sheened with reflected light, the dark treeline behind the apse.</image:caption>
+      <image:geo_location>Gjerpen, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-361</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-361-16x9.png</image:loc>
+      <image:title>Eidanger Church, Eidanger</image:title>
+      <image:caption>A pre-dawn night view of Eidanger Church from the churchyard: on the left, the white tower with its open lantern cupola and warm-lit doorway rises among birch and pine branches; in the center-right, the long white nave stretches with softly glowing windows beneath its dark pitched roof. Gravestones and stone-edged plots fill the foreground grass, scattered with fallen autumn leaves under the overcast 14.7°C night.</image:caption>
+      <image:geo_location>Eidanger, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-361-4x5.png</image:loc>
+      <image:title>Eidanger Church, Eidanger</image:title>
+      <image:caption>A pre-dawn night view of Eidanger Church from the churchyard: on the left, the white tower with its open lantern cupola and warm-lit doorway rises among birch and pine branches; in the center-right, the long white nave stretches with softly glowing windows beneath its dark pitched roof. Gravestones and stone-edged plots fill the foreground grass, scattered with fallen autumn leaves under the overcast 14.7°C night.</image:caption>
+      <image:geo_location>Eidanger, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>

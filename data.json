@@ -4652,5 +4652,44 @@
     "file_16x9": "assets/no-01-358-16x9.png",
     "file_4x5": "assets/no-01-358-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-359",
+    "region": "Telemark",
+    "city": "Porsgrunn",
+    "site": "Porsgrund Porcelain Museum",
+    "caption": "Porsgrund Porcelain Museum, Porsgrunn",
+    "scenario": "28 September 2026 · 05:45 Europe/Oslo",
+    "composition": "The porcelain museum at the Porsgrund factory site, viewed from the factory grounds. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-359-16x9.png",
+    "file_4x5": "assets/no-01-359-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-360",
+    "region": "Telemark",
+    "city": "Gjerpen",
+    "site": "Gjerpen Church",
+    "caption": "Gjerpen Church, Gjerpen",
+    "scenario": "28 September 2026 · 05:45 Europe/Oslo",
+    "composition": "Medieval stone church with its west tower, viewed from the churchyard at Gjerpen. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-360-16x9.png",
+    "file_4x5": "assets/no-01-360-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-361",
+    "region": "Telemark",
+    "city": "Eidanger",
+    "site": "Eidanger Church",
+    "caption": "Eidanger Church, Eidanger",
+    "scenario": "28 September 2026 · 05:45 Europe/Oslo",
+    "composition": "Stone church at Eidanger, viewed from the churchyard among the trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-361-16x9.png",
+    "file_4x5": "assets/no-01-361-4x5.png",
+    "audio": null
   }
 ]
