@@ -5887,5 +5887,44 @@
     "file_16x9": "assets/no-01-455-16x9.png",
     "file_4x5": "assets/no-01-455-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-456",
+    "region": "Telemark",
+    "city": "Bø",
+    "site": "Bø church",
+    "caption": "Bø church, Bø",
+    "scenario": "28 September 2026 · 22:45 Europe/Oslo",
+    "composition": "The white wooden Bø Church (1875) with the medieval stone Old Bø Church beside it, in the village along the Bøelva river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-456-16x9.png",
+    "file_4x5": "assets/no-01-456-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-457",
+    "region": "Telemark",
+    "city": "Åmot",
+    "site": "Åmot, Vinje",
+    "caption": "Åmot, Vinje, Åmot",
+    "scenario": "28 September 2026 · 22:45 Europe/Oslo",
+    "composition": "The village of Åmot where the rivers Tokke and Vinjeåi meet, the E134 on its way to the mountains · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-457-16x9.png",
+    "file_4x5": "assets/no-01-457-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-458",
+    "region": "Telemark",
+    "city": "Nissedal",
+    "site": "Fjone",
+    "caption": "Fjone, Nissedal",
+    "scenario": "28 September 2026 · 22:45 Europe/Oslo",
+    "composition": "The old farmsteads of Fjone near Lake Nisser, timber barns and boathouses on the water · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-458-16x9.png",
+    "file_4x5": "assets/no-01-458-4x5.png",
+    "audio": null
   }
 ]
