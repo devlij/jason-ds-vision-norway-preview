@@ -4353,5 +4353,44 @@
     "file_16x9": "assets/no-01-335-16x9.png",
     "file_4x5": "assets/no-01-335-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-336",
+    "region": "Finnmark",
+    "city": "Skarsvåg",
+    "site": "Knivskjellodden",
+    "caption": "Knivskjellodden, Skarsvåg",
+    "scenario": "28 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Standing at the cairn-marked tip of the low Knivskjellodden peninsula, a hiker looks across flat coastal tundra to the open Barents Sea, with the North Cape plateau rising about 1.4 km to the southeast. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-336-16x9.png",
+    "file_4x5": "assets/no-01-336-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-337",
+    "region": "Finnmark",
+    "city": "Gjesvær",
+    "site": "Gjesværstappan bird cliffs",
+    "caption": "Gjesværstappan bird cliffs, Gjesvær",
+    "scenario": "28 September 2026 · 01:45 Europe/Oslo",
+    "composition": "From a small boat off the fishing village of Gjesvær, tourists face the sheer Stappan cliffs with tens of thousands of puffins and gannets wheeling over the Barents Sea. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-337-16x9.png",
+    "file_4x5": "assets/no-01-337-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-338",
+    "region": "Finnmark",
+    "city": "Kjøllefjord",
+    "site": "Finnkirka",
+    "caption": "Finnkirka, Kjøllefjord",
+    "scenario": "28 September 2026 · 02:00 Europe/Oslo",
+    "composition": "From the sea approach to Kjøllefjord, the Finnkirka sea cliff rises like a stone church — spire, roof and walls — between the steep Nordkyn coast and the Arctic Sea. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-338-16x9.png",
+    "file_4x5": "assets/no-01-338-4x5.png",
+    "audio": null
   }
 ]
