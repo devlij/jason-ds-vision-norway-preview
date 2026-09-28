@@ -4407,6 +4407,19 @@
     "audio": null
   },
   {
+    "entry_id": "NO-01-340",
+    "region": "Finnmark",
+    "city": "Kautokeino",
+    "site": "Juhls Silver Gallery",
+    "caption": "Juhls Silver Gallery, Kautokeino",
+    "scenario": "28 September 2026 · 02:45 Europe/Oslo",
+    "composition": "The wind-sculpted, snowdrift-shaped roofs of Juhls' Silver Gallery sweep across the building on the edge of Kautokeino, overlooking the river valley and the town beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-340-16x9.png",
+    "file_4x5": "assets/no-01-340-4x5.png",
+    "audio": null
+  },
+  {
     "entry_id": "NO-01-341",
     "region": "Finnmark",
     "city": "Vardø",
@@ -4417,6 +4430,32 @@
     "approved": true,
     "file_16x9": "assets/no-01-341-16x9.png",
     "file_4x5": "assets/no-01-341-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-342",
+    "region": "Finnmark",
+    "city": "Vardø",
+    "site": "Steilneset Memorial",
+    "caption": "Steilneset Memorial, Vardø",
+    "scenario": "28 September 2026 · 02:45 Europe/Oslo",
+    "composition": "The visitor walks the 125-metre fabric-lined timber corridor of Peter Zumthor's installation, 91 small windows marking each witch-trial victim, toward Louise Bourgeois's flame-and-mirrors glass cube. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-342-16x9.png",
+    "file_4x5": "assets/no-01-342-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-343",
+    "region": "Finnmark",
+    "city": "Kirkenes",
+    "site": "Snowhotel Kirkenes",
+    "caption": "Snowhotel Kirkenes, Kirkenes",
+    "scenario": "28 September 2026 · 03:00 Europe/Oslo",
+    "composition": "Under the blue arctic light, the Snowhotel's carved snow-and-ice facade stands in the Sandnes valley south of Kirkenes, its sculpted entrance glowing from within. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-343-16x9.png",
+    "file_4x5": "assets/no-01-343-4x5.png",
     "audio": null
   }
 ]
