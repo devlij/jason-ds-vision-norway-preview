@@ -6004,5 +6004,44 @@
     "file_16x9": "assets/no-01-464-16x9.png",
     "file_4x5": "assets/no-01-464-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-465",
+    "region": "Telemark",
+    "city": "Bamble",
+    "site": "St. Olav's Church ruin",
+    "caption": "St. Olav's Church ruin, Bamble",
+    "scenario": "29 September 2026 · 00:15 Europe/Oslo",
+    "composition": "The partly restored medieval stone ruins of St. Olav's Church (Skeidi, c.1150) in Bamble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-465-16x9.png",
+    "file_4x5": "assets/no-01-465-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-466",
+    "region": "Telemark",
+    "city": "Brunkeberg",
+    "site": "Brunkeberg Church",
+    "caption": "Brunkeberg Church, Brunkeberg",
+    "scenario": "29 September 2026 · 00:15 Europe/Oslo",
+    "composition": "The white cruciform wooden Brunkeberg Church (1790) in the village centre of Brunkeberg, Kviteseid · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-466-16x9.png",
+    "file_4x5": "assets/no-01-466-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-467",
+    "region": "Telemark",
+    "city": "Fjågesund",
+    "site": "Fjågesund canal quay",
+    "caption": "Fjågesund canal quay, Fjågesund",
+    "scenario": "29 September 2026 · 00:15 Europe/Oslo",
+    "composition": "The canal quay and old packhouse at Fjågesund, midway along the Telemark Canal between Flåvatn and Kviteseidvatnet · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-467-16x9.png",
+    "file_4x5": "assets/no-01-467-4x5.png",
+    "audio": null
   }
 ]

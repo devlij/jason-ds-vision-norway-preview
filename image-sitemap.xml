@@ -6931,4 +6931,49 @@
       <image:geo_location>Seljord, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-465</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-465-16x9.png</image:loc>
+      <image:title>St. Olav's Church ruin, Bamble</image:title>
+      <image:caption>From the churchyard path at eye level, the weathered grey stone wall of St. Olav's ruin fills the left of the frame, its carved Romanesque portal standing dark against the night, while the green churchyard stretches to the right past a wooden bench toward scattered gravestones and tall trees. A bright moon glows through broken cloud overhead, washing cool light across the medieval stonework as the grass below rests in deep shadow — a quiet late-night visit to a centuries-old Norwegian ruin.</image:caption>
+      <image:geo_location>Bamble, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-465-4x5.png</image:loc>
+      <image:title>St. Olav's Church ruin, Bamble</image:title>
+      <image:caption>From the churchyard path at eye level, the weathered grey stone wall of St. Olav's ruin fills the left of the frame, its carved Romanesque portal standing dark against the night, while the green churchyard stretches to the right past a wooden bench toward scattered gravestones and tall trees. A bright moon glows through broken cloud overhead, washing cool light across the medieval stonework as the grass below rests in deep shadow — a quiet late-night visit to a centuries-old Norwegian ruin.</image:caption>
+      <image:geo_location>Bamble, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-466</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-466-16x9.png</image:loc>
+      <image:title>Brunkeberg Church, Brunkeberg</image:title>
+      <image:caption>From the churchyard path, the white wooden Brunkeberg Church stands centered with its tower rising over the crossing, its red tile roofs and warmly lit windows glowing against a deep blue starry night. The white vertical cladding catches the light on the left of the frame while gravestones line the right foreground along a gravel path, and dark spruce trees close the scene at the edges with a lit village house beyond. Clear, cold night air over the Telemark valley.</image:caption>
+      <image:geo_location>Brunkeberg, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-466-4x5.png</image:loc>
+      <image:title>Brunkeberg Church, Brunkeberg</image:title>
+      <image:caption>From the churchyard path, the white wooden Brunkeberg Church stands centered with its tower rising over the crossing, its red tile roofs and warmly lit windows glowing against a deep blue starry night. The white vertical cladding catches the light on the left of the frame while gravestones line the right foreground along a gravel path, and dark spruce trees close the scene at the edges with a lit village house beyond. Clear, cold night air over the Telemark valley.</image:caption>
+      <image:geo_location>Brunkeberg, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-467</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-467-16x9.png</image:loc>
+      <image:title>Fjågesund canal quay, Fjågesund</image:title>
+      <image:caption>Standing on the timber boards of the quay, the old packhouse fills the right of the frame with its weathered wood, glowing windows, and a painted PAKKHUS · Fjågesund · 1892 fascia, ropes and fishing nets coiled by its door. To the left the quay runs out into dark, glassy water where the lit Fjågesund bridge spans the canal between black forested hills. Under a clear starry sky the whole scene holds a deep-blue midnight stillness.</image:caption>
+      <image:geo_location>Fjågesund, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-467-4x5.png</image:loc>
+      <image:title>Fjågesund canal quay, Fjågesund</image:title>
+      <image:caption>Standing on the timber boards of the quay, the old packhouse fills the right of the frame with its weathered wood, glowing windows, and a painted PAKKHUS · Fjågesund · 1892 fascia, ropes and fishing nets coiled by its door. To the left the quay runs out into dark, glassy water where the lit Fjågesund bridge spans the canal between black forested hills. Under a clear starry sky the whole scene holds a deep-blue midnight stillness.</image:caption>
+      <image:geo_location>Fjågesund, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>
