@@ -5159,5 +5159,44 @@
     "file_16x9": "assets/no-01-397-16x9.png",
     "file_4x5": "assets/no-01-397-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-398",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Munkholmen",
+    "caption": "Munkholmen, Trondheim",
+    "scenario": "28 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Round stone fortress tower on the small islet, viewed from the approaching ferry. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-398-16x9.png",
+    "file_4x5": "assets/no-01-398-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-399",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Sverresborg Trøndelag Folkemuseum",
+    "caption": "Sverresborg Trøndelag Folkemuseum, Trondheim",
+    "scenario": "28 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Historic wooden farm buildings and small stave church around the open-air green, viewed from the main path. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-399-16x9.png",
+    "file_4x5": "assets/no-01-399-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-400",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Ringve Music Museum",
+    "caption": "Ringve Music Museum, Trondheim",
+    "scenario": "28 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Ringve manor and the barn-like music museum building by the fjord at Lade, viewed from the approach lane. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-400-16x9.png",
+    "file_4x5": "assets/no-01-400-4x5.png",
+    "audio": null
   }
 ]
