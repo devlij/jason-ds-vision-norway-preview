@@ -5380,5 +5380,44 @@
     "file_16x9": "assets/no-01-415-16x9.png",
     "file_4x5": "assets/no-01-415-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-416",
+    "region": "Innlandet",
+    "city": "Hamar",
+    "site": "Kirsten Flagstad Museum",
+    "caption": "Kirsten Flagstad Museum, Hamar",
+    "scenario": "28 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Kirsten Flagstad Museum in Hamar, the opera singer's childhood home with its white wooden facade and garden, viewed from Kirkegata. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-416-16x9.png",
+    "file_4x5": "assets/no-01-416-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-417",
+    "region": "Innlandet",
+    "city": "Lillehammer",
+    "site": "Lillehammer Art Museum",
+    "caption": "Lillehammer Art Museum, Lillehammer",
+    "scenario": "28 September 2026 · 15:15 Europe/Oslo",
+    "composition": "Lillehammer Art Museum, the modern museum building in the town center with its distinctive architecture, viewed from the street. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-417-16x9.png",
+    "file_4x5": "assets/no-01-417-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-418",
+    "region": "Innlandet",
+    "city": "Venabygd",
+    "site": "Venabygdsfjellet",
+    "caption": "Venabygdsfjellet, Venabygd",
+    "scenario": "28 September 2026 · 15:30 Europe/Oslo",
+    "composition": "Venabygdsfjellet mountain plateau at Venabygd, open highland with scattered cabins and mountain views. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-418-16x9.png",
+    "file_4x5": "assets/no-01-418-4x5.png",
+    "audio": null
   }
 ]
