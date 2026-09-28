@@ -4392,5 +4392,31 @@
     "file_16x9": "assets/no-01-338-16x9.png",
     "file_4x5": "assets/no-01-338-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-339",
+    "region": "Finnmark",
+    "city": "Karasjok",
+    "site": "Sámi Parliament (Sámediggi)",
+    "caption": "Sámi Parliament (Sámediggi), Karasjok",
+    "scenario": "28 September 2026 · 02:15 Europe/Oslo",
+    "composition": "A visitor faces the semicircular timber-clad Sámi Parliament building set among pines in Karasjok, its tent-like silhouette echoing the traditional Sámi lavvu. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-339-16x9.png",
+    "file_4x5": "assets/no-01-339-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-341",
+    "region": "Finnmark",
+    "city": "Vardø",
+    "site": "Vardøhus Fortress",
+    "caption": "Vardøhus Fortress, Vardø",
+    "scenario": "28 September 2026 · 02:30 Europe/Oslo",
+    "composition": "Walking the courtyard of the star-shaped Vardøhus Fortress, a visitor looks across low stone-clad earthworks and historic courtyard buildings toward the open Barents Sea. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-341-16x9.png",
+    "file_4x5": "assets/no-01-341-4x5.png",
+    "audio": null
   }
 ]
