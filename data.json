@@ -4457,5 +4457,31 @@
     "file_16x9": "assets/no-01-343-16x9.png",
     "file_4x5": "assets/no-01-343-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-344",
+    "region": "Finnmark",
+    "city": "Vadsø",
+    "site": "Ekkerøy nature reserve",
+    "caption": "Ekkerøy nature reserve, Vadsø",
+    "scenario": "28 September 2026 · 03:15 Europe/Oslo",
+    "composition": "From the road along Varangerfjord east of Vadsø, a birder scans the Ekkerøy bird cliff where thousands of kittiwakes and other seabirds crowd the sheer rock face. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-344-16x9.png",
+    "file_4x5": "assets/no-01-344-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-345",
+    "region": "Finnmark",
+    "city": "Tana bru",
+    "site": "Tana Bridge",
+    "caption": "Tana Bridge, Tana bru",
+    "scenario": "28 September 2026 · 03:30 Europe/Oslo",
+    "composition": "From the riverbank below, the cable-stayed Tana Bridge spans the wide Tana River, its pylons glowing in changing colours on dark nights. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-345-16x9.png",
+    "file_4x5": "assets/no-01-345-4x5.png",
+    "audio": null
   }
 ]
