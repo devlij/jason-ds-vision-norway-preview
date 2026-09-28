@@ -5120,5 +5120,44 @@
     "file_16x9": "assets/no-01-394-16x9.png",
     "file_4x5": "assets/no-01-394-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-395",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Gamle Bybro",
+    "caption": "Gamle Bybro, Trondheim",
+    "scenario": "28 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Red-painted arched bridge over the Nidelva river, viewed from the Bakklandet riverbank. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-395-16x9.png",
+    "file_4x5": "assets/no-01-395-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-396",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Rockheim",
+    "caption": "Rockheim, Trondheim",
+    "scenario": "28 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Black glass box floating above the old harbour warehouse at Brattørkaia, viewed from the harbour promenade. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-396-16x9.png",
+    "file_4x5": "assets/no-01-396-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-397",
+    "region": "Trøndelag",
+    "city": "Trondheim",
+    "site": "Stiftsgården",
+    "caption": "Stiftsgården, Trondheim",
+    "scenario": "28 September 2026 · 11:45 Europe/Oslo",
+    "composition": "Long wooden palace facade with green shutters along Munkegata, viewed from the square in front. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-397-16x9.png",
+    "file_4x5": "assets/no-01-397-4x5.png",
+    "audio": null
   }
 ]
