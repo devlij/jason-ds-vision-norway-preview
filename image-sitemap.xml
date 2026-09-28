@@ -5326,4 +5326,49 @@
       <image:geo_location>Sigdal, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-356</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-356-16x9.png</image:loc>
+      <image:title>Lauvlia — Theodor Kittelsen's Home, Prestfoss</image:title>
+      <image:caption>A garden path glistening with rain leads the eye to the dark timber 'fairytale house' of Lauvlia, its carved gables and mossy sod roof framed by dripping birch branches. Warm lamplight glows from the museum's windows and open door, the only brightness in the blue-black night. Beyond the house, Lake Soneren stretches into mist with the dark mass of Andersnatten looming on the far shore — the view that shaped Kittelsen's art.</image:caption>
+      <image:geo_location>Prestfoss, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-356-4x5.png</image:loc>
+      <image:title>Lauvlia — Theodor Kittelsen's Home, Prestfoss</image:title>
+      <image:caption>A garden path glistening with rain leads the eye to the dark timber 'fairytale house' of Lauvlia, its carved gables and mossy sod roof framed by dripping birch branches. Warm lamplight glows from the museum's windows and open door, the only brightness in the blue-black night. Beyond the house, Lake Soneren stretches into mist with the dark mass of Andersnatten looming on the far shore — the view that shaped Kittelsen's art.</image:caption>
+      <image:geo_location>Prestfoss, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-357</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-357-16x9.png</image:loc>
+      <image:title>Jondalen Church, Jondalen</image:title>
+      <image:caption>Seen from the churchyard, the white wooden Jondalen Church glows against the dark valley night, its tall west tower and spire rising above the red-tiled nave. Mossy gravestones and old crosses fill the foreground grass, while farm buildings and harvested fields spread out to the right. Mist clings to the wooded slopes behind, and the wet ground mirrors the lamplight spilling from the church windows.</image:caption>
+      <image:geo_location>Jondalen, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-357-4x5.png</image:loc>
+      <image:title>Jondalen Church, Jondalen</image:title>
+      <image:caption>Seen from the churchyard, the white wooden Jondalen Church glows against the dark valley night, its tall west tower and spire rising above the red-tiled nave. Mossy gravestones and old crosses fill the foreground grass, while farm buildings and harvested fields spread out to the right. Mist clings to the wooded slopes behind, and the wet ground mirrors the lamplight spilling from the church windows.</image:caption>
+      <image:geo_location>Jondalen, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-358</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-358-16x9.png</image:loc>
+      <image:title>Rjukan Church, Rjukan</image:title>
+      <image:caption>The red-brown brick Rjukan Church stands at the heart of Sam Eydes gate, its tall square tower and spire rising above the nave's arched windows, all glowing warm from within. Wet cobblestones mirror the street lamps and shopfronts lining both sides of the main street. Behind the town, the steep, forested slopes of the Vestfjorden valley dissolve into mist under a rain-dark night sky.</image:caption>
+      <image:geo_location>Rjukan, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-358-4x5.png</image:loc>
+      <image:title>Rjukan Church, Rjukan</image:title>
+      <image:caption>The red-brown brick Rjukan Church stands at the heart of Sam Eydes gate, its tall square tower and spire rising above the nave's arched windows, all glowing warm from within. Wet cobblestones mirror the street lamps and shopfronts lining both sides of the main street. Behind the town, the steep, forested slopes of the Vestfjorden valley dissolve into mist under a rain-dark night sky.</image:caption>
+      <image:geo_location>Rjukan, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>

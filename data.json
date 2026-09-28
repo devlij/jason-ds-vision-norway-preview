@@ -4613,5 +4613,44 @@
     "file_16x9": "assets/no-01-355-16x9.png",
     "file_4x5": "assets/no-01-355-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-356",
+    "region": "Buskerud",
+    "city": "Prestfoss",
+    "site": "Lauvlia — Theodor Kittelsen's Home",
+    "caption": "Lauvlia — Theodor Kittelsen's Home, Prestfoss",
+    "scenario": "28 September 2026 · 05:15 Europe/Oslo",
+    "composition": "The artist Theodor Kittelsen's family home at Lauvlia, a museum, viewed from the garden path with the timber 'fairytale house' in the foreground and Lake Soneren and Andersnatten beyond. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-356-16x9.png",
+    "file_4x5": "assets/no-01-356-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-357",
+    "region": "Buskerud",
+    "city": "Jondalen",
+    "site": "Jondalen Church",
+    "caption": "Jondalen Church, Jondalen",
+    "scenario": "28 September 2026 · 05:15 Europe/Oslo",
+    "composition": "The village church (1882) in the Jondalen valley viewed from the churchyard, with its white wooden nave and tower set among farm fields and wooded slopes near Jonsknuten. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-357-16x9.png",
+    "file_4x5": "assets/no-01-357-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-358",
+    "region": "Telemark",
+    "city": "Rjukan",
+    "site": "Rjukan Church",
+    "caption": "Rjukan Church, Rjukan",
+    "scenario": "28 September 2026 · 05:15 Europe/Oslo",
+    "composition": "The brick church of Rjukan with its tower, viewed from the street at Sam Eydes gate. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-358-16x9.png",
+    "file_4x5": "assets/no-01-358-4x5.png",
+    "audio": null
   }
 ]
