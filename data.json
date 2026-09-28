@@ -5965,5 +5965,44 @@
     "file_16x9": "assets/no-01-461-16x9.png",
     "file_4x5": "assets/no-01-461-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-462",
+    "region": "Telemark",
+    "city": "Skotfoss",
+    "site": "Skotfosstien canal trail",
+    "caption": "Skotfosstien canal trail, Skotfoss",
+    "scenario": "28 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Skotfosstien trail along the Telemark Canal locks at Skotfoss, Løveid locks stretch · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-462-16x9.png",
+    "file_4x5": "assets/no-01-462-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-463",
+    "region": "Telemark",
+    "city": "Gvarv",
+    "site": "Gvarv fruit district",
+    "caption": "Gvarv fruit district, Gvarv",
+    "scenario": "28 September 2026 · 23:45 Europe/Oslo",
+    "composition": "Apple orchards and fruit farms of the Gvarv fruit district by the water in Midt-Telemark · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-463-16x9.png",
+    "file_4x5": "assets/no-01-463-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-464",
+    "region": "Telemark",
+    "city": "Seljord",
+    "site": "Seljord Church",
+    "caption": "Seljord Church, Seljord",
+    "scenario": "28 September 2026 · 23:45 Europe/Oslo",
+    "composition": "The Romanesque stone Seljord Church (c.1180) above the village of Seljord near Seljordsvatnet · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-464-16x9.png",
+    "file_4x5": "assets/no-01-464-4x5.png",
+    "audio": null
   }
 ]
