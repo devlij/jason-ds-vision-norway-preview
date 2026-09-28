@@ -5003,5 +5003,44 @@
     "file_16x9": "assets/no-01-385-16x9.png",
     "file_4x5": "assets/no-01-385-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-386",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Kon-Tiki Museum",
+    "caption": "Kon-Tiki Museum, Oslo",
+    "scenario": "28 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Museum building on Bygdøy housing Heyerdahl's Kon-Tiki raft, viewed from the entrance approach off Bygdøynesveien. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-386-16x9.png",
+    "file_4x5": "assets/no-01-386-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-387",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Oslo Cathedral",
+    "caption": "Oslo Cathedral, Oslo",
+    "scenario": "28 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Cathedral facade and clock tower, viewed from the Stortorvet square with the bazaar halls in frame. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-387-16x9.png",
+    "file_4x5": "assets/no-01-387-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-388",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Stortinget (Norwegian Parliament)",
+    "caption": "Stortinget (Norwegian Parliament), Oslo",
+    "scenario": "28 September 2026 · 10:15 Europe/Oslo",
+    "composition": "Parliament building's columned front with the lion statues, viewed from Karl Johans gate. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-388-16x9.png",
+    "file_4x5": "assets/no-01-388-4x5.png",
+    "audio": null
   }
 ]
