@@ -4496,5 +4496,44 @@
     "file_16x9": "assets/no-01-346-16x9.png",
     "file_4x5": "assets/no-01-346-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-347",
+    "region": "Buskerud",
+    "city": "Darbu",
+    "site": "Fiskum Old Church",
+    "caption": "Fiskum Old Church, Darbu",
+    "scenario": "28 September 2026 · 03:45 Europe/Oslo",
+    "composition": "The medieval stone church (Fiskum gamle kirke, c. 1250) viewed from the churchyard path, with its rectangular nave, gable roof and small central roof turret framed by the surrounding trees. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-347-16x9.png",
+    "file_4x5": "assets/no-01-347-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-348",
+    "region": "Buskerud",
+    "city": "Efteløt",
+    "site": "Efteløt Church",
+    "caption": "Efteløt Church, Efteløt",
+    "scenario": "28 September 2026 · 03:45 Europe/Oslo",
+    "composition": "The medieval stone church (c. 1184) at Efteløt viewed from the churchyard across the meadow, with its thick natural-stone walls and gabled form set against the low wooded hills of the Lågen valley. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-348-16x9.png",
+    "file_4x5": "assets/no-01-348-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-349",
+    "region": "Buskerud",
+    "city": "Hokksund",
+    "site": "Haug Church",
+    "caption": "Haug Church, Hokksund",
+    "scenario": "28 September 2026 · 04:00 Europe/Oslo",
+    "composition": "The white stone church (Haug kirke, first stone church early 1200s) viewed from the churchyard gate, with the church front and bell tower rising above the old burial monuments and lawns. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-349-16x9.png",
+    "file_4x5": "assets/no-01-349-4x5.png",
+    "audio": null
   }
 ]
