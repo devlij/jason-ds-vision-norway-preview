@@ -4964,5 +4964,44 @@
     "file_16x9": "assets/no-01-382-16x9.png",
     "file_4x5": "assets/no-01-382-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-383",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Holmenkollen Ski Jump & Museum",
+    "caption": "Holmenkollen Ski Jump & Museum, Oslo",
+    "scenario": "28 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Ski jump tower rising over the forest, viewed from the base with the city spread out below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-383-16x9.png",
+    "file_4x5": "assets/no-01-383-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-384",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Fram Museum",
+    "caption": "Fram Museum, Oslo",
+    "scenario": "28 September 2026 · 09:45 Europe/Oslo",
+    "composition": "A-frame wooden museum building housing the polar ship Fram, viewed from the fjord-side path on Bygdøy. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-384-16x9.png",
+    "file_4x5": "assets/no-01-384-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-385",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Norwegian Museum of Cultural History",
+    "caption": "Norwegian Museum of Cultural History, Oslo",
+    "scenario": "28 September 2026 · 09:45 Europe/Oslo",
+    "composition": "Open-air museum grounds with the Gol stave church and historic farm buildings, viewed from the central courtyard. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-385-16x9.png",
+    "file_4x5": "assets/no-01-385-4x5.png",
+    "audio": null
   }
 ]
