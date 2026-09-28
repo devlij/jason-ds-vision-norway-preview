@@ -4535,5 +4535,44 @@
     "file_16x9": "assets/no-01-349-16x9.png",
     "file_4x5": "assets/no-01-349-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-350",
+    "region": "Buskerud",
+    "city": "Eggedal",
+    "site": "Hagan — Christian Skredsvig's Home",
+    "caption": "Hagan — Christian Skredsvig's Home, Eggedal",
+    "scenario": "28 September 2026 · 04:15 Europe/Oslo",
+    "composition": "The painter Christian Skredsvig's home at Hagan, a museum since 1970, viewed from the farmyard approach, with the timber farmhouse cluster, gallery building and the view across Eggedal below. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-350-16x9.png",
+    "file_4x5": "assets/no-01-350-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-351",
+    "region": "Buskerud",
+    "city": "Heistadmoen",
+    "site": "Hedenstad Church",
+    "caption": "Hedenstad Church, Heistadmoen",
+    "scenario": "28 September 2026 · 04:15 Europe/Oslo",
+    "composition": "The medieval stone church (c. 1100) at Hedenstad viewed from the churchyard, with its stone nave and tower set among the trees of the Sandsvær countryside outside Kongsberg. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-351-16x9.png",
+    "file_4x5": "assets/no-01-351-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-352",
+    "region": "Buskerud",
+    "city": "Svelvik",
+    "site": "Svelvikstredet Ferry Crossing",
+    "caption": "Svelvikstredet Ferry Crossing, Svelvik",
+    "scenario": "28 September 2026 · 04:30 Europe/Oslo",
+    "composition": "The ferry quay at Svelvik on the narrow Svelvikstredet strait of the Drammensfjorden, viewed along the waterfront with the small town's white-painted houses behind and the Hurum shore across the water. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-352-16x9.png",
+    "file_4x5": "assets/no-01-352-4x5.png",
+    "audio": null
   }
 ]
