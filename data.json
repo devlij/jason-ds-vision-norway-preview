@@ -5081,5 +5081,44 @@
     "file_16x9": "assets/no-01-391-16x9.png",
     "file_4x5": "assets/no-01-391-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-392",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Damstredet",
+    "caption": "Damstredet, Oslo",
+    "scenario": "28 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Narrow cobbled street lined with colorful 19th-century wooden houses, viewed from the street's lower end. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-392-16x9.png",
+    "file_4x5": "assets/no-01-392-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-393",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Gamle Aker Church",
+    "caption": "Gamle Aker Church, Oslo",
+    "scenario": "28 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Medieval stone church, Oslo's oldest building still in use, viewed from the gate below on Akersbakken. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-393-16x9.png",
+    "file_4x5": "assets/no-01-393-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-394",
+    "region": "Oslo",
+    "city": "Oslo",
+    "site": "Barcode Row",
+    "caption": "Barcode Row, Oslo",
+    "scenario": "28 September 2026 · 11:15 Europe/Oslo",
+    "composition": "Row of narrow high-rises in varied heights and materials, viewed from the Opera House roof across Bjørvika. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-394-16x9.png",
+    "file_4x5": "assets/no-01-394-4x5.png",
+    "audio": null
   }
 ]
