@@ -5419,5 +5419,44 @@
     "file_16x9": "assets/no-01-418-16x9.png",
     "file_4x5": "assets/no-01-418-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-419",
+    "region": "Innlandet",
+    "city": "Sjoa",
+    "site": "Sjoa river",
+    "caption": "Sjoa river, Sjoa",
+    "scenario": "28 September 2026 · 15:45 Europe/Oslo",
+    "composition": "The Sjoa river at Sjoa, the renowned whitewater river flowing through the valley with rapids and riverside forest. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-419-16x9.png",
+    "file_4x5": "assets/no-01-419-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-420",
+    "region": "Akershus",
+    "city": "Drøbak",
+    "site": "Oscarsborg Fortress",
+    "caption": "Oscarsborg Fortress, Drøbak",
+    "scenario": "28 September 2026 · 15:45 Europe/Oslo",
+    "composition": "Coastal fortress on the island in the Oslofjord, with stone ramparts and cannon batteries, viewed from the ferry approach. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-420-16x9.png",
+    "file_4x5": "assets/no-01-420-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-421",
+    "region": "Akershus",
+    "city": "Eidsvoll",
+    "site": "Eidsvollsbygningen",
+    "caption": "Eidsvollsbygningen, Eidsvoll",
+    "scenario": "28 September 2026 · 15:45 Europe/Oslo",
+    "composition": "Manor house where Norway's constitution was written and signed in 1814, columned facade viewed from the park. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-421-16x9.png",
+    "file_4x5": "assets/no-01-421-4x5.png",
+    "audio": null
   }
 ]
