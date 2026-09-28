@@ -4483,5 +4483,18 @@
     "file_16x9": "assets/no-01-345-16x9.png",
     "file_4x5": "assets/no-01-345-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-346",
+    "region": "Buskerud",
+    "city": "Vestfossen",
+    "site": "Vestfossen Kunstlaboratorium",
+    "caption": "Vestfossen Kunstlaboratorium, Vestfossen",
+    "scenario": "28 September 2026 · 03:30 Europe/Oslo",
+    "composition": "The former Vestfos cellulose factory, founded 1886 and now a contemporary art centre, viewed from the factory yard with its long industrial facade and the Kunstlaboratorium signage. · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-346-16x9.png",
+    "file_4x5": "assets/no-01-346-4x5.png",
+    "audio": null
   }
 ]

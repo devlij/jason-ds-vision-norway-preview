@@ -5176,4 +5176,19 @@
       <image:geo_location>Tana bru, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-346</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-346-16x9.png</image:loc>
+      <image:title>Vestfossen Kunstlaboratorium, Vestfossen</image:title>
+      <image:caption>Stand in the factory yard at night and the long red-brick facade of the former Vestfos cellulose factory rises before you, its rows of tall arched windows glowing warm against the overcast dark, the white 'VESTFOSSEN KUNSTLABORATORIUM' sign on the stepped gable above. Closed parasols and a loading-bay door ground the yard in front, rain-wet gravel reflecting the light. The daylight sibling shows the same gabled front at midday: unlit factory windows under a fully clouded sky, the rugged 1886 brickwork, yard and parasols in natural light.</image:caption>
+      <image:geo_location>Vestfossen, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-346-4x5.png</image:loc>
+      <image:title>Vestfossen Kunstlaboratorium, Vestfossen</image:title>
+      <image:caption>Stand in the factory yard at night and the long red-brick facade of the former Vestfos cellulose factory rises before you, its rows of tall arched windows glowing warm against the overcast dark, the white 'VESTFOSSEN KUNSTLABORATORIUM' sign on the stepped gable above. Closed parasols and a loading-bay door ground the yard in front, rain-wet gravel reflecting the light. The daylight sibling shows the same gabled front at midday: unlit factory windows under a fully clouded sky, the rugged 1886 brickwork, yard and parasols in natural light.</image:caption>
+      <image:geo_location>Vestfossen, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>
