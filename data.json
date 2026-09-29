@@ -6823,5 +6823,44 @@
     "file_16x9": "assets/no-01-527-16x9.png",
     "file_4x5": "assets/no-01-527-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-528",
+    "region": "Østfold",
+    "city": "Gressvik",
+    "site": "Hankø",
+    "caption": "Hankø, Gressvik",
+    "scenario": "29 September 2026 · 11:45 Europe/Oslo",
+    "composition": "The wooded island of Hankø with its shoreline houses, seen from the water · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-528-16x9.png",
+    "file_4x5": "assets/no-01-528-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-529",
+    "region": "Østfold",
+    "city": "Moss",
+    "site": "Jeløya",
+    "caption": "Jeløya, Moss",
+    "scenario": "29 September 2026 · 11:45 Europe/Oslo",
+    "composition": "The coastal landscape of Jeløya island south of Moss · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-529-16x9.png",
+    "file_4x5": "assets/no-01-529-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-530",
+    "region": "Østfold",
+    "city": "Larkollen",
+    "site": "Larkollen",
+    "caption": "Larkollen, Larkollen",
+    "scenario": "29 September 2026 · 11:45 Europe/Oslo",
+    "composition": "The harbour and seaside houses of the coastal village of Larkollen · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-530-16x9.png",
+    "file_4x5": "assets/no-01-530-4x5.png",
+    "audio": null
   }
 ]
