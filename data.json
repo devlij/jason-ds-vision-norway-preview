@@ -6355,5 +6355,44 @@
     "file_16x9": "assets/no-01-491-16x9.png",
     "file_4x5": "assets/no-01-491-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-492",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Herregården",
+    "caption": "Herregården, Larvik",
+    "scenario": "29 September 2026 · 05:45 Europe/Oslo",
+    "composition": "The Herregården wooden manor house in Larvik · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-492-16x9.png",
+    "file_4x5": "assets/no-01-492-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-493",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Kaupang",
+    "caption": "Kaupang, Larvik",
+    "scenario": "29 September 2026 · 05:45 Europe/Oslo",
+    "composition": "The Kaupang Viking town site in Skiringssal, the meadow by the Viksfjord shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-493-16x9.png",
+    "file_4x5": "assets/no-01-493-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-494",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Bøkeskogen",
+    "caption": "Bøkeskogen, Larvik",
+    "scenario": "29 September 2026 · 05:45 Europe/Oslo",
+    "composition": "The Bøkeskogen beech forest park in Larvik, tall beech trees over the paths · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-494-16x9.png",
+    "file_4x5": "assets/no-01-494-4x5.png",
+    "audio": null
   }
 ]
