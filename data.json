@@ -6394,5 +6394,83 @@
     "file_16x9": "assets/no-01-494-16x9.png",
     "file_4x5": "assets/no-01-494-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-495",
+    "region": "Vestfold",
+    "city": "Nevlunghavn",
+    "site": "Nevlunghavn Harbour",
+    "caption": "Nevlunghavn Harbour, Nevlunghavn",
+    "scenario": "29 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The Nevlunghavn harbour with wooden houses and boats · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-495-16x9.png",
+    "file_4x5": "assets/no-01-495-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-496",
+    "region": "Vestfold",
+    "city": "Stavern",
+    "site": "Stavern Guest Harbour",
+    "caption": "Stavern Guest Harbour, Stavern",
+    "scenario": "29 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The Stavern guest harbour (Gjestehavn) with the old town's wooden houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-496-16x9.png",
+    "file_4x5": "assets/no-01-496-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-497",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Kjærra Fossepark",
+    "caption": "Kjærra Fossepark, Larvik",
+    "scenario": "29 September 2026 · 06:15 Europe/Oslo",
+    "composition": "The Kjærra Fossepark along the Numedalslågen river, rapids and walkways · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-497-16x9.png",
+    "file_4x5": "assets/no-01-497-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-498",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Tanum Church",
+    "caption": "Tanum Church, Larvik",
+    "scenario": "29 September 2026 · 06:45 Europe/Oslo",
+    "composition": "The stone Tanum Church in Brunlanes, Larvik · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-498-16x9.png",
+    "file_4x5": "assets/no-01-498-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-499",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Hedrum Church",
+    "caption": "Hedrum Church, Larvik",
+    "scenario": "29 September 2026 · 06:45 Europe/Oslo",
+    "composition": "The stone Hedrum Church at Hedrum, Larvik · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-499-16x9.png",
+    "file_4x5": "assets/no-01-499-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-500",
+    "region": "Vestfold",
+    "city": "Tjøme",
+    "site": "Verdens Ende",
+    "caption": "Verdens Ende, Tjøme",
+    "scenario": "29 September 2026 · 06:45 Europe/Oslo",
+    "composition": "Verdens Ende (World's End) at the southern tip of Tjøme, rocks and sea marks · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-500-16x9.png",
+    "file_4x5": "assets/no-01-500-4x5.png",
+    "audio": null
   }
 ]
