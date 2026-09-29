@@ -6290,5 +6290,44 @@
     "file_16x9": "assets/no-01-486-16x9.png",
     "file_4x5": "assets/no-01-486-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-487",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Sandefjord Church",
+    "caption": "Sandefjord Church, Sandefjord",
+    "scenario": "29 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Sandefjord Church (Sandefjord kirke), the 1903 red-brick neo-Gothic parish church in the town centre at Bjerggata: tall slender central spire with a clock, pointed-arch windows, viewed down the street at night · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-487-16x9.png",
+    "file_4x5": "assets/no-01-487-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-488",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Sandar Church",
+    "caption": "Sandar Church, Sandefjord",
+    "scenario": "29 September 2026 · 04:45 Europe/Oslo",
+    "composition": "Sandar Church (Sandar kirke), the 1792 white wooden cruciform parish church in Sandefjord (architect Hans Christian Lind, spire from 1868), surrounded by its churchyard · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-488-16x9.png",
+    "file_4x5": "assets/no-01-488-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-489",
+    "region": "Vestfold",
+    "city": "Høyjord",
+    "site": "Høyjord Stave Church",
+    "caption": "Høyjord Stave Church, Høyjord",
+    "scenario": "29 September 2026 · 05:00 Europe/Oslo",
+    "composition": "The wooden Høyjord stave church at Høyjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-489-16x9.png",
+    "file_4x5": "assets/no-01-489-4x5.png",
+    "audio": null
   }
 ]
