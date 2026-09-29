@@ -7306,4 +7306,34 @@
       <image:geo_location>Høyjord, Norway</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-490</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-490-16x9.png</image:loc>
+      <image:title>Mølen, Nevlunghavn</image:title>
+      <image:caption>A tourist stands at the edge of Mølen's vast rolling-stone beach in the dark of a late-September night, the shore sweeping up on the left in a great carpet of sea-rounded grey stones. Center and upper-left, moss-capped burial cairns rise from the grassy bank above the stone line — low, deliberate heaps of the same grey stone. To the right, the dark water of the Skagerrak laps against cracked coastal rock, with a thin string of distant village lights on the far horizon. Above, a starry, mainly-clear sky holds a few thin clouds, and the whole scene glows faintly with pre-dawn ambient light.</image:caption>
+      <image:geo_location>Nevlunghavn, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-490-4x5.png</image:loc>
+      <image:title>Mølen, Nevlunghavn</image:title>
+      <image:caption>A tourist stands at the edge of Mølen's vast rolling-stone beach in the dark of a late-September night, the shore sweeping up on the left in a great carpet of sea-rounded grey stones. Center and upper-left, moss-capped burial cairns rise from the grassy bank above the stone line — low, deliberate heaps of the same grey stone. To the right, the dark water of the Skagerrak laps against cracked coastal rock, with a thin string of distant village lights on the far horizon. Above, a starry, mainly-clear sky holds a few thin clouds, and the whole scene glows faintly with pre-dawn ambient light.</image:caption>
+      <image:geo_location>Nevlunghavn, Norway</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norway.jdvision.org/#NO-01-491</loc>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-491-16x9.png</image:loc>
+      <image:title>Larvik Church, Larvik</image:title>
+      <image:caption>A tourist looks down a cobbled Larvik street at night, where Larvik Church rises at the street's end — its yellow-plastered brick front glowing under street lamps, the lit town clock high on the porch tower beneath a tall dark spire. Left, white wooden town houses hold a pharmacy and warmly lit shopfronts; right, a blue "Colin Archers gate" street sign, a Norwegian flag, and a bakery window anchor the town-centre setting. Above, a deep blue, mainly-clear night sky; below, the church's wooden main door spills warm light onto the steps, and no one is about at this early hour.</image:caption>
+      <image:geo_location>Larvik, Norway</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://norway.jdvision.org/assets/no-01-491-4x5.png</image:loc>
+      <image:title>Larvik Church, Larvik</image:title>
+      <image:caption>A tourist looks down a cobbled Larvik street at night, where Larvik Church rises at the street's end — its yellow-plastered brick front glowing under street lamps, the lit town clock high on the porch tower beneath a tall dark spire. Left, white wooden town houses hold a pharmacy and warmly lit shopfronts; right, a blue "Colin Archers gate" street sign, a Norwegian flag, and a bakery window anchor the town-centre setting. Above, a deep blue, mainly-clear night sky; below, the church's wooden main door spills warm light onto the steps, and no one is about at this early hour.</image:caption>
+      <image:geo_location>Larvik, Norway</image:geo_location>
+    </image:image>
+  </url>
 </urlset>

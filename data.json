@@ -6329,5 +6329,31 @@
     "file_16x9": "assets/no-01-489-16x9.png",
     "file_4x5": "assets/no-01-489-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-490",
+    "region": "Vestfold",
+    "city": "Nevlunghavn",
+    "site": "Mølen",
+    "caption": "Mølen, Nevlunghavn",
+    "scenario": "29 September 2026 · 05:15 Europe/Oslo",
+    "composition": "The Mølen shingle beach and burial mounds on the Brunlanes coast · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-490-16x9.png",
+    "file_4x5": "assets/no-01-490-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-491",
+    "region": "Vestfold",
+    "city": "Larvik",
+    "site": "Larvik Church",
+    "caption": "Larvik Church, Larvik",
+    "scenario": "29 September 2026 · 05:30 Europe/Oslo",
+    "composition": "Larvik Church (Larvik kirke) in Colin Archers gate, the brick church in the town centre · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-491-16x9.png",
+    "file_4x5": "assets/no-01-491-4x5.png",
+    "audio": null
   }
 ]
