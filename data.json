@@ -6472,5 +6472,44 @@
     "file_16x9": "assets/no-01-500-16x9.png",
     "file_4x5": "assets/no-01-500-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-501",
+    "region": "Vestfold",
+    "city": "Tjøme",
+    "site": "Tjøme Church",
+    "caption": "Tjøme Church, Tjøme",
+    "scenario": "29 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Tjøme Church (Tjøme kirke) in Hvitskjærveien · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-501-16x9.png",
+    "file_4x5": "assets/no-01-501-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-502",
+    "region": "Vestfold",
+    "city": "Holmestrand",
+    "site": "Holmestrand Church",
+    "caption": "Holmestrand Church, Holmestrand",
+    "scenario": "29 September 2026 · 07:15 Europe/Oslo",
+    "composition": "Holmestrand Church (Holmestrand kirke) in Bakgaten, the wooden church above the town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-502-16x9.png",
+    "file_4x5": "assets/no-01-502-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-503",
+    "region": "Vestfold",
+    "city": "Eidsfoss",
+    "site": "Eidsfoss Ironworks",
+    "caption": "Eidsfoss Ironworks, Eidsfoss",
+    "scenario": "29 September 2026 · 07:15 Europe/Oslo",
+    "composition": "The Eidsfoss ironworks village, old industrial buildings by the water · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-503-16x9.png",
+    "file_4x5": "assets/no-01-503-4x5.png",
+    "audio": null
   }
 ]
