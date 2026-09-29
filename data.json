@@ -6862,5 +6862,44 @@
     "file_16x9": "assets/no-01-530-16x9.png",
     "file_4x5": "assets/no-01-530-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-531",
+    "region": "Østfold",
+    "city": "Mysen",
+    "site": "Høytorp fort",
+    "caption": "Høytorp fort, Mysen",
+    "scenario": "29 September 2026 · 12:15 Europe/Oslo",
+    "composition": "The fortifications of Høytorp fort above Mysen · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-531-16x9.png",
+    "file_4x5": "assets/no-01-531-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-532",
+    "region": "Østfold",
+    "city": "Skjeberg",
+    "site": "Skjeberg kirke",
+    "caption": "Skjeberg kirke, Skjeberg",
+    "scenario": "29 September 2026 · 12:15 Europe/Oslo",
+    "composition": "Skjeberg church in its village setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-532-16x9.png",
+    "file_4x5": "assets/no-01-532-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-533",
+    "region": "Østfold",
+    "city": "Skjærhalden",
+    "site": "Storesand",
+    "caption": "Storesand, Skjærhalden",
+    "scenario": "29 September 2026 · 12:15 Europe/Oslo",
+    "composition": "The shoreline at Storesand on Kirkeøy in Hvaler · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-533-16x9.png",
+    "file_4x5": "assets/no-01-533-4x5.png",
+    "audio": null
   }
 ]
