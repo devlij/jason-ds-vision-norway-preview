@@ -6511,5 +6511,44 @@
     "file_16x9": "assets/no-01-503-16x9.png",
     "file_4x5": "assets/no-01-503-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-504",
+    "region": "Nordland",
+    "city": "Borg",
+    "site": "Lofotr Viking Museum",
+    "caption": "Lofotr Viking Museum, Borg",
+    "scenario": "29 September 2026 · 07:45 Europe/Oslo",
+    "composition": "The reconstructed Viking chieftain's longhouse at Lofotr Viking Museum in Borg, Lofoten · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-504-16x9.png",
+    "file_4x5": "assets/no-01-504-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-505",
+    "region": "Nordland",
+    "city": "Nusfjord",
+    "site": "Nusfjord Fishing Village",
+    "caption": "Nusfjord Fishing Village, Nusfjord",
+    "scenario": "29 September 2026 · 07:45 Europe/Oslo",
+    "composition": "The preserved fishing village of Nusfjord in Flakstad, Lofoten — rorbu cabins around the harbour · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-505-16x9.png",
+    "file_4x5": "assets/no-01-505-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-506",
+    "region": "Nordland",
+    "city": "Kabelvåg",
+    "site": "Lofotkatedralen",
+    "caption": "Lofotkatedralen, Kabelvåg",
+    "scenario": "29 September 2026 · 07:45 Europe/Oslo",
+    "composition": "Lofotkatedralen (Vågan Church), the wooden neo-Gothic church at Kabelvåg · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-506-16x9.png",
+    "file_4x5": "assets/no-01-506-4x5.png",
+    "audio": null
   }
 ]
