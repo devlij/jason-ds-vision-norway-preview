@@ -6121,5 +6121,44 @@
     "file_16x9": "assets/no-01-473-16x9.png",
     "file_4x5": "assets/no-01-473-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-474",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Slottsfjellet",
+    "caption": "Slottsfjellet, Tønsberg",
+    "scenario": "29 September 2026 · 01:45 Europe/Oslo",
+    "composition": "The Slottsfjell tower on Slottsfjellet hill above Tønsberg, museum buildings nearby · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-474-16x9.png",
+    "file_4x5": "assets/no-01-474-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-475",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Tønsberg Cathedral",
+    "caption": "Tønsberg Cathedral, Tønsberg",
+    "scenario": "29 September 2026 · 01:45 Europe/Oslo",
+    "composition": "Tønsberg Cathedral (Domkirke) in Storgaten, the brick church in the town centre · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-475-16x9.png",
+    "file_4x5": "assets/no-01-475-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-476",
+    "region": "Vestfold",
+    "city": "Tønsberg",
+    "site": "Oseberg Mound",
+    "caption": "Oseberg Mound, Tønsberg",
+    "scenario": "29 September 2026 · 01:45 Europe/Oslo",
+    "composition": "The grassy Oseberg burial mound at Slagen outside Tønsberg, the 1904 ship-find site · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-476-16x9.png",
+    "file_4x5": "assets/no-01-476-4x5.png",
+    "audio": null
   }
 ]
