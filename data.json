@@ -6979,5 +6979,44 @@
     "file_16x9": "assets/no-01-539-16x9.png",
     "file_4x5": "assets/no-01-539-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-540",
+    "region": "Østfold",
+    "city": "Halden",
+    "site": "Idd kirke",
+    "caption": "Idd kirke, Halden",
+    "scenario": "29 September 2026 · 13:45 Europe/Oslo",
+    "composition": "Idd church outside Halden · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-540-16x9.png",
+    "file_4x5": "assets/no-01-540-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-541",
+    "region": "Møre og Romsdal",
+    "city": "Ålesund",
+    "site": "Brosundet",
+    "caption": "Brosundet, Ålesund",
+    "scenario": "29 September 2026 · 14:00 Europe/Oslo",
+    "composition": "The art nouveau waterfront along the Brosundet canal in Ålesund · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-541-16x9.png",
+    "file_4x5": "assets/no-01-541-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-542",
+    "region": "Møre og Romsdal",
+    "city": "Ålesund",
+    "site": "Fjellstua viewpoint",
+    "caption": "Fjellstua viewpoint, Ålesund",
+    "scenario": "29 September 2026 · 14:00 Europe/Oslo",
+    "composition": "The view over Ålesund from the Fjellstua viewpoint on Aksla · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-542-16x9.png",
+    "file_4x5": "assets/no-01-542-4x5.png",
+    "audio": null
   }
 ]
