@@ -6901,5 +6901,44 @@
     "file_16x9": "assets/no-01-533-16x9.png",
     "file_4x5": "assets/no-01-533-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-534",
+    "region": "Østfold",
+    "city": "Vesterøy",
+    "site": "Brattestø",
+    "caption": "Brattestø, Vesterøy",
+    "scenario": "29 September 2026 · 12:45 Europe/Oslo",
+    "composition": "The coastal settlement of Brattestø on Vesterøy · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-534-16x9.png",
+    "file_4x5": "assets/no-01-534-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-535",
+    "region": "Østfold",
+    "city": "Rakkestad",
+    "site": "Rakkestad kirke",
+    "caption": "Rakkestad kirke, Rakkestad",
+    "scenario": "29 September 2026 · 12:45 Europe/Oslo",
+    "composition": "Rakkestad church in its village setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-535-16x9.png",
+    "file_4x5": "assets/no-01-535-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-536",
+    "region": "Østfold",
+    "city": "Gamle Fredrikstad",
+    "site": "Torsnes kirke",
+    "caption": "Torsnes kirke, Gamle Fredrikstad",
+    "scenario": "29 September 2026 · 13:00 Europe/Oslo",
+    "composition": "Torsnes church near Gamle Fredrikstad · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-536-16x9.png",
+    "file_4x5": "assets/no-01-536-4x5.png",
+    "audio": null
   }
 ]
