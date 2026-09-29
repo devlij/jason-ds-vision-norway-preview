@@ -6940,5 +6940,44 @@
     "file_16x9": "assets/no-01-536-16x9.png",
     "file_4x5": "assets/no-01-536-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-537",
+    "region": "Østfold",
+    "city": "Askim",
+    "site": "Kykkelsrud kraftstasjon",
+    "caption": "Kykkelsrud kraftstasjon, Askim",
+    "scenario": "29 September 2026 · 13:15 Europe/Oslo",
+    "composition": "The power station buildings at Kykkelsrud, Askim · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-537-16x9.png",
+    "file_4x5": "assets/no-01-537-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-538",
+    "region": "Østfold",
+    "city": "Varteig",
+    "site": "Varteig kirke",
+    "caption": "Varteig kirke, Varteig",
+    "scenario": "29 September 2026 · 13:15 Europe/Oslo",
+    "composition": "Varteig church in its village setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-538-16x9.png",
+    "file_4x5": "assets/no-01-538-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-539",
+    "region": "Østfold",
+    "city": "Sellebakk",
+    "site": "Borge kirke",
+    "caption": "Borge kirke, Sellebakk",
+    "scenario": "29 September 2026 · 13:30 Europe/Oslo",
+    "composition": "Borge church at Sellebakk · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-539-16x9.png",
+    "file_4x5": "assets/no-01-539-4x5.png",
+    "audio": null
   }
 ]
