@@ -6251,5 +6251,44 @@
     "file_16x9": "assets/no-01-483-16x9.png",
     "file_4x5": "assets/no-01-483-4x5.png",
     "audio": null
+  },
+  {
+    "entry_id": "NO-01-484",
+    "region": "Vestfold",
+    "city": "Åsgårdstrand",
+    "site": "Munch's House",
+    "caption": "Munch's House, Åsgårdstrand",
+    "scenario": "29 September 2026 · 03:45 Europe/Oslo",
+    "composition": "The white seaside houses of the Åsgårdstrand harbour, the coastal town where Edvard Munch kept his summer house · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-484-16x9.png",
+    "file_4x5": "assets/no-01-484-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-485",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Whaling Museum",
+    "caption": "Whaling Museum, Sandefjord",
+    "scenario": "29 September 2026 · 03:45 Europe/Oslo",
+    "composition": "The Whaling Museum (Hvalfangstmuseet) in Museumsgata, Sandefjord · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-485-16x9.png",
+    "file_4x5": "assets/no-01-485-4x5.png",
+    "audio": null
+  },
+  {
+    "entry_id": "NO-01-486",
+    "region": "Vestfold",
+    "city": "Sandefjord",
+    "site": "Gokstad Mound",
+    "caption": "Gokstad Mound, Sandefjord",
+    "scenario": "29 September 2026 · 04:00 Europe/Oslo",
+    "composition": "The grassy Gokstad burial mound, the 1880 ship-find site · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/no-01-486-16x9.png",
+    "file_4x5": "assets/no-01-486-4x5.png",
+    "audio": null
   }
 ]
