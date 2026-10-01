@@ -91,7 +91,7 @@
   .card a.thumb.tall916 { aspect-ratio: 9/16; }
   .card a.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .fmt-tabs { display: flex; gap: 6px; padding: 10px 14px 0; line-height: 1.2; }
-  .day-row { padding: 8px 14px 0; }
+  .day-row { display: flex; gap: 8px; padding: 8px 14px 0; flex-wrap: wrap; }
   .fmt-tab { background: rgba(14,21,28,.82); color: var(--text); border: 1px solid var(--line);
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #BA0C2F; border-color: #BA0C2F; color: #fff; font-weight: 700; }
@@ -100,6 +100,13 @@
              cursor: pointer; }
   .day-tab:hover { border-color: var(--accent); }
   .day-tab.is-active { background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700; }
+  /* Genuine daylight + 360° motion tabs: same contract as the Germany gallery.
+     Gold active state #FFCE00 matches Germany's gday-tab/motion-tab. */
+  .gday-tab, .motion-tab { display: inline-block; background: #243049; color: var(--text);
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; border: 1px solid var(--line);
+             cursor: pointer; }
+  .gday-tab:hover, .motion-tab:hover { border-color: var(--accent); }
+  .gday-tab.is-active, .motion-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: var(--muted); letter-spacing: .06em; }
@@ -9883,7 +9890,7 @@
 <article class="card" id="NO-01-262" data-search="kongsberg labrofossen waterfall buskerud no-01-262 on the numedalslågen near kongsberg, labrofossen spills in a broad cascade over rock ledges, pine forest on both banks. in the low evening light, the river&#x27;s white water contrasts with the dark pines.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-262-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-262-16x9.png" data-src-16="assets/no-01-262-16x9.png" data-src-45="assets/no-01-262-4x5.png" data-src-916="assets/no-01-262-9x16.png" alt="AI-generated artistic interpretation of Labrofossen waterfall in Kongsberg, Norway" loading="lazy" />
+              <img src="assets/no-01-262-16x9.png" data-src-16="assets/no-01-262-16x9.png" data-src-45="assets/no-01-262-4x5.png" data-src-916="assets/no-01-262-9x16.png" data-src-16-day="assets/no-01-262-daylight-16x9.png" data-src-45-day="assets/no-01-262-daylight-4x5.png" data-src-916-day="assets/no-01-262-daylight-9x16.png" alt="AI-generated artistic interpretation of Labrofossen waterfall in Kongsberg, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -9891,6 +9898,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-262</div>
@@ -9911,7 +9919,7 @@
 <article class="card" id="NO-01-263" data-search="drammen bragernes church buskerud no-01-263 on the drammen riverfront, bragernes church&#x27;s twin-spired brick form rises over the square, seen from the square or across the river. in the evening light, the brick glows warm above the water.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-263-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-263-16x9.png" data-src-16="assets/no-01-263-16x9.png" data-src-45="assets/no-01-263-4x5.png" data-src-916="assets/no-01-263-9x16.png" alt="AI-generated artistic interpretation of Bragernes Church in Drammen, Norway" loading="lazy" />
+              <img src="assets/no-01-263-16x9.png" data-src-16="assets/no-01-263-16x9.png" data-src-45="assets/no-01-263-4x5.png" data-src-916="assets/no-01-263-9x16.png" data-src-16-day="assets/no-01-263-daylight-16x9.png" data-src-45-day="assets/no-01-263-daylight-4x5.png" data-src-916-day="assets/no-01-263-daylight-9x16.png" alt="AI-generated artistic interpretation of Bragernes Church in Drammen, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -9919,6 +9927,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-263</div>
@@ -9939,7 +9948,7 @@
 <article class="card" id="NO-01-264" data-search="vikersund vikersundbakken ski jump buskerud no-01-264 on the hillside at vikersund, the towering inrun and landing slope of the ski flying hill rise above the tree line. in the low evening sun, the great structure stands silent outside the winter season.">
           <div class="preview">
             <a class="thumb" href="assets/no-01-264-16x9.png" target="_blank" rel="noopener">
-              <img src="assets/no-01-264-16x9.png" data-src-16="assets/no-01-264-16x9.png" data-src-45="assets/no-01-264-4x5.png" data-src-916="assets/no-01-264-9x16.png" alt="AI-generated artistic interpretation of Vikersundbakken ski jump in Vikersund, Norway" loading="lazy" />
+              <img src="assets/no-01-264-16x9.png" data-src-16="assets/no-01-264-16x9.png" data-src-45="assets/no-01-264-4x5.png" data-src-916="assets/no-01-264-9x16.png" data-src-16-day="assets/no-01-264-daylight-16x9.png" data-src-45-day="assets/no-01-264-daylight-4x5.png" data-src-916-day="assets/no-01-264-daylight-9x16.png" alt="AI-generated artistic interpretation of Vikersundbakken ski jump in Vikersund, Norway" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -9947,6 +9956,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">NO-01-264</div>
@@ -18100,6 +18110,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-001-4x5.png",
     "file_9x16": "assets/no-01-001-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-001-narration.mp3"
   },
@@ -18113,6 +18127,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-002-4x5.png",
     "file_9x16": "assets/no-01-002-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-002-narration.mp3"
   },
@@ -18126,6 +18144,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-003-4x5.png",
     "file_9x16": "assets/no-01-003-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-003-narration.mp3"
   },
@@ -18139,6 +18161,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-004-4x5.png",
     "file_9x16": "assets/no-01-004-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-004-narration.mp3"
   },
@@ -18152,6 +18178,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-005-4x5.png",
     "file_9x16": "assets/no-01-005-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-005-narration.mp3"
   },
@@ -18165,6 +18195,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-006-4x5.png",
     "file_9x16": "assets/no-01-006-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-006-narration.mp3"
   },
@@ -18178,6 +18212,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-007-4x5.png",
     "file_9x16": "assets/no-01-007-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-007-narration.mp3"
   },
@@ -18191,6 +18229,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-008-4x5.png",
     "file_9x16": "assets/no-01-008-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-008-narration.mp3"
   },
@@ -18204,6 +18246,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-009-4x5.png",
     "file_9x16": "assets/no-01-009-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-009-narration.mp3"
   },
@@ -18217,6 +18263,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-010-4x5.png",
     "file_9x16": "assets/no-01-010-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-010-narration.mp3"
   },
@@ -18230,6 +18280,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-011-4x5.png",
     "file_9x16": "assets/no-01-011-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-011-narration.mp3"
   },
@@ -18243,6 +18297,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-012-4x5.png",
     "file_9x16": "assets/no-01-012-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-012-narration.mp3"
   },
@@ -18256,6 +18314,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-013-4x5.png",
     "file_9x16": "assets/no-01-013-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-013-narration.mp3"
   },
@@ -18269,6 +18331,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-014-4x5.png",
     "file_9x16": "assets/no-01-014-9x16.png",
     "file_9x16_day": "assets/no-01-014-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -18282,6 +18348,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-015-4x5.png",
     "file_9x16": "assets/no-01-015-9x16.png",
     "file_9x16_day": "assets/no-01-015-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -18295,6 +18365,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-016-4x5.png",
     "file_9x16": "assets/no-01-016-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-016-narration.mp3"
   },
@@ -18308,6 +18382,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-017-4x5.png",
     "file_9x16": "assets/no-01-017-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-017-narration.mp3"
   },
@@ -18321,6 +18399,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-018-4x5.png",
     "file_9x16": "assets/no-01-018-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-018-narration.mp3"
   },
@@ -18334,6 +18416,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-019-4x5.png",
     "file_9x16": "assets/no-01-019-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-019-narration.mp3"
   },
@@ -18347,6 +18433,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-020-4x5.png",
     "file_9x16": "assets/no-01-020-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-020-narration.mp3"
   },
@@ -18360,6 +18450,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-021-4x5.png",
     "file_9x16": "assets/no-01-021-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-021-narration.mp3"
   },
@@ -18373,6 +18467,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-022-4x5.png",
     "file_9x16": "assets/no-01-022-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-022-narration.mp3"
   },
@@ -18386,6 +18484,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-023-4x5.png",
     "file_9x16": "assets/no-01-023-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-023-narration.mp3"
   },
@@ -18399,6 +18501,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-024-4x5.png",
     "file_9x16": "assets/no-01-024-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-024-narration.mp3"
   },
@@ -18412,6 +18518,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-025-4x5.png",
     "file_9x16": "assets/no-01-025-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-025-narration.mp3"
   },
@@ -18425,6 +18535,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-026-4x5.png",
     "file_9x16": "assets/no-01-026-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-026-narration.mp3"
   },
@@ -18438,6 +18552,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-027-4x5.png",
     "file_9x16": "assets/no-01-027-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": "audio/no-01-027-narration.mp3"
   },
@@ -18451,6 +18569,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-028-4x5.png",
     "file_9x16": "assets/no-01-028-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18464,6 +18586,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-029-4x5.png",
     "file_9x16": "assets/no-01-029-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18477,6 +18603,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-030-4x5.png",
     "file_9x16": "assets/no-01-030-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18490,6 +18620,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-031-4x5.png",
     "file_9x16": "assets/no-01-031-9x16.png",
     "file_9x16_day": "assets/no-01-031-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -18503,6 +18637,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-032-4x5.png",
     "file_9x16": "assets/no-01-032-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18516,6 +18654,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-033-4x5.png",
     "file_9x16": "assets/no-01-033-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18529,6 +18671,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-034-4x5.png",
     "file_9x16": "assets/no-01-034-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18542,6 +18688,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-035-4x5.png",
     "file_9x16": "assets/no-01-035-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18555,6 +18705,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-036-4x5.png",
     "file_9x16": "assets/no-01-036-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18568,6 +18722,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-037-4x5.png",
     "file_9x16": "assets/no-01-037-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18581,6 +18739,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-038-4x5.png",
     "file_9x16": "assets/no-01-038-9x16.png",
     "file_9x16_day": "assets/no-01-038-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -18594,6 +18756,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-039-4x5.png",
     "file_9x16": "assets/no-01-039-9x16.png",
     "file_9x16_day": "assets/no-01-039-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18607,6 +18773,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-040-4x5.png",
     "file_9x16": "assets/no-01-040-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18620,6 +18790,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-041-4x5.png",
     "file_9x16": "assets/no-01-041-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18633,6 +18807,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-042-4x5.png",
     "file_9x16": "assets/no-01-042-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18646,6 +18824,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-043-4x5.png",
     "file_9x16": "assets/no-01-043-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18659,6 +18841,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-044-4x5.png",
     "file_9x16": "assets/no-01-044-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18672,6 +18858,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-045-4x5.png",
     "file_9x16": "assets/no-01-045-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18685,6 +18875,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-046-4x5.png",
     "file_9x16": "assets/no-01-046-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18698,6 +18892,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-047-4x5.png",
     "file_9x16": "assets/no-01-047-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18711,6 +18909,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-048-4x5.png",
     "file_9x16": "assets/no-01-048-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18724,6 +18926,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-049-4x5.png",
     "file_9x16": "assets/no-01-049-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18737,6 +18943,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-050-4x5.png",
     "file_9x16": "assets/no-01-050-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18750,6 +18960,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-051-4x5.png",
     "file_9x16": "assets/no-01-051-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18763,6 +18977,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-052-4x5.png",
     "file_9x16": "assets/no-01-052-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18776,6 +18994,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-053-4x5.png",
     "file_9x16": "assets/no-01-053-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18789,6 +19011,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-054-4x5.png",
     "file_9x16": "assets/no-01-054-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18802,6 +19028,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-055-4x5.png",
     "file_9x16": "assets/no-01-055-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18815,6 +19045,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-056-4x5.png",
     "file_9x16": "assets/no-01-056-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18828,6 +19062,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-057-4x5.png",
     "file_9x16": "assets/no-01-057-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18841,6 +19079,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-058-4x5.png",
     "file_9x16": "assets/no-01-058-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18854,6 +19096,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-059-4x5.png",
     "file_9x16": "assets/no-01-059-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18867,6 +19113,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-060-4x5.png",
     "file_9x16": "assets/no-01-060-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18880,6 +19130,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-061-4x5.png",
     "file_9x16": "assets/no-01-061-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18893,6 +19147,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-062-4x5.png",
     "file_9x16": "assets/no-01-062-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18906,6 +19164,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-063-4x5.png",
     "file_9x16": "assets/no-01-063-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18919,6 +19181,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-064-4x5.png",
     "file_9x16": "assets/no-01-064-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18932,6 +19198,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-065-4x5.png",
     "file_9x16": "assets/no-01-065-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18945,6 +19215,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-066-4x5.png",
     "file_9x16": "assets/no-01-066-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18958,6 +19232,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-067-4x5.png",
     "file_9x16": "assets/no-01-067-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18971,6 +19249,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-068-4x5.png",
     "file_9x16": "assets/no-01-068-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18984,6 +19266,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-069-4x5.png",
     "file_9x16": "assets/no-01-069-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -18997,6 +19283,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-070-4x5.png",
     "file_9x16": "assets/no-01-070-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19010,6 +19300,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-071-4x5.png",
     "file_9x16": "assets/no-01-071-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19023,6 +19317,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-072-4x5.png",
     "file_9x16": "assets/no-01-072-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19036,6 +19334,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-073-4x5.png",
     "file_9x16": "assets/no-01-073-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19049,6 +19351,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-074-4x5.png",
     "file_9x16": "assets/no-01-074-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19062,6 +19368,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-075-4x5.png",
     "file_9x16": "assets/no-01-075-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19075,6 +19385,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-076-4x5.png",
     "file_9x16": "assets/no-01-076-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19088,6 +19402,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-077-4x5.png",
     "file_9x16": "assets/no-01-077-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19101,6 +19419,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-078-4x5.png",
     "file_9x16": "assets/no-01-078-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19114,6 +19436,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-079-4x5.png",
     "file_9x16": "assets/no-01-079-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19127,6 +19453,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-080-4x5.png",
     "file_9x16": "assets/no-01-080-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19140,6 +19470,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-081-4x5.png",
     "file_9x16": "assets/no-01-081-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19153,6 +19487,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-082-4x5.png",
     "file_9x16": "assets/no-01-082-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19166,6 +19504,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-083-4x5.png",
     "file_9x16": "assets/no-01-083-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19179,6 +19521,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-084-4x5.png",
     "file_9x16": "assets/no-01-084-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19192,6 +19538,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-085-4x5.png",
     "file_9x16": "assets/no-01-085-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19205,6 +19555,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-086-4x5.png",
     "file_9x16": "assets/no-01-086-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19218,6 +19572,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-087-4x5.png",
     "file_9x16": "assets/no-01-087-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19231,6 +19589,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-088-4x5.png",
     "file_9x16": "assets/no-01-088-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19244,6 +19606,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-089-4x5.png",
     "file_9x16": "assets/no-01-089-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19257,6 +19623,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-090-4x5.png",
     "file_9x16": "assets/no-01-090-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19270,6 +19640,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-091-4x5.png",
     "file_9x16": "assets/no-01-091-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19283,6 +19657,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-092-4x5.png",
     "file_9x16": "assets/no-01-092-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19296,6 +19674,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-093-4x5.png",
     "file_9x16": "assets/no-01-093-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19309,6 +19691,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-094-4x5.png",
     "file_9x16": "assets/no-01-094-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19322,6 +19708,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-095-4x5.png",
     "file_9x16": "assets/no-01-095-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19335,6 +19725,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-096-4x5.png",
     "file_9x16": "assets/no-01-096-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19348,6 +19742,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-097-4x5.png",
     "file_9x16": "assets/no-01-097-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19361,6 +19759,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-098-4x5.png",
     "file_9x16": "assets/no-01-098-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19374,6 +19776,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-099-4x5.png",
     "file_9x16": "assets/no-01-099-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19387,6 +19793,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-100-4x5.png",
     "file_9x16": "assets/no-01-100-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19400,6 +19810,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-101-4x5.png",
     "file_9x16": "assets/no-01-101-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19413,6 +19827,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-102-4x5.png",
     "file_9x16": "assets/no-01-102-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19426,6 +19844,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-103-4x5.png",
     "file_9x16": "assets/no-01-103-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19439,6 +19861,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-104-4x5.png",
     "file_9x16": "assets/no-01-104-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19452,6 +19878,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-105-4x5.png",
     "file_9x16": "assets/no-01-105-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19465,6 +19895,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-106-4x5.png",
     "file_9x16": "assets/no-01-106-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19478,6 +19912,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-107-4x5.png",
     "file_9x16": "assets/no-01-107-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19491,6 +19929,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-108-4x5.png",
     "file_9x16": "assets/no-01-108-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19504,6 +19946,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-109-4x5.png",
     "file_9x16": "assets/no-01-109-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19517,6 +19963,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-110-4x5.png",
     "file_9x16": "assets/no-01-110-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19530,6 +19980,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-111-4x5.png",
     "file_9x16": "assets/no-01-111-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19543,6 +19997,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-112-4x5.png",
     "file_9x16": "assets/no-01-112-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19556,6 +20014,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-113-4x5.png",
     "file_9x16": "assets/no-01-113-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19569,6 +20031,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-114-4x5.png",
     "file_9x16": "assets/no-01-114-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19582,6 +20048,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-115-4x5.png",
     "file_9x16": "assets/no-01-115-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19595,6 +20065,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-116-4x5.png",
     "file_9x16": "assets/no-01-116-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19608,6 +20082,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-117-4x5.png",
     "file_9x16": "assets/no-01-117-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19621,6 +20099,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-118-4x5.png",
     "file_9x16": "assets/no-01-118-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19634,6 +20116,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-119-4x5.png",
     "file_9x16": "assets/no-01-119-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19647,6 +20133,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-120-4x5.png",
     "file_9x16": "assets/no-01-120-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19660,6 +20150,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-121-4x5.png",
     "file_9x16": "assets/no-01-121-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19673,6 +20167,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-122-4x5.png",
     "file_9x16": "assets/no-01-122-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19686,6 +20184,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-123-4x5.png",
     "file_9x16": "assets/no-01-123-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19699,6 +20201,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-124-4x5.png",
     "file_9x16": "assets/no-01-124-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19712,6 +20218,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-125-4x5.png",
     "file_9x16": "assets/no-01-125-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19725,6 +20235,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-126-4x5.png",
     "file_9x16": "assets/no-01-126-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19738,6 +20252,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-127-4x5.png",
     "file_9x16": "assets/no-01-127-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19751,6 +20269,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-128-4x5.png",
     "file_9x16": "assets/no-01-128-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19764,6 +20286,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-129-4x5.png",
     "file_9x16": "assets/no-01-129-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19777,6 +20303,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-130-4x5.png",
     "file_9x16": "assets/no-01-130-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19790,6 +20320,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-131-4x5.png",
     "file_9x16": "assets/no-01-131-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19803,6 +20337,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-132-4x5.png",
     "file_9x16": "assets/no-01-132-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19816,6 +20354,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-133-4x5.png",
     "file_9x16": "assets/no-01-133-9x16.png",
     "file_9x16_day": "assets/no-01-133-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19829,6 +20371,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-134-4x5.png",
     "file_9x16": "assets/no-01-134-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19842,6 +20388,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-135-4x5.png",
     "file_9x16": "assets/no-01-135-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19855,6 +20405,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-136-4x5.png",
     "file_9x16": "assets/no-01-136-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19868,6 +20422,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-137-4x5.png",
     "file_9x16": "assets/no-01-137-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19881,6 +20439,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-138-4x5.png",
     "file_9x16": "assets/no-01-138-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19894,6 +20456,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-139-4x5.png",
     "file_9x16": "assets/no-01-139-9x16.png",
     "file_9x16_day": "assets/no-01-139-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19907,6 +20473,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-140-4x5.png",
     "file_9x16": "assets/no-01-140-9x16.png",
     "file_9x16_day": "assets/no-01-140-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19920,6 +20490,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-141-4x5.png",
     "file_9x16": "assets/no-01-141-9x16.png",
     "file_9x16_day": "assets/no-01-141-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19933,6 +20507,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-142-4x5.png",
     "file_9x16": "assets/no-01-142-9x16.png",
     "file_9x16_day": "assets/no-01-142-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19946,6 +20524,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-143-4x5.png",
     "file_9x16": "assets/no-01-143-9x16.png",
     "file_9x16_day": "assets/no-01-143-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19959,6 +20541,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-144-4x5.png",
     "file_9x16": "assets/no-01-144-9x16.png",
     "file_9x16_day": "assets/no-01-144-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -19972,6 +20558,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-145-4x5.png",
     "file_9x16": "assets/no-01-145-9x16.png",
     "file_9x16_day": "assets/no-01-145-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19985,6 +20575,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-146-4x5.png",
     "file_9x16": "assets/no-01-146-9x16.png",
     "file_9x16_day": "assets/no-01-146-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -19998,6 +20592,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-147-4x5.png",
     "file_9x16": "assets/no-01-147-9x16.png",
     "file_9x16_day": "assets/no-01-147-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -20011,6 +20609,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-148-4x5.png",
     "file_9x16": "assets/no-01-148-9x16.png",
     "file_9x16_day": "assets/no-01-148-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20024,6 +20626,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-149-4x5.png",
     "file_9x16": "assets/no-01-149-9x16.png",
     "file_9x16_day": "assets/no-01-149-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20037,6 +20643,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-150-4x5.png",
     "file_9x16": "assets/no-01-150-9x16.png",
     "file_9x16_day": "assets/no-01-150-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20050,6 +20660,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-151-4x5.png",
     "file_9x16": "assets/no-01-151-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20063,6 +20677,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-152-4x5.png",
     "file_9x16": "assets/no-01-152-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20076,6 +20694,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-153-4x5.png",
     "file_9x16": "assets/no-01-153-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20089,6 +20711,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-154-4x5.png",
     "file_9x16": "assets/no-01-154-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20102,6 +20728,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-155-4x5.png",
     "file_9x16": "assets/no-01-155-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20115,6 +20745,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-156-4x5.png",
     "file_9x16": "assets/no-01-156-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20128,6 +20762,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-157-4x5.png",
     "file_9x16": "assets/no-01-157-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20141,6 +20779,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-158-4x5.png",
     "file_9x16": "assets/no-01-158-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20154,6 +20796,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-159-4x5.png",
     "file_9x16": "assets/no-01-159-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20167,6 +20813,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-160-4x5.png",
     "file_9x16": "assets/no-01-160-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20180,6 +20830,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-161-4x5.png",
     "file_9x16": "assets/no-01-161-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20193,6 +20847,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-162-4x5.png",
     "file_9x16": "assets/no-01-162-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20206,6 +20864,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-163-4x5.png",
     "file_9x16": "assets/no-01-163-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20219,6 +20881,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-164-4x5.png",
     "file_9x16": "assets/no-01-164-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20232,6 +20898,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-165-4x5.png",
     "file_9x16": "assets/no-01-165-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20245,6 +20915,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-166-4x5.png",
     "file_9x16": "assets/no-01-166-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20258,6 +20932,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-167-4x5.png",
     "file_9x16": "assets/no-01-167-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20271,6 +20949,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-168-4x5.png",
     "file_9x16": "assets/no-01-168-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20284,6 +20966,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-169-4x5.png",
     "file_9x16": "assets/no-01-169-9x16.png",
     "file_9x16_day": "assets/no-01-169-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20297,6 +20983,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-170-4x5.png",
     "file_9x16": "assets/no-01-170-9x16.png",
     "file_9x16_day": "assets/no-01-170-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20310,6 +21000,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-171-4x5.png",
     "file_9x16": "assets/no-01-171-9x16.png",
     "file_9x16_day": "assets/no-01-171-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20323,6 +21017,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-172-4x5.png",
     "file_9x16": "assets/no-01-172-9x16.png",
     "file_9x16_day": "assets/no-01-172-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -20336,6 +21034,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-173-4x5.png",
     "file_9x16": "assets/no-01-173-9x16.png",
     "file_9x16_day": "assets/no-01-173-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -20349,6 +21051,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-174-4x5.png",
     "file_9x16": "assets/no-01-174-9x16.png",
     "file_9x16_day": "assets/no-01-174-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20362,6 +21068,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-175-4x5.png",
     "file_9x16": "assets/no-01-175-9x16.png",
     "file_9x16_day": "assets/no-01-175-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20375,6 +21085,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-176-4x5.png",
     "file_9x16": "assets/no-01-176-9x16.png",
     "file_9x16_day": "assets/no-01-176-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20388,6 +21102,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-177-4x5.png",
     "file_9x16": "assets/no-01-177-9x16.png",
     "file_9x16_day": "assets/no-01-177-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20401,6 +21119,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-178-4x5.png",
     "file_9x16": "assets/no-01-178-9x16.png",
     "file_9x16_day": "assets/no-01-178-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20414,6 +21136,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-179-4x5.png",
     "file_9x16": "assets/no-01-179-9x16.png",
     "file_9x16_day": "assets/no-01-179-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20427,6 +21153,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-180-4x5.png",
     "file_9x16": "assets/no-01-180-9x16.png",
     "file_9x16_day": "assets/no-01-180-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20440,6 +21170,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-181-4x5.png",
     "file_9x16": "assets/no-01-181-9x16.png",
     "file_9x16_day": "assets/no-01-181-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -20453,6 +21187,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-182-4x5.png",
     "file_9x16": "assets/no-01-182-9x16.png",
     "file_9x16_day": "assets/no-01-182-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20466,6 +21204,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-183-4x5.png",
     "file_9x16": "assets/no-01-183-9x16.png",
     "file_9x16_day": "assets/no-01-183-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20479,6 +21221,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-184-4x5.png",
     "file_9x16": "assets/no-01-184-9x16.png",
     "file_9x16_day": "assets/no-01-184-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20492,6 +21238,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-185-4x5.png",
     "file_9x16": "assets/no-01-185-9x16.png",
     "file_9x16_day": "assets/no-01-185-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20505,6 +21255,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-186-4x5.png",
     "file_9x16": "assets/no-01-186-9x16.png",
     "file_9x16_day": "assets/no-01-186-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20518,6 +21272,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-187-4x5.png",
     "file_9x16": "assets/no-01-187-9x16.png",
     "file_9x16_day": "assets/no-01-187-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20531,6 +21289,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-188-4x5.png",
     "file_9x16": "assets/no-01-188-9x16.png",
     "file_9x16_day": "assets/no-01-188-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20544,6 +21306,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-189-4x5.png",
     "file_9x16": "assets/no-01-189-9x16.png",
     "file_9x16_day": "assets/no-01-189-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20557,6 +21323,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-190-4x5.png",
     "file_9x16": "assets/no-01-190-9x16.png",
     "file_9x16_day": "assets/no-01-190-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20570,6 +21340,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-191-4x5.png",
     "file_9x16": "assets/no-01-191-9x16.png",
     "file_9x16_day": "assets/no-01-191-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20583,6 +21357,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-192-4x5.png",
     "file_9x16": "assets/no-01-192-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20596,6 +21374,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-193-4x5.png",
     "file_9x16": "assets/no-01-193-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20609,6 +21391,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-194-4x5.png",
     "file_9x16": "assets/no-01-194-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20622,6 +21408,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-195-4x5.png",
     "file_9x16": "assets/no-01-195-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20635,6 +21425,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-196-4x5.png",
     "file_9x16": "assets/no-01-196-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20648,6 +21442,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-197-4x5.png",
     "file_9x16": "assets/no-01-197-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20661,6 +21459,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-198-4x5.png",
     "file_9x16": "assets/no-01-198-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20674,6 +21476,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-199-4x5.png",
     "file_9x16": "assets/no-01-199-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20687,6 +21493,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-200-4x5.png",
     "file_9x16": "assets/no-01-200-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20700,6 +21510,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-201-4x5.png",
     "file_9x16": "assets/no-01-201-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20713,6 +21527,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-202-4x5.png",
     "file_9x16": "assets/no-01-202-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20726,6 +21544,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-203-4x5.png",
     "file_9x16": "assets/no-01-203-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20739,6 +21561,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-204-4x5.png",
     "file_9x16": "assets/no-01-204-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20752,6 +21578,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-205-4x5.png",
     "file_9x16": "assets/no-01-205-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20765,6 +21595,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-206-4x5.png",
     "file_9x16": "assets/no-01-206-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20778,6 +21612,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-207-4x5.png",
     "file_9x16": "assets/no-01-207-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20791,6 +21629,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-208-4x5.png",
     "file_9x16": "assets/no-01-208-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20804,6 +21646,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-209-4x5.png",
     "file_9x16": "assets/no-01-209-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20817,6 +21663,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-210-4x5.png",
     "file_9x16": "assets/no-01-210-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20830,6 +21680,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-211-4x5.png",
     "file_9x16": "assets/no-01-211-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20843,6 +21697,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-212-4x5.png",
     "file_9x16": "assets/no-01-212-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20856,6 +21714,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-213-4x5.png",
     "file_9x16": "assets/no-01-213-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20869,6 +21731,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-214-4x5.png",
     "file_9x16": "assets/no-01-214-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20882,6 +21748,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-215-4x5.png",
     "file_9x16": "assets/no-01-215-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20895,6 +21765,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-216-4x5.png",
     "file_9x16": "assets/no-01-216-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20908,6 +21782,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-217-4x5.png",
     "file_9x16": "assets/no-01-217-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20921,6 +21799,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-218-4x5.png",
     "file_9x16": "assets/no-01-218-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20934,6 +21816,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-219-4x5.png",
     "file_9x16": "assets/no-01-219-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20947,6 +21833,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-220-4x5.png",
     "file_9x16": "assets/no-01-220-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20960,6 +21850,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-221-4x5.png",
     "file_9x16": "assets/no-01-221-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20973,6 +21867,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-222-4x5.png",
     "file_9x16": "assets/no-01-222-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20986,6 +21884,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-223-4x5.png",
     "file_9x16": "assets/no-01-223-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -20999,6 +21901,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-224-4x5.png",
     "file_9x16": "assets/no-01-224-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21012,6 +21918,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-225-4x5.png",
     "file_9x16": "assets/no-01-225-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21025,6 +21935,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-226-4x5.png",
     "file_9x16": "assets/no-01-226-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21038,6 +21952,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-227-4x5.png",
     "file_9x16": "assets/no-01-227-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21051,6 +21969,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-228-4x5.png",
     "file_9x16": "assets/no-01-228-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21064,6 +21986,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-229-4x5.png",
     "file_9x16": "assets/no-01-229-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21077,6 +22003,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-230-4x5.png",
     "file_9x16": "assets/no-01-230-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21090,6 +22020,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-231-4x5.png",
     "file_9x16": "assets/no-01-231-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21103,6 +22037,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-232-4x5.png",
     "file_9x16": "assets/no-01-232-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21116,6 +22054,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-233-4x5.png",
     "file_9x16": "assets/no-01-233-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -21129,6 +22071,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-234-4x5.png",
     "file_9x16": "assets/no-01-234-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21142,6 +22088,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-235-4x5.png",
     "file_9x16": "assets/no-01-235-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21155,6 +22105,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-236-4x5.png",
     "file_9x16": "assets/no-01-236-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21168,6 +22122,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-237-4x5.png",
     "file_9x16": "assets/no-01-237-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21181,6 +22139,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-238-4x5.png",
     "file_9x16": "assets/no-01-238-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21194,6 +22156,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-239-4x5.png",
     "file_9x16": "assets/no-01-239-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21207,6 +22173,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-240-4x5.png",
     "file_9x16": "assets/no-01-240-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21220,6 +22190,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-241-4x5.png",
     "file_9x16": "assets/no-01-241-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21233,6 +22207,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-242-4x5.png",
     "file_9x16": "assets/no-01-242-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21246,6 +22224,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-243-4x5.png",
     "file_9x16": "assets/no-01-243-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21259,6 +22241,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-244-4x5.png",
     "file_9x16": "assets/no-01-244-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21272,6 +22258,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-245-4x5.png",
     "file_9x16": "assets/no-01-245-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21285,6 +22275,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-246-4x5.png",
     "file_9x16": "assets/no-01-246-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21298,6 +22292,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-247-4x5.png",
     "file_9x16": "assets/no-01-247-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21311,6 +22309,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-248-4x5.png",
     "file_9x16": "assets/no-01-248-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21324,6 +22326,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-249-4x5.png",
     "file_9x16": "assets/no-01-249-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21337,6 +22343,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-250-4x5.png",
     "file_9x16": "assets/no-01-250-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21350,6 +22360,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-251-4x5.png",
     "file_9x16": "assets/no-01-251-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21363,6 +22377,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-252-4x5.png",
     "file_9x16": "assets/no-01-252-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21376,6 +22394,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-253-4x5.png",
     "file_9x16": "assets/no-01-253-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21389,6 +22411,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-254-4x5.png",
     "file_9x16": "assets/no-01-254-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21402,6 +22428,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-255-4x5.png",
     "file_9x16": "assets/no-01-255-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21415,6 +22445,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-256-4x5.png",
     "file_9x16": "assets/no-01-256-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21428,6 +22462,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-257-4x5.png",
     "file_9x16": "assets/no-01-257-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21441,6 +22479,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-258-4x5.png",
     "file_9x16": "assets/no-01-258-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21454,6 +22496,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-259-4x5.png",
     "file_9x16": "assets/no-01-259-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21467,6 +22513,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-260-4x5.png",
     "file_9x16": "assets/no-01-260-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21480,6 +22530,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-261-4x5.png",
     "file_9x16": "assets/no-01-261-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21492,7 +22546,11 @@ const SCENES = [
     "file_16x9": "assets/no-01-262-16x9.png",
     "file_4x5": "assets/no-01-262-4x5.png",
     "file_9x16": "assets/no-01-262-9x16.png",
-    "file_9x16_day": null,
+    "file_9x16_day": "assets/no-01-262-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21505,7 +22563,11 @@ const SCENES = [
     "file_16x9": "assets/no-01-263-16x9.png",
     "file_4x5": "assets/no-01-263-4x5.png",
     "file_9x16": "assets/no-01-263-9x16.png",
-    "file_9x16_day": null,
+    "file_9x16_day": "assets/no-01-263-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21518,7 +22580,11 @@ const SCENES = [
     "file_16x9": "assets/no-01-264-16x9.png",
     "file_4x5": "assets/no-01-264-4x5.png",
     "file_9x16": "assets/no-01-264-9x16.png",
-    "file_9x16_day": null,
+    "file_9x16_day": "assets/no-01-264-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21532,6 +22598,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-265-4x5.png",
     "file_9x16": "assets/no-01-265-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21545,6 +22615,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-266-4x5.png",
     "file_9x16": "assets/no-01-266-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21558,6 +22632,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-267-4x5.png",
     "file_9x16": "assets/no-01-267-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21571,6 +22649,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-268-4x5.png",
     "file_9x16": "assets/no-01-268-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21584,6 +22666,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-269-4x5.png",
     "file_9x16": "assets/no-01-269-9x16.png",
     "file_9x16_day": "assets/no-01-269-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21597,6 +22683,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-270-4x5.png",
     "file_9x16": "assets/no-01-270-9x16.png",
     "file_9x16_day": "assets/no-01-270-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21610,6 +22700,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-271-4x5.png",
     "file_9x16": "assets/no-01-271-9x16.png",
     "file_9x16_day": "assets/no-01-271-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21623,6 +22717,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-272-4x5.png",
     "file_9x16": "assets/no-01-272-9x16.png",
     "file_9x16_day": "assets/no-01-272-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21636,6 +22734,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-273-4x5.png",
     "file_9x16": "assets/no-01-273-9x16.png",
     "file_9x16_day": "assets/no-01-273-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21649,6 +22751,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-274-4x5.png",
     "file_9x16": "assets/no-01-274-9x16.png",
     "file_9x16_day": "assets/no-01-274-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21662,6 +22768,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-275-4x5.png",
     "file_9x16": "assets/no-01-275-9x16.png",
     "file_9x16_day": "assets/no-01-275-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21675,6 +22785,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-276-4x5.png",
     "file_9x16": "assets/no-01-276-9x16.png",
     "file_9x16_day": "assets/no-01-276-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21688,6 +22802,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-277-4x5.png",
     "file_9x16": "assets/no-01-277-9x16.png",
     "file_9x16_day": "assets/no-01-277-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21701,6 +22819,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-278-4x5.png",
     "file_9x16": "assets/no-01-278-9x16.png",
     "file_9x16_day": "assets/no-01-278-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21714,6 +22836,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-279-4x5.png",
     "file_9x16": "assets/no-01-279-9x16.png",
     "file_9x16_day": "assets/no-01-279-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21727,6 +22853,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-280-4x5.png",
     "file_9x16": "assets/no-01-280-9x16.png",
     "file_9x16_day": "assets/no-01-280-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21740,6 +22870,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-281-4x5.png",
     "file_9x16": "assets/no-01-281-9x16.png",
     "file_9x16_day": "assets/no-01-281-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21753,6 +22887,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-282-4x5.png",
     "file_9x16": "assets/no-01-282-9x16.png",
     "file_9x16_day": "assets/no-01-282-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21766,6 +22904,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-283-4x5.png",
     "file_9x16": "assets/no-01-283-9x16.png",
     "file_9x16_day": "assets/no-01-283-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21779,6 +22921,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-284-4x5.png",
     "file_9x16": "assets/no-01-284-9x16.png",
     "file_9x16_day": "assets/no-01-284-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21792,6 +22938,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-285-4x5.png",
     "file_9x16": "assets/no-01-285-9x16.png",
     "file_9x16_day": "assets/no-01-285-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -21805,6 +22955,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-286-4x5.png",
     "file_9x16": "assets/no-01-286-9x16.png",
     "file_9x16_day": "assets/no-01-286-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21818,6 +22972,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-287-4x5.png",
     "file_9x16": "assets/no-01-287-9x16.png",
     "file_9x16_day": "assets/no-01-287-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -21831,6 +22989,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-288-4x5.png",
     "file_9x16": "assets/no-01-288-9x16.png",
     "file_9x16_day": "assets/no-01-288-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21844,6 +23006,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-289-4x5.png",
     "file_9x16": "assets/no-01-289-9x16.png",
     "file_9x16_day": "assets/no-01-289-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21857,6 +23023,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-290-4x5.png",
     "file_9x16": "assets/no-01-290-9x16.png",
     "file_9x16_day": "assets/no-01-290-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21870,6 +23040,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-291-4x5.png",
     "file_9x16": "assets/no-01-291-9x16.png",
     "file_9x16_day": "assets/no-01-291-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21883,6 +23057,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-292-4x5.png",
     "file_9x16": "assets/no-01-292-9x16.png",
     "file_9x16_day": "assets/no-01-292-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21896,6 +23074,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-293-4x5.png",
     "file_9x16": "assets/no-01-293-9x16.png",
     "file_9x16_day": "assets/no-01-293-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21909,6 +23091,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-294-4x5.png",
     "file_9x16": "assets/no-01-294-9x16.png",
     "file_9x16_day": "assets/no-01-294-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21922,6 +23108,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-295-4x5.png",
     "file_9x16": "assets/no-01-295-9x16.png",
     "file_9x16_day": "assets/no-01-295-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21935,6 +23125,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-296-4x5.png",
     "file_9x16": "assets/no-01-296-9x16.png",
     "file_9x16_day": "assets/no-01-296-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21948,6 +23142,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-297-4x5.png",
     "file_9x16": "assets/no-01-297-9x16.png",
     "file_9x16_day": "assets/no-01-297-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21961,6 +23159,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-298-4x5.png",
     "file_9x16": "assets/no-01-298-9x16.png",
     "file_9x16_day": "assets/no-01-298-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21974,6 +23176,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-299-4x5.png",
     "file_9x16": "assets/no-01-299-9x16.png",
     "file_9x16_day": "assets/no-01-299-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -21987,6 +23193,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-300-4x5.png",
     "file_9x16": "assets/no-01-300-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22000,6 +23210,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-301-4x5.png",
     "file_9x16": "assets/no-01-301-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22013,6 +23227,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-302-4x5.png",
     "file_9x16": "assets/no-01-302-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22026,6 +23244,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-303-4x5.png",
     "file_9x16": "assets/no-01-303-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22039,6 +23261,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-304-4x5.png",
     "file_9x16": "assets/no-01-304-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22052,6 +23278,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-305-4x5.png",
     "file_9x16": "assets/no-01-305-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22065,6 +23295,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-306-4x5.png",
     "file_9x16": "assets/no-01-306-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22078,6 +23312,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-307-4x5.png",
     "file_9x16": "assets/no-01-307-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22091,6 +23329,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-308-4x5.png",
     "file_9x16": "assets/no-01-308-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22104,6 +23346,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-309-4x5.png",
     "file_9x16": "assets/no-01-309-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22117,6 +23363,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-310-4x5.png",
     "file_9x16": "assets/no-01-310-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22130,6 +23380,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-311-4x5.png",
     "file_9x16": "assets/no-01-311-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22143,6 +23397,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-312-4x5.png",
     "file_9x16": "assets/no-01-312-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22156,6 +23414,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-313-4x5.png",
     "file_9x16": "assets/no-01-313-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22169,6 +23431,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-314-4x5.png",
     "file_9x16": "assets/no-01-314-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22182,6 +23448,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-315-4x5.png",
     "file_9x16": "assets/no-01-315-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22195,6 +23465,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-316-4x5.png",
     "file_9x16": "assets/no-01-316-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22208,6 +23482,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-317-4x5.png",
     "file_9x16": "assets/no-01-317-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22221,6 +23499,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-318-4x5.png",
     "file_9x16": "assets/no-01-318-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22234,6 +23516,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-319-4x5.png",
     "file_9x16": "assets/no-01-319-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22247,6 +23533,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-320-4x5.png",
     "file_9x16": "assets/no-01-320-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22260,6 +23550,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-321-4x5.png",
     "file_9x16": "assets/no-01-321-9x16.png",
     "file_9x16_day": "assets/no-01-321-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22273,6 +23567,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-322-4x5.png",
     "file_9x16": "assets/no-01-322-9x16.png",
     "file_9x16_day": "assets/no-01-322-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22286,6 +23584,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-323-4x5.png",
     "file_9x16": "assets/no-01-323-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22299,6 +23601,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-324-4x5.png",
     "file_9x16": "assets/no-01-324-9x16.png",
     "file_9x16_day": "assets/no-01-324-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22312,6 +23618,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-325-4x5.png",
     "file_9x16": "assets/no-01-325-9x16.png",
     "file_9x16_day": "assets/no-01-325-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22325,6 +23635,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-326-4x5.png",
     "file_9x16": "assets/no-01-326-9x16.png",
     "file_9x16_day": "assets/no-01-326-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22338,6 +23652,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-327-4x5.png",
     "file_9x16": "assets/no-01-327-9x16.png",
     "file_9x16_day": "assets/no-01-327-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22351,6 +23669,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-328-4x5.png",
     "file_9x16": "assets/no-01-328-9x16.png",
     "file_9x16_day": "assets/no-01-328-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22364,6 +23686,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-329-4x5.png",
     "file_9x16": "assets/no-01-329-9x16.png",
     "file_9x16_day": "assets/no-01-329-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22377,6 +23703,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-330-4x5.png",
     "file_9x16": "assets/no-01-330-9x16.png",
     "file_9x16_day": "assets/no-01-330-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22390,6 +23720,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-331-4x5.png",
     "file_9x16": "assets/no-01-331-9x16.png",
     "file_9x16_day": "assets/no-01-331-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22403,6 +23737,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-332-4x5.png",
     "file_9x16": "assets/no-01-332-9x16.png",
     "file_9x16_day": "assets/no-01-332-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22416,6 +23754,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-333-4x5.png",
     "file_9x16": "assets/no-01-333-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22429,6 +23771,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-334-4x5.png",
     "file_9x16": "assets/no-01-334-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22442,6 +23788,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-335-4x5.png",
     "file_9x16": "assets/no-01-335-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22455,6 +23805,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-336-4x5.png",
     "file_9x16": "assets/no-01-336-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22468,6 +23822,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-337-4x5.png",
     "file_9x16": "assets/no-01-337-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22481,6 +23839,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-338-4x5.png",
     "file_9x16": "assets/no-01-338-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22494,6 +23856,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-339-4x5.png",
     "file_9x16": "assets/no-01-339-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22507,6 +23873,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-340-4x5.png",
     "file_9x16": "assets/no-01-340-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22520,6 +23890,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-341-4x5.png",
     "file_9x16": "assets/no-01-341-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22533,6 +23907,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-342-4x5.png",
     "file_9x16": "assets/no-01-342-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22546,6 +23924,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-343-4x5.png",
     "file_9x16": "assets/no-01-343-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22559,6 +23941,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-344-4x5.png",
     "file_9x16": "assets/no-01-344-9x16.png",
     "file_9x16_day": "assets/no-01-344-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22572,6 +23958,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-345-4x5.png",
     "file_9x16": "assets/no-01-345-9x16.png",
     "file_9x16_day": "assets/no-01-345-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22585,6 +23975,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-346-4x5.png",
     "file_9x16": "assets/no-01-346-9x16.png",
     "file_9x16_day": "assets/no-01-346-daylight-9x16.png",
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22598,6 +23992,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-347-4x5.png",
     "file_9x16": "assets/no-01-347-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22611,6 +24009,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-348-4x5.png",
     "file_9x16": "assets/no-01-348-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22624,6 +24026,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-349-4x5.png",
     "file_9x16": "assets/no-01-349-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22637,6 +24043,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-350-4x5.png",
     "file_9x16": "assets/no-01-350-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22650,6 +24060,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-351-4x5.png",
     "file_9x16": "assets/no-01-351-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22663,6 +24077,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-352-4x5.png",
     "file_9x16": "assets/no-01-352-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22676,6 +24094,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-353-4x5.png",
     "file_9x16": "assets/no-01-353-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22689,6 +24111,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-354-4x5.png",
     "file_9x16": "assets/no-01-354-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22702,6 +24128,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-355-4x5.png",
     "file_9x16": "assets/no-01-355-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22715,6 +24145,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-356-4x5.png",
     "file_9x16": "assets/no-01-356-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22728,6 +24162,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-357-4x5.png",
     "file_9x16": "assets/no-01-357-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22741,6 +24179,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-358-4x5.png",
     "file_9x16": "assets/no-01-358-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22754,6 +24196,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-359-4x5.png",
     "file_9x16": "assets/no-01-359-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22767,6 +24213,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-360-4x5.png",
     "file_9x16": "assets/no-01-360-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22780,6 +24230,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-361-4x5.png",
     "file_9x16": "assets/no-01-361-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22793,6 +24247,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-362-4x5.png",
     "file_9x16": "assets/no-01-362-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22806,6 +24264,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-363-4x5.png",
     "file_9x16": "assets/no-01-363-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22819,6 +24281,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-364-4x5.png",
     "file_9x16": "assets/no-01-364-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22832,6 +24298,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-365-4x5.png",
     "file_9x16": "assets/no-01-365-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22845,6 +24315,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-366-4x5.png",
     "file_9x16": "assets/no-01-366-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22858,6 +24332,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-367-4x5.png",
     "file_9x16": "assets/no-01-367-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22871,6 +24349,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-368-4x5.png",
     "file_9x16": "assets/no-01-368-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22884,6 +24366,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-369-4x5.png",
     "file_9x16": "assets/no-01-369-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22897,6 +24383,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-370-4x5.png",
     "file_9x16": "assets/no-01-370-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22910,6 +24400,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-371-4x5.png",
     "file_9x16": "assets/no-01-371-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22923,6 +24417,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-372-4x5.png",
     "file_9x16": "assets/no-01-372-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22936,6 +24434,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-373-4x5.png",
     "file_9x16": "assets/no-01-373-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22949,6 +24451,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-374-4x5.png",
     "file_9x16": "assets/no-01-374-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22962,6 +24468,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-375-4x5.png",
     "file_9x16": "assets/no-01-375-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22975,6 +24485,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-376-4x5.png",
     "file_9x16": "assets/no-01-376-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -22988,6 +24502,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-377-4x5.png",
     "file_9x16": "assets/no-01-377-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23001,6 +24519,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-378-4x5.png",
     "file_9x16": "assets/no-01-378-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23014,6 +24536,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-379-4x5.png",
     "file_9x16": "assets/no-01-379-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23027,6 +24553,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-380-4x5.png",
     "file_9x16": "assets/no-01-380-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23040,6 +24570,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-381-4x5.png",
     "file_9x16": "assets/no-01-381-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23053,6 +24587,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-382-4x5.png",
     "file_9x16": "assets/no-01-382-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23066,6 +24604,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-383-4x5.png",
     "file_9x16": "assets/no-01-383-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23079,6 +24621,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-384-4x5.png",
     "file_9x16": "assets/no-01-384-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23092,6 +24638,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-385-4x5.png",
     "file_9x16": "assets/no-01-385-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23105,6 +24655,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-386-4x5.png",
     "file_9x16": "assets/no-01-386-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23118,6 +24672,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-387-4x5.png",
     "file_9x16": "assets/no-01-387-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23131,6 +24689,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-388-4x5.png",
     "file_9x16": "assets/no-01-388-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23144,6 +24706,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-389-4x5.png",
     "file_9x16": "assets/no-01-389-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23157,6 +24723,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-390-4x5.png",
     "file_9x16": "assets/no-01-390-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23170,6 +24740,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-391-4x5.png",
     "file_9x16": "assets/no-01-391-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23183,6 +24757,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-392-4x5.png",
     "file_9x16": "assets/no-01-392-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23196,6 +24774,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-393-4x5.png",
     "file_9x16": "assets/no-01-393-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23209,6 +24791,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-394-4x5.png",
     "file_9x16": "assets/no-01-394-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23222,6 +24808,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-395-4x5.png",
     "file_9x16": "assets/no-01-395-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23235,6 +24825,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-396-4x5.png",
     "file_9x16": "assets/no-01-396-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23248,6 +24842,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-397-4x5.png",
     "file_9x16": "assets/no-01-397-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23261,6 +24859,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-398-4x5.png",
     "file_9x16": "assets/no-01-398-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23274,6 +24876,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-399-4x5.png",
     "file_9x16": "assets/no-01-399-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23287,6 +24893,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-400-4x5.png",
     "file_9x16": "assets/no-01-400-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23300,6 +24910,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-401-4x5.png",
     "file_9x16": "assets/no-01-401-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23313,6 +24927,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-402-4x5.png",
     "file_9x16": "assets/no-01-402-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23326,6 +24944,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-403-4x5.png",
     "file_9x16": "assets/no-01-403-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23339,6 +24961,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-404-4x5.png",
     "file_9x16": "assets/no-01-404-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23352,6 +24978,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-405-4x5.png",
     "file_9x16": "assets/no-01-405-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23365,6 +24995,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-406-4x5.png",
     "file_9x16": "assets/no-01-406-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23378,6 +25012,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-408-4x5.png",
     "file_9x16": "assets/no-01-408-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23391,6 +25029,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-409-4x5.png",
     "file_9x16": "assets/no-01-409-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23404,6 +25046,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-410-4x5.png",
     "file_9x16": "assets/no-01-410-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23417,6 +25063,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-411-4x5.png",
     "file_9x16": "assets/no-01-411-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23430,6 +25080,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-412-4x5.png",
     "file_9x16": "assets/no-01-412-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23443,6 +25097,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-413-4x5.png",
     "file_9x16": "assets/no-01-413-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23456,6 +25114,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-414-4x5.png",
     "file_9x16": "assets/no-01-414-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23469,6 +25131,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-415-4x5.png",
     "file_9x16": "assets/no-01-415-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23482,6 +25148,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-416-4x5.png",
     "file_9x16": "assets/no-01-416-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23495,6 +25165,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-417-4x5.png",
     "file_9x16": "assets/no-01-417-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23508,6 +25182,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-418-4x5.png",
     "file_9x16": "assets/no-01-418-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23521,6 +25199,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-419-4x5.png",
     "file_9x16": "assets/no-01-419-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23534,6 +25216,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-420-4x5.png",
     "file_9x16": "assets/no-01-420-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23547,6 +25233,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-421-4x5.png",
     "file_9x16": "assets/no-01-421-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23560,6 +25250,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-422-4x5.png",
     "file_9x16": "assets/no-01-422-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23573,6 +25267,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-423-4x5.png",
     "file_9x16": "assets/no-01-423-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23586,6 +25284,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-424-4x5.png",
     "file_9x16": "assets/no-01-424-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23599,6 +25301,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-425-4x5.png",
     "file_9x16": "assets/no-01-425-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23612,6 +25318,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-426-4x5.png",
     "file_9x16": "assets/no-01-426-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23625,6 +25335,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-427-4x5.png",
     "file_9x16": "assets/no-01-427-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23638,6 +25352,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-428-4x5.png",
     "file_9x16": "assets/no-01-428-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23651,6 +25369,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-429-4x5.png",
     "file_9x16": "assets/no-01-429-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23664,6 +25386,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-430-4x5.png",
     "file_9x16": "assets/no-01-430-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23677,6 +25403,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-431-4x5.png",
     "file_9x16": "assets/no-01-431-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23690,6 +25420,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-432-4x5.png",
     "file_9x16": "assets/no-01-432-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23703,6 +25437,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-433-4x5.png",
     "file_9x16": "assets/no-01-433-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23716,6 +25454,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-434-4x5.png",
     "file_9x16": "assets/no-01-434-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23729,6 +25471,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-435-4x5.png",
     "file_9x16": "assets/no-01-435-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23742,6 +25488,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-437-4x5.png",
     "file_9x16": "assets/no-01-437-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23755,6 +25505,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-438-4x5.png",
     "file_9x16": "assets/no-01-438-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23768,6 +25522,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-439-4x5.png",
     "file_9x16": "assets/no-01-439-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23781,6 +25539,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-440-4x5.png",
     "file_9x16": "assets/no-01-440-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23794,6 +25556,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-441-4x5.png",
     "file_9x16": "assets/no-01-441-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23807,6 +25573,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-442-4x5.png",
     "file_9x16": "assets/no-01-442-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23820,6 +25590,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-443-4x5.png",
     "file_9x16": "assets/no-01-443-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23833,6 +25607,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-444-4x5.png",
     "file_9x16": "assets/no-01-444-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23846,6 +25624,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-445-4x5.png",
     "file_9x16": "assets/no-01-445-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23859,6 +25641,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-446-4x5.png",
     "file_9x16": "assets/no-01-446-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23872,6 +25658,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-447-4x5.png",
     "file_9x16": "assets/no-01-447-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23885,6 +25675,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-448-4x5.png",
     "file_9x16": "assets/no-01-448-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23898,6 +25692,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-449-4x5.png",
     "file_9x16": "assets/no-01-449-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23911,6 +25709,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-450-4x5.png",
     "file_9x16": "assets/no-01-450-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23924,6 +25726,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-451-4x5.png",
     "file_9x16": "assets/no-01-451-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23937,6 +25743,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-452-4x5.png",
     "file_9x16": "assets/no-01-452-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23950,6 +25760,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-453-4x5.png",
     "file_9x16": "assets/no-01-453-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23963,6 +25777,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-454-4x5.png",
     "file_9x16": "assets/no-01-454-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23976,6 +25794,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-455-4x5.png",
     "file_9x16": "assets/no-01-455-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -23989,6 +25811,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-456-4x5.png",
     "file_9x16": "assets/no-01-456-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24002,6 +25828,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-457-4x5.png",
     "file_9x16": "assets/no-01-457-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24015,6 +25845,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-458-4x5.png",
     "file_9x16": "assets/no-01-458-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24028,6 +25862,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-459-4x5.png",
     "file_9x16": "assets/no-01-459-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24041,6 +25879,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-460-4x5.png",
     "file_9x16": "assets/no-01-460-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24054,6 +25896,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-461-4x5.png",
     "file_9x16": "assets/no-01-461-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24067,6 +25913,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-462-4x5.png",
     "file_9x16": "assets/no-01-462-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24080,6 +25930,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-463-4x5.png",
     "file_9x16": "assets/no-01-463-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24093,6 +25947,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-464-4x5.png",
     "file_9x16": "assets/no-01-464-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24106,6 +25964,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-465-4x5.png",
     "file_9x16": "assets/no-01-465-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24119,6 +25981,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-466-4x5.png",
     "file_9x16": "assets/no-01-466-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24132,6 +25998,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-467-4x5.png",
     "file_9x16": "assets/no-01-467-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24145,6 +26015,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-468-4x5.png",
     "file_9x16": "assets/no-01-468-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24158,6 +26032,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-469-4x5.png",
     "file_9x16": "assets/no-01-469-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24171,6 +26049,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-470-4x5.png",
     "file_9x16": "assets/no-01-470-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24184,6 +26066,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-471-4x5.png",
     "file_9x16": "assets/no-01-471-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24197,6 +26083,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-472-4x5.png",
     "file_9x16": "assets/no-01-472-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24210,6 +26100,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-473-4x5.png",
     "file_9x16": "assets/no-01-473-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24223,6 +26117,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-474-4x5.png",
     "file_9x16": "assets/no-01-474-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24236,6 +26134,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-475-4x5.png",
     "file_9x16": "assets/no-01-475-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24249,6 +26151,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-476-4x5.png",
     "file_9x16": "assets/no-01-476-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24262,6 +26168,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-477-4x5.png",
     "file_9x16": "assets/no-01-477-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24275,6 +26185,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-478-4x5.png",
     "file_9x16": "assets/no-01-478-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24288,6 +26202,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-479-4x5.png",
     "file_9x16": "assets/no-01-479-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": false,
     "audio": null
   },
@@ -24301,6 +26219,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-480-4x5.png",
     "file_9x16": "assets/no-01-480-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24314,6 +26236,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-481-4x5.png",
     "file_9x16": "assets/no-01-481-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24327,6 +26253,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-482-4x5.png",
     "file_9x16": "assets/no-01-482-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24340,6 +26270,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-483-4x5.png",
     "file_9x16": "assets/no-01-483-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24353,6 +26287,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-484-4x5.png",
     "file_9x16": "assets/no-01-484-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24366,6 +26304,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-485-4x5.png",
     "file_9x16": "assets/no-01-485-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24379,6 +26321,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-486-4x5.png",
     "file_9x16": "assets/no-01-486-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24392,6 +26338,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-487-4x5.png",
     "file_9x16": "assets/no-01-487-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24405,6 +26355,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-488-4x5.png",
     "file_9x16": "assets/no-01-488-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24418,6 +26372,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-489-4x5.png",
     "file_9x16": "assets/no-01-489-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24431,6 +26389,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-490-4x5.png",
     "file_9x16": "assets/no-01-490-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24444,6 +26406,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-491-4x5.png",
     "file_9x16": "assets/no-01-491-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24457,6 +26423,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-492-4x5.png",
     "file_9x16": "assets/no-01-492-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24470,6 +26440,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-493-4x5.png",
     "file_9x16": "assets/no-01-493-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24483,6 +26457,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-494-4x5.png",
     "file_9x16": "assets/no-01-494-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24496,6 +26474,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-495-4x5.png",
     "file_9x16": "assets/no-01-495-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24509,6 +26491,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-496-4x5.png",
     "file_9x16": "assets/no-01-496-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24522,6 +26508,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-497-4x5.png",
     "file_9x16": "assets/no-01-497-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24535,6 +26525,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-498-4x5.png",
     "file_9x16": "assets/no-01-498-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24548,6 +26542,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-499-4x5.png",
     "file_9x16": "assets/no-01-499-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24561,6 +26559,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-500-4x5.png",
     "file_9x16": "assets/no-01-500-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24574,6 +26576,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-501-4x5.png",
     "file_9x16": "assets/no-01-501-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24587,6 +26593,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-502-4x5.png",
     "file_9x16": "assets/no-01-502-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24600,6 +26610,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-503-4x5.png",
     "file_9x16": "assets/no-01-503-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24613,6 +26627,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-504-4x5.png",
     "file_9x16": "assets/no-01-504-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24626,6 +26644,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-505-4x5.png",
     "file_9x16": "assets/no-01-505-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24639,6 +26661,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-506-4x5.png",
     "file_9x16": "assets/no-01-506-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24652,6 +26678,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-507-4x5.png",
     "file_9x16": "assets/no-01-507-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24665,6 +26695,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-508-4x5.png",
     "file_9x16": "assets/no-01-508-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24678,6 +26712,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-509-4x5.png",
     "file_9x16": "assets/no-01-509-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24691,6 +26729,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-510-4x5.png",
     "file_9x16": "assets/no-01-510-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24704,6 +26746,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-511-4x5.png",
     "file_9x16": "assets/no-01-511-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24717,6 +26763,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-512-4x5.png",
     "file_9x16": "assets/no-01-512-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24730,6 +26780,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-513-4x5.png",
     "file_9x16": "assets/no-01-513-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24743,6 +26797,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-514-4x5.png",
     "file_9x16": "assets/no-01-514-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24756,6 +26814,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-515-4x5.png",
     "file_9x16": "assets/no-01-515-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24769,6 +26831,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-516-4x5.png",
     "file_9x16": "assets/no-01-516-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24782,6 +26848,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-517-4x5.png",
     "file_9x16": "assets/no-01-517-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24795,6 +26865,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-518-4x5.png",
     "file_9x16": "assets/no-01-518-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24808,6 +26882,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-519-4x5.png",
     "file_9x16": "assets/no-01-519-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24821,6 +26899,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-520-4x5.png",
     "file_9x16": "assets/no-01-520-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24834,6 +26916,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-521-4x5.png",
     "file_9x16": "assets/no-01-521-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24847,6 +26933,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-522-4x5.png",
     "file_9x16": "assets/no-01-522-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24860,6 +26950,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-523-4x5.png",
     "file_9x16": "assets/no-01-523-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24873,6 +26967,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-524-4x5.png",
     "file_9x16": "assets/no-01-524-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24886,6 +26984,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-525-4x5.png",
     "file_9x16": "assets/no-01-525-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24899,6 +27001,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-526-4x5.png",
     "file_9x16": "assets/no-01-526-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24912,6 +27018,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-527-4x5.png",
     "file_9x16": "assets/no-01-527-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24925,6 +27035,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-528-4x5.png",
     "file_9x16": "assets/no-01-528-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24938,6 +27052,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-529-4x5.png",
     "file_9x16": "assets/no-01-529-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24951,6 +27069,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-530-4x5.png",
     "file_9x16": "assets/no-01-530-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24964,6 +27086,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-531-4x5.png",
     "file_9x16": "assets/no-01-531-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24977,6 +27103,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-532-4x5.png",
     "file_9x16": "assets/no-01-532-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -24990,6 +27120,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-533-4x5.png",
     "file_9x16": "assets/no-01-533-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25003,6 +27137,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-534-4x5.png",
     "file_9x16": "assets/no-01-534-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25016,6 +27154,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-535-4x5.png",
     "file_9x16": "assets/no-01-535-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25029,6 +27171,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-536-4x5.png",
     "file_9x16": "assets/no-01-536-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25042,6 +27188,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-537-4x5.png",
     "file_9x16": "assets/no-01-537-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25055,6 +27205,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-538-4x5.png",
     "file_9x16": "assets/no-01-538-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25068,6 +27222,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-539-4x5.png",
     "file_9x16": "assets/no-01-539-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25081,6 +27239,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-540-4x5.png",
     "file_9x16": "assets/no-01-540-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25094,6 +27256,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-541-4x5.png",
     "file_9x16": "assets/no-01-541-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25107,6 +27273,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-542-4x5.png",
     "file_9x16": "assets/no-01-542-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25120,6 +27290,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-543-4x5.png",
     "file_9x16": "assets/no-01-543-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25133,6 +27307,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-544-4x5.png",
     "file_9x16": "assets/no-01-544-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25146,6 +27324,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-545-4x5.png",
     "file_9x16": "assets/no-01-545-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25159,6 +27341,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-546-4x5.png",
     "file_9x16": "assets/no-01-546-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25172,6 +27358,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-547-4x5.png",
     "file_9x16": "assets/no-01-547-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25185,6 +27375,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-548-4x5.png",
     "file_9x16": "assets/no-01-548-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25198,6 +27392,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-549-4x5.png",
     "file_9x16": "assets/no-01-549-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25211,6 +27409,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-550-4x5.png",
     "file_9x16": "assets/no-01-550-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25224,6 +27426,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-551-4x5.png",
     "file_9x16": "assets/no-01-551-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25237,6 +27443,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-552-4x5.png",
     "file_9x16": "assets/no-01-552-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25250,6 +27460,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-553-4x5.png",
     "file_9x16": "assets/no-01-553-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   },
@@ -25263,6 +27477,10 @@ const SCENES = [
     "file_4x5": "assets/no-01-554-4x5.png",
     "file_9x16": "assets/no-01-554-9x16.png",
     "file_9x16_day": null,
+    "file_gday_16x9": null,
+    "file_gday_4x5": null,
+    "file_gday_9x16": null,
+    "file_motion": null,
     "approved": true,
     "audio": null
   }
@@ -25318,17 +27536,55 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       const dtab = card.querySelector('.day-tab');
+      const gtab = card.querySelector('.gday-tab');
+      const mtab = card.querySelector('.motion-tab');
+      function srcKey(fmt, mode) {
+        if (mode === 'gday')
+          return fmt === '9x16' ? 'data-src-916-gday' : fmt === '4x5' ? 'data-src-45-gday' : 'data-src-16-gday';
+        if (mode === 'day')
+          return fmt === '9x16' ? 'data-src-916-day' : fmt === '4x5' ? 'data-src-45-day' : 'data-src-16-day';
+        return fmt === '9x16' ? 'data-src-916' : fmt === '4x5' ? 'data-src-45' : 'data-src-16';
+      }
+      function dayMode() {
+        if (gtab && gtab.classList.contains('is-active')) return 'gday';
+        if (dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day') return 'day';
+        return 'night';
+      }
+      function applyMode() {
+        const mode = dayMode();
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dnext = img.getAttribute(srcKey(dfmt, mode));
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        if (img) card.querySelectorAll('a.download').forEach(a => {
+          const f = a.getAttribute('data-dl');
+          const u = img.getAttribute(srcKey(f === '4x5' ? '4x5' : f === '9x16' ? '9x16' : '16x9', mode));
+          if (u) a.href = u;
+        });
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = mode === 'gday' ? '☀ Genuine daylight capture'
+          : mode === 'day' ? '☀ Daylight variant · derived from the night interpretation'
+          : 'Scenario: ' + sc.getAttribute('data-scenario');
+      }
+      function stopMotion() {
+        const v = card.querySelector('video.motion-clip');
+        if (v) v.remove();
+        if (img) img.style.display = '';
+        /* Restore the card frame to the active format tab's aspect. */
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (link) { link.classList.toggle('tall', dfmt === '4x5'); link.classList.toggle('tall916', dfmt === '9x16'); }
+        if (mtab) { mtab.classList.remove('is-active'); mtab.innerHTML = '▶ 360°'; }
+      }
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
+        stopMotion();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
-        const next = fmt === '4x5'
-          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
-          : fmt === '9x16'
-          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
-          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
+        const next = img.getAttribute(srcKey(fmt, dayMode()));
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
@@ -25336,25 +27592,43 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
       /* Single daylight toggle: rendered only where day-variant masters exist. */
       if (dtab) dtab.addEventListener('click', e => {
         e.preventDefault();
+        stopMotion();
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = card.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
-        if (img && link) {
-          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const dnext = img.getAttribute(dkey);
-          if (dnext) { img.src = dnext; link.href = dnext; }
-        }
-        if (img) card.querySelectorAll('a.download').forEach(a => {
-          const f = a.getAttribute('data-dl');
-          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const u = img.getAttribute(dk);
-          if (u) a.href = u;
-        });
-        const sc = card.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '☀ Daylight variant · derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        if (isDay && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        applyMode();
+      });
+      /* Genuine daylight toggle: rendered only where genuine-daylight masters
+         exist in all three sizes. Supersedes the interim variant. */
+      if (gtab) gtab.addEventListener('click', e => {
+        e.preventDefault();
+        stopMotion();
+        const isDay = !gtab.classList.contains('is-active');
+        gtab.classList.toggle('is-active', isDay);
+        gtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        if (isDay && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        applyMode();
+      });
+      /* 360° motion clip (4:5 only): rendered only where the mp4 exists.
+         No native player chrome — autoplay + muted + loop + playsinline.
+         The card frame switches to the clip's native 4:5 while playing and
+         restores the tab's aspect on close. */
+      if (mtab) mtab.addEventListener('click', e => {
+        e.preventDefault();
+        if (card.querySelector('video.motion-clip')) { stopMotion(); return; }
+        stopMotion();
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true;
+        vid.style.width = '100%'; vid.style.display = 'block';
+        if (img) img.style.display = 'none';
+        if (link) { link.classList.add('tall'); link.classList.remove('tall916'); }
+        link.appendChild(vid);
+        mtab.classList.add('is-active');
+        mtab.innerHTML = '✕ Close';
       });
     });
 
