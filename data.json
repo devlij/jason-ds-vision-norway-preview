@@ -1050,9 +1050,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-081-16x9.png",
     "file_4x5": "assets/no-01-081-4x5.png",
-    "file_16x9_postcard": "assets/no-01-081-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-081-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-081-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1066,9 +1063,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-082-16x9.png",
     "file_4x5": "assets/no-01-082-4x5.png",
-    "file_16x9_postcard": "assets/no-01-082-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-082-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-082-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1082,9 +1076,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-083-16x9.png",
     "file_4x5": "assets/no-01-083-4x5.png",
-    "file_16x9_postcard": "assets/no-01-083-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-083-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-083-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1098,9 +1089,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-084-16x9.png",
     "file_4x5": "assets/no-01-084-4x5.png",
-    "file_16x9_postcard": "assets/no-01-084-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-084-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-084-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1114,9 +1102,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-085-16x9.png",
     "file_4x5": "assets/no-01-085-4x5.png",
-    "file_16x9_postcard": "assets/no-01-085-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-085-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-085-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1130,9 +1115,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-086-16x9.png",
     "file_4x5": "assets/no-01-086-4x5.png",
-    "file_16x9_postcard": "assets/no-01-086-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-086-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-086-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1146,9 +1128,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-087-16x9.png",
     "file_4x5": "assets/no-01-087-4x5.png",
-    "file_16x9_postcard": "assets/no-01-087-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-087-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-087-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1162,9 +1141,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-088-16x9.png",
     "file_4x5": "assets/no-01-088-4x5.png",
-    "file_16x9_postcard": "assets/no-01-088-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-088-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-088-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1178,9 +1154,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-089-16x9.png",
     "file_4x5": "assets/no-01-089-4x5.png",
-    "file_16x9_postcard": "assets/no-01-089-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-089-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-089-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1194,9 +1167,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-090-16x9.png",
     "file_4x5": "assets/no-01-090-4x5.png",
-    "file_16x9_postcard": "assets/no-01-090-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-090-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-090-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1210,9 +1180,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-091-16x9.png",
     "file_4x5": "assets/no-01-091-4x5.png",
-    "file_16x9_postcard": "assets/no-01-091-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-091-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-091-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1226,9 +1193,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-092-16x9.png",
     "file_4x5": "assets/no-01-092-4x5.png",
-    "file_16x9_postcard": "assets/no-01-092-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-092-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-092-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1242,9 +1206,6 @@
     "approved": false,
     "file_16x9": "assets/no-01-093-16x9.png",
     "file_4x5": "assets/no-01-093-4x5.png",
-    "file_16x9_postcard": "assets/no-01-093-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-093-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-093-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1258,9 +1219,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-094-16x9.png",
     "file_4x5": "assets/no-01-094-4x5.png",
-    "file_16x9_postcard": "assets/no-01-094-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-094-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-094-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1274,9 +1232,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-095-16x9.png",
     "file_4x5": "assets/no-01-095-4x5.png",
-    "file_16x9_postcard": "assets/no-01-095-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-095-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-095-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1290,9 +1245,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-096-16x9.png",
     "file_4x5": "assets/no-01-096-4x5.png",
-    "file_16x9_postcard": "assets/no-01-096-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-096-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-096-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1306,9 +1258,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-097-16x9.png",
     "file_4x5": "assets/no-01-097-4x5.png",
-    "file_16x9_postcard": "assets/no-01-097-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-097-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-097-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1322,9 +1271,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-098-16x9.png",
     "file_4x5": "assets/no-01-098-4x5.png",
-    "file_16x9_postcard": "assets/no-01-098-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-098-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-098-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1338,9 +1284,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-099-16x9.png",
     "file_4x5": "assets/no-01-099-4x5.png",
-    "file_16x9_postcard": "assets/no-01-099-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-099-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-099-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1354,9 +1297,6 @@
     "approved": true,
     "file_16x9": "assets/no-01-100-16x9.png",
     "file_4x5": "assets/no-01-100-4x5.png",
-    "file_16x9_postcard": "assets/no-01-100-postcard-16x9.png",
-    "file_4x5_postcard": "assets/no-01-100-postcard-4x5.png",
-    "file_9x16_postcard": "assets/no-01-100-postcard-9x16.png",
     "audio": null
   },
   {
