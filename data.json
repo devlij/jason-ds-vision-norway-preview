@@ -1570,6 +1570,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-121-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-121-4x5.png",
+    "file_16x9_postcard": "assets/no-01-121-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-121-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-121-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1583,6 +1586,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-122-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-122-4x5.png",
+    "file_16x9_postcard": "assets/no-01-122-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-122-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-122-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1596,6 +1602,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-123-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-123-4x5.png",
+    "file_16x9_postcard": "assets/no-01-123-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-123-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-123-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1609,6 +1618,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-124-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-124-4x5.png",
+    "file_16x9_postcard": "assets/no-01-124-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-124-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-124-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1635,6 +1647,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-126-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-126-4x5.png",
+    "file_16x9_postcard": "assets/no-01-126-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-126-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-126-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1648,6 +1663,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-127-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-127-4x5.png",
+    "file_16x9_postcard": "assets/no-01-127-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-127-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-127-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1661,6 +1679,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-128-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-128-4x5.png",
+    "file_16x9_postcard": "assets/no-01-128-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-128-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-128-postcard-9x16.png",
     "audio": null
   },
   {
@@ -1674,6 +1695,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-129-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-129-4x5.png",
+    "file_16x9_postcard": "assets/no-01-129-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-129-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-129-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2077,6 +2101,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-160-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-160-4x5.png",
+    "file_16x9_postcard": "assets/no-01-160-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-160-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-160-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2090,6 +2117,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-161-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-161-4x5.png",
+    "file_16x9_postcard": "assets/no-01-161-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-161-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-161-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2103,6 +2133,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-162-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-162-4x5.png",
+    "file_16x9_postcard": "assets/no-01-162-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-162-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-162-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2116,6 +2149,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-163-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-163-4x5.png",
+    "file_16x9_postcard": "assets/no-01-163-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-163-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-163-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2129,6 +2165,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-164-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-164-4x5.png",
+    "file_16x9_postcard": "assets/no-01-164-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-164-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-164-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2142,6 +2181,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-165-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-165-4x5.png",
+    "file_16x9_postcard": "assets/no-01-165-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-165-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-165-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2155,6 +2197,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-166-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-166-4x5.png",
+    "file_16x9_postcard": "assets/no-01-166-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-166-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-166-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2168,6 +2213,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-167-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-167-4x5.png",
+    "file_16x9_postcard": "assets/no-01-167-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-167-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-167-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2181,6 +2229,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-168-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-168-4x5.png",
+    "file_16x9_postcard": "assets/no-01-168-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-168-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-168-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2194,6 +2245,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-169-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-169-4x5.png",
+    "file_16x9_postcard": "assets/no-01-169-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-169-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-169-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2207,6 +2261,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-170-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-170-4x5.png",
+    "file_16x9_postcard": "assets/no-01-170-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-170-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-170-postcard-9x16.png",
     "audio": null
   },
   {
@@ -2220,6 +2277,9 @@
     "approved": true,
     "file_16x9": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-171-16x9.png",
     "file_4x5": "https://devlij.github.io/jason-ds-vision-norway-assets/assets/no-01-171-4x5.png",
+    "file_16x9_postcard": "assets/no-01-171-postcard-16x9.png",
+    "file_4x5_postcard": "assets/no-01-171-postcard-4x5.png",
+    "file_9x16_postcard": "assets/no-01-171-postcard-9x16.png",
     "audio": null
   },
   {
