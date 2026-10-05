@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://norway.jdvision.org/sitemap.xml
+Sitemap: https://norway.jdvision.org/image-sitemap.xml
