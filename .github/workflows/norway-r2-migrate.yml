@@ -1,0 +1,73 @@
+name: Norway R2 Migration
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (list only, no upload)'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout assets repo
+        uses: actions/checkout@v4
+        with:
+          repository: devlij/jason-ds-vision-norway-assets
+          ref: main
+          path: assets
+
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Configure R2 remote
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = $R2_ACCESS_KEY_ID
+          secret_access_key = $R2_SECRET_ACCESS_KEY
+          endpoint = https://bad0a8d58eeec803fc2043743a11fb73.r2.cloudflarestorage.com
+          region = auto
+          EOF
+          echo "R2 remote configured"
+
+      - name: Migrate to R2 (copy only)
+        run: |
+          DRY_RUN="${{ inputs.dry_run }}"
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "=== DRY RUN: listing what would be uploaded ==="
+            rclone lsf assets/ --recursive | head -20
+            echo "..."
+            echo "Total files: $(rclone lsf assets/ --recursive | wc -l)"
+            echo "Total size: $(rclone size assets/ --json | jq -r '.bytes | ./1024/1024/1024 | tostring | .[0:4] + \" GB\"')"
+          else
+            echo "=== LIVE MIGRATION: copying to R2 ==="
+            rclone copy assets/ r2:jdvision-norway-assets/ \
+              --progress \
+              --transfers 8 \
+              --checkers 16 \
+              --retries 3 \
+              --log-file rclone-migration.log
+            echo "Migration complete"
+            echo "Verifying..."
+            rclone check assets/ r2:jdvision-norway-assets/ --one-way
+          fi
+
+      - name: Upload migration log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: migration-log
+          path: rclone-migration.log
+          if-no-files-found: ignore
