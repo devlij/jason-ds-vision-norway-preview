@@ -442,7 +442,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-028-16x9.png",
     "file_4x5": "assets/no-01-028-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-028-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -458,7 +458,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-029-16x9.png",
     "file_4x5": "assets/no-01-029-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-029-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -474,7 +474,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-030-16x9.png",
     "file_4x5": "assets/no-01-030-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-030-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -506,7 +506,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-032-16x9.png",
     "file_4x5": "assets/no-01-032-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-032-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -522,7 +522,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-033-16x9.png",
     "file_4x5": "assets/no-01-033-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-033-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -538,7 +538,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-034-16x9.png",
     "file_4x5": "assets/no-01-034-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-034-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -554,7 +554,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-035-16x9.png",
     "file_4x5": "assets/no-01-035-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-035-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -570,7 +570,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-036-16x9.png",
     "file_4x5": "assets/no-01-036-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-036-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -586,7 +586,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-037-16x9.png",
     "file_4x5": "assets/no-01-037-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-037-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -618,7 +618,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-039-16x9.png",
     "file_4x5": "assets/no-01-039-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-039-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -634,7 +634,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-040-16x9.png",
     "file_4x5": "assets/no-01-040-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-040-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -650,7 +650,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-041-16x9.png",
     "file_4x5": "assets/no-01-041-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-041-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -666,7 +666,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-042-16x9.png",
     "file_4x5": "assets/no-01-042-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-042-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -682,7 +682,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-043-16x9.png",
     "file_4x5": "assets/no-01-043-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-043-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
@@ -698,7 +698,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-044-16x9.png",
     "file_4x5": "assets/no-01-044-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-044-narration.mp3",
     "file_16x9_postcard": null,
     "file_4x5_postcard": null,
     "file_9x16_postcard": null
