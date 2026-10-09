@@ -30741,6 +30741,8 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
         const isNight = !ntab.classList.contains('is-active');
         ntab.classList.toggle('is-active', isNight);
         ntab.setAttribute('aria-pressed', isNight ? 'true' : 'false');
+        ntab.innerHTML = isNight ? '☀ Daylight' : '🌙 Night';
+        ntab.setAttribute('title', isNight ? 'Show the daylight image' : 'Show the original night image');
         /* Postcard and night are mutually exclusive. */
         if (isNight && pctab) { pctab.classList.remove('is-active'); pctab.setAttribute('aria-pressed', 'false'); }
         applyMode();
