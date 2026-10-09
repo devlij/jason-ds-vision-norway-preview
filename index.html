@@ -192,13 +192,14 @@
   .lb-count { color: #9fb2c3; font-size: 14px; min-width: 72px; text-align: center;
               white-space: nowrap; }
   .lb-controls { display: flex; justify-content: center; padding: 12px 0 0; }
-  .lb-close, .lb-prev, .lb-next, .lb-play, .lb-narrate { background: rgba(24,34,44,.85); color: #f0f4f8;
+  .lb-close, .lb-prev, .lb-next, .lb-play, .lb-narrate, .lb-tour { background: rgba(24,34,44,.85); color: #f0f4f8;
         border: 1px solid #2c3a47; border-radius: 999px; width: 46px; height: 46px;
         font-size: 20px; cursor: pointer; line-height: 1; flex: 0 0 auto; }
   .lb-close { position: absolute; top: 14px; right: 14px; }
   .lb-play { font-size: 16px; }
   .lb-play.playing { color: #f5c518; border-color: #f5c518; }
   .lb-narrate.playing { color: #f5c518; border-color: #f5c518; }
+  .lb-tour.playing { color: #f5c518; border-color: #f5c518; }
 
 .wotd{border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);background:#141419;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
 .wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8f8a7d;font-weight:600;white-space:nowrap}
@@ -216,7 +217,7 @@
 <header>
   <h1><span class="flag" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Jason D&rsquo;s Vision &mdash; Norway</h1>
   <p>Worldwide location-image library &mdash; 552 scenes — 534 approved &mdash; AI-generated artistic interpretations</p>
-  <nav class="switcher"><a class="home-link" href="https://jdvision.org/">&#8962; Home</a> | <span class="current" aria-current="page"><span class="flag-chip flag-no" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Norway</span> | <a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a> | <a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a> | <a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a> | <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a> | <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a> | <a href="https://denmark.jdvision.org/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a> | <a href="https://netherlands.jdvision.org/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a> | <a href="https://devlij.github.io/jason-ds-vision-finland-preview/"><span class="flag-chip flag-fi" aria-hidden="true"></span>Finland</a> | <a href="https://sweden.jdvision.org/"><span class="flag-chip flag-se" aria-hidden="true"></span>Sweden</a> | <a href="https://ireland.jdvision.org/"><span class="flag-chip flag-ie" aria-hidden="true"></span>Ireland</a> | <a href="https://uk.jdvision.org/"><span class="flag-chip flag-gb" aria-hidden="true"></span>United Kingdom</a> | <a href="https://switzerland.jdvision.org/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
+  <nav class="switcher"><a class="home-link" href="https://jdvision.org/">&#8962; Home</a> | <span class="current" aria-current="page"><span class="flag-chip flag-no" aria-hidden="true"><svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg"><rect width="22" height="16" fill="#BA0C2F"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205B"/><rect y="7" width="22" height="2" fill="#00205B"/></svg></span>Norway</span> | <a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a> | <a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a> | <a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a> | <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a> | <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a> | <a href="https://denmark.jdvision.org/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a> | <a href="https://netherlands.jdvision.org/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a> | <a href="https://finland.jdvision.org/"><span class="flag-chip flag-fi" aria-hidden="true"></span>Finland</a> | <a href="https://sweden.jdvision.org/"><span class="flag-chip flag-se" aria-hidden="true"></span>Sweden</a> | <a href="https://ireland.jdvision.org/"><span class="flag-chip flag-ie" aria-hidden="true"></span>Ireland</a> | <a href="https://uk.jdvision.org/"><span class="flag-chip flag-gb" aria-hidden="true"></span>United Kingdom</a> | <a href="https://switzerland.jdvision.org/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
 </header>
 <div class="wotd" id="wotd" lang="no">
   <span class="kicker">Dagens ord · Word of the day</span>
@@ -30822,7 +30823,7 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     + '<span class="lb-count"></span>'
     + '<button class="lb-next" aria-label="Next image">&#8250;</button></div>'
     + '<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption></figure>'
-    + '<div class="lb-controls"><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Play scene narration" style="display:none">&#128266;</button></div>';
+    + '<div class="lb-controls"><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Play scene narration" style="display:none">&#128266;</button><button class="lb-tour" aria-label="Start narrated tour">&#127911;</button></div>';
   document.body.appendChild(overlay);
   var img = overlay.querySelector('img');
   var cap = overlay.querySelector('.lb-cap');
@@ -30844,6 +30845,7 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     narrBtn.innerHTML = playing ? '&#10074;&#10074;' : '&#128266;';
   }
   function toggleNarr(){
+    if (tourActive) stopTour();
     var card = visibleCards()[idx];
     var src = card ? card.getAttribute('data-audio') : '';
     if (!src) return;
@@ -30854,6 +30856,65 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     narrAudio.addEventListener('error', stopNarr);
     setNarrState(true);
     narrAudio.play().catch(stopNarr);
+  }
+  /* Narrated tour (Jason 2026-10-08): holds each slide for its full narration
+     audio, advancing on the audio 'ended' event. Scenes without narration
+     audio are SKIPPED (tour only ever lands on narrated slides — simpler than
+     a timed fallback and keeps the tour truly narrated). Mutually exclusive
+     with the 4s slideshow and manual scene narration: starting one stops the
+     others. Space pauses/resumes the tour narration while a tour is active. */
+  var tourBtn = overlay.querySelector('.lb-tour');
+  var tourActive = false, tourAudio = null, tourPaused = false;
+  function tourSrc(card){ return card ? card.getAttribute('data-audio') : ''; }
+  function stopTourAudio(){ if (tourAudio) { tourAudio.pause(); tourAudio = null; } }
+  function renderTourBtn(){
+    tourBtn.classList.toggle('playing', tourActive);
+    tourBtn.innerHTML = (tourActive && tourPaused) ? '&#10074;&#10074;' : '&#127911;';
+    tourBtn.setAttribute('aria-label', tourActive
+      ? (tourPaused ? 'Resume narrated tour' : 'Stop narrated tour')
+      : 'Start narrated tour');
+  }
+  function stopTour(){
+    tourActive = false; tourPaused = false;
+    stopTourAudio();
+    renderTourBtn();
+  }
+  function playTourSlide(){
+    if (!tourActive) return;
+    stopTourAudio();
+    tourPaused = false;
+    var card = visibleCards()[idx];
+    var src = tourSrc(card);
+    if (!src) { tourAdvance(); return; }
+    tourAudio = new Audio(src);
+    tourAudio.addEventListener('ended', function(){ tourAudio = null; tourAdvance(); });
+    tourAudio.addEventListener('error', function(){ tourAudio = null; tourAdvance(); });
+    tourAudio.play().catch(function(){ tourAudio = null; tourAdvance(); });
+    renderTourBtn();
+  }
+  function tourAdvance(){
+    var cards = visibleCards();
+    var j = idx + 1;
+    while (j < cards.length && !tourSrc(cards[j])) j++;
+    if (j < cards.length) show(j); /* show() triggers playTourSlide when tourActive */
+    else stopTour(); /* last narrated slide finished — tour complete */
+  }
+  function startTour(){
+    stopPlayback();
+    stopNarr();
+    document.dispatchEvent(new CustomEvent('jdv-stop-audio'));
+    tourActive = true; tourPaused = false;
+    renderTourBtn();
+    playTourSlide();
+  }
+  function toggleTour(){
+    if (tourActive) stopTour(); else startTour();
+  }
+  function toggleTourPause(){
+    if (!tourActive || !tourAudio) return;
+    if (tourAudio.paused) { tourAudio.play().catch(function(){}); tourPaused = false; }
+    else { tourAudio.pause(); tourPaused = true; }
+    renderTourBtn();
   }
   var items = [], idx = 0, playing = false, timer = null;
   /* Lightbox-session format choice: seeded from the opening card's active tab,
@@ -30904,6 +30965,7 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     renderPlayBtn();
   }
   function togglePlay(){
+    if (tourActive) stopTour();
     if (playing) stopPlayback(); else startPlayback();
   }
   function visibleCards(){
@@ -30923,6 +30985,7 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     if (!items.length) return;
     idx = (i + items.length) % items.length;
     stopNarr();
+    stopTourAudio();
     document.dispatchEvent(new CustomEvent('jdv-stop-audio'));
     img.src = items[idx].src;
     img.alt = items[idx].cap;
@@ -30931,13 +30994,17 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     var curCard = visibleCards()[idx];
     var hasA = !!(curCard && curCard.getAttribute('data-audio'));
     narrBtn.style.display = hasA ? '' : 'none';
+    var anyAudio = visibleCards().some(function(c){ return !!tourSrc(c); });
+    tourBtn.style.display = anyAudio ? '' : 'none';
     overlay.classList.add('open');
     overlay.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    if (tourActive) playTourSlide();
   }
   function hide(){
     stopPlayback();
     stopNarr();
+    stopTour();
     document.dispatchEvent(new CustomEvent('jdv-stop-audio'));
     overlay.classList.remove('open');
     overlay.setAttribute('aria-hidden', 'true');
@@ -30957,13 +31024,14 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     if (e.target === overlay || (e.target.closest && e.target.closest('.lb-close'))) hide();
     else if (e.target.closest && e.target.closest('.lb-play')) togglePlay();
     else if (e.target.closest && e.target.closest('.lb-narrate')) toggleNarr();
+    else if (e.target.closest && e.target.closest('.lb-tour')) toggleTour();
     else if (e.target.closest && e.target.closest('.lb-prev')) { show(idx - 1); if (playing) startPlayback(); }
     else if (e.target.closest && e.target.closest('.lb-next')) { show(idx + 1); if (playing) startPlayback(); }
   });
   document.addEventListener('keydown', function(e){
     if (!overlay.classList.contains('open')) return;
     if (e.key === 'Escape') hide();
-    else if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); togglePlay(); }
+    else if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); if (tourActive) toggleTourPause(); else togglePlay(); }
     else if (e.key === 'ArrowLeft') { show(idx - 1); if (playing) startPlayback(); }
     else if (e.key === 'ArrowRight') { show(idx + 1); if (playing) startPlayback(); }
   });
