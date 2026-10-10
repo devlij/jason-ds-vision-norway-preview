@@ -29964,11 +29964,12 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     stopTourAudio();
     renderTourBtn();
   }
+  var lbCards = [];
   function playTourSlide(){
     if (!tourActive) return;
     stopTourAudio();
     tourPaused = false;
-    var card = visibleCards()[idx];
+    var card = lbCards[idx];
     var src = tourSrc(card);
     if (!src) { tourAdvance(); return; }
     tourAudio = new Audio(src);
@@ -29978,10 +29979,9 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     renderTourBtn();
   }
   function tourAdvance(){
-    var cards = visibleCards();
     var j = idx + 1;
-    while (j < cards.length && !tourSrc(cards[j])) j++;
-    if (j < cards.length) show(j); /* show() triggers playTourSlide when tourActive */
+    while (j < lbCards.length && !tourSrc(lbCards[j])) j++;
+    if (j < lbCards.length) show(j); /* show() triggers playTourSlide when tourActive */
     else stopTour(); /* last narrated slide finished — tour complete */
   }
   function startTour(){
@@ -30061,7 +30061,8 @@ const NORWAY_META={"NO-01-001": ["Møre og Romsdal", "night", "coastal,mountain"
     /* The lightbox-session format (lbFormat) applies to every scene navigated
        to — the viewer's 16:9 / 4:5 choice persists across prev/next and the
        slideshow */
-    items = visibleCards().map(function(c){
+    lbCards = visibleCards();
+    items = lbCards.map(function(c){
       var t = c.querySelector('.caption');
       var dk = c.getAttribute('data-day-kind');
       var daySfx = dayUsed(c, lbFormat) ? (dk === 'genuine' ? ' — ☀ Genuine daylight capture' : ' — ☀ Daylight variant') : '';
