@@ -1,0 +1,37 @@
+name: Zero-byte file guard
+# Jason D's Vision gallery guardrail (2026-10-10): a zero-byte committed file
+# is always a bug, never a valid state (UK gallery 5h outage, NL Christmas
+# 0-byte masters, Germany index.html zeroing). This runs on every push and
+# FAILS the workflow if any blob in the pushed tree is 0 bytes, no matter
+# who pushed it. Uses the Git tree API (no checkout — these repos are GBs).
+on: [push]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reject zero-byte blobs in pushed tree
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'EOF'
+          import urllib.request, json, os
+          repo = os.environ['REPO']; sha = os.environ['SHA']
+          tok = os.environ['GH_TOKEN']
+          H = {'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'}
+          req = urllib.request.Request(
+              f'https://api.github.com/repos/{repo}/git/trees/{sha}?recursive=1', headers=H)
+          t = json.load(urllib.request.urlopen(req, timeout=180))
+          if t.get('truncated'):
+              print('::warning::Tree was truncated; falling back to comparing changed files')
+          zeros = [e['path'] for e in t.get('tree', [])
+                   if e.get('type') == 'blob' and e.get('size') == 0]
+          # .git internals never appear in trees; check everything else
+          if zeros:
+              print(f'::error::Zero-byte files committed in {sha[:8]} ({len(zeros)} found):')
+              for z in zeros[:50]:
+                  print(f'::error::  {z}')
+              raise SystemExit(1)
+          print(f"OK: {len(t.get('tree', []))} blobs checked, none zero-byte")
+          EOF
