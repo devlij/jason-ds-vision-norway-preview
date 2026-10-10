@@ -208,38 +208,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-013-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-014",
-    "region": "Trøndelag",
-    "city": "Røros",
-    "site": "Røros",
-    "caption": "Røros, Røros",
-    "scenario": "25 September 2026 · 01:15 Europe/Oslo",
-    "composition": "Timbered mining-town street with the octagonal church above the rooftops · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-014-16x9.png",
-    "file_4x5": "assets/no-01-014-4x5.png",
-    "audio": "audio/no-01-014-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-014-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-014-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-014-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-015",
-    "region": "Troms",
-    "city": "Tromsø",
-    "site": "Arctic Cathedral",
-    "caption": "Arctic Cathedral, Tromsø",
-    "scenario": "25 September 2026 · 01:30 Europe/Oslo",
-    "composition": "Triangular glass-and-concrete cathedral on the Tromsdalen shore, viewed from the Tromsø side in daylight · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-015-16x9.png",
-    "file_4x5": "assets/no-01-015-4x5.png",
-    "audio": "audio/no-01-015-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-015-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-015-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-015-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-016",
     "region": "Vestland",
     "city": "Odda",
@@ -480,22 +448,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-030-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-031",
-    "region": "Møre og Romsdal",
-    "city": "Averøy",
-    "site": "Kvernes Stave Church",
-    "caption": "Kvernes Stave Church, Averøy",
-    "scenario": "25 September 2026 · 04:15 Europe/Oslo",
-    "composition": "White wooden stave church on the fjord shore · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-031-16x9.png",
-    "file_4x5": "assets/no-01-031-4x5.png",
-    "audio": "audio/no-01-031-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-031-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-031-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-031-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-032",
     "region": "Trøndelag",
     "city": "Trondheim",
@@ -590,22 +542,6 @@
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-037-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-037-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-037-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-038",
-    "region": "Troms",
-    "city": "Tromsø",
-    "site": "Tromsø Bridge",
-    "caption": "Tromsø Bridge, Tromsø",
-    "scenario": "25 September 2026 · 05:15 Europe/Oslo",
-    "composition": "Bridge arch framing the Arctic Cathedral across the strait · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-038-16x9.png",
-    "file_4x5": "assets/no-01-038-4x5.png",
-    "audio": "audio/no-01-038-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-038-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-038-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-038-postcard-9x16.png"
   },
   {
     "entry_id": "NO-01-039",
@@ -1200,38 +1136,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-075-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-076",
-    "region": "Telemark",
-    "city": "Kviteseid",
-    "site": "Kviteseid old church",
-    "caption": "Kviteseid old church, Kviteseid",
-    "scenario": "25 September 2026 · 11:45 Europe/Oslo",
-    "composition": "Old stone church in the canal village of Kviteseidbyen · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-076-16x9.png",
-    "file_4x5": "assets/no-01-076-4x5.png",
-    "audio": "audio/no-01-076-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-076-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-076-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-076-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-077",
-    "region": "Telemark",
-    "city": "Bø",
-    "site": "Bø Sommarland",
-    "caption": "Bø Sommarland, Bø",
-    "scenario": "25 September 2026 · 11:45 Europe/Oslo",
-    "composition": "Water park in the Telemark countryside · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-077-16x9.png",
-    "file_4x5": "assets/no-01-077-4x5.png",
-    "audio": "audio/no-01-077-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-077-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-077-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-077-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-078",
     "region": "Telemark",
     "city": "Tuddal",
@@ -1470,22 +1374,6 @@
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-092-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-092-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-092-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-093",
-    "region": "Agder",
-    "city": "Tjørhom",
-    "site": "Ålsheia Ski Center",
-    "caption": "Ålsheia Ski Center, Tjørhom",
-    "scenario": "25 September 2026 · 14:15 Europe/Oslo",
-    "composition": "View of the ski mountainside above the valley: lift lines and marked pistes running down the fell toward the base area buildings, the Sirdal valley and its lakes spreading out below. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-093-16x9.png",
-    "file_4x5": "assets/no-01-093-4x5.png",
-    "audio": "audio/no-01-093-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-093-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-093-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-093-postcard-9x16.png"
   },
   {
     "entry_id": "NO-01-094",
@@ -2112,22 +2000,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-132-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-133",
-    "region": "Vestfold",
-    "city": "Tønsberg",
-    "site": "Sem Church",
-    "caption": "Sem Church, Tønsberg",
-    "scenario": "nighttime, partly cloudy, 14.7°C · 25 September 2026 · 21:15 Europe/Oslo (model data from Open-Meteo, not a verified on-site observation)",
-    "composition": "Medieval stone church with its tower, set among fields and trees at Sem outside the town centre. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-133-16x9.png",
-    "file_4x5": "assets/no-01-133-4x5.png",
-    "audio": "audio/no-01-133-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-133-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-133-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-133-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-134",
     "region": "Vestfold",
     "city": "Tønsberg",
@@ -2304,54 +2176,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-144-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-145",
-    "region": "Vestfold",
-    "city": "Borre",
-    "site": "Borrestranda Beach",
-    "caption": "Borrestranda Beach, Borre",
-    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
-    "composition": "Sandy beach curving along the shore, viewed across the water toward the low coastline. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-145-16x9.png",
-    "file_4x5": "assets/no-01-145-4x5.png",
-    "audio": "audio/no-01-145-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-145-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-145-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-145-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-146",
-    "region": "Vestfold",
-    "city": "Larvik",
-    "site": "Kaupang",
-    "caption": "Kaupang, Larvik",
-    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
-    "composition": "Grass fields of the excavated Viking trading-place site at Kaupang, viewed across the open landscape. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-146-16x9.png",
-    "file_4x5": "assets/no-01-146-4x5.png",
-    "audio": "audio/no-01-146-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-146-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-146-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-146-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-147",
-    "region": "Vestfold",
-    "city": "Larvik",
-    "site": "Mølen",
-    "caption": "Mølen, Larvik",
-    "scenario": "25 September 2026 · 23:15 Europe/Oslo",
-    "composition": "Vast beach of rolling stones and Iron Age burial cairns at Mølen, viewed along the shoreline toward the sea. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-147-16x9.png",
-    "file_4x5": "assets/no-01-147-4x5.png",
-    "audio": "audio/no-01-147-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-147-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-147-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-147-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-148",
     "region": "Vestfold",
     "city": "Larvik",
@@ -2458,7 +2282,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-154-16x9.png",
     "file_4x5": "assets/no-01-154-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-154-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-9x16.png"
@@ -2474,7 +2298,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-155-16x9.png",
     "file_4x5": "assets/no-01-155-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-155-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-9x16.png"
@@ -2490,7 +2314,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-156-16x9.png",
     "file_4x5": "assets/no-01-156-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-156-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-9x16.png"
@@ -2736,38 +2560,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-171-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-172",
-    "region": "Østfold",
-    "city": "Halden",
-    "site": "Rød herregård",
-    "caption": "Rød herregård, Halden",
-    "scenario": "26 September 2026 · 03:45 Europe/Oslo",
-    "composition": "Manor house with its landscaped park, viewed from the garden path in front. · AI-generated artistic interpretation · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-172-16x9.png",
-    "file_4x5": "assets/no-01-172-4x5.png",
-    "audio": "audio/no-01-172-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-173",
-    "region": "Østfold",
-    "city": "Ørje",
-    "site": "Basmo festning",
-    "caption": "Basmo festning, Ørje",
-    "scenario": "26 September 2026 · 03:45 Europe/Oslo",
-    "composition": "Ruined fortress earthworks and stone walls on the wooded ridge, viewed from the approach trail. · AI-generated artistic interpretation · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-173-16x9.png",
-    "file_4x5": "assets/no-01-173-4x5.png",
-    "audio": "audio/no-01-173-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-173-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-173-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-173-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-174",
     "region": "Østfold",
     "city": "Mysen",
@@ -2878,22 +2670,6 @@
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-180-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-180-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-180-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-181",
-    "region": "Rogaland",
-    "city": "Stavanger",
-    "site": "Ledaal",
-    "caption": "Ledaal, Stavanger",
-    "scenario": "26 September 2026 · 05:15 Europe/Oslo",
-    "composition": "Manor house with its garden, viewed from the park grounds. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-181-16x9.png",
-    "file_4x5": "assets/no-01-181-4x5.png",
-    "audio": "audio/no-01-181-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-181-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-181-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-181-postcard-9x16.png"
   },
   {
     "entry_id": "NO-01-182",
@@ -3712,22 +3488,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-232-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-233",
-    "region": "Agder",
-    "city": "Grimstad",
-    "site": "Homborsund Lighthouse",
-    "caption": "Homborsund Lighthouse, Grimstad",
-    "scenario": "26 September 2026 · 13:45 Europe/Oslo",
-    "composition": "Lighthouse on the skerry at Homborsund south of Grimstad, viewed from the shore or the water with the sea and islands around. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-233-16x9.png",
-    "file_4x5": "assets/no-01-233-4x5.png",
-    "audio": "audio/no-01-233-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-233-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-233-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-233-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-234",
     "region": "Agder",
     "city": "Kristiansand",
@@ -4544,22 +4304,6 @@
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-284-postcard-9x16.png"
   },
   {
-    "entry_id": "NO-01-285",
-    "region": "Innlandet",
-    "city": "Jaren",
-    "site": "Hadeland Folkemuseum",
-    "caption": "Hadeland Folkemuseum, Jaren",
-    "scenario": "26 September 2026 · 22:45 Europe/Oslo",
-    "composition": "Hadeland Folkemuseum's traditional farm buildings and open-air exhibition on the hill at Tingelstad. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-285-16x9.png",
-    "file_4x5": "assets/no-01-285-4x5.png",
-    "audio": "audio/no-01-285-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-285-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-285-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-285-postcard-9x16.png"
-  },
-  {
     "entry_id": "NO-01-286",
     "region": "Innlandet",
     "city": "Engerdal",
@@ -4574,22 +4318,6 @@
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-286-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-286-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-286-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-287",
-    "region": "Innlandet",
-    "city": "Gausdal",
-    "site": "Skeikampen",
-    "caption": "Skeikampen, Gausdal",
-    "scenario": "26 September 2026 · 23:00 Europe/Oslo",
-    "composition": "Skeikampen's pistes and lifts on the mountain slopes above Gausdal, with the fell plateau beyond. · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-287-16x9.png",
-    "file_4x5": "assets/no-01-287-4x5.png",
-    "audio": "audio/no-01-287-narration.mp3",
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-287-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-287-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-287-postcard-9x16.png"
   },
   {
     "entry_id": "NO-01-288",
@@ -7614,22 +7342,6 @@
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-478-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-478-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-478-postcard-9x16.png"
-  },
-  {
-    "entry_id": "NO-01-479",
-    "region": "Vestfold",
-    "city": "Tønsberg",
-    "site": "Sem Church",
-    "caption": "Sem Church, Tønsberg",
-    "scenario": "29 September 2026 · 02:30 Europe/Oslo",
-    "composition": "The stone Sem Church at Sem outside Tønsberg · AI-generated artistic interpretation",
-    "approved": false,
-    "file_16x9": "assets/no-01-479-16x9.png",
-    "file_4x5": "assets/no-01-479-4x5.png",
-    "audio": null,
-    "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-479-postcard-16x9.png",
-    "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-479-postcard-4x5.png",
-    "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-479-postcard-9x16.png"
   },
   {
     "entry_id": "NO-01-480",
