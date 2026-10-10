@@ -2090,7 +2090,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-131-16x9.png",
     "file_4x5": "assets/no-01-131-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-131-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-131-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-131-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-131-postcard-9x16.png"
@@ -2202,7 +2202,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-138-16x9.png",
     "file_4x5": "assets/no-01-138-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-138-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-138-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-138-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-138-postcard-9x16.png"
@@ -2218,7 +2218,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-139-16x9.png",
     "file_4x5": "assets/no-01-139-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-139-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-139-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-139-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-139-postcard-9x16.png"
@@ -2362,7 +2362,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-148-16x9.png",
     "file_4x5": "assets/no-01-148-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-148-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-148-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-148-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-148-postcard-9x16.png"
@@ -2394,7 +2394,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-150-16x9.png",
     "file_4x5": "assets/no-01-150-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-150-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-150-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-150-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-150-postcard-9x16.png"
@@ -2410,7 +2410,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-151-16x9.png",
     "file_4x5": "assets/no-01-151-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-151-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-151-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-151-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-151-postcard-9x16.png"
@@ -2458,7 +2458,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-154-16x9.png",
     "file_4x5": "assets/no-01-154-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-154-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-154-postcard-9x16.png"
@@ -2474,7 +2474,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-155-16x9.png",
     "file_4x5": "assets/no-01-155-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-155-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-155-postcard-9x16.png"
@@ -2490,7 +2490,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-156-16x9.png",
     "file_4x5": "assets/no-01-156-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-156-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-156-postcard-9x16.png"
@@ -2506,7 +2506,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-157-16x9.png",
     "file_4x5": "assets/no-01-157-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-157-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-157-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-157-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-157-postcard-9x16.png"
@@ -2522,7 +2522,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-158-16x9.png",
     "file_4x5": "assets/no-01-158-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-158-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-158-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-158-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-158-postcard-9x16.png"
@@ -2538,7 +2538,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-159-16x9.png",
     "file_4x5": "assets/no-01-159-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-159-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-159-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-159-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-159-postcard-9x16.png"
@@ -2554,7 +2554,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-160-16x9.png",
     "file_4x5": "assets/no-01-160-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-160-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-160-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-160-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-160-postcard-9x16.png"
@@ -2570,7 +2570,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-161-16x9.png",
     "file_4x5": "assets/no-01-161-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-161-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-161-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-161-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-161-postcard-9x16.png"
@@ -2586,7 +2586,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-162-16x9.png",
     "file_4x5": "assets/no-01-162-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-162-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-162-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-162-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-162-postcard-9x16.png"
@@ -2602,7 +2602,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-163-16x9.png",
     "file_4x5": "assets/no-01-163-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-163-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-163-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-163-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-163-postcard-9x16.png"
@@ -2618,7 +2618,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-164-16x9.png",
     "file_4x5": "assets/no-01-164-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-164-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-164-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-164-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-164-postcard-9x16.png"
@@ -2634,7 +2634,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-165-16x9.png",
     "file_4x5": "assets/no-01-165-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-165-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-165-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-165-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-165-postcard-9x16.png"
@@ -2650,7 +2650,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-166-16x9.png",
     "file_4x5": "assets/no-01-166-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-166-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-166-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-166-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-166-postcard-9x16.png"
@@ -2666,7 +2666,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-167-16x9.png",
     "file_4x5": "assets/no-01-167-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-167-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-167-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-167-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-167-postcard-9x16.png"
@@ -2682,7 +2682,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-168-16x9.png",
     "file_4x5": "assets/no-01-168-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-168-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-168-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-168-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-168-postcard-9x16.png"
@@ -2698,7 +2698,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-169-16x9.png",
     "file_4x5": "assets/no-01-169-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-169-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-169-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-169-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-169-postcard-9x16.png"
@@ -2714,7 +2714,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-170-16x9.png",
     "file_4x5": "assets/no-01-170-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-170-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-170-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-170-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-170-postcard-9x16.png"
@@ -2730,7 +2730,7 @@
     "approved": true,
     "file_16x9": "assets/no-01-171-16x9.png",
     "file_4x5": "assets/no-01-171-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-171-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-171-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-171-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-171-postcard-9x16.png"
@@ -2746,7 +2746,7 @@
     "approved": false,
     "file_16x9": "assets/no-01-172-16x9.png",
     "file_4x5": "assets/no-01-172-4x5.png",
-    "audio": null,
+    "audio": "audio/no-01-172-narration.mp3",
     "file_16x9_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-16x9.png",
     "file_4x5_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-4x5.png",
     "file_9x16_postcard": "https://norway-assets.jdvision.org/assets/no-01-172-postcard-9x16.png"
